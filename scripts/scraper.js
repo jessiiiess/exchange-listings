@@ -1,11 +1,11 @@
 const { chromium } = require('playwright');
-const Anthropic = require('@anthropic-ai/sdk').default;
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
 const path = require('path');
 
 const TODAY = new Date().toISOString().split('T')[0];
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const anthropic = new Anthropic();
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const SYSTEM_PROMPT = `你是一个加密货币交易所公告分析助手。从公告内容中提取新币/新合约/新产品上线信息。
 
@@ -49,7 +49,7 @@ function dedup(listings, yesterdayKeys) {
   return listings.filter(item => !yesterdayKeys.has(`${item.token}||${item.type}`));
 }
 
-async function extractWithClaude(articles, exchangeName) {
+async function extractWithGemini(articles, exchangeName) {
   if (!articles || articles.length === 0) return [];
 
   const content = articles.map((a, i) => {
@@ -60,14 +60,13 @@ async function extractWithClaude(articles, exchangeName) {
   const userPrompt = `交易所：${exchangeName}\n今日日期：${TODAY}\n\n以下是该交易所今日相关的公告，请提取新上线信息：\n\n${content}\n\n请返回 JSON 数组（如无相关上线信息则返回空数组 []）：`;
 
   try {
-    const response = await anthropic.messages.create({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 2000,
-      messages: [{ role: 'user', content: userPrompt }],
-      system: SYSTEM_PROMPT,
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const result = await model.generateContent({
+      contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
+      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
     });
 
-    const text = response.content[0].text.trim();
+    const text = result.response.text().trim();
     const jsonMatch = text.match(/\[[\s\S]*\]/);
     if (!jsonMatch) return [];
 
@@ -79,7 +78,7 @@ async function extractWithClaude(articles, exchangeName) {
       url: ''
     }));
   } catch (e) {
-    console.error(`  Claude API error for ${exchangeName}:`, e.message);
+    console.error(`  Gemini API error for ${exchangeName}:`, e.message);
     return [];
   }
 }
@@ -303,8 +302,8 @@ async function scrapeMEXC(page) {
 async function main() {
   console.log(`Scraping exchange listings for ${TODAY}...`);
 
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('ERROR: ANTHROPIC_API_KEY environment variable is required');
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('ERROR: GEMINI_API_KEY environment variable is required');
     process.exit(1);
   }
 
@@ -357,28 +356,28 @@ async function main() {
   await browser.close();
 
   // Step 2: Send to Claude API for structured extraction
-  console.log('\n--- Extracting with Claude API ---');
+  console.log('\n--- Extracting with Gemini API ---');
 
   console.log('  Processing Binance...');
-  const binanceRaw = await extractWithClaude(binanceArticles, 'Binance');
+  const binanceRaw = await extractWithGemini(binanceArticles, 'Binance');
 
   console.log('  Processing OKX...');
-  const okxRaw = await extractWithClaude(okxArticles, 'OKX');
+  const okxRaw = await extractWithGemini(okxArticles, 'OKX');
 
   console.log('  Processing Bybit...');
-  const bybitRaw = await extractWithClaude(bybitArticles, 'Bybit');
+  const bybitRaw = await extractWithGemini(bybitArticles, 'Bybit');
 
   console.log('  Processing KuCoin...');
-  const kucoinRaw = await extractWithClaude(kucoinArticles, 'KuCoin');
+  const kucoinRaw = await extractWithGemini(kucoinArticles, 'KuCoin');
 
   console.log('  Processing Gate.io...');
-  const gateioRaw = await extractWithClaude(gateioArticles, 'Gate.io');
+  const gateioRaw = await extractWithGemini(gateioArticles, 'Gate.io');
 
   console.log('  Processing Bitget...');
-  const bitgetRaw = await extractWithClaude(bitgetArticles, 'Bitget');
+  const bitgetRaw = await extractWithGemini(bitgetArticles, 'Bitget');
 
   console.log('  Processing MEXC...');
-  const mexcRaw = await extractWithClaude(mexcArticles, 'MEXC');
+  const mexcRaw = await extractWithGemini(mexcArticles, 'MEXC');
 
   // Attach URLs back from articles
   function attachUrls(listings, articles) {
