@@ -1,87 +1,9 @@
 const { chromium } = require('playwright');
-const { GoogleGenerativeAI } = require('@google/generative-ai');
 const fs = require('fs');
 const path = require('path');
 
 const TODAY = new Date().toISOString().split('T')[0];
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
-const SYSTEM_PROMPT = `你是一个加密货币交易所公告分析助手。从公告内容中提取新币/新合约/新产品上线信息。
-
-对每条相关公告返回一个 JSON 对象：
-- token: 代币名称，格式 "Name (TICKER)" 或纯 TICKER。多个代币用顿号分隔如 "LITE 和 SBUX"
-- type: 上线类型，从以下选择：现货上线/合约上线/首发上币/World Premiere 现货/Futures + Payment/首发现货 + 闪兑/现货 + 闪兑/闪兑/盘前转正式合约/Meme+ 区/创新区现货/美股合约/合约 + 跟单/首发上币 AI区
-- detail: 具体细节。必须包含有价值的信息如：具体交易开放时间（如 "4/30 19:00 UTC+8 开始交易"）、交易对（如 "MEGA/USDT"）、杠杆倍数（如 "20x 杠杆"）、所属板块等。绝对不要只重复 type 字段。
-
-规则：
-1. 只返回新币/新合约/新产品上线相关条目
-2. 跳过：交易竞赛、AMA、维护、定投支持、手续费调整、下架、活动奖励类公告
-3. 时间信息优先使用 UTC+8 格式
-4. 如果公告没有明确写交易时间，写 "时间待定" 而不是编造时间
-5. 返回纯 JSON 数组，无其他文字`;
-
-function loadYesterdayData() {
-  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-  const filePath = path.join(DATA_DIR, `${yesterday}.json`);
-  if (!fs.existsSync(filePath)) return null;
-  try {
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  } catch (e) {
-    return null;
-  }
-}
-
-function getYesterdayTokenKeys(yesterdayData, exchangeKey) {
-  if (!yesterdayData || !yesterdayData.exchanges || !yesterdayData.exchanges[exchangeKey]) return new Set();
-  const ex = yesterdayData.exchanges[exchangeKey];
-  const keys = new Set();
-  for (const list of [ex.listings, ex.alpha, ex.wallet].filter(Boolean)) {
-    for (const item of list) {
-      keys.add(`${item.token}||${item.type}`);
-    }
-  }
-  return keys;
-}
-
-function dedup(listings, yesterdayKeys) {
-  if (!yesterdayKeys || yesterdayKeys.size === 0) return listings;
-  return listings.filter(item => !yesterdayKeys.has(`${item.token}||${item.type}`));
-}
-
-async function extractWithGemini(articles, exchangeName) {
-  if (!articles || articles.length === 0) return [];
-
-  const content = articles.map((a, i) => {
-    const body = a.body ? `\n正文：${a.body.slice(0, 1500)}` : '';
-    return `--- 公告 ${i + 1} ---\n标题：${a.title}\nURL：${a.url}${body}`;
-  }).join('\n\n');
-
-  const userPrompt = `交易所：${exchangeName}\n今日日期：${TODAY}\n\n以下是该交易所今日相关的公告，请提取新上线信息：\n\n${content}\n\n请返回 JSON 数组（如无相关上线信息则返回空数组 []）：`;
-
-  try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
-    const result = await model.generateContent({
-      contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
-      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-    });
-
-    const text = result.response.text().trim();
-    const jsonMatch = text.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) return [];
-
-    const parsed = JSON.parse(jsonMatch[0]);
-    return parsed.map(item => ({
-      token: item.token || '',
-      type: item.type || '现货上线',
-      detail: item.detail || '',
-      url: ''
-    }));
-  } catch (e) {
-    console.error(`  Gemini API error for ${exchangeName}:`, e.message);
-    return [];
-  }
-}
 
 async function fetchPageContent(page, url, selector) {
   try {
@@ -93,8 +15,6 @@ async function fetchPageContent(page, url, selector) {
     return null;
   }
 }
-
-// --- Exchange scrapers: collect titles + article content ---
 
 async function scrapeBinance(page) {
   const articles = [];
@@ -122,10 +42,6 @@ async function scrapeBinance(page) {
       if (!item.title) continue;
       if (item.title.includes('Trading Competition') || item.title.includes('AMA')) continue;
       if (item.title.includes('Completes Integration') || item.title.includes('Alpha Will Remove')) continue;
-      const isRelevant = item.title.includes('Will List') || item.title.includes('Will Add') ||
-        (item.title.includes('Futures') && item.title.includes('Launch'));
-      if (!isRelevant) continue;
-
       const body = await fetchPageContent(page, item.url, 'article, main, .content');
       articles.push({ title: item.title, url: item.url, body });
     }
@@ -148,7 +64,6 @@ async function scrapeOKX(page) {
       const url = `https://www.okx.com${n.link}`;
       articles.push({ title: n.shareText || n.shareTitle || '', url, body: null });
     }
-    // Try to fetch article content
     for (const a of articles) {
       const body = await fetchPageContent(page, a.url, 'article, main, .article-content');
       a.body = body;
@@ -189,7 +104,6 @@ async function scrapeKuCoin(page) {
         .filter(i => i.title.length > 15 && !i.href.includes('/announcement/new-listings'))
     );
 
-    // Take latest 10 items (KuCoin doesn't show dates in list, so take recent ones)
     for (const item of items.slice(0, 10)) {
       const url = item.href.startsWith('http') ? item.href : `https://www.kucoin.com${item.href}`;
       const body = await fetchPageContent(page, url, 'article, main, .content');
@@ -212,10 +126,7 @@ async function scrapeGateio(page) {
         .filter(i => i.title.length > 15)
     );
 
-    // Gate.io shows relative time - take items with "小时前" or "分钟前"
     for (const item of items.slice(0, 8)) {
-      const isRecent = item.title.includes('小时前') || item.title.includes('分钟前') || item.title.includes('1 天前');
-      if (!isRecent) continue;
       const url = item.href.startsWith('http') ? item.href : `https://www.gate.com${item.href}`;
       const body = await fetchPageContent(page, url, 'article, main, .content');
       articles.push({ title: item.title, url, body });
@@ -240,8 +151,6 @@ async function scrapeBitget(page) {
       }).filter(i => i.title.length > 10)
     );
 
-    // Get today's date prefix to filter
-    const todayPrefix = TODAY; // "2026-04-30"
     for (const item of items.slice(0, 6)) {
       const url = item.href.startsWith('http') ? item.href : `https://www.bitget.com${item.href}`;
       const body = await fetchPageContent(page, url, 'article, main, [class*="article"]');
@@ -273,20 +182,12 @@ async function scrapeMEXC(page) {
       }).filter(i => i.title.length > 10)
     );
 
-    // Take recent items (those with "小时前" or "分钟前" or "1 天前")
     for (const item of items.slice(0, 10)) {
-      const isRecent = item.time.includes('小時前') || item.time.includes('小时前') ||
-        item.time.includes('分鐘前') || item.time.includes('分钟前') ||
-        item.time.includes('約') || item.time.includes('大約');
-      if (!isRecent && !item.time.includes('天前')) continue;
       if (item.title.includes('定投') || item.title.includes('手續費') || item.title.includes('下架')) continue;
-
       const url = item.href.startsWith('http') ? item.href : `https://www.mexc.com${item.href}`;
-      // MEXC article pages are JS-heavy, use preview text from listing
       articles.push({ title: item.title, url, body: null });
     }
 
-    // Try to fetch content for MEXC articles via page navigation
     for (const a of articles.slice(0, 8)) {
       const body = await fetchPageContent(page, a.url, 'article, main, [class*="article"]');
       a.body = body;
@@ -297,20 +198,8 @@ async function scrapeMEXC(page) {
   return articles;
 }
 
-// --- Main ---
-
 async function main() {
   console.log(`Scraping exchange listings for ${TODAY}...`);
-
-  if (!process.env.GEMINI_API_KEY) {
-    console.error('ERROR: GEMINI_API_KEY environment variable is required');
-    process.exit(1);
-  }
-
-  const yesterdayData = loadYesterdayData();
-  if (yesterdayData) {
-    console.log(`Loaded yesterday's data for deduplication (${yesterdayData.date})`);
-  }
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -322,117 +211,58 @@ async function main() {
     try { return await fn(p); } finally { await p.close(); }
   }
 
-  // Step 1: Scrape announcements from all exchanges
   console.log('\n--- Collecting announcements ---');
 
   console.log('  Binance...');
   const binanceArticles = await withNewPage(p => scrapeBinance(p));
-  console.log(`    Found ${binanceArticles.length} relevant announcements`);
+  console.log(`    Found ${binanceArticles.length} articles`);
 
   console.log('  OKX...');
   const okxArticles = await withNewPage(p => scrapeOKX(p));
-  console.log(`    Found ${okxArticles.length} relevant announcements`);
+  console.log(`    Found ${okxArticles.length} articles`);
 
   console.log('  Bybit...');
   const bybitArticles = await withNewPage(p => scrapeBybit(p));
-  console.log(`    Found ${bybitArticles.length} relevant announcements`);
+  console.log(`    Found ${bybitArticles.length} articles`);
 
   console.log('  KuCoin...');
   const kucoinArticles = await withNewPage(p => scrapeKuCoin(p));
-  console.log(`    Found ${kucoinArticles.length} relevant announcements`);
+  console.log(`    Found ${kucoinArticles.length} articles`);
 
   console.log('  Gate.io...');
   const gateioArticles = await withNewPage(p => scrapeGateio(p));
-  console.log(`    Found ${gateioArticles.length} relevant announcements`);
+  console.log(`    Found ${gateioArticles.length} articles`);
 
   console.log('  Bitget...');
   const bitgetArticles = await withNewPage(p => scrapeBitget(p));
-  console.log(`    Found ${bitgetArticles.length} relevant announcements`);
+  console.log(`    Found ${bitgetArticles.length} articles`);
 
   console.log('  MEXC...');
   const mexcArticles = await withNewPage(p => scrapeMEXC(p));
-  console.log(`    Found ${mexcArticles.length} relevant announcements`);
+  console.log(`    Found ${mexcArticles.length} articles`);
 
   await browser.close();
 
-  // Step 2: Send to Claude API for structured extraction
-  console.log('\n--- Extracting with Gemini API ---');
-
-  console.log('  Processing Binance...');
-  const binanceRaw = await extractWithGemini(binanceArticles, 'Binance');
-
-  console.log('  Processing OKX...');
-  const okxRaw = await extractWithGemini(okxArticles, 'OKX');
-
-  console.log('  Processing Bybit...');
-  const bybitRaw = await extractWithGemini(bybitArticles, 'Bybit');
-
-  console.log('  Processing KuCoin...');
-  const kucoinRaw = await extractWithGemini(kucoinArticles, 'KuCoin');
-
-  console.log('  Processing Gate.io...');
-  const gateioRaw = await extractWithGemini(gateioArticles, 'Gate.io');
-
-  console.log('  Processing Bitget...');
-  const bitgetRaw = await extractWithGemini(bitgetArticles, 'Bitget');
-
-  console.log('  Processing MEXC...');
-  const mexcRaw = await extractWithGemini(mexcArticles, 'MEXC');
-
-  // Attach URLs back from articles
-  function attachUrls(listings, articles) {
-    return listings.map((item, i) => {
-      if (!item.url && articles[i]) item.url = articles[i].url;
-      if (!item.url) {
-        const match = articles.find(a =>
-          a.title.includes(item.token?.split(' ')[0] || 'ZZZZZ') ||
-          a.title.includes(item.token?.match(/\(([^)]+)\)/)?.[1] || 'ZZZZZ')
-        );
-        if (match) item.url = match.url;
-      }
-      return item;
-    });
-  }
-
-  const binanceListings = dedup(attachUrls(binanceRaw, binanceArticles), getYesterdayTokenKeys(yesterdayData, 'binance'));
-  const okxListings = dedup(attachUrls(okxRaw, okxArticles), getYesterdayTokenKeys(yesterdayData, 'okx'));
-  const bybitListings = dedup(attachUrls(bybitRaw, bybitArticles), getYesterdayTokenKeys(yesterdayData, 'bybit'));
-  const kucoinListings = dedup(attachUrls(kucoinRaw, kucoinArticles), getYesterdayTokenKeys(yesterdayData, 'kucoin'));
-  const gateioListings = dedup(attachUrls(gateioRaw, gateioArticles), getYesterdayTokenKeys(yesterdayData, 'gateio'));
-  const bitgetListings = dedup(attachUrls(bitgetRaw, bitgetArticles), getYesterdayTokenKeys(yesterdayData, 'bitget'));
-  const mexcListings = dedup(attachUrls(mexcRaw, mexcArticles), getYesterdayTokenKeys(yesterdayData, 'mexc'));
-
-  // Step 3: Write output
-  const result = {
+  const rawData = {
     date: TODAY,
-    updatedAt: new Date().toISOString(),
     exchanges: {
-      binance: { listings: binanceListings, alpha: [], wallet: [] },
-      okx: { listings: okxListings },
-      bybit: { listings: bybitListings },
-      kucoin: { listings: kucoinListings },
-      gateio: { listings: gateioListings },
-      bitget: { listings: bitgetListings },
-      mexc: { listings: mexcListings }
+      binance: binanceArticles,
+      okx: okxArticles,
+      bybit: bybitArticles,
+      kucoin: kucoinArticles,
+      gateio: gateioArticles,
+      bitget: bitgetArticles,
+      mexc: mexcArticles
     }
   };
 
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-  }
+  const outputPath = path.join(DATA_DIR, `raw-${TODAY}.json`);
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(outputPath, JSON.stringify(rawData, null, 2), 'utf-8');
 
-  const outputPath = path.join(DATA_DIR, `${TODAY}.json`);
-  fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf-8');
-
-  console.log(`\nData saved to ${outputPath}`);
-  console.log(`\nSummary:`);
-  console.log(`  Binance: ${binanceListings.length} listings`);
-  console.log(`  OKX: ${okxListings.length} listings`);
-  console.log(`  Bybit: ${bybitListings.length} listings`);
-  console.log(`  KuCoin: ${kucoinListings.length} listings`);
-  console.log(`  Gate.io: ${gateioListings.length} listings`);
-  console.log(`  Bitget: ${bitgetListings.length} listings`);
-  console.log(`  MEXC: ${mexcListings.length} listings`);
+  console.log(`\nRaw data saved to ${outputPath}`);
+  const total = Object.values(rawData.exchanges).reduce((sum, arr) => sum + arr.length, 0);
+  console.log(`Total articles collected: ${total}`);
 }
 
 main().catch(e => {
