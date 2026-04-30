@@ -6,6 +6,7 @@
     "scrape": "node scripts/scraper.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
     "playwright": "^1.52.0"
   }
 }

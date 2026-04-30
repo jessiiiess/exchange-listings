@@ -20,6 +20,8 @@ jobs:
       - run: npx playwright install --with-deps chromium
 
       - run: node scripts/scraper.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit & Push data
         run: |
