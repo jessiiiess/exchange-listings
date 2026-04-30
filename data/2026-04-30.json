@@ -1,57 +1,182 @@
 {
   "date": "2026-04-30",
-  "updatedAt": "2026-04-30T12:15:00.000Z",
+  "updatedAt": "2026-04-30T15:11:26.919Z",
   "exchanges": {
     "binance": {
-      "listings": [
-        {"token": "Doodles (DOOD)", "type": "现货上线", "detail": "Seed Tag，DOOD/USDT 交易对", "url": "https://www.binance.com/en/support/announcement/detail/000001"},
-        {"token": "Obol (OBOL)", "type": "现货上线", "detail": "Seed Tag，OBOL/USDT、OBOL/BTC 交易对", "url": "https://www.binance.com/en/support/announcement/detail/000002"}
-      ],
+      "listings": [],
       "alpha": [],
       "wallet": []
     },
     "okx": {
-      "listings": [
-        {"token": "RLUSD (Ripple USD)", "type": "现货上线", "detail": "4/29 发布公告，上线现货交易", "url": "https://www.okx.com/help/article/000001"},
-        {"token": "Doodles (DOOD)", "type": "现货上线", "detail": "DOOD/USDT 现货交易", "url": "https://www.okx.com/help/article/000002"}
-      ]
+      "listings": []
     },
     "bybit": {
-      "listings": [
-        {"token": "MegaETH (MEGA)", "type": "现货上线", "detail": "4/30 15:00 UTC 开始交易", "url": "https://announcements.bybit.com/article/000001"},
-        {"token": "Doodles (DOOD)", "type": "现货上线", "detail": "DOOD/USDT 现货交易对", "url": "https://announcements.bybit.com/article/000002"}
-      ]
+      "listings": []
     },
     "kucoin": {
       "listings": [
-        {"token": "MegaETH (MEGA)", "type": "World Premiere 现货", "detail": "4/30 11:00 UTC 开始交易", "url": "https://www.kucoin.com/announcement/000001"},
-        {"token": "MegaETH (MEGA)", "type": "Futures + Payment", "detail": "合约及支付服务上线", "url": "https://www.kucoin.com/announcement/000002"},
-        {"token": "Genius Terminal (GENIUS)", "type": "现货上线", "detail": "4/30 14:00 UTC 开始交易", "url": "https://www.kucoin.com/announcement/000003"},
-        {"token": "REAL (ASSET)", "type": "World Premiere 现货", "detail": "4/30 15:00 UTC 开始交易", "url": "https://www.kucoin.com/announcement/000004"},
-        {"token": "Gensyn (AI)", "type": "World Premiere 现货", "detail": "交易时间待定 (4/29公告)", "url": "https://www.kucoin.com/announcement/000005"},
-        {"token": "AIGENSYNUSDT", "type": "合约", "detail": "20x 杠杆永续", "url": "https://www.kucoin.com/announcement/000006"},
-        {"token": "BLENDUSDT", "type": "合约", "detail": "20x 杠杆永续 (4/29)", "url": "https://www.kucoin.com/announcement/000007"}
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "Futures + Payment",
+          "detail": "合约及支付服务上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-adding-megaeth-mega-to-futures-payment-services"
+        },
+        {
+          "token": "Genius Terminal (GENIUS)",
+          "type": "现货上线",
+          "detail": "现货上线",
+          "url": "https://www.kucoin.com/announcement/en-genius-terminal-genius-listed-on-kucoin"
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "合约上线",
+          "detail": "20x 杠杆永续",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-aigensynusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-megaeth-mega-listed-on-kucoin"
+        },
+        {
+          "token": "BLEND",
+          "type": "合约上线",
+          "detail": "20x 杠杆永续",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-blendusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "REAL (ASSET)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-real-asset-listed-on-kucoin"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-gensyn-ai-listed-on-kucoin"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "20x 杠杆永续",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-prosusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "Space (SPC)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-space-spc-world-premiere-listing-on-kucoin"
+        }
       ]
     },
     "gateio": {
       "listings": [
-        {"token": "Doodles (DOOD)", "type": "首发现货", "detail": "现货+闪兑上线", "url": "https://www.gate.com/zh/article/000001"},
-        {"token": "Obol (OBOL)", "type": "现货上线", "detail": "OBOL/USDT 现货+闪兑", "url": "https://www.gate.com/zh/article/000002"}
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线，现货+闪兑",
+          "url": "https://www.gate.com/zh/announcements/article/51010"
+        },
+        {
+          "token": "Fluent (BLEND)",
+          "type": "现货 + 闪兑",
+          "detail": "现货+闪兑",
+          "url": "https://www.gate.com/zh/announcements/article/50971"
+        }
       ]
     },
     "bitget": {
       "listings": [
-        {"token": "Doodles (DOOD)", "type": "首发上币", "detail": "创新区上线，DOOD/USDT", "url": "https://www.bitget.com/zh-CN/articles/000001"},
-        {"token": "Obol (OBOL)", "type": "现货上线", "detail": "OBOL/USDT 现货交易", "url": "https://www.bitget.com/zh-CN/articles/000002"}
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "首发上币",
+          "detail": "首发上币",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883327"
+        },
+        {
+          "token": "SKYAI (SKYAI)",
+          "type": "现货上线",
+          "detail": "现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883351"
+        },
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "首发上币 AI区",
+          "detail": "首发上币，AI区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883325"
+        },
+        {
+          "token": "Pharos (PROS)",
+          "type": "首发上币",
+          "detail": "首发上币",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883295"
+        },
+        {
+          "token": "Fluent (BLEND)",
+          "type": "首发上币",
+          "detail": "首发上币",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883241"
+        }
       ]
     },
     "mexc": {
       "listings": [
-        {"token": "Obol (OBOL)", "type": "首发上线", "detail": "现货交易已开放", "url": "https://www.mexc.com/zh-TW/announcements/article/000001"},
-        {"token": "Doodles (DOOD)", "type": "现货上线", "detail": "DOOD/USDT 交易对", "url": "https://www.mexc.com/zh-TW/announcements/article/000002"},
-        {"token": "RFC", "type": "合约", "detail": "USDT永续合约，支持跟单", "url": "https://www.mexc.com/zh-TW/announcements/article/000003"},
-        {"token": "SIGN", "type": "Meme+ 区", "detail": "Meme+ 专区上线", "url": "https://www.mexc.com/zh-TW/announcements/article/000004"},
-        {"token": "HAEDAL", "type": "创新区现货", "detail": "创新区 HAEDAL/USDT", "url": "https://www.mexc.com/zh-TW/announcements/article/000005"}
+        {
+          "token": "LITE 和 SBUX",
+          "type": "合约",
+          "detail": "USDT永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535215"
+        },
+        {
+          "token": "Kuvi (KUVI)",
+          "type": "创新区现货",
+          "detail": "创新区 现货上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535165"
+        },
+        {
+          "token": "ASSET",
+          "type": "闪兑",
+          "detail": "闪兑上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535210"
+        },
+        {
+          "token": "KAG、MANTRA、SOXXON 等",
+          "type": "闪兑",
+          "detail": "闪兑上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535207"
+        },
+        {
+          "token": "WISH",
+          "type": "Meme+ 区",
+          "detail": "Meme+ 专区上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535198"
+        },
+        {
+          "token": "MEGA",
+          "type": "盘前转正式合约",
+          "detail": "USDT永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/pre-market-futures-17827791535193"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "合约 + 跟单",
+          "detail": "USDT永续合约，支持跟单",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gensyn-ai-usdt-m-futures-17827791535188"
+        },
+        {
+          "token": "SKYAI (SKYAI)",
+          "type": "创新区现货",
+          "detail": "创新区 现货上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-skyai-skyai-in-innovation-zone-17827791535186"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "合约",
+          "detail": "USDT永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gensyn-ai-usdt-m-futures-on-apr-29-2026-12-17827791535184"
+        }
       ]
     }
   }

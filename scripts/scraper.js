@@ -292,7 +292,12 @@ async function scrapeKuCoin(page) {
       if (item.title.includes('Payment')) type = 'Futures + Payment';
 
       const url = item.href.startsWith('http') ? item.href : `https://www.kucoin.com${item.href}`;
-      const cleanTitle = item.title.replace(/\d{2}\/\d{2}\/\d{4},?\s*\d{2}:\d{2}:\d{2}/g, '').trim();
+      const cleanTitle = item.title
+        .replace(/\d{2}\/\d{2}\/\d{4},?\s*\d{2}:\d{2}:\d{2}/g, '')
+        .replace(/^(?:KuCoin\s+)?(?:Adding|Premiere:|World Premiere:|HODLer Airdrops:|Airdrops:)\s*/i, '')
+        .replace(/\s*(?:Listed on KuCoin|to Futures|to Payment|to KuCoin).*$/i, '')
+        .replace(/^KuCoin\s+(?:Futures\s+)?(?:New\s+)?(?:Listing:?\s*)?/i, '')
+        .trim();
       listings.push({ token: extractToken(cleanTitle), type, detail: summarizeDetail(item.title, 'kucoin'), url });
     }
   } catch (e) {
@@ -349,7 +354,12 @@ async function scrapeBitget(page) {
       if (item.title.includes('合约') || item.title.includes('Futures')) type = '合约';
 
       const url = item.href.startsWith('http') ? item.href : `https://www.bitget.com${item.href}`;
-      listings.push({ token: extractToken(item.title), type, detail: summarizeDetail(item.title, 'bitget'), url });
+      const cleanTitle = item.title
+        .replace(/^【[^】]+】\s*/, '')
+        .replace(/将上线\s*Bitget.*$/, '')
+        .replace(/將上線\s*Bitget.*$/, '')
+        .trim();
+      listings.push({ token: extractToken(cleanTitle), type, detail: summarizeDetail(item.title, 'bitget'), url });
     }
   } catch (e) {
     console.error('Bitget scrape error:', e.message);
@@ -382,7 +392,20 @@ async function scrapeMEXC(page) {
       if (item.title.includes('定投')) continue;
 
       const url = item.href.startsWith('http') ? item.href : `https://www.mexc.com${item.href}`;
-      listings.push({ token: extractTokenMEXC(item.title), type, detail: summarizeDetail(item.title, 'mexc'), url });
+      const cleanTitle = item.title
+        .replace(/^MEXC\s*將於?\s*/, '')
+        .replace(/^將於?\s*/, '')
+        .replace(/^MEXC\s+/, '')
+        .replace(/^跟單新增\s*/, '')
+        .replace(/^新美股合約上線[：:]\s*/, '')
+        .replace(/^閃兌新幣上線[：:]\s*/, '')
+        .replace(/^首發上線[：:]\s*/, '')
+        .replace(/[，,].*瓜分.*$/, '')
+        .replace(/[，,].*獎池.*$/, '')
+        .replace(/\s*現已上線.*$/, '')
+        .replace(/\s*U\s*本位.*$/, '')
+        .trim();
+      listings.push({ token: extractTokenMEXC(cleanTitle), type, detail: summarizeDetail(item.title, 'mexc'), url });
     }
   } catch (e) {
     console.error('MEXC scrape error:', e.message);
@@ -391,40 +414,51 @@ async function scrapeMEXC(page) {
 }
 
 function extractToken(title) {
-  const match = title.match(/(?:List|list|上线|上線|Listed?)\s+(\w[\w\s.]*?)\s*\(/);
-  if (match) return match[1].trim();
+  // Match "Token Name (TICKER)" or "Token Name（TICKER）" pattern
+  const tickerMatch = title.match(/([A-Z][A-Za-z0-9]+(?:\s+[A-Z][A-Za-z0-9]+)*)\s*[\(（]([A-Z0-9]+)[\)）]/);
+  if (tickerMatch) return `${tickerMatch[1]} (${tickerMatch[2]})`;
 
-  const match2 = title.match(/\(([A-Z0-9]+)\)/);
-  if (match2) {
-    const before = title.substring(0, title.indexOf('(' + match2[1] + ')'));
-    const words = before.split(/\s+/).filter(w => w.length > 0);
-    const name = words.slice(-2).join(' ');
-    return `${name} (${match2[1]})`;
-  }
+  // Match standalone ticker like "XYZUSDT"
+  const usdtMatch = title.match(/\b([A-Z]{2,10})USDT\b/);
+  if (usdtMatch) return usdtMatch[1];
 
-  const match3 = title.match(/([A-Z][A-Za-z0-9]+(?:\s+[A-Z][A-Za-z0-9]+)*)\s*(?:将|現|现|on|with)/);
-  if (match3) return match3[1].trim();
+  // Match "List TOKEN" or "listing TOKEN"
+  const listMatch = title.match(/(?:List(?:ed|ing)?|上线|上線)\s+([A-Z][A-Za-z0-9\s]+?)(?:\s*[\(（]|\s+on\b|\s+in\b|$)/i);
+  if (listMatch) return listMatch[1].trim();
 
-  return title.substring(0, 30);
+  // Fallback: find anything in parentheses (normal or Chinese) that looks like a ticker
+  const parenMatch = title.match(/[\(（]([A-Z][A-Z0-9]{1,9})[\)）]/);
+  if (parenMatch) return parenMatch[1];
+
+  return title.substring(0, 25);
 }
 
 function extractTokenMEXC(title) {
-  const match = title.match(/(?:上線|上线)[：:]\s*(.+?)(?:\s+現|\s+现|$)/);
-  if (match) return match[1].trim();
+  // Match "Name (TICKER)" pattern
+  const tickerMatch = title.match(/([A-Z][A-Za-z0-9]+(?:\s+[A-Z][A-Za-z0-9]+)*)\s*\(([A-Z0-9]+)\)/);
+  if (tickerMatch) return `${tickerMatch[1]} (${tickerMatch[2]})`;
 
-  const match2 = title.match(/\(([A-Z0-9]+)\)/);
-  if (match2) {
-    const idx = title.indexOf('(' + match2[1] + ')');
-    const before = title.substring(0, idx).replace(/.*[：:]\s*/, '').trim();
-    const words = before.split(/\s+/).filter(w => w.length > 0);
-    const name = words.slice(-2).join(' ');
-    return `${name} (${match2[1]})`;
-  }
+  // Match standalone USDT pair
+  const usdtMatch = title.match(/\b([A-Z]{2,10})USDT\b/);
+  if (usdtMatch) return usdtMatch[1];
 
-  const match3 = title.match(/[：:]\s*([A-Z][A-Za-z0-9\s]+)/);
-  if (match3) return match3[1].trim();
+  // Match ticker in parentheses
+  const parenMatch = title.match(/\(([A-Z][A-Z0-9]{1,9})\)/);
+  if (parenMatch) return parenMatch[1];
 
-  return title.substring(0, 30);
+  // Match after Chinese colon: "上線：TOKEN" or "上線：TOKEN 現已上線"
+  const colonMatch = title.match(/[：:]\s*([A-Z][A-Za-z0-9\s]+?)(?:\s*[\(（,，]|\s+現|\s+现|$)/);
+  if (colonMatch) return colonMatch[1].trim();
+
+  // Match Chinese pattern "上線 TOKEN"
+  const listMatch = title.match(/(?:上線|上线)\s+([A-Z][A-Za-z0-9\s]+?)(?:\s*[\(（]|\s+現|\s+现|$)/);
+  if (listMatch) return listMatch[1].trim();
+
+  // Match multiple tokens after colon like "：KAG、MANTRA、SOXXON"
+  const multiMatch = title.match(/[：:]\s*([A-Z][A-Z0-9]+(?:[、,]\s*[A-Z][A-Z0-9]+)+)/);
+  if (multiMatch) return multiMatch[1].replace(/\s+/g, '');
+
+  return title.substring(0, 20);
 }
 
 function extractAlphaTokens(title) {
