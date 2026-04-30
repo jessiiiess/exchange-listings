@@ -1,9 +1,16 @@
 {
   "date": "2026-04-30",
-  "updatedAt": "2026-04-30T15:27:03.667Z",
+  "updatedAt": "2026-04-30T15:45:00.000Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "现货上线",
+          "detail": "Seed Tag，MEGA/USDT 交易对",
+          "url": "https://www.binance.com/en/support/announcement/binance-will-list-megaeth-mega-with-seed-tag-applied"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -22,52 +29,52 @@
           "url": "https://www.kucoin.com/announcement/en-kucoin-adding-megaeth-mega-to-futures-payment-services"
         },
         {
-          "token": "Genius Terminal (GENIUS)",
-          "type": "现货上线",
-          "detail": "现货上线",
-          "url": "https://www.kucoin.com/announcement/en-genius-terminal-genius-listed-on-kucoin"
-        },
-        {
-          "token": "AIGENSYN",
-          "type": "合约上线",
-          "detail": "20x 杠杆永续",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-aigensynusdt-perpetual-contract-with-up-to-20x-leverage"
-        },
-        {
           "token": "MegaETH (MEGA)",
           "type": "World Premiere 现货",
-          "detail": "World Premiere 首发",
+          "detail": "4/30 11:00 UTC 开始交易",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-megaeth-mega-listed-on-kucoin"
         },
         {
-          "token": "BLEND",
-          "type": "合约上线",
-          "detail": "20x 杠杆永续",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-blendusdt-perpetual-contract-with-up-to-20x-leverage"
+          "token": "Genius Terminal (GENIUS)",
+          "type": "现货上线",
+          "detail": "4/30 14:00 UTC 开始交易",
+          "url": "https://www.kucoin.com/announcement/en-genius-terminal-genius-listed-on-kucoin"
         },
         {
           "token": "REAL (ASSET)",
           "type": "World Premiere 现货",
-          "detail": "World Premiere 首发",
+          "detail": "4/30 15:00 UTC 开始交易",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-real-asset-listed-on-kucoin"
         },
         {
           "token": "Gensyn (AI)",
           "type": "World Premiere 现货",
-          "detail": "World Premiere 首发",
+          "detail": "World Premiere 首发上线",
           "url": "https://www.kucoin.com/announcement/en-world-premiere-gensyn-ai-listed-on-kucoin"
-        },
-        {
-          "token": "PROS",
-          "type": "合约上线",
-          "detail": "20x 杠杆永续",
-          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-prosusdt-perpetual-contract-with-up-to-20x-leverage"
         },
         {
           "token": "Space (SPC)",
           "type": "World Premiere 现货",
-          "detail": "World Premiere 首发",
+          "detail": "Hodler Airdrop 首发上线",
           "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-space-spc-world-premiere-listing-on-kucoin"
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "合约上线",
+          "detail": "AIGENSYNUSDT 永续合约，20x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-aigensynusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "BLEND",
+          "type": "合约上线",
+          "detail": "BLENDUSDT 永续合约，20x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-blendusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "PROSUSDT 永续合约，20x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-prosusdt-perpetual-contract-with-up-to-20x-leverage"
         }
       ]
     },
@@ -82,7 +89,7 @@
         {
           "token": "Fluent (BLEND)",
           "type": "现货 + 闪兑",
-          "detail": "现货+闪兑",
+          "detail": "现货+闪兑上线",
           "url": "https://www.gate.com/zh/announcements/article/50971"
         }
       ]
@@ -92,32 +99,20 @@
         {
           "token": "MegaETH (MEGA)",
           "type": "首发上币",
-          "detail": "首发上币",
+          "detail": "4/30 19:00 (UTC+8) 开始交易，MEGA/USDT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603883327"
         },
         {
           "token": "SKYAI (SKYAI)",
           "type": "现货上线",
-          "detail": "现货交易",
+          "detail": "4/30 16:00 (UTC+8) 开始交易，SKYAI/USDT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603883351"
         },
         {
           "token": "Gensyn (AIGENSYN)",
           "type": "首发上币 AI区",
-          "detail": "首发上币，AI区",
+          "detail": "4/29 19:00 (UTC+8) 开始交易，AIGENSYN/USDT",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603883325"
-        },
-        {
-          "token": "Pharos (PROS)",
-          "type": "首发上币",
-          "detail": "首发上币",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883295"
-        },
-        {
-          "token": "Fluent (BLEND)",
-          "type": "首发上币",
-          "detail": "首发上币",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883241"
         }
       ]
     },
@@ -125,57 +120,51 @@
       "listings": [
         {
           "token": "LITE 和 SBUX",
-          "type": "合约",
-          "detail": "USDT永续合约",
+          "type": "美股合约",
+          "detail": "4/30 22:50 (UTC+8) 上线 USDT永续合约，20x 杠杆",
           "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535215"
         },
         {
           "token": "Kuvi (KUVI)",
           "type": "创新区现货",
-          "detail": "创新区 现货上线",
+          "detail": "5/1 22:00 (UTC+8) 开始交易，KUVI/USDT",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535165"
         },
         {
-          "token": "ASSET",
-          "type": "闪兑",
-          "detail": "闪兑上线",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535210"
-        },
-        {
-          "token": "KAG、MANTRA、SOXXON 等",
-          "type": "闪兑",
-          "detail": "闪兑上线",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535207"
+          "token": "SKYAI (SKYAI)",
+          "type": "创新区现货",
+          "detail": "4/30 11:00 (UTC+8) 开始交易，SKYAI/USDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-skyai-skyai-in-innovation-zone-17827791535186"
         },
         {
           "token": "WISH",
           "type": "Meme+ 区",
-          "detail": "Meme+ 专区上线",
+          "detail": "4/30 14:40 (UTC+8) 上线 Meme+ 专区",
           "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535198"
         },
         {
-          "token": "MEGA",
+          "token": "MegaETH (MEGA)",
           "type": "盘前转正式合约",
-          "detail": "USDT永续合约",
+          "detail": "4/30 18:38 (UTC+8) 转正式 USDT永续合约，1-20x",
           "url": "https://www.mexc.com/zh-TW/announcements/article/pre-market-futures-17827791535193"
         },
         {
           "token": "Gensyn (AI)",
           "type": "合约 + 跟单",
-          "detail": "USDT永续合约，支持跟单",
+          "detail": "AIUSDT 永续合约，支持跟单，20x 杠杆",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gensyn-ai-usdt-m-futures-17827791535188"
         },
         {
-          "token": "SKYAI (SKYAI)",
-          "type": "创新区现货",
-          "detail": "创新区 现货上线",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-skyai-skyai-in-innovation-zone-17827791535186"
+          "token": "ASSET",
+          "type": "闪兑",
+          "detail": "5/1 00:00 (UTC+8) 闪兑上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535210"
         },
         {
-          "token": "Gensyn (AI)",
-          "type": "合约",
-          "detail": "USDT永续合约",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gensyn-ai-usdt-m-futures-on-apr-29-2026-12-17827791535184"
+          "token": "KAG、MANTRA、SOXXON 等",
+          "type": "闪兑",
+          "detail": "4/30 18:00 (UTC+8) 闪兑上线 48 个代币",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791535207"
         }
       ]
     }
