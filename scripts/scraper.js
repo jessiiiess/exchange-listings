@@ -58,9 +58,12 @@ function summarizeDetail(title, exchange) {
 
   if (exchange === 'binance') {
     if (title.includes('Seed Tag')) {
-      detail = `Seed Tag${pairStr ? '，' + pairStr + ' 交易对' : ''}`;
-    } else if (title.includes('Futures')) {
-      detail = `永续合约上线${pairStr ? '，' + pairStr : ''}`;
+      detail = `Seed Tag 现货上线${pairStr ? '，' + pairStr + ' 交易对' : ''}`;
+    } else if (title.includes('Earn') && title.includes('Futures')) {
+      detail = 'Earn、Convert、杠杆、合约全线上线';
+    } else if (title.includes('Futures') && title.includes('Launch')) {
+      const ticker = title.match(/([A-Z]+)USDT/);
+      detail = `${ticker ? ticker[1] + ' ' : ''}USDT永续合约`;
     } else if (pairStr) {
       detail = `${pairStr} 交易对`;
     } else {
@@ -131,30 +134,44 @@ function summarizeDetail(title, exchange) {
 async function scrapeBinance(page) {
   const listings = [];
   try {
-    await page.goto('https://www.binance.com/en/support/announcement/list/48', { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
-
-    const items = await page.$$eval('a[href*="/support/announcement/detail/"]', (links) => {
-      return links.map(a => ({
-        title: a.textContent?.trim() || '',
-        href: a.getAttribute('href') || '',
-        date: a.closest('[class]')?.querySelector('[class]')?.nextElementSibling?.textContent?.trim() || ''
+    // Try internal API first
+    let items = [];
+    try {
+      const res = await fetch('https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=10');
+      const data = await res.json();
+      const articles = data?.data?.catalogs?.[0]?.articles || data?.data?.articles || [];
+      items = articles.map(a => ({
+        title: a.title || '',
+        href: `/en/support/announcement/detail/${a.code || a.id || ''}`,
+        date: a.releaseDate ? new Date(a.releaseDate).toISOString().split('T')[0] : ''
       }));
-    });
+    } catch (e) {
+      // Fallback to page scrape
+      await page.goto('https://www.binance.com/en/support/announcement/list/48', { waitUntil: 'networkidle', timeout: 40000 });
+      await page.waitForTimeout(5000);
+      items = await page.$$eval('a[href*="/support/announcement/detail/"]', (links) => {
+        return links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '', date: '' }))
+          .filter(i => i.title.length > 10);
+      });
+    }
 
-    for (const item of items) {
-      if (!item.title || !item.title.includes(TODAY.replace(/-/g, '-'))) {
-        const dateMatch = item.date || '';
-        if (!dateMatch.includes(TODAY)) continue;
-      }
+    for (const item of items.slice(0, 10)) {
+      if (!item.title) continue;
+      if (item.title.includes('Trading Competition')) continue;
+      if (item.title.includes('AMA')) continue;
+      if (item.title.includes('Completes Integration')) continue;
       if (item.title.includes('Alpha Will Remove')) continue;
 
-      let type = '现货上线';
-      if (item.title.includes('Futures')) type = '合约上线';
-      if (item.title.includes('Earn') || item.title.includes('Convert') || item.title.includes('Margin')) type = 'Earn/Margin/Futures';
-      if (item.title.includes('Trading Pair')) type = '新交易对';
+      const isSpotListing = item.title.includes('Will List');
+      const isAddProduct = item.title.includes('Will Add');
+      const isFutures = item.title.includes('Futures') && item.title.includes('Launch');
+      if (!isSpotListing && !isAddProduct && !isFutures) continue;
 
-      const url = item.href.startsWith('http') ? item.href : `https://www.binance.com${item.href}`;
+      let type = '现货上线';
+      if (isFutures) type = '合约上线';
+      if (isAddProduct && item.title.includes('Earn') && item.title.includes('Futures')) type = '全线产品上线';
+
+      const url = `https://www.binance.com${item.href}`;
       listings.push({ token: extractToken(item.title), type, detail: summarizeDetail(item.title, 'binance'), url });
     }
   } catch (e) {
@@ -214,24 +231,45 @@ async function scrapeOKX(page) {
   const listings = [];
   try {
     await page.goto('https://www.okx.com/help/section/announcements-new-listings', { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(5000);
 
     const items = await page.$$eval('a[href*="/help/"]', (links) => {
-      return links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' })).filter(i => i.title.length > 15);
+      return links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+        .filter(i => i.title.length > 15 && !i.href.includes('/section/'));
     });
 
-    const todayPatterns = [TODAY, TODAY.replace(/-/g, '年').replace('年', '年').slice(0, 7)];
-    for (const item of items) {
-      const isRecent = todayPatterns.some(p => item.title.includes(p)) ||
-        item.title.includes('4月30') || item.title.includes('4月29');
+    // Build date patterns for today and yesterday
+    const todayDate = new Date(TODAY);
+    const yesterdayDate = new Date(Date.now() - 86400000);
+    const todayMonth = todayDate.getMonth() + 1;
+    const todayDay = todayDate.getDate();
+    const yestDay = yesterdayDate.getDate();
+    const patterns = [
+      `${todayMonth}月${todayDay}日`,
+      `${todayMonth}月${yestDay}日`,
+      TODAY,
+    ];
+
+    for (const item of items.slice(0, 10)) {
+      const isRecent = patterns.some(p => item.title.includes(p));
       if (!isRecent) continue;
-      if (!item.title.includes('上线') && !item.title.includes('List')) continue;
+      if (!item.title.includes('上线') && !item.title.includes('交易') && !item.title.includes('List')) continue;
 
       let type = '现货上线';
       if (item.title.includes('永续') || item.title.includes('Perpetual') || item.title.includes('合约')) type = '合约上线';
+      if (item.title.includes('盘前')) type = '盘前交易';
 
-      const url = item.href.startsWith('http') ? item.href : `https://www.okx.com${item.href}`;
-      listings.push({ token: extractToken(item.title), type, detail: summarizeDetail(item.title, 'okx'), url });
+      // Extract token name from OKX Chinese format: "欧易关于上线 TOKEN (TICKER) 现货交易的公告"
+      let token = extractToken(item.title);
+      const okxMatch = item.title.match(/(?:上线|开启)\s+([A-Z][A-Za-z0-9\s]+?)[\s]*[\(（]([A-Z0-9]+)[\)）]/);
+      if (okxMatch) token = `${okxMatch[1].trim()} (${okxMatch[2]})`;
+      const okxMatch2 = item.title.match(/(?:上线|开启)\s+([A-Z][A-Z0-9]+\/[A-Z]+)/);
+      if (okxMatch2) token = okxMatch2[1];
+
+      const baseUrl = new URL(page.url()).origin;
+      const url = item.href.startsWith('http') ? item.href : `${baseUrl}${item.href}`;
+      const detail = item.title.includes('现货') ? '现货交易' : item.title.includes('永续') ? '永续合约' : '上线交易';
+      listings.push({ token, type, detail, url });
     }
   } catch (e) {
     console.error('OKX scrape error:', e.message);
@@ -239,9 +277,10 @@ async function scrapeOKX(page) {
   return listings;
 }
 
-async function scrapeBybit() {
+async function scrapeBybit(page) {
   const listings = [];
   try {
+    // Try API first
     const apiUrl = 'https://api.bybit.com/v5/announcements/index?locale=en-US&tag=Spot%20Listings&type=new_crypto&limit=10';
     const res = await fetch(apiUrl);
     const data = await res.json();
@@ -259,7 +298,30 @@ async function scrapeBybit() {
       listings.push({ token: extractToken(a.title), type, detail: summarizeDetail(a.title, 'bybit'), url });
     }
   } catch (e) {
-    console.error('Bybit API error:', e.message);
+    console.error('Bybit API error:', e.message, '- falling back to page scrape');
+    // Fallback: scrape the announcements page
+    try {
+      await page.goto('https://announcements.bybit.com/en/?category=new_crypto&page=1', { waitUntil: 'domcontentloaded', timeout: 30000 });
+      await page.waitForTimeout(5000);
+
+      const items = await page.$$eval('a[href*="/article/"]', (links) => {
+        return links.map(a => ({ title: a.textContent?.trim() || '', href: a.getAttribute('href') || '' }))
+          .filter(i => i.title.length > 10);
+      });
+
+      for (const item of items.slice(0, 8)) {
+        if (!item.title.includes('List') && !item.title.includes('Spot')) continue;
+        if (item.title.includes('Competition') || item.title.includes('Campaign')) continue;
+
+        let type = '现货上线';
+        if (item.title.includes('Futures') || item.title.includes('Perpetual')) type = '合约上线';
+
+        const url = item.href.startsWith('http') ? item.href : `https://announcements.bybit.com${item.href}`;
+        listings.push({ token: extractToken(item.title), type, detail: summarizeDetail(item.title, 'bybit'), url });
+      }
+    } catch (e2) {
+      console.error('Bybit page scrape also failed:', e2.message);
+    }
   }
   return listings;
 }
@@ -484,42 +546,45 @@ async function main() {
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
   });
 
-  const page = await context.newPage();
+  async function withNewPage(fn) {
+    const p = await context.newPage();
+    try { return await fn(p); } finally { await p.close(); }
+  }
 
   console.log('Scraping Binance...');
-  const binanceRaw = await scrapeBinance(page);
+  const binanceRaw = await withNewPage(p => scrapeBinance(p));
   const binanceListings = dedup(binanceRaw, getYesterdayTokenKeys(yesterdayData, 'binance'));
 
   console.log('Scraping Binance Alpha...');
-  const binanceAlphaRaw = await scrapeBinanceAlpha(page);
+  const binanceAlphaRaw = await withNewPage(p => scrapeBinanceAlpha(p));
   const binanceAlpha = dedup(binanceAlphaRaw, getYesterdayTokenKeys(yesterdayData, 'binance'));
 
   console.log('Scraping Binance Wallet...');
-  const binanceWalletRaw = await scrapeBinanceWallet(page);
+  const binanceWalletRaw = await withNewPage(p => scrapeBinanceWallet(p));
   const binanceWallet = dedup(binanceWalletRaw, getYesterdayTokenKeys(yesterdayData, 'binance'));
 
   console.log('Scraping OKX...');
-  const okxRaw = await scrapeOKX(page);
+  const okxRaw = await withNewPage(p => scrapeOKX(p));
   const okxListings = dedup(okxRaw, getYesterdayTokenKeys(yesterdayData, 'okx'));
 
-  console.log('Scraping Bybit (API)...');
-  const bybitRaw = await scrapeBybit();
+  console.log('Scraping Bybit...');
+  const bybitRaw = await withNewPage(p => scrapeBybit(p));
   const bybitListings = dedup(bybitRaw, getYesterdayTokenKeys(yesterdayData, 'bybit'));
 
   console.log('Scraping KuCoin...');
-  const kucoinRaw = await scrapeKuCoin(page);
+  const kucoinRaw = await withNewPage(p => scrapeKuCoin(p));
   const kucoinListings = dedup(kucoinRaw, getYesterdayTokenKeys(yesterdayData, 'kucoin'));
 
   console.log('Scraping Gate.io...');
-  const gateioRaw = await scrapeGateio(page);
+  const gateioRaw = await withNewPage(p => scrapeGateio(p));
   const gateioListings = dedup(gateioRaw, getYesterdayTokenKeys(yesterdayData, 'gateio'));
 
   console.log('Scraping Bitget...');
-  const bitgetRaw = await scrapeBitget(page);
+  const bitgetRaw = await withNewPage(p => scrapeBitget(p));
   const bitgetListings = dedup(bitgetRaw, getYesterdayTokenKeys(yesterdayData, 'bitget'));
 
   console.log('Scraping MEXC...');
-  const mexcRaw = await scrapeMEXC(page);
+  const mexcRaw = await withNewPage(p => scrapeMEXC(p));
   const mexcListings = dedup(mexcRaw, getYesterdayTokenKeys(yesterdayData, 'mexc'));
 
   await browser.close();
