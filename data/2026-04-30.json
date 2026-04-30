@@ -18,7 +18,26 @@
       "listings": []
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "现货上线",
+          "detail": "主板块交易区，MEGA/USDT",
+          "url": "https://announcements.bybit.com/zh-TW/article/bybit-to-list-megaeth-mega-on-spot-blt2e2283007bc5d304/"
+        },
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "盘前转正式合约",
+          "detail": "MEGAUSDT 盘前永续合约转标准版永续合约",
+          "url": "https://announcements.bybit.com/zh-TW/article/bybit-to-convert-megausdt-pre-market-perpetual-contract-to-standard-perpetual-contract-blt41f0562ba319c290/"
+        },
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "合约上线",
+          "detail": "AIGENSYNUSDT 永续合约，创新板块，20x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aigensynusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt6afa941ad1c59ac6/"
+        }
+      ]
     },
     "kucoin": {
       "listings": [
