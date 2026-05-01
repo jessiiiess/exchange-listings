@@ -1,9 +1,16 @@
 {
   "date": "2026-05-01",
-  "updatedAt": "2026-05-01T00:45:00.000Z",
+  "updatedAt": "2026-05-01T12:50:00.000Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "合约上线",
+          "detail": "MEGAUSDT 永续合约，Earn/Convert/VIP Loan/Margin/Futures 同步上线",
+          "url": "https://www.binance.com/en/support/announcement/cd5899547cf34fb0a09cdc9a1eddee9f"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -20,7 +27,26 @@
       "listings": []
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "合约上线",
+          "detail": "MEGAUSDT 合约交易和交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883406"
+        },
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "盘前转正式合约",
+          "detail": "MEGAUSDT 盘前交易转标准U本位永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883401"
+        },
+        {
+          "token": "BSB",
+          "type": "杠杆上线",
+          "detail": "BSB/USDT 现货杠杆新增",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883398"
+        }
+      ]
     },
     "mexc": {
       "listings": []
