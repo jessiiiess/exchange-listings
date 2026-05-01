@@ -314,11 +314,6 @@
 
     .export-option:hover { background: var(--accent-soft); }
 
-    .export-option .opt-hint {
-      font-size: 0.67rem;
-      color: var(--text-3);
-      margin-left: 0.3rem;
-    }
 
     .export-toast {
       position: fixed;
@@ -399,6 +394,55 @@
       .card-body { padding: 0.4rem 1rem 0.75rem; }
       thead th, tbody td { padding: 0.4rem 0.35rem; font-size: 0.78rem; }
     }
+
+    /* Print */
+    @media print {
+      body { background: #fff; }
+      .page { max-width: none; padding: 1.5rem; }
+      header { margin-bottom: 1.5rem; }
+      .header-top { justify-content: flex-start; }
+      h1 { font-size: 1.4rem; }
+      .date-control, .header-meta, #no-data, .export-toast { display: none !important; }
+      .print-title { display: block !important; font-size: 0.85rem; color: #555; margin-top: 0.3rem; }
+      .exchange-card {
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        animation: none;
+        break-inside: avoid;
+        margin-bottom: 1rem;
+      }
+      .exchange-card:hover { border-color: transparent; box-shadow: none; }
+      .card-head {
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0.3rem;
+      }
+      .card-head h2 { font-size: 0.9rem; font-weight: 700; }
+      .badge { display: none; }
+      .card-body { padding: 0; }
+      table { border: 1px solid #e0e0e0; }
+      thead th {
+        background: #f5f5f5;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 0.75rem;
+        padding: 0.5rem 0.7rem;
+        text-transform: none;
+        letter-spacing: 0;
+        color: #333;
+      }
+      tbody td {
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+        border-top: 1px solid #e0e0e0;
+      }
+      tbody tr:hover td { background: none; }
+      .detail-link { display: none; }
+      .sub-section { border-top: none; margin-top: 1rem; }
+      .sub-title { font-size: 0.8rem; padding-left: 0; margin-bottom: 0.4rem; }
+    }
+
+    .print-title { display: none; }
   </style>
 </head>
 <body>
@@ -406,15 +450,15 @@
     <header>
       <div class="header-top">
         <h1>交易所新币上线日报</h1>
+        <div class="print-title" id="print-title"></div>
         <div class="date-control">
           <label>日期</label>
           <input type="date" id="date-picker">
           <div class="export-wrapper">
             <button class="export-btn" id="export-btn">导出</button>
             <div class="export-panel" id="export-panel">
-              <button class="export-option" data-format="markdown">Markdown<span class="opt-hint">飞书/Notion</span></button>
-              <button class="export-option" data-format="text">纯文本<span class="opt-hint">微信/TG</span></button>
-              <button class="export-option" data-format="csv">CSV<span class="opt-hint">Excel/Sheets</span></button>
+              <button class="export-option" data-format="pdf">导出 PDF</button>
+              <button class="export-option" data-format="copy">复制纯文本</button>
             </div>
           </div>
         </div>

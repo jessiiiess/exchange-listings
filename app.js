@@ -148,11 +148,11 @@ function initExport() {
     opt.addEventListener('click', () => {
       if (!currentData) return;
       const format = opt.dataset.format;
-      let text = '';
-      if (format === 'markdown') text = exportMarkdown(currentData);
-      else if (format === 'text') text = exportText(currentData);
-      else if (format === 'csv') text = exportCSV(currentData);
-      navigator.clipboard.writeText(text).then(() => showToast());
+      if (format === 'pdf') {
+        exportPDF(currentData);
+      } else if (format === 'copy') {
+        navigator.clipboard.writeText(exportText(currentData)).then(() => showToast());
+      }
       panel.classList.remove('open');
     });
   });
@@ -164,48 +164,10 @@ function showToast() {
   setTimeout(() => toast.classList.remove('show'), 1800);
 }
 
-function getAllItems(data) {
-  const items = [];
-  for (const [key, exData] of Object.entries(data.exchanges)) {
-    const name = EXCHANGE_NAMES[key] || key;
-    for (const item of (exData.listings || [])) {
-      items.push({ exchange: name, ...item });
-    }
-    if (key === 'binance') {
-      for (const item of (exData.alpha || [])) {
-        items.push({ exchange: name + ' Alpha', ...item });
-      }
-      for (const item of (exData.wallet || [])) {
-        items.push({ exchange: name + ' Wallet', ...item });
-      }
-    }
-  }
-  return items;
-}
-
-function exportMarkdown(data) {
-  let out = `## ${data.date} 交易所新币上线日报\n\n`;
-  for (const [key, exData] of Object.entries(data.exchanges)) {
-    const name = EXCHANGE_NAMES[key] || key;
-    const listings = exData.listings || [];
-    const count = countListings(exData);
-    if (count === 0) continue;
-    out += `### ${name}（${count}则）\n`;
-    out += `| 币种 | 类型 | 详情 |\n|------|------|------|\n`;
-    for (const item of listings) {
-      out += `| ${item.token} | ${item.type} | ${item.detail} |\n`;
-    }
-    if (key === 'binance') {
-      for (const item of (exData.alpha || [])) {
-        out += `| ${item.token} | Alpha | ${item.detail} |\n`;
-      }
-      for (const item of (exData.wallet || [])) {
-        out += `| ${item.token} | Wallet | ${item.detail} |\n`;
-      }
-    }
-    out += '\n';
-  }
-  return out.trim();
+function exportPDF(data) {
+  const printTitle = document.getElementById('print-title');
+  printTitle.textContent = data.date + ' 各交易所新币上线公告';
+  window.print();
 }
 
 function exportText(data) {
@@ -222,15 +184,6 @@ function exportText(data) {
       out += `${i + 1}. ${item.detail || item.token + ' ' + item.type}\n`;
     });
     out += '\n';
-  }
-  return out.trim();
-}
-
-function exportCSV(data) {
-  let out = '交易所\t币种\t类型\t详情\tURL\n';
-  const items = getAllItems(data);
-  for (const item of items) {
-    out += `${item.exchange}\t${item.token}\t${item.type}\t${item.detail || ''}\t${item.url || ''}\n`;
   }
   return out.trim();
 }
