@@ -1,6 +1,6 @@
 {
   "date": "2026-04-29",
-  "updatedAt": "2026-05-01T02:16:00.000Z",
+  "updatedAt": "2026-05-01T02:30:00.000Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -17,10 +17,46 @@
     "okx": {
       "listings": [
         {
+          "token": "UB",
+          "type": "合约上线",
+          "detail": "4/28 21:30 UTC+8 上线 UBUSDT 永续合约",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-ubusdt-perpetual-contract"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "4/28 22:00 UTC+8 上线 PROSUSDT 永续合约",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-prosusdt-perpetual-contract"
+        },
+        {
+          "token": "AVGO",
+          "type": "美股合约",
+          "detail": "4/29 14:00 UTC+8 上线 AVGO/USDT 合约交易",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-avgo-usdt-contract"
+        },
+        {
+          "token": "ARM",
+          "type": "美股合约",
+          "detail": "4/29 14:15 UTC+8 上线 ARM/USDT 合约交易",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-arm-usdt-contract"
+        },
+        {
+          "token": "Fluent (BLEND)",
+          "type": "合约上线",
+          "detail": "4/29 18:00 UTC+8 上线 BLENDUSDT 永续合约",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-blendusdt-perpetual-contract"
+        },
+        {
           "token": "RLUSD (Ripple USD)",
           "type": "现货上线",
           "detail": "RLUSD/USDT 现货交易对上线",
           "url": "https://www.okx.com/en-sg/help/okx-to-list-rlusd-ripple-usd-for-spot-trading"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "合约上线",
+          "detail": "4/29 20:00 UTC+8 上线 AIUSDT 永续合约",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-aiusdt-perpetual-contract"
         }
       ]
     },
@@ -53,24 +89,110 @@
       ]
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Fluent (BLEND)",
+          "type": "合约上线",
+          "detail": "BLENDUSDT 永续合约，20x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-blendusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "REAL (ASSET)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发现货上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-real-asset-listed-on-kucoin"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发现货上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-gensyn-ai-listed-on-kucoin"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "PROSUSDT 永续合约，20x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-prosusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "Space (SPC)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发现货上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-space-spc-listed-on-kucoin"
+        },
+        {
+          "token": "COST、LLY、BMNR",
+          "type": "美股合约",
+          "detail": "COSTUSDT、LLYUSDT、BMNRUSDT 股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-costusdt-llyusdt-bmnrusdt-stock-index-perpetual-contracts"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Fluent (BLEND)",
+          "type": "合约上线",
+          "detail": "BLEND 合约交易、杠杆借贷、交易机器人、跟单、闪兑、定投功能上线",
+          "url": "https://www.gate.com/zh/announcements/article/50970"
+        },
+        {
+          "token": "GIS 等 52 个 CFD",
+          "type": "美股合约",
+          "detail": "Gate TradFi 股票专区上线通用磨坊 (GIS) 等 52 个 CFD 交易对",
+          "url": "https://www.gate.com/zh/announcements/article/50968"
+        },
+        {
+          "token": "Fluent (BLEND)",
+          "type": "现货 + 闪兑",
+          "detail": "4/29 16:00 UTC+8 开始现货交易，BLEND/USDT",
+          "url": "https://www.gate.com/zh/announcements/article/50971"
+        },
+        {
+          "token": "ANET、CLS 等 8 个",
+          "type": "美股合约",
+          "detail": "合约股票专区上线 ANET（Arista 网络）、CLS（天弘公司）等 8 个永续合约（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/50969"
+        }
+      ]
     },
     "bitget": {
       "listings": [
         {
           "token": "Gensyn (AIGENSYN)",
-          "type": "合约上线",
-          "detail": "AIGENSYNUSDT 合约交易及交易BOT上线",
-          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883369"
+          "type": "首发上币 AI区",
+          "detail": "4/29 19:00 UTC+8 开始交易，AIGENSYN/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883325"
         },
         {
           "token": "PROS",
           "type": "合约上线",
           "detail": "PROSUSDT 合约交易及交易BOT上线",
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603883363"
+        },
+        {
+          "token": "ZAMA",
+          "type": "合约上线",
+          "detail": "Bitget 全仓杠杆上线 ZAMA/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883357"
+        },
+        {
+          "token": "JTO",
+          "type": "合约上线",
+          "detail": "Bitget 全仓杠杆上线 JTO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883356"
+        },
+        {
+          "token": "RENDER",
+          "type": "合约上线",
+          "detail": "Bitget 全仓杠杆上线 RENDER/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883355"
+        },
+        {
+          "token": "XPL",
+          "type": "合约上线",
+          "detail": "Bitget 全仓杠杆上线 XPL/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883354"
         }
       ]
     },
@@ -81,6 +203,42 @@
           "type": "合约上线",
           "detail": "4/29 20:45 UTC+8 上线 AIUSDT 永续合约，1-20x 杠杆",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gensyn-ai-usdt-m-futures-on-apr-29-2026-12-17827791535184"
+        },
+        {
+          "token": "MegaETH (MEGA)",
+          "type": "创新区现货",
+          "detail": "创新区上线 MEGA 并支持闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-mega-17827791535180"
+        },
+        {
+          "token": "Gensyn (AI)",
+          "type": "创新区现货",
+          "detail": "创新区上线 AI 并支持闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-gensyn-ai-17827791535178"
+        },
+        {
+          "token": "MYSTERY 和 CHUDHOUSE",
+          "type": "Meme+ 区",
+          "detail": "Meme+ 专区上线 MYSTERY、CHUDHOUSE",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-meme-17827791535176"
+        },
+        {
+          "token": "PROS、TXN、SOXX",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 PROS、TXN、SOXX U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-pros-txn-soxx-17827791535174"
+        },
+        {
+          "token": "Space (SPC)",
+          "type": "创新区现货",
+          "detail": "创新区上线 SPC",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-space-spc-17827791535172"
+        },
+        {
+          "token": "Pharos (PROS)",
+          "type": "合约上线",
+          "detail": "4/28 22:30 UTC+8 上线 PROSUSDT 永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pros-usdt-futures-17827791535170"
         }
       ]
     }
