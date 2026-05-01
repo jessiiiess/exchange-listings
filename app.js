@@ -8,6 +8,8 @@ const EXCHANGE_NAMES = {
   mexc: 'MEXC'
 };
 
+let currentData = null;
+
 function getToday() {
   return new Date().toISOString().split('T')[0];
 }
@@ -17,6 +19,7 @@ function init() {
   picker.value = getToday();
   picker.addEventListener('change', () => loadData(picker.value));
   loadData(getToday());
+  initExport();
 }
 
 async function loadData(date) {
@@ -34,6 +37,7 @@ async function loadData(date) {
     const res = await fetch(`data/${date}.json`);
     if (!res.ok) throw new Error('not found');
     const data = await res.json();
+    currentData = data;
 
     if (data.updatedAt) {
       updateTime.textContent = `更新于 ${new Date(data.updatedAt).toLocaleString('zh-CN')}`;
@@ -46,6 +50,7 @@ async function loadData(date) {
   } catch (e) {
     content.innerHTML = '';
     noData.classList.remove('hidden');
+    currentData = null;
   }
 }
 
@@ -122,6 +127,109 @@ function renderTable(items) {
 function escapeHtml(str) {
   if (!str) return '';
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function initExport() {
+  const btn = document.getElementById('export-btn');
+  const panel = document.getElementById('export-panel');
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    panel.classList.toggle('open');
+  });
+
+  document.addEventListener('click', () => panel.classList.remove('open'));
+  panel.addEventListener('click', (e) => e.stopPropagation());
+
+  panel.querySelectorAll('.export-option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      if (!currentData) return;
+      const format = opt.dataset.format;
+      let text = '';
+      if (format === 'markdown') text = exportMarkdown(currentData);
+      else if (format === 'text') text = exportText(currentData);
+      else if (format === 'csv') text = exportCSV(currentData);
+      navigator.clipboard.writeText(text).then(() => showToast());
+      panel.classList.remove('open');
+    });
+  });
+}
+
+function showToast() {
+  const toast = document.getElementById('export-toast');
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 1800);
+}
+
+function getAllItems(data) {
+  const items = [];
+  for (const [key, exData] of Object.entries(data.exchanges)) {
+    const name = EXCHANGE_NAMES[key] || key;
+    for (const item of (exData.listings || [])) {
+      items.push({ exchange: name, ...item });
+    }
+    if (key === 'binance') {
+      for (const item of (exData.alpha || [])) {
+        items.push({ exchange: name + ' Alpha', ...item });
+      }
+      for (const item of (exData.wallet || [])) {
+        items.push({ exchange: name + ' Wallet', ...item });
+      }
+    }
+  }
+  return items;
+}
+
+function exportMarkdown(data) {
+  let out = `## ${data.date} 交易所新币上线日报\n\n`;
+  for (const [key, exData] of Object.entries(data.exchanges)) {
+    const name = EXCHANGE_NAMES[key] || key;
+    const listings = exData.listings || [];
+    const count = countListings(exData);
+    if (count === 0) continue;
+    out += `### ${name}（${count}则）\n`;
+    out += `| 币种 | 类型 | 详情 |\n|------|------|------|\n`;
+    for (const item of listings) {
+      out += `| ${item.token} | ${item.type} | ${item.detail} |\n`;
+    }
+    if (key === 'binance') {
+      for (const item of (exData.alpha || [])) {
+        out += `| ${item.token} | Alpha | ${item.detail} |\n`;
+      }
+      for (const item of (exData.wallet || [])) {
+        out += `| ${item.token} | Wallet | ${item.detail} |\n`;
+      }
+    }
+    out += '\n';
+  }
+  return out.trim();
+}
+
+function exportText(data) {
+  let out = '';
+  for (const [key, exData] of Object.entries(data.exchanges)) {
+    const name = EXCHANGE_NAMES[key] || key;
+    const listings = exData.listings || [];
+    const alpha = key === 'binance' ? (exData.alpha || []) : [];
+    const wallet = key === 'binance' ? (exData.wallet || []) : [];
+    const all = [...listings, ...alpha, ...wallet];
+    if (all.length === 0) continue;
+    out += `${name}：\n今日${all.length}则上币公告。\n`;
+    all.forEach((item, i) => {
+      out += `${i + 1}. ${item.detail || item.token + ' ' + item.type}\n`;
+    });
+    out += '\n';
+  }
+  return out.trim();
+}
+
+function exportCSV(data) {
+  let out = '交易所\t币种\t类型\t详情\tURL\n';
+  const items = getAllItems(data);
+  for (const item of items) {
+    out += `${item.exchange}\t${item.token}\t${item.type}\t${item.detail || ''}\t${item.url || ''}\n`;
+  }
+  return out.trim();
 }
 
 init();

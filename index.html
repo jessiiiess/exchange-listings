@@ -258,6 +258,89 @@
       padding-left: 0.5rem;
     }
 
+    /* Export */
+    .export-wrapper {
+      position: relative;
+    }
+
+    .export-btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-2);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.4rem 0.75rem;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .export-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .export-panel {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      padding: 0.4rem;
+      display: none;
+      z-index: 100;
+      min-width: 180px;
+    }
+
+    .export-panel.open { display: block; }
+
+    .export-option {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      color: var(--text);
+      background: none;
+      border: none;
+      padding: 0.5rem 0.7rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .export-option:hover { background: var(--accent-soft); }
+
+    .export-option .opt-hint {
+      font-size: 0.67rem;
+      color: var(--text-3);
+      margin-left: 0.3rem;
+    }
+
+    .export-toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--text);
+      color: #fff;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .export-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
     /* No data */
     #no-data {
       text-align: center;
@@ -326,6 +409,14 @@
         <div class="date-control">
           <label>日期</label>
           <input type="date" id="date-picker">
+          <div class="export-wrapper">
+            <button class="export-btn" id="export-btn">导出</button>
+            <div class="export-panel" id="export-panel">
+              <button class="export-option" data-format="markdown">Markdown<span class="opt-hint">飞书/Notion</span></button>
+              <button class="export-option" data-format="text">纯文本<span class="opt-hint">微信/TG</span></button>
+              <button class="export-option" data-format="csv">CSV<span class="opt-hint">Excel/Sheets</span></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="header-meta">
@@ -337,10 +428,11 @@
     <div id="content"></div>
     <div id="no-data" class="hidden">
       <p>该日期暂无数据</p>
-      <p>数据每天 UTC 12:00 自动更新</p>
+      <p>数据每日手动更新</p>
     </div>
   </div>
 
+  <div class="export-toast" id="export-toast">已复制到剪贴板</div>
   <script src="app.js"></script>
 </body>
 </html>
