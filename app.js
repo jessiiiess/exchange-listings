@@ -132,14 +132,17 @@ function escapeHtml(str) {
 function initExport() {
   const btn = document.getElementById('export-btn');
   const panel = document.getElementById('export-panel');
+  const wrapper = btn.closest('.export-wrapper');
 
-  btn.addEventListener('click', (e) => {
-    e.stopPropagation();
+  btn.addEventListener('click', () => {
     panel.classList.toggle('open');
   });
 
-  document.addEventListener('click', () => panel.classList.remove('open'));
-  panel.addEventListener('click', (e) => e.stopPropagation());
+  document.addEventListener('mousedown', (e) => {
+    if (!wrapper.contains(e.target)) {
+      panel.classList.remove('open');
+    }
+  });
 
   panel.querySelectorAll('.export-option').forEach(opt => {
     opt.addEventListener('click', () => {
