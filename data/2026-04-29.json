@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-29",
+  "updatedAt": "2026-05-01T02:16:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "合约上线",
+          "detail": "AIGENSYNUSDT 永续合约上线，USDT保证金",
+          "url": "https://www.binance.com/en/support/announcement/524345e64dd14a23989bfe1e547760b5"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "RLUSD (Ripple USD)",
+          "type": "现货上线",
+          "detail": "RLUSD/USDT 现货交易对上线",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-rlusd-ripple-usd-for-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Fluent (BLEND)",
+          "type": "合约上线",
+          "detail": "4/29 18:12 UTC+8 上线，BLENDUSDT 永续合约，创新板块，20x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-blendusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt00f4595b3fe0877d/"
+        },
+        {
+          "token": "PLTR",
+          "type": "美股合约",
+          "detail": "4/29 16:49 UTC+8 上线，PLTRUSDT 永续合约，10x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pltrusdt-perpetual-contract-with-up-to-10x-leverage-blt868741f4be060e3b/"
+        },
+        {
+          "token": "MSTR",
+          "type": "美股合约",
+          "detail": "4/29 16:39 UTC+8 上线，MSTRUSDT 永续合约，10x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mstrusdt-perpetual-contract-with-up-to-10x-leverage-blt2b30b35cd5fb6e20/"
+        },
+        {
+          "token": "COIN",
+          "type": "美股合约",
+          "detail": "4/29 16:39 UTC+8 上线，COINUSDT 永续合约，10x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-coinusdt-perpetual-contract-with-up-to-10x-leverage-blt56eba6921be5199e/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "合约上线",
+          "detail": "AIGENSYNUSDT 合约交易及交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883369"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "PROSUSDT 合约交易及交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883363"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Gensyn (AI)",
+          "type": "合约上线",
+          "detail": "4/29 20:45 UTC+8 上线 AIUSDT 永续合约，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gensyn-ai-usdt-m-futures-on-apr-29-2026-12-17827791535184"
+        }
+      ]
+    }
+  }
+}
