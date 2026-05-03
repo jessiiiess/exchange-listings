@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-03",
+  "updatedAt": "2026-05-03T18:10:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 上线 BILL 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-billions-network-bill-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "首发上币",
+          "detail": "首发上线创新区现货 + 闪兑",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535232"
+        },
+        {
+          "token": "LFI",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535237"
+        },
+        {
+          "token": "熊猫头",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535234"
+        }
+      ]
+    }
+  }
+}
