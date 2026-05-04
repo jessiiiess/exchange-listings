@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-04",
+  "updatedAt": "2026-05-04T14:30:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "AMD、QCOM 和 USAR",
+          "type": "美股合约",
+          "detail": "上线 AMDUSDT、QCOMUSDT、USARUSDT U本位永续合约",
+          "url": "https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "QCOM 和 USAR",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区 QCOM（高通）、USAR 永续合约（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/51029"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "首发上币",
+          "detail": "首发上币，上线 BILL 现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883428"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "sato (SATO)",
+          "type": "首发上币",
+          "detail": "首发上线考核区现货 + 合约创新板块 SATOUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535246"
+        },
+        {
+          "token": "TROLLSOL",
+          "type": "合约上线",
+          "detail": "上线 TROLLSOL USDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-trollsol-usdt-m-futures-on-may-4-2026-07-17827791535254"
+        },
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "全球首发上线 BILL USDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535251"
+        },
+        {
+          "token": "熊猫头 (XIONGMAOTOU)",
+          "type": "合约上线",
+          "detail": "首发上线合约创新板块 XIONGMAOTOUUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535245"
+        },
+        {
+          "token": "LITE、SBUX 和 MEGA",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 LITE、SBUX、MEGA U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-lite-sbux-and-mega-usdt-m-futures-17827791535241"
+        }
+      ]
+    }
+  }
+}
