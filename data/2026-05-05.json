@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-05",
+  "updatedAt": "2026-05-05T14:10:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "TAC (TAC)",
+          "type": "现货上线",
+          "detail": "上线 TAC 现货交易，交易时间 2026年5月5日 10:00 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-tac-tac-listed-on-kucoin"
+        },
+        {
+          "token": "ChudTheBuilder (CHUD)",
+          "type": "KuCoin Alpha",
+          "detail": "KuCoin Alpha 新增代币 CHUD",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-alpha-new-listed-token-chudthebuilder-chud"
+        },
+        {
+          "token": "Build N Build (共建)",
+          "type": "KuCoin Alpha",
+          "detail": "KuCoin Alpha 新增代币 Build N Build",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-alpha-new-listed-token-build-n-build"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
