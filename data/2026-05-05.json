@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "updatedAt": "2026-05-05T14:10:00.000Z",
+  "updatedAt": "2026-05-05T14:40:00.000Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -42,7 +42,14 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Utya (UTYA)",
+          "type": "首发上币",
+          "detail": "首发上线考核区现货 UTYA",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535265"
+        }
+      ]
     }
   }
 }
