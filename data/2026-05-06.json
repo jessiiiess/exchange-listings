@@ -1,6 +1,6 @@
 {
   "date": "2026-05-06",
-  "updatedAt": "2026-05-06T09:30:00.000Z",
+  "updatedAt": "2026-05-06T10:23:00.000Z",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -101,6 +101,18 @@
     },
     "mexc": {
       "listings": [
+        {
+          "token": "KAIO (KAIO)",
+          "type": "创新区现货 + 闪兑",
+          "detail": "首发上线创新区 KAIO 现货并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535305"
+        },
+        {
+          "token": "USAR",
+          "type": "美股合约",
+          "detail": "USAR U本位合约 5/6 上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535301"
+        },
         {
           "token": "Utya (UTYA)",
           "type": "合约上线",
