@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-06",
+  "updatedAt": "2026-05-06T09:30:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILL-USDT-SWAP 永续合约，最高20倍杠杆，2026-05-06 16:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-billusdt-perpetual-contract"
+        },
+        {
+          "token": "edgeX (EDGE)",
+          "type": "现货上线",
+          "detail": "EDGE-USDT、EDGE-USDC、EDGE-EUR、EDGE-TRY、EDGE-USD 交易对，2026-05-06 18:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-edge"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILLUSDT 永续合约上线创新板块，支持最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bi"
+        },
+        {
+          "token": "Oracle (ORCL)",
+          "type": "美股合约",
+          "detail": "ORCLUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-or"
+        },
+        {
+          "token": "NVIDIA (NVDA)",
+          "type": "美股合约",
+          "detail": "NVDAUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nv"
+        },
+        {
+          "token": "Circle (CRCL)",
+          "type": "美股合约",
+          "detail": "CRCLUSDT 永续合约，支持最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cr"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "KAIO (KAIO)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 KAIO 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-kaio-kaio-listed-on-k"
+        },
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILLUSDT 永续合约，最高20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-billusdt-"
+        },
+        {
+          "token": "MetaDAO (METADAO)",
+          "type": "现货上线",
+          "detail": "上线 METADAO 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-metadao-metadao-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "KAIO (KAIO)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 KAIO 现货交易、闪兑交易并开启 CandyDrop",
+          "url": "https://www.gate.com/zh/announcements/article/51043"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Billions Network (BILL)",
+          "type": "合约上线",
+          "detail": "BILLUSDT 上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/1256"
+        },
+        {
+          "token": "KAIO (KAIO)",
+          "type": "Launchpool",
+          "detail": "KAIO 将上线 Bitget Launchpool，参与瓜分 14,120,000 KAIO",
+          "url": "https://www.bitget.com/zh-CN/support/articles/1256"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Utya (UTYA)",
+          "type": "合约上线",
+          "detail": "UTYAUSDT 合约上线创新板块，2026年5月6日 16:45 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535298"
+        },
+        {
+          "token": "LFi (LFI)",
+          "type": "合约上线",
+          "detail": "LFIUSDT 合约上线创新板块，2026年5月6日 16:45 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535297"
+        },
+        {
+          "token": "Redo (REDO)",
+          "type": "合约上线",
+          "detail": "REDOUSDT 合约上线创新板块，2026年5月6日 16:45 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535296"
+        },
+        {
+          "token": "Vidaio (SN85)",
+          "type": "现货上线",
+          "detail": "陽光普照投票通过，上线安排公布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-vidaio-sn85-kickstarter-17827791535248"
+        },
+        {
+          "token": "冲鸭",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535284"
+        },
+        {
+          "token": "SATO 和 BILL 和 熊猫头",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 SATO、BILL 和 熊猫头 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sato-bill-and-%E7%86%8A%E7%8C%AB%E5%A4%B4-usdt-m-futures-17827791535282"
+        }
+      ]
+    }
+  }
+}
