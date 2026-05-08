@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-08",
+  "updatedAt": "2026-05-08T10:20:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "DRAM",
+          "type": "美股合约",
+          "detail": "DRAM-USDT-SWAP 永续合约，10倍杠杆，2026-05-08 17:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-dramusdt-perpetual-contract"
+        },
+        {
+          "token": "GameStop (GME)",
+          "type": "美股合约",
+          "detail": "GME-USDT-SWAP 永续合约，10倍杠杆，2026-05-08 17:30 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-gmeusdt-perpetual-contract"
+        },
+        {
+          "token": "Litebridge (LITE)",
+          "type": "美股合约",
+          "detail": "LITE-USDT-SWAP 永续合约，10倍杠杆，2026-05-08 17:15 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-liteusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Litebridge (LITE)",
+          "type": "美股合约",
+          "detail": "LITEUSDT 股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-liteusdt-stock-index-perpetual-contract-2026-05-08"
+        },
+        {
+          "token": "ShareX (SHARE)",
+          "type": "World Premiere 现货",
+          "detail": "HODLer Airdrops 首发上线 ShareX (SHARE)",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-sharex-share-world-premiere-listing-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DRAM 和 GME",
+          "type": "美股合约",
+          "detail": "新美股合约上线：DRAM 和 GME U本位合约 5/8 上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535345"
+        },
+        {
+          "token": "unstable coin (USDUC)",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 USDUC U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-usduc-usdt-m-futures-17827791535337"
+        },
+        {
+          "token": "Hantavirus (HANTA)",
+          "type": "首发上币",
+          "detail": "首发上线考核区 HANTA 现货",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535336"
+        },
+        {
+          "token": "ShareX (SHARE)",
+          "type": "首发上币",
+          "detail": "首发上线创新区 ShareX (SHARE)，瓜分 60,000 SHARE & 30,000 USDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535322"
+        },
+        {
+          "token": "ShareX (SHARE)",
+          "type": "盘前交易",
+          "detail": "MEXC 盘前交易 ShareX (SHARE) 即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535335"
+        }
+      ]
+    }
+  }
+}
