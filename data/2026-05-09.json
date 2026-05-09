@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-09",
+  "updatedAt": "2026-05-09T10:30:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Prosper (PROS)",
+          "type": "合约上线",
+          "detail": "PROS 永续合约交易（USDT 结算）上线",
+          "url": "https://www.gate.com/zh/announcements/article/51109"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MAXXING (MAXXING)",
+          "type": "合约上线",
+          "detail": "2026年5月9日 17:20 (UTC+8) 上线 MAXXINGUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-maxxingusdt-futures-on-may-9-2026-09-17827791535369"
+        },
+        {
+          "token": "MAXXING (MAXXING)",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535364"
+        },
+        {
+          "token": "SHIT (SHIT)",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535363"
+        }
+      ]
+    }
+  }
+}
