@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-10",
+  "updatedAt": "2026-05-10T13:23:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "LO0P (LO0P)",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+，上币时间 2026年5月10日 18:40 (UTC+8)",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/first-in-market-17827791535378"
+        }
+      ]
+    }
+  }
+}
