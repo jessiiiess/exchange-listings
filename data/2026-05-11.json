@@ -5,9 +5,9 @@
     "binance": {
       "listings": [
         {
-          "token": "多币种",
+          "token": "MEGA 和 TON",
           "type": "现货新交易对",
-          "detail": "Binance Spot 将于 2026-05-12 新增多个现货交易对及交易机器人服务",
+          "detail": "2026-05-12 16:00 UTC+8 上线 MEGA/U、TON/U、TON/USD1 现货交易对，同步开放交易机器人及零Maker手续费活动",
           "url": "https://www.binance.com/en/support/announcement/9d96b17988bd41e9bd8898c586f68744"
         }
       ],
