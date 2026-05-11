@@ -1,0 +1,118 @@
+{
+  "date": "2026-05-11",
+  "updatedAt": "2026-05-11T09:45:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "多币种",
+          "type": "现货新交易对",
+          "detail": "Binance Spot 将于 2026-05-12 新增多个现货交易对及交易机器人服务",
+          "url": "https://www.binance.com/en/support/announcement/9d96b17988bd41e9bd8898c586f68744"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "KAT (KAT)",
+          "type": "现货上线",
+          "detail": "新增 KAT-EUR、KAT-USDC 现货交易对，2026-05-11 16:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-kat"
+        },
+        {
+          "token": "USO",
+          "type": "美股合约",
+          "detail": "USO-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-11 18:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-usousdt-perpetual-contract"
+        },
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "XLE-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-11 18:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-xleusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "NEXST (NXT)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 KuCoin 现货，2026-05-11",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-nexst-nxt-listed-on-kucoin"
+        },
+        {
+          "token": "DRAM 和 HIMS",
+          "type": "美股合约",
+          "detail": "DRAMUSDT、HIMSUSDT 股票指数永续合约上线，2026-05-11",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-dramusdt-and-himsusdt-stock-index-perpetual-contracts-2026-05-11"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "AXTI、LWLG、KOPN、NIO、DRAM 和 USAR",
+          "type": "合约上线",
+          "detail": "上线 AXTIUSDT、LWLGUSDT、KOPNUSDT、NIOUSDT、DRAMUSDT、USARUSDT 永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883697"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Dolphin (POD)",
+          "type": "首发上币",
+          "detail": "首发上线 MEXC 创新区现货",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535392"
+        },
+        {
+          "token": "POD",
+          "type": "合约上线",
+          "detail": "PODUSDT 合约创新板块上线，2026-05-11 14:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535397"
+        },
+        {
+          "token": "GOBLIN",
+          "type": "合约上线",
+          "detail": "全球首发 GOBLINUSDT 合约，2026-05-11 12:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535388"
+        },
+        {
+          "token": "GOBLIN",
+          "type": "创新区现货",
+          "detail": "GOBLIN 迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-goblin-to-the-innovation-zone-17827791535387"
+        },
+        {
+          "token": "NEXST (NXT)",
+          "type": "首发上币",
+          "detail": "首发上线投票空投活动，337,457 NXT 空投",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535393"
+        },
+        {
+          "token": "DRAM、GME 和 MAXXING",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 DRAM、GME、MAXXING U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-dram-gme-and-maxxing-usdt-m-futures-17827791535396"
+        },
+        {
+          "token": "GOBLIN、SHARE 和 AURASOL",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 GOBLIN、SHARE、AURASOL U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-goblin-share-and-aurasol-usdt-m-futures-17827791535395"
+        }
+      ]
+    }
+  }
+}
