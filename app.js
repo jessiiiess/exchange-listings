@@ -115,7 +115,7 @@ function renderTable(items) {
   for (const item of items) {
     const link = item.url ? ` <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="detail-link">（查看公告）</a>` : '';
     html += `<tr>
-      <td class="token-name">${escapeHtml(item.token)}</td>
+      <td class="token-name">${escapeHtml(item.token).replace(/\n/g, '<br>')}</td>
       <td class="listing-type">${escapeHtml(item.type)}</td>
       <td class="listing-detail">${escapeHtml(item.detail)}${link}</td>
     </tr>`;
