@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-12",
+  "updatedAt": "2026-05-12T10:20:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "MEGA 和 TON",
+          "type": "全仓杠杆上线",
+          "detail": "2026-05-12 16:00 UTC+8 新增 MEGA/U、TON/U、TON/USD1 全仓杠杆交易对",
+          "url": "https://www.binance.com/en/support/announcement/b4eb8e22deba433583fe18e327e382e0"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SHLD",
+          "type": "美股合约",
+          "detail": "SHLD-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-12 18:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-shldusdt-perpetual-contract"
+        },
+        {
+          "token": "RKLB",
+          "type": "美股合约",
+          "detail": "RKLB-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-12 18:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-rklbusdt-perpetual-contract"
+        },
+        {
+          "token": "MRVL",
+          "type": "美股合约",
+          "detail": "MRVL-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-12 18:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-mrvlusdt-perpetual-contract"
+        },
+        {
+          "token": "WDC",
+          "type": "美股合约",
+          "detail": "WDC-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-12 18:45 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-wdcusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CRWV",
+          "type": "美股合约",
+          "detail": "CRWVUSDT 永续合约上线，10x 杠杆，2026-05-12 16:51 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-crwvusdt-perpetual-contract-with-up-to-10x-leverage-bltd40dcf628b3e5dfe/"
+        },
+        {
+          "token": "AVGO",
+          "type": "美股合约",
+          "detail": "AVGOUSDT 永续合约上线，10x 杠杆，2026-05-12 16:51 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-avgousdt-perpetual-contract-with-up-to-10x-leverage-blt1894dda0cdf5a439/"
+        },
+        {
+          "token": "LITE",
+          "type": "美股合约",
+          "detail": "LITEUSDT 永续合约上线，10x 杠杆，2026-05-12 16:46 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-liteusdt-perpetual-contract-with-up-to-10x-leverage-blt32d5c32f2ad71c19/"
+        },
+        {
+          "token": "50支股票 CFD",
+          "type": "TradFi 股票 CFD",
+          "detail": "TradFi 股票上新：50支股票 CFD 登陆 Bybit TradFi，2026-05-12",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds-now-live-on-bybit-tradfi-blt64234aa2b69f524f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "TRAHK（盈富基金）",
+          "type": "美股合约",
+          "detail": "首发上线 Gate 合约股票专区 TRAHK 永续合约（USDT结算），1-20x 杠杆，2026-05-12 14:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/51150"
+        },
+        {
+          "token": "PSG",
+          "type": "合约上线",
+          "detail": "首发上线 PSG 永续合约（USDT结算），1-20x 杠杆，2026-05-12 14:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/51149"
+        },
+        {
+          "token": "GEV、KLAC、SOXL、SMH、SOXX、HYG、SQQQ、SOXS 和 GDX",
+          "type": "TradFi 股票 CFD",
+          "detail": "TradFi 股票专区上线 9 个 CFD 交易对：GEV (GE Vernova)、KLAC (科磊)、SOXL (三倍做多半导体ETF)、SMH (半导体指数ETF)、SOXX (半导体ETF)、HYG (债券指数ETF)、SQQQ (三倍做空纳指ETF)、SOXS (三倍做空半导体ETF)、GDX (黄金矿业ETF)，4x 固定杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/51146"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CBRS",
+          "type": "盘前永续合约",
+          "detail": "上线 CBRSUSDT 盘前永续合约，2026-05-12",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883747"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RKC",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535415"
+        },
+        {
+          "token": "HASH",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区（跨日公告）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535400"
+        },
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "上线 XLE 指数合约，限时 0 费率，2026-05-11 发布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xle-index-futures-on-may-11-with-0-fee-trading-17827791535401"
+        },
+        {
+          "token": "Bedrock (BR)",
+          "type": "创新区现货",
+          "detail": "MEXC 创新区上线 Bedrock (BR)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-bedrock-br-in-innovation-zone-17827791535399"
+        },
+        {
+          "token": "XLE 和 POD",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 XLE 和 POD U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xle-and-pod-usdt-m-futures-17827791535410"
+        }
+      ]
+    }
+  }
+}
