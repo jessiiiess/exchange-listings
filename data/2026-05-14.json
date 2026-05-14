@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-14",
+  "updatedAt": "2026-05-14T12:55:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "现货上线",
+          "detail": "上线 AIGENSYN 现货交易，Seed Tag，2026-05-14 18:00 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35"
+        },
+        {
+          "token": "PHAROS (PROS) 和 Starpower (STAR)",
+          "type": "合约上线",
+          "detail": "上线 PHAROSUSDT 和 STARUSDT U本位永续合约，2026-05-14",
+          "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88"
+        },
+        {
+          "token": "DIS 和 ISRG 和 LIN 和 COST 和 BRK.B",
+          "type": "美股合约",
+          "detail": "上线多个 TradFi U本位永续合约（2026-05-15 & 2026-05-18），2026-05-14 17:46 UTC+8 发布",
+          "url": "https://www.binance.com/en/support/announcement/a2bce2686fc64a61b44c4335facafe7f"
+        },
+        {
+          "token": "PDD 和 TJX 和 INTU 和 BKNG 和 ISRG",
+          "type": "美股合约",
+          "detail": "上线多个 TradFi U本位永续合约（2026-05-15），跨日公告 2026-05-13 19:45 UTC+8 发布",
+          "url": "https://www.binance.com/en/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "TESTPRE",
+          "type": "美股合约",
+          "detail": "TESTPRE-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-14 17:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-testpreusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "PHAROS (PROS)",
+          "type": "合约上线",
+          "detail": "PHAROSUSDT 永续合约上线创新板块，20x 杠杆，2026-05-14 17:24 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pharosusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-blt688d60f39ec6453c/"
+        },
+        {
+          "token": "BMNR",
+          "type": "美股合约",
+          "detail": "BMNRUSDT 永续合约上线，10x 杠杆，2026-05-14 16:26 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bmnrusdt-perpetual-contract-with-up-to-10x-leverage-blteb4e07f70c7285e1/"
+        },
+        {
+          "token": "SPY",
+          "type": "美股合约",
+          "detail": "SPYUSDT 永续合约上线，20x 杠杆，2026-05-14 16:25 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spyusdt-perpetual-contract-with-up-to-20x-leverage-blt5a88da78ffb255d9/"
+        },
+        {
+          "token": "LLY",
+          "type": "美股合约",
+          "detail": "LLYUSDT 永续合约上线，20x 杠杆，2026-05-14 16:25 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-llyusdt-perpetual-contract-with-up-to-20x-leverage-bltae8df4843a14c56e/"
+        },
+        {
+          "token": "IWM",
+          "type": "美股合约",
+          "detail": "IWMUSDT 永续合约上线，20x 杠杆，2026-05-14 16:24 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-iwmusdt-perpetual-contract-with-up-to-20x-leverage-bltfe574fc884673040/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "COHR",
+          "type": "美股合约",
+          "detail": "COHRUSDT 股票指数永续合约上线，跨日公告 2026-05-13 19:09 UTC+8 发布",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-cohrusdt-stock-index-perpetual-"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Gensyn (AIGENSYN)",
+          "type": "现货上线",
+          "detail": "上线 AIGENSYN/USDT 现货交易，2026-05-14 发布",
+          "url": "https://www.gate.com/zh/announcements/article/51209"
+        },
+        {
+          "token": "SOXL 和 BRKB",
+          "type": "美股合约",
+          "detail": "合约股票专区上新 SOXLUSDT、BRKBUSDT，2026-05-14 发布",
+          "url": "https://www.gate.com/zh/announcements/article/51212"
+        },
+        {
+          "token": "DIS 和 RKLB 和 AMAT",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区 DIS、RKLB、AMAT 永续合约（USDT 结算），2026-05-14 发布",
+          "url": "https://www.gate.com/zh/announcements/article/51207"
+        },
+        {
+          "token": "Starpower (STAR)",
+          "type": "合约上线",
+          "detail": "上线 STAR 永续合约交易（USDT 结算），2026-05-14 发布",
+          "url": "https://www.gate.com/zh/announcements/article/51206"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CBRS",
+          "type": "盘前转正式合约",
+          "detail": "转换 CBRSUSDT 永续合约盘前交易为标准U本位永续合约，2026-05-14 13:14 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883914"
+        },
+        {
+          "token": "preOPAI",
+          "type": "Pre-IPO 区",
+          "detail": "首发上线 preOPAI Pre-IPO 区，跨日公告 2026-05-13 18:00 UTC+8 发布",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883816"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Starpower (STAR)",
+          "type": "创新区现货",
+          "detail": "上线创新区 Starpower (STAR) 现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-starpower-star-in-innovation-zone-17827791535463"
+        },
+        {
+          "token": "GITLAWB",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535460"
+        },
+        {
+          "token": "Starpower (STAR)",
+          "type": "合约上线",
+          "detail": "上线 STARUSDT 合约，2026-05-14 14:05 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-starusdt-futures-on-may-14-2026-06-17827791535459"
+        },
+        {
+          "token": "HK50 和 RKC 和 ASTEROIDSOL",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 HK50、RKC、ASTEROIDSOL U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hk50-rkc-and-asteroidsol-usdt-m-futures-17827791535457"
+        }
+      ]
+    }
+  }
+}
