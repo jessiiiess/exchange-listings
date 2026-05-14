@@ -11,19 +11,19 @@
           "url": "https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35"
         },
         {
-          "token": "PHAROS (PROS) 和 Starpower (STAR)",
+          "token": "PHAROS (PROS) & Starpower (STAR)",
           "type": "合约上线",
           "detail": "上线 PHAROSUSDT 和 STARUSDT U本位永续合约，2026-05-14",
           "url": "https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88"
         },
         {
-          "token": "SOXL 和 MRVL 和 CRWV 和 WMT 和 JPM 和 V 和 BRK.B",
+          "token": "SOXL&MRVL等7个",
           "type": "美股合约",
           "detail": "上线 SOXLUSDT(20x)、MRVLUSDT(10x) 5/15 22:00-22:05；CRWVUSDT、WMTUSDT、JPMUSDT、VUSDT、BRKBUSDT(均10x) 5/18 21:30-21:50",
           "url": "https://www.binance.com/en/support/announcement/a2bce2686fc64a61b44c4335facafe7f"
         },
         {
-          "token": "LITE 和 ORCL 和 DIS 和 UBER 和 CSCO 和 HD",
+          "token": "LITE&ORCL等6个",
           "type": "美股合约",
           "detail": "上线 LITEUSDT、ORCLUSDT、DISUSDT、UBERUSDT、CSCOUSDT、HDUSDT(均10x) 5/15 21:30-21:55，跨日公告 2026-05-13 19:45 UTC+8 发布",
           "url": "https://www.binance.com/en/support/announcement/3c04310db1ad4e0fbe234d2c00d0c785"
@@ -95,13 +95,13 @@
           "url": "https://www.gate.com/zh/announcements/article/51209"
         },
         {
-          "token": "SOXL 和 BRKB",
+          "token": "SOXL & BRKB",
           "type": "美股合约",
           "detail": "合约股票专区上新 SOXLUSDT、BRKBUSDT，2026-05-14 发布",
           "url": "https://www.gate.com/zh/announcements/article/51212"
         },
         {
-          "token": "DIS 和 RKLB 和 AMAT",
+          "token": "DIS & RKLB & AMAT",
           "type": "美股合约",
           "detail": "首发上线合约股票专区 DIS、RKLB、AMAT 永续合约（USDT 结算），2026-05-14 发布",
           "url": "https://www.gate.com/zh/announcements/article/51207"
@@ -151,7 +151,7 @@
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-starusdt-futures-on-may-14-2026-06-17827791535459"
         },
         {
-          "token": "HK50 和 RKC 和 ASTEROIDSOL",
+          "token": "HK50 & RKC & ASTEROIDSOL",
           "type": "合约 + 跟单",
           "detail": "跟单新增 HK50、RKC、ASTEROIDSOL U本位合约交易对",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hk50-rkc-and-asteroidsol-usdt-m-futures-17827791535457"
