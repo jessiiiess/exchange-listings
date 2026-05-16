@@ -30,7 +30,26 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "GITLAWB",
+          "type": "创新区现货",
+          "detail": "从 Meme+ 区迁移至创新区，2026-05-16 10:30 UTC+8 开放交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-gitlawb-to-the-innovation-zone-17827791535510"
+        },
+        {
+          "token": "CLAWBANK",
+          "type": "创新区现货",
+          "detail": "从 Meme+ 区迁移至创新区，2026-05-16 10:30 UTC+8 开放交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/migration-of-clawbank-to-the-innovation-zone-17827791535509"
+        },
+        {
+          "token": "ATOM、POL、UNI 等14种资产",
+          "type": "现货定投",
+          "detail": "现货定投新增支持 ATOM、EIGEN、ENS、GRT、INJ、JTO、JUP、LDO、MORPHO、PENDLE、POL、RENDER、TIA、UNI，2026-05-15 18:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/spot-dca-now-supports-atom-pol-uni-and-11-more-asset-17827791535496"
+        }
+      ]
     }
   }
 }
