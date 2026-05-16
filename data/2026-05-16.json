@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-16",
+  "updatedAt": "2026-05-16T13:53:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "FLNC、DRAM 和 RKLB",
+          "type": "美股合约",
+          "detail": "上线 FLNCUSDT(10x)、DRAMUSDT(20x)、RKLBUSDT(10x) TradFi U本位永续合约，2026-05-18 上线，2026-05-16 13:44 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/6253a74ac0734740bdf36864584d1bd1"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
