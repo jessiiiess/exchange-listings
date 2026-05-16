@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-15",
+  "updatedAt": "2026-05-16T01:20:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BTCUSD1",
+          "type": "合约上线",
+          "detail": "上线 BTCUSD1 U本位永续合约，2026-05-18 上线，2026-05-14 23:29 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/5a6284dbe6a7420b85a94054b6fb6613"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CBRS",
+          "type": "美股合约",
+          "detail": "CBRS-USDT 永续合约上线，10x 杠杆，instCategory=3，2026-05-15 14:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-cbrsusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "50支股票CFD",
+          "type": "美股合约",
+          "detail": "TradFi 股票上新：50支股票 CFD 登陆 Bybit TradFi，2026-05-15 16:00 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-50-stock-cfds"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Hooli (HOOLI)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 Hooli (HOOLI) 现货交易，跨日公告 2026-05-14 23:09 UTC+8 发布",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-hooli-hooli-listed-on-kucoin"
+        },
+        {
+          "token": "多个美股指数合约",
+          "type": "美股合约",
+          "detail": "上线多个股票指数永续合约，2026-05-15 15:51 UTC+8 发布",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "My Pet Hooligan (HOOLI)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 HOOLI 现货交易与闪兑交易，2026-05-15",
+          "url": "https://www.gate.com/zh/announcements/article/51223"
+        },
+        {
+          "token": "CBRS",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区 CBRS 永续合约交易（USDT 结算），2026-05-15",
+          "url": "https://www.gate.com/zh/announcements/article/51219"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Hooli (HOOLI)",
+          "type": "首发上币",
+          "detail": "首发上线 Hooli (HOOLI) GameFi 专区，2026-05-15 13:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883953"
+        },
+        {
+          "token": "PROS",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 PROS/USDT，2026-05-15 19:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603883967"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DegenVerse (DVERSE)",
+          "type": "首发上币",
+          "detail": "首发上线创新区 DegenVerse (DVERSE)，瓜分 40,000 USDT Airdrop+ 奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535439"
+        },
+        {
+          "token": "Hooli (HOOLI)",
+          "type": "首发上币",
+          "detail": "首发上线考核区 Hooli (HOOLI)，含盘前交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535490"
+        },
+        {
+          "token": "CBRS",
+          "type": "美股合约",
+          "detail": "CBRS U本位合约 5/15 上线，限时 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535478"
+        },
+        {
+          "token": "DIS",
+          "type": "美股合约",
+          "detail": "DIS U本位合约 5/15 上线，限时 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535477"
+        },
+        {
+          "token": "HD",
+          "type": "美股合约",
+          "detail": "HD U本位合约 5/15 上线，限时 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535475"
+        },
+        {
+          "token": "Starpower (STAR)",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 STAR U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-star-usdt-m-futures-17827791535474"
+        }
+      ]
+    }
+  }
+}
