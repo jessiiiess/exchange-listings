@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-17",
+  "updatedAt": "2026-05-17T12:05:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Arena Two (ATWO)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 ATWO 现货交易，2026-05-17 19:51 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arena-two-atwo-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Warden Protocol (WARD)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 WARD 现货交易与闪兑交易，2026-05-17 公告",
+          "url": "https://www.gate.com/zh/announcements/article/51229"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Vimverse (VIM)",
+          "type": "首发上币",
+          "detail": "首发上线创新区，瓜分 40,000 USDT Airdrop+ 奖池，2026-05-17 公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535485"
+        }
+      ]
+    }
+  }
+}
