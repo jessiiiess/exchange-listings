@@ -1,0 +1,132 @@
+{
+  "date": "2026-05-18",
+  "updatedAt": "2026-05-18T12:00:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CBRS",
+          "type": "美股合约",
+          "detail": "上线 CBRSUSDT USDⓈ-Margined TradFi 永续合约，2026-05-19 开放交易",
+          "url": "https://www.binance.com/en/support/announcement/3544b8dab5e64f839316a360495a6387"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "GLW",
+          "type": "美股合约",
+          "detail": "上线 GLW-USDT-SWAP 股票指数永续合约，10x 杠杆，2026-05-18 17:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-glwusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GWEI",
+          "type": "合约上线",
+          "detail": "上线 GWEIUSDT 永续合约，创新板块，最高 25 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gweiusdt-perpetual-contract-in-innovation-zone-with-up-to-25x-leverage-bltfc375c2a5ec3413a/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 ZEST 现货交易，2026-05-18 17:00 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-zest-protocol-zest-listed-on-kucoin"
+        },
+        {
+          "token": "GLW",
+          "type": "美股合约",
+          "detail": "上线 GLWUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-glwusdt-stock-index-perpetual-contract-2026-05-15"
+        },
+        {
+          "token": "TQQQ 和 MCD 和 AAOI",
+          "type": "美股合约",
+          "detail": "上线 TQQQUSDT、MCDUSDT、AAOIUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tqqqusdt-mcdusdt-aaoiusdt-stock-index-perpetual-contracts-2026-05-18"
+        },
+        {
+          "token": "多个美股合约",
+          "type": "美股合约",
+          "detail": "上线多个股票指数永续合约（2026-05-18 批次）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-18"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 ZEST 现货交易、闪兑交易并开启 HODLer Airdrop",
+          "url": "https://www.gate.com/zh/announcements/article/51232"
+        },
+        {
+          "token": "DRAM 和 HIMS 等",
+          "type": "美股合约",
+          "detail": "合约股票专区上线 DRAM（伦希尔存储芯片 ETF）、HIMS 等永续合约（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/51236"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "API3",
+          "type": "合约上线",
+          "detail": "全仓杠杆上线 API3/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884060"
+        },
+        {
+          "token": "MOVR",
+          "type": "合约上线",
+          "detail": "全仓杠杆上线 MOVR/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884059"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Me3 (ME3)",
+          "type": "首发上币",
+          "detail": "首发上线创新区，瓜分 40,000 USDT Airdrop+ 奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535417"
+        },
+        {
+          "token": "AEON (AEON)",
+          "type": "首发上币",
+          "detail": "首发上线考核区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535524"
+        },
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "上线 FLNC U本位合约，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535530"
+        },
+        {
+          "token": "GLW",
+          "type": "美股合约",
+          "detail": "上线 GLW U本位合约，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535528"
+        },
+        {
+          "token": "GITLAWB 和 DIS 和 HD 和 CBRS 和 HOOLI",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 GITLAWB、DIS、HD、CBRS、HOOLI U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gitlawb-dis-hd-cbrs-and-hooli-usdt-m-futures-17827791535521"
+        }
+      ]
+    }
+  }
+}
