@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-19",
+  "updatedAt": "2026-05-19T10:07:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CSCO",
+          "type": "美股合约",
+          "detail": "上线 CSCO-USDT-SWAP 股票指数永续合约，10x 杠杆，2026-05-19 17:45 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-cscousdt-perpetual-contract"
+        },
+        {
+          "token": "NBIS",
+          "type": "美股合约",
+          "detail": "上线 NBIS-USDT-SWAP 股票指数永续合约，10x 杠杆，2026-05-19 17:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-nbisusdt-perpetual-contract"
+        },
+        {
+          "token": "QCOM",
+          "type": "美股合约",
+          "detail": "上线 QCOM-USDT-SWAP 股票指数永续合约，10x 杠杆，2026-05-19 17:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-qcomusdt-perpetual-contract"
+        },
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "上线 SOXL-USDT-SWAP 股票指数永续合约，10x 杠杆，2026-05-19 17:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-soxlusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SOXL",
+          "type": "美股合约",
+          "detail": "上线 SOXLUSDT 永续合约，最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxlusdt-perpetual-contract-with-up-to-20x-leverage-blt490ce17e864290fa/"
+        },
+        {
+          "token": "DRAM",
+          "type": "美股合约",
+          "detail": "上线 DRAMUSDT 永续合约，最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dramusdt-perpetual-contract-with-up-to-20x-leverage-bltf50789a36c790311/"
+        },
+        {
+          "token": "CBRS",
+          "type": "美股合约",
+          "detail": "上线 CBRSUSDT 永续合约，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cbrsusdt-perpetual-contract-with-up-to-10x-leverage-bltd2818c7f556c7f1f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SHLD 等 53 个 CFD 交易对",
+          "type": "美股合约",
+          "detail": "CFD 合约股票专区上线 SHLD（GLOBAL X 国防科技 ETF）等 53 个 CFD 交易对",
+          "url": "https://www.gate.com/zh/announcements/article/51244"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Superform (UP)",
+          "type": "现货上线",
+          "detail": "Superform（UP）将上线 Bitget 现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884056"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "TSG",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535556"
+        },
+        {
+          "token": "LMAO",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535545"
+        },
+        {
+          "token": "BRKB 和 FLNC 和 GLW 和 AEON",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 BRKB、FLNC、GLW、AEON U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-brkb-flnc-glw-and-aeon-usdt-m-futures-17827791535537"
+        },
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "盘前交易",
+          "detail": "MEXC 盘前交易上线 Zest Protocol (ZEST)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-trading-17827791535557"
+        }
+      ]
+    }
+  }
+}
