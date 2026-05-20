@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-20",
+  "updatedAt": "2026-05-20T09:45:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CSCO",
+          "type": "美股合约",
+          "detail": "上线 CSCOUSDT 永续合约，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cscousdt-perpetual-contract-with-up-to-10x-leverage-blt2e49ccaaed2e3d51/"
+        },
+        {
+          "token": "RKLB",
+          "type": "美股合约",
+          "detail": "上线 RKLBUSDT 永续合约，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rklbusdt-perpetual-contract-with-up-to-10x-leverage-blt259e435981dcceff/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Nexus (NEX)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线 Nexus (NEX) 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-nexus-nex-listed-on-kucoin"
+        },
+        {
+          "token": "OKLO 和 RDDT 和 ASML",
+          "type": "美股合约",
+          "detail": "上线 OKLOUSDT、RDDTUSDT、ASMLUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-oklousdt-rddtusdt-asmlusdt-stock-index-perpetual-contracts-2026-05-20"
+        },
+        {
+          "token": "多个股票指数合约",
+          "type": "美股合约",
+          "detail": "上线多个股票指数永续合约 (2026-05-19)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-19"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Nexus (NEX)",
+          "type": "首发上币",
+          "detail": "首发上线 Nexus (NEX) 现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884120"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线创新区现货交易并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535559"
+        },
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "合约 + 跟单",
+          "detail": "全球首发上线 ZEST USDT永续合约，同步新增跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535560"
+        },
+        {
+          "token": "XWINNER (XT)",
+          "type": "现货上线",
+          "detail": "阳光普照投票通过，即将上线现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-xwinner-xt-kickstarter-17827791535516"
+        },
+        {
+          "token": "KELLYCLAUDE",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535572"
+        },
+        {
+          "token": "PITCH",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535581"
+        },
+        {
+          "token": "MEMECOIN",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535587"
+        }
+      ]
+    }
+  }
+}
