@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-21",
+  "updatedAt": "2026-05-21T09:50:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "合约上线",
+          "detail": "SPCXUSDT USDⓈ-Margined 盘前永续合约，2026-05-21 上线",
+          "url": "https://www.binance.com/en/support/announcement/4a9484ee10b347d287f514ee3fdd6a29"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "GEV",
+          "type": "美股合约",
+          "detail": "GEV-USDT-SWAP 永续合约，最高 5 倍杠杆，2026-05-21 17:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-gevusdt-perpetual-contract"
+        },
+        {
+          "token": "URNM",
+          "type": "美股合约",
+          "detail": "URNM-USDT-SWAP 永续合约，最高 10 倍杠杆，2026-05-21 17:15 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-urnmusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "10000NEX",
+          "type": "合约上线",
+          "detail": "10000NEXUSDT 永续合约，最高 10 倍杠杆，2026-05-21 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-10000nexusdt-perpetual-contract-with-up-to-10x-leverage-blt562c7af955f6f932/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "合约上线",
+          "detail": "SPCXUSDT IPO 盘前永续合约，2026-05-21 13:29 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884250"
+        },
+        {
+          "token": "AIGENSYN",
+          "type": "合约上线",
+          "detail": "AIGENSYN/USDT 现货杠杆交易对上线，2026-05-20 19:00",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884204"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "合约上线",
+          "detail": "ZEST 合约交易、杠杆借贷、交易机器人、跟单、闪兑、定投均已上线，2026-05-20 19:21 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/51278"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SPCX U 本位股票合约于 5/21 上线，限时享 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535611"
+        },
+        {
+          "token": "SAMSUNG 和 SKHYNIX",
+          "type": "美股合约",
+          "detail": "SAMSUNG、SKHYNIX U 本位股票合约于 5/21 上线，限时享 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535606"
+        },
+        {
+          "token": "SAMSUNG 和 SKHYNIX 和 NEX",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 SAMSUNG、SKHYNIX 和 NEX U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-samsung-skhynix-and-nex-usdt-m-futures-17827791535610"
+        },
+        {
+          "token": "NOOK",
+          "type": "Meme+ 区",
+          "detail": "NOOK 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535608"
+        },
+        {
+          "token": "SPACEX(PRE)",
+          "type": "首发上币 AI区",
+          "detail": "SPACEX(PRE) 首发上线 MEXC 创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535607"
+        },
+        {
+          "token": "Nexus (NEX)",
+          "type": "合约上线",
+          "detail": "全球首发：NEX USDT 合约于 2026-05-20 22:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535589"
+        }
+      ]
+    }
+  }
+}
