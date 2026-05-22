@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-22",
+  "updatedAt": "2026-05-22T10:50:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "AIGENSYN",
+          "type": "首发上币",
+          "detail": "HODLer Airdrop，BNB Simple Earn 持有者可获得溯及性空投，2026-05-21 19:00 公告",
+          "url": "https://www.binance.com/en/support/announcement/8c6cfaeddbd04f1595f658ac1dfbd0e7"
+        },
+        {
+          "token": "Genius Terminal (GENIUS) 和 OpenGradient (OPG)",
+          "type": "现货上线",
+          "detail": "带 Seed Tag 上线现货，2026-05-22 15:18 公告",
+          "url": "https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AI (Fetch.ai)",
+          "type": "现货上线",
+          "detail": "AI-USDT 17:00 上线，AI-EUR/AI-TRY/AI-USD/AI-USDC 18:00 上线",
+          "url": "https://www.okx.com/help/okx-to-list-aiusdt-spot"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Pieverse (PIEVERSE)",
+          "type": "现货上线",
+          "detail": "现货上线，11:45 公告",
+          "url": "https://www.kucoin.com/announcement/en-pieverse-pieverse-listed-on-kucoin"
+        },
+        {
+          "token": "Yooldo (ESPORTS)",
+          "type": "现货上线",
+          "detail": "现货上线，12:12 公告",
+          "url": "https://www.kucoin.com/announcement/en-yooldo-esports-listed-on-kucoin"
+        },
+        {
+          "token": "多个股票指数永续合约",
+          "type": "美股合约",
+          "detail": "KuCoin Futures 上线多个股票指数永续合约，17:36 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-05-22"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SPCX (SpaceX)",
+          "type": "盘前转正式合约",
+          "detail": "SPCXUSDT 永续合约盘前交易上线，支持 1-10 倍杠杆，USDT 结算，15:56 公告",
+          "url": "https://www.gate.com/zh/announcements/article/51322"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "10000NEX (Nexus)",
+          "type": "合约上线",
+          "detail": "10000NEXUSDT 合约上线并支持交易 BOT，2026-05-21 19:55 公告（跨日）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884273"
+        },
+        {
+          "token": "NDX100 和 SP500",
+          "type": "美股合约",
+          "detail": "NDX100USDT、SP500USDT 永续合约上线，14:39 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884305"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "VIRL",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+，2026-05-21 约 19:50（跨日）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535621"
+        },
+        {
+          "token": "SPCX 和 ALUMINIUM (XAL)",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 SPCXUSDT 和 XLAUSDT U 本位合约交易对，2026-05-21 约 19:50（跨日）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-spcx-and-aluminium-xal-usdt-m-futures-17827791535620"
+        },
+        {
+          "token": "BE 和 APLD",
+          "type": "美股合约",
+          "detail": "BE 和 APLD U 本位合约于 5/22 上线，限时 0 费，约 14:50 公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535640"
+        }
+      ]
+    }
+  }
+}
