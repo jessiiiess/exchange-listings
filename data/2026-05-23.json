@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-23",
+  "updatedAt": "2026-05-24T12:25:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ORCA",
+          "type": "合约上线",
+          "detail": "全仓杠杆上线 ORCA/USDT，2026-05-22 19:00 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884309"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RICH",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535652"
+        }
+      ]
+    }
+  }
+}
