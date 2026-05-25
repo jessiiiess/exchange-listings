@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-25",
+  "updatedAt": "2026-05-25T17:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SKYAI1",
+          "type": "合约上线",
+          "detail": "SKYAI1USDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skyai1usdt-perpetual-contract-with-up-to-10x-leverage-bltc390d2afccc10cf8/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-citrea-ctr-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "首发现货 + 闪兑",
+          "detail": "现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/51335"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "United Stables (U)",
+          "type": "现货上线",
+          "detail": "上线稳定币区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884229"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "首发上币",
+          "detail": "创新区上线，支持闪兑",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535526"
+        },
+        {
+          "token": "Solstice (SLX)",
+          "type": "盘前转正式合约",
+          "detail": "盘前交易结束及交割安排",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791535665"
+        },
+        {
+          "token": "Caspius (CAS)",
+          "type": "首发上币",
+          "detail": "考核区上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535664"
+        },
+        {
+          "token": "SURPLUS",
+          "type": "Meme+ 区",
+          "detail": "Meme+ 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535663"
+        }
+      ]
+    }
+  }
+}
