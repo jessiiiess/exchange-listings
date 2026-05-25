@@ -110,6 +110,7 @@ function renderExchanges(container, exchanges) {
 
 function renderTable(items) {
   let html = `<table>
+    <colgroup><col class="col-token"><col class="col-type"><col class="col-detail"></colgroup>
     <thead><tr><th>币种</th><th>类型</th><th>详情</th></tr></thead>
     <tbody>`;
   for (const item of items) {
