@@ -1,0 +1,156 @@
+{
+  "date": "2026-05-26",
+  "updatedAt": "2026-05-26T18:15:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "OPENAI",
+          "type": "合约上线",
+          "detail": "OPENAIUSDT Pre-IPO 永续合约",
+          "url": "https://www.binance.com/en/support/announcement/94f88766c6c84d68a07f006bc076ba6a"
+        },
+        {
+          "token": "Multiple TradFi",
+          "type": "美股合约",
+          "detail": "多个 USDⓈ 保证金 TradFi 永续合约",
+          "url": "https://www.binance.com/en/support/announcement/f3a598a5ab4344af993f67a9c3f4544a"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AAOI",
+          "type": "美股合约",
+          "detail": "AAOI-USDT-SWAP 永续合约，10倍杠杆，17:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-aaoi-usdt-perpetual-contract"
+        },
+        {
+          "token": "CRWD",
+          "type": "美股合约",
+          "detail": "CRWD-USDT-SWAP 永续合约，5倍杠杆，17:30 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-crwd-usdt-perpetual-contract"
+        },
+        {
+          "token": "INFQ",
+          "type": "美股合约",
+          "detail": "INFQ-USDT-SWAP 永续合约，10倍杠杆，17:15 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-infq-usdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NBIS",
+          "type": "美股合约",
+          "detail": "NBISUSDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nbisusdt-perpetual-contract-with-up-to-10x-leverage-blt443660d7c2fbe610/"
+        },
+        {
+          "token": "QCOM",
+          "type": "美股合约",
+          "detail": "QCOMUSDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-qcomusdt-perpetual-contract-with-up-to-10x-leverage-blt54bc836545de7959/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "XMAQUINA (DEUS)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-xmaquina-deus-listed-on-kucoin"
+        },
+        {
+          "token": "ZEST",
+          "type": "合约上线",
+          "detail": "ZESTUSDT 永续合约，最高10倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-zestusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "合约 + 跟单",
+          "detail": "合约交易、杠杆借贷、交易机器人、跟单、闪兑",
+          "url": "https://www.gate.com/zh/announcements/article/51373"
+        },
+        {
+          "token": "Solstice (SLX)",
+          "type": "合约 + 跟单",
+          "detail": "合约交易、杠杆借贷、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/51372"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "JOBY、ACHR、RGTI、QBTS、QUBT、ARQQ、BRKB、PANW",
+          "type": "美股合约",
+          "detail": "JOBYUSDT、ACHRUSDT、RGTIUSDT、QBTSUSDT、QUBTUSDT、ARQQUSDT、BRKBUSDT、PANWUSDT 永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884432"
+        },
+        {
+          "token": "BTC/U",
+          "type": "现货上线",
+          "detail": "新增 BTC/U 币对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884390"
+        },
+        {
+          "token": "Solstice (SLX)",
+          "type": "首发上币",
+          "detail": "上线 Solana 生态专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884389"
+        },
+        {
+          "token": "SPK",
+          "type": "合约上线",
+          "detail": "全仓杠杆上线 SPK/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884385"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PITCH",
+          "type": "首发合约上线",
+          "detail": "2026年5月26日 12:30 (UTC+8) 上线 PITCHUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535685"
+        },
+        {
+          "token": "Citrea (CTR)",
+          "type": "首发合约上线",
+          "detail": "2026年5月26日 21:10 (UTC+8) 上线 CTRUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535681"
+        },
+        {
+          "token": "Solstice Finance (SLX)",
+          "type": "首发合约上线",
+          "detail": "2026年5月25日 22:55 (UTC+8) 上线 SLXUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535680"
+        },
+        {
+          "token": "AtlasOra (AORA)",
+          "type": "首发上币",
+          "detail": "创新区上线，Airdrop+ 活动",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535641"
+        },
+        {
+          "token": "PITCH、SLX、BE 和 APLD",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pitch-slx-be-and-apld-usdt-m-futures-17827791535688"
+        }
+      ]
+    }
+  }
+}
