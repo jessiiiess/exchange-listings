@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-28",
+  "updatedAt": "2026-05-28T19:00:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "合约上线",
+          "detail": "CTRUSDT 永续合约",
+          "url": "https://www.binance.com/en/support/announcement/ee40eb721abc460cb7edca6df04d782b"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Irys (IRYS)",
+          "type": "合约上线",
+          "detail": "IRYS-USDT-SWAP 永续合约，20倍杠杆，2026-05-27 19:15 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-irysusdt-perpetual-contract"
+        },
+        {
+          "token": "AMAT",
+          "type": "美股合约",
+          "detail": "AMAT-USDT-SWAP 永续合约，10倍杠杆，2026-05-28 17:00 上线",
+          "url": "https://www.okx.com/help/okx-to-list-amat-usdt-perpetual-contract"
+        },
+        {
+          "token": "DELL",
+          "type": "美股合约",
+          "detail": "DELL-USDT-SWAP 永续合约，10倍杠杆，2026-05-28 17:15 上线",
+          "url": "https://www.okx.com/help/okx-to-list-dell-usdt-perpetual-contract"
+        },
+        {
+          "token": "VRT",
+          "type": "美股合约",
+          "detail": "VRT-USDT-SWAP 永续合约，10倍杠杆，2026-05-28 17:30 上线",
+          "url": "https://www.okx.com/help/okx-to-list-vrt-usdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "WDC",
+          "type": "美股合约",
+          "detail": "WDCUSDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-wdcusdt-perpetual-contract-with-up-to-10x-leverage-blt15aa5f4927cfeb7b/"
+        },
+        {
+          "token": "AMD",
+          "type": "美股合约",
+          "detail": "AMDSTOCKUSDT 永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amdstockusdt-perpetual-contract-with-up-to-20x-leverage-blt33649bff759f310c/"
+        },
+        {
+          "token": "BE",
+          "type": "美股合约",
+          "detail": "BEUSDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-beusdt-perpetual-contract-with-up-to-10x-leverage-bltfc34d16a9c46620d/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "QAIT (QAIT)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-qait-qait-listed-on-kucoin"
+        },
+        {
+          "token": "IBM、NOK 和 INFQ",
+          "type": "美股合约",
+          "detail": "IBMUSDT、NOKUSDT、INFQUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-ibmusdt-nokusdt-infqusdt-stock-index-perpetual-contracts-2026-05-28"
+        },
+        {
+          "token": "OPENAI",
+          "type": "美股合约",
+          "detail": "OPENAIUSDT Pre-IPO 股票指数永续合约盘前交易",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-openaiusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading"
+        },
+        {
+          "token": "MP、RDW 和 RGTI",
+          "type": "美股合约",
+          "detail": "MPUSDT、RDWUSDT、RGTIUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mpusdt-rdwusdt-rgtiusdt-stock-index-perpetual-contracts-2026-05-28"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "QAIT (QAIT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/51415"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "合约上线",
+          "detail": "CTRUSDT 合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884591"
+        },
+        {
+          "token": "SNOW",
+          "type": "合约上线",
+          "detail": "SNOWUSDT 永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884573"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DELL",
+          "type": "美股合约",
+          "detail": "DELL USDT本位合约 5/28上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535733"
+        },
+        {
+          "token": "QAIT (QAIT)",
+          "type": "合约上线",
+          "detail": "全球首发 QAIT USDT合约 2026年5月28日 21:10 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535731"
+        },
+        {
+          "token": "APP、RDW、INFQ、AAOI 和 NOK",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-app-rdw-infq-aaoi-and-nok-usdt-m-futures-17827791535730"
+        },
+        {
+          "token": "QAIT (QAIT)",
+          "type": "首发上币",
+          "detail": "考核区上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535727"
+        },
+        {
+          "token": "APP 和 RDW",
+          "type": "美股合约",
+          "detail": "U本位合约 5/28上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535726"
+        },
+        {
+          "token": "ClawWorks (CLAW)",
+          "type": "首发上币",
+          "detail": "陽光普照投票通过，即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-clawworks-claw-kickstarter-17827791535668"
+        },
+        {
+          "token": "Anvil (ANVL)",
+          "type": "首发上币",
+          "detail": "陽光普照投票通过，即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-anvil-anvl-kickstarter-17827791535683"
+        }
+      ]
+    }
+  }
+}
