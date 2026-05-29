@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-29",
+  "updatedAt": "2026-05-29T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "QNTX",
+          "type": "合约上线",
+          "detail": "QNTXUSDT 永续合约 Pre-IPO Trading，2026-05-29 上线",
+          "url": "https://www.binance.com/en/support/announcement/3bdaff694bde45ccb443709336c8686d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "CTR",
+          "type": "合约上线",
+          "detail": "CTRUSDT 永续合约，最高20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctrusdt-perpetual-contract-wi"
+        },
+        {
+          "token": "DELL",
+          "type": "美股合约",
+          "detail": "DELLUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-dellusdt-stock-index-perpetual-"
+        },
+        {
+          "token": "QNTX",
+          "type": "美股合约",
+          "detail": "QNTXUSDT Pre-IPO 股票指数永续合约盘前交易",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-qntxusdt-pre-ipo-stock-index-"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "QNTSTOCK",
+          "type": "美股合约",
+          "detail": "QNTSTOCKUSDT IPO盘前永续合约，量子计算领军者Quantinuum",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884662"
+        },
+        {
+          "token": "DELL",
+          "type": "美股合约",
+          "detail": "DELLUSDT 永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884661"
+        },
+        {
+          "token": "PROS",
+          "type": "合约上线",
+          "detail": "PROS/USDT 全仓杠杆上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884549"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "QNTSTOCK",
+          "type": "美股合约",
+          "detail": "QNTSTOCKUSDT 合约 2026年5月29日 12:20 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-qntstockusdt-futures-in-innovation-zone-on-may-29-2026-04-17827791535748"
+        },
+        {
+          "token": "Kinetiq (KNTQ)",
+          "type": "首发上币",
+          "detail": "考核区上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535749"
+        },
+        {
+          "token": "QNTSTOCK 和 DELL",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qntstock-and-dell-usdt-m-futures-17827791535753"
+        }
+      ]
+    }
+  }
+}
