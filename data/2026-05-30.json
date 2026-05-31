@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-30",
+  "updatedAt": "2026-05-31T06:45:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "FARTCOIN",
+          "type": "杠杆上线",
+          "detail": "全仓杠杆上线 FARTCOIN/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884670"
+        },
+        {
+          "token": "GENIUS",
+          "type": "杠杆上线",
+          "detail": "全仓杠杆上线 GENIUS/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884669"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Citrea (CTR)",
+          "type": "首发现货 + 闪兑",
+          "detail": "创新区上线 CTR 现货交易并支持闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535526"
+        }
+      ]
+    }
+  }
+}
