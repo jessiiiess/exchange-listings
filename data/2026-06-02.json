@@ -1,6 +1,6 @@
 {
   "date": "2026-06-02",
-  "updatedAt": "2026-06-02T09:38:00.000Z",
+  "updatedAt": "2026-06-02T09:49:00.000Z",
   "exchanges": {
     "binance": {
       "listings": [
@@ -94,7 +94,68 @@
       ]
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "DOGEUS",
+          "type": "Meme+ 区",
+          "detail": "DOGEUS上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535865"
+        },
+        {
+          "token": "THREE",
+          "type": "Meme+ 区",
+          "detail": "THREE上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535853"
+        },
+        {
+          "token": "HYUNDAI",
+          "type": "美股合约",
+          "detail": "HYUNDAI USDT本位合约 6/2上线 0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535869"
+        },
+        {
+          "token": "NVO",
+          "type": "美股合约",
+          "detail": "NVO U本位合约 6/1上线 0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535844"
+        },
+        {
+          "token": "Singularry AI (SINGULARRY)",
+          "type": "首发上币",
+          "detail": "创新区上线 瓜分40,000 USDT Airdrop+奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535729"
+        },
+        {
+          "token": "HYUNDAI和NVO和LUNR和BBSTOCK和EWT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增5个U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hyundai-nvo-lunr-bbstock-and-ewt-usdt-m-futures-17827791535856"
+        },
+        {
+          "token": "PRXVT",
+          "type": "Meme+ 区",
+          "detail": "PRXVT上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535832"
+        },
+        {
+          "token": "GACHA",
+          "type": "Meme+ 区",
+          "detail": "GACHA上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535824"
+        },
+        {
+          "token": "BBSTOCK和LUNR",
+          "type": "美股合约",
+          "detail": "BBSTOCK/LUNR U本位合约 6/01上线 0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791535827"
+        },
+        {
+          "token": "EWT",
+          "type": "合约上线",
+          "detail": "EWT指数合约 2026年6月1日上线 0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ewt-index-futures-on-jun-1-with-0-fee-trading-17827791535823"
+        }
+      ]
     }
   }
 }
