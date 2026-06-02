@@ -1,0 +1,100 @@
+{
+  "date": "2026-06-02",
+  "updatedAt": "2026-06-02T09:38:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ANTHROPIC",
+          "type": "合约上线",
+          "detail": "ANTHROPICUSDT USDⓈ保证金永续合约 Pre-IPO交易",
+          "url": "https://www.binance.com/en/support/announcement/2b9ff1e1acf8433793bc40c59a0cb852"
+        },
+        {
+          "token": "SKHYNIX和SAMSUNG和HYUNDAI",
+          "type": "美股合约",
+          "detail": "SK海力士/三星电子/现代汽车 TradFi永续合约 20x杠杆",
+          "url": "https://www.binance.com/en/support/announcement/ed2c6a6160c64eb397b534af90b9d66a"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "HPE",
+          "type": "美股合约",
+          "detail": "HPE-USDT永续合约 10x杠杆 19:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-hpeusdt-perpetual-contract"
+        },
+        {
+          "token": "ASTS",
+          "type": "美股合约",
+          "detail": "ASTS-USDT永续合约 19:15上线",
+          "url": "https://www.okx.com/help/okx-to-list-astsusdt-perpetual-contract"
+        },
+        {
+          "token": "NOW",
+          "type": "美股合约",
+          "detail": "NOW-USDT永续合约 19:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-nowusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DELL",
+          "type": "美股合约",
+          "detail": "DELLUSDT永续合约 10x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dellusdt-perpetual-contract-with-up-to-10x-leverage-bltff481d91a15992f7/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SKHYNIX（SK海力士）和SAMSUNG（三星电子）等3个",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线3个永续合约 USDT结算",
+          "url": "https://www.gate.com/zh/announcements/article/51477"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SAMSUNG和SKHYNIX和HYUNDAI",
+          "type": "美股合约",
+          "detail": "三星电子/SK海力士/现代汽车永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884801"
+        },
+        {
+          "token": "UNITAS",
+          "type": "合约上线",
+          "detail": "UNITASUSDT合约交易+交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884785"
+        },
+        {
+          "token": "EH和EVEX和AVAV和KTOS和RCAT和AXON和LMT和RTXSTOCK和NOC和DFEN和NOW和IBM和NTAP",
+          "type": "美股合约",
+          "detail": "13个美股防务/科技/航空航天永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884781"
+        },
+        {
+          "token": "USDGO",
+          "type": "现货杠杆",
+          "detail": "USDGO/USDT现货杠杆新增",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603884771"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
