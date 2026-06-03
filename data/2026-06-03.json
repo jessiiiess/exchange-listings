@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-03",
+  "updatedAt": "2026-06-03T09:56:00.000Z",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "DELL和IBM和NOW和CRM和IREN和ONDS",
+          "type": "美股合约",
+          "detail": "6个TradFi永续合约上线 DELL/IBM/NOW/CRM/IREN/ONDS 09:00-09:25 UTC",
+          "url": "https://www.binance.com/en/support/announcement/d77e2d77ea21405d9ef2cd7c6974ea5f"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "ADBE",
+          "type": "美股合约",
+          "detail": "ADBE-USDT永续合约 5x杠杆 17:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-adbeusdt-perpetual-contract"
+        },
+        {
+          "token": "ASML",
+          "type": "美股合约",
+          "detail": "ASML-USDT永续合约 10x杠杆 17:45上线",
+          "url": "https://www.okx.com/help/okx-to-list-asmlusdt-perpetual-contract"
+        },
+        {
+          "token": "EWT",
+          "type": "美股合约",
+          "detail": "EWT-USDT永续合约 10x杠杆 18:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-ewtusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Tea (TEA)",
+          "type": "World Premiere 现货",
+          "detail": "TEA World Premiere首发上线KuCoin现货",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-tea-tea-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
