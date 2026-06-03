@@ -56,7 +56,14 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "HPE",
+          "type": "美股合约",
+          "detail": "HPE USDT本位合约 50x杠杆 6/2 19:45上线 0费率",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/new-stock-futures-listings-17827791535887"
+        }
+      ]
     }
   }
 }
