@@ -1,0 +1,173 @@
+{
+  "date": "2026-06-05",
+  "updatedAt": "2026-06-05T17:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Zest Protocol (ZEST) 和 BTW (BTW)",
+          "type": "合约上线",
+          "detail": "ZESTUSDT 和 BTWUSDT USDT本位永续合约上线",
+          "url": "https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Nokia (NOKIA)",
+          "type": "美股合约",
+          "detail": "NOKIAUSDT 永续合约上线，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nokiausdt-perpetual-contract-with-up-to-10x-leverage-blt98f9626f014d3d75/"
+        },
+        {
+          "token": "IBM",
+          "type": "美股合约",
+          "detail": "IBMUSDT 永续合约上线，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ibmusdt-perpetual-contract-with-up-to-10x-leverage-blt66e39254c028eff6/"
+        },
+        {
+          "token": "Applied Materials (AMAT)",
+          "type": "美股合约",
+          "detail": "AMATUSDT 永续合约上线，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amatusdt-perpetual-contract-with-up-to-10x-leverage-bltf3c78b7a92725e4f/"
+        },
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "合约上线",
+          "detail": "ZESTUSDT 永续合约上线创新板块，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zestusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage-bltf5ecf123ac839f11/"
+        },
+        {
+          "token": "BTW (BTW)",
+          "type": "合约上线",
+          "detail": "BTWUSDT 永续合约上线，最高 10 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-btwusdt-perpetual-contract-with-up-to-10x-leverage-blt1cba31527e1ce290/"
+        },
+        {
+          "token": "TradFi 3 支股票 CFD",
+          "type": "美股合约",
+          "detail": "3 支股票 CFD 上线 Bybit TradFi",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-3-cfd-bybit-tradfi--bltad7ca4d1b90c4aed/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BTW (BTW)",
+          "type": "合约上线",
+          "detail": "BTWUSDT 永续合约上线，最高 10 倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-btwusdt-perpetual-contract-with-up-to-10x-leverage"
+        },
+        {
+          "token": "QNTX (QNTSTOCKUSDT)",
+          "type": "盘前转正式合约",
+          "detail": "QNTX Pre-IPO 合约转换为标准股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-to-convert-pre-ipo-contract-to-standard-stock-index-perpetual-contract-for-qntx"
+        },
+        {
+          "token": "YOM (YOM)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 YOM/USDT 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-yom-yom-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BTW (BTW)",
+          "type": "合约上线",
+          "detail": "BTWUSDT 永续合约上线，USDT 结算",
+          "url": "https://www.gate.com/zh/announcements/article/51540"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "KIOXIA 和 东京电子 (TOKYOEL) 和 住友电工 (SUMIELEC) 和 爱德万测试 (ADVANTEST) 和 Lasertec 和 DOOSBOT 和 DOOSENER",
+          "type": "美股合约",
+          "detail": "KIOXIAUSDT、TOKYOELUSDT、SUMIELECUSDT、ADVANTESTUSDT、LASERTECUSDT、DOOSBOTUSDT、DOOSENERUSDT 永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885126"
+        },
+        {
+          "token": "BTW (BTW)",
+          "type": "合约上线",
+          "detail": "BTWUSDT 上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885107"
+        },
+        {
+          "token": "Zest Protocol (ZEST)",
+          "type": "合约上线",
+          "detail": "ZESTUSDT 上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885106"
+        },
+        {
+          "token": "rBB 和 rNBIS 和 rGME 和 rAMC 和 rSOFI 等 49 只股票",
+          "type": "美股合约",
+          "detail": "上线 49 只股票现货（代币化股票），包括 rBB、rNBIS、rGME、rAMC、rSOFI 等",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885087"
+        },
+        {
+          "token": "PENGU",
+          "type": "现货杠杆",
+          "detail": "全仓杠杆上线 PENGU/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885035"
+        },
+        {
+          "token": "XDC",
+          "type": "现货杠杆",
+          "detail": "全仓杠杆上线 XDC/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885033"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "YOM (YOM)",
+          "type": "合约上线",
+          "detail": "全球首发 YOMUSDT 合约，6-5 18:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985"
+        },
+        {
+          "token": "ZINC (XZN) 和 NICKEL (XNI)",
+          "type": "合约+跟单",
+          "detail": "跟单新增 ZINC(XZN) 和 NICKEL(XNI) U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983"
+        },
+        {
+          "token": "WORLDCUP",
+          "type": "Meme+ 区",
+          "detail": "首发上线 WORLDCUP 至 Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535981"
+        },
+        {
+          "token": "QNTX (QNTSTOCKUSDT)",
+          "type": "盘前转正式合约",
+          "detail": "QNTSTOCKUSDT Pre-IPO 合约转换为正式合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-qntstockusdt-pre-ipo-futures-to-standard-futures-17827791535986"
+        },
+        {
+          "token": "BTW (BTW)",
+          "type": "合约上线",
+          "detail": "BTWUSDT 合约上线，6-4 22:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-btw-usdt-m-futures-on-jun-4-2026-14-17827791535966"
+        },
+        {
+          "token": "Manadia (UMXM)",
+          "type": "创新区现货",
+          "detail": "创新区上线 Manadia (UMXM)，含 60,000 USDT Airdrop+ 奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-manadia-umxm-in-innovation-zone-with-60-000-usdt-airdrop-rewards-17827791535875"
+        }
+      ]
+    }
+  }
+}
