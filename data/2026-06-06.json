@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-06",
+  "updatedAt": "2026-06-07T18:50:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "QNT",
+          "type": "美股合约",
+          "detail": "QNT-USDT-SWAP 永续合约上线股票专区，最高 20 倍杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-qntusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "VOLX",
+          "type": "美股合约",
+          "detail": "首发上线 VOLX 永续合约交易（USDT 结算），VIX 更名为 VOLX",
+          "url": "https://www.gate.com/zh/announcements/article/51564"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rIBM 和 rFTNT 和 rGS 和 rAXP 和 rJNJ 等 45 只股票",
+          "type": "美股合约",
+          "detail": "上线 rIBM、rFTNT、rGS、rAXP、rJNJ 等 45 只股票现货（代币化股票）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885162"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
