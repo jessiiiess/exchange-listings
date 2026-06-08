@@ -51,44 +51,7 @@
       "listings": []
     },
     "mexc": {
-      "listings": [
-        {
-          "token": "YOM (YOM)",
-          "type": "合约上线",
-          "detail": "全球首發上線 YOM USDT永续合约",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985"
-        },
-        {
-          "token": "ZINC (XZN) 和 NICKEL (XNI)",
-          "type": "合约 + 跟单",
-          "detail": "跟單新增 ZINC(XZN) 和 NICKEL(XNI) U本位合約交易對",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983"
-        },
-        {
-          "token": "WORLDCUP",
-          "type": "Meme+ 区",
-          "detail": "首發上線 WORLDCUP 至 Meme+ 区",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535981"
-        },
-        {
-          "token": "QNTSTOCK",
-          "type": "盘前转正式合约",
-          "detail": "QNTSTOCKUSDT Pre-IPO合約轉換為正式永续合約",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-qntstockusdt-pre-ipo-futures-to-standard-futures-17827791535986"
-        },
-        {
-          "token": "BTW",
-          "type": "合约上线",
-          "detail": "上線 BTW USDT永续合约",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-btw-usdt-m-futures-on-jun-4-2026-14-17827791535966"
-        },
-        {
-          "token": "Manadia (UMXM)",
-          "type": "创新区现货",
-          "detail": "創新區上線 Manadia (UMXM)，瓜分 60,000 USDT Airdrop+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-manadia-umxm-in-innovation-zone-with-60-000-usdt-airdrop-rewards-17827791535875"
-        }
-      ]
+      "listings": []
     }
   }
 }
