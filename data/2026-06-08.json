@@ -1,0 +1,94 @@
+{
+  "date": "2026-06-08",
+  "updatedAt": "2026-06-08T17:45:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BX, HPE, AMAT, CRWD, CRDO, AAOI, IWM, AXTI",
+          "type": "美股合约",
+          "detail": "8个TradFi永续合约上线：BX（黑石集团）、HPE（惠普企业）、AMAT（应用材料）、CRWD（CrowdStrike）、CRDO（默升科技）、AAOI（应用光电）、IWM（罗素2000 ETF）、AXTI（安科泰克），最高25倍杠杆",
+          "url": "https://www.binance.com/en/support/announcement/9595cb2560cc4f4b9906dca1d4cbd6d1"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "IREN 和 PANW",
+          "type": "美股合约",
+          "detail": "IREN-USDT-SWAP（Iris Energy）和 PANW-USDT-SWAP（Palo Alto Networks）永续合约上线，10倍杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-iren-panw-usdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BX, AMAT, CRWD, CRDO, IWM, AXTI",
+          "type": "美股合约",
+          "detail": "6个股票指数永续合约上线：BX（黑石）、AMAT（应用材料）、CRWD（CrowdStrike）、CRDO（默升科技）、IWM（罗素2000）、AXTI（安科泰克），1-20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-08"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BX, CRDO, AXTI",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区：BX（黑石集团）、CRDO（默升科技）、AXTI（安科泰克）永续合约，1-20倍杠杆，USDT结算",
+          "url": "https://www.gate.com/zh/announcements/article/51579"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "YOM (YOM)",
+          "type": "合约上线",
+          "detail": "全球首發上線 YOM USDT永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535985"
+        },
+        {
+          "token": "ZINC (XZN) 和 NICKEL (XNI)",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 ZINC(XZN) 和 NICKEL(XNI) U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zinc-xzn-and-nickel-xni-usdt-m-futures-17827791535983"
+        },
+        {
+          "token": "WORLDCUP",
+          "type": "Meme+ 区",
+          "detail": "首發上線 WORLDCUP 至 Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791535981"
+        },
+        {
+          "token": "QNTSTOCK",
+          "type": "盘前转正式合约",
+          "detail": "QNTSTOCKUSDT Pre-IPO合約轉換為正式永续合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-qntstockusdt-pre-ipo-futures-to-standard-futures-17827791535986"
+        },
+        {
+          "token": "BTW",
+          "type": "合约上线",
+          "detail": "上線 BTW USDT永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-btw-usdt-m-futures-on-jun-4-2026-14-17827791535966"
+        },
+        {
+          "token": "Manadia (UMXM)",
+          "type": "创新区现货",
+          "detail": "創新區上線 Manadia (UMXM)，瓜分 60,000 USDT Airdrop+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-manadia-umxm-in-innovation-zone-with-60-000-usdt-airdrop-rewards-17827791535875"
+        }
+      ]
+    }
+  }
+}
