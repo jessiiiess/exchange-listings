@@ -51,7 +51,20 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "BX, CRDO, IWM, AXTI",
+          "type": "美股合约",
+          "detail": "BX、CRDO、IWM、AXTI U本位永续合约上线，6/8开放交易，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536068"
+        },
+        {
+          "token": "YOM (YOM)",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 YOM U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-yom-usdt-m-futures-17827791536049"
+        }
+      ]
     }
   }
 }
