@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-09",
+  "updatedAt": "2026-06-09T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "NFLX, COST, URNM, HIMS, EBAY",
+          "type": "美股合约",
+          "detail": "5个TradFi永续合约上线：NFLX（Netflix）、COST（Costco）、URNM（Sprott铀矿ETF）、HIMS（Hims & Hers Health）、EBAY（eBay），最高25倍杠杆",
+          "url": "https://www.binance.com/en/support/announcement/f598c7bb87d74b8c995b9f67bf210be1"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "AAOI, IREN, ONDS, QNTX",
+          "type": "美股合约",
+          "detail": "4个美股永续合约上线：AAOI（应用光电）10x、IREN（Iris Energy）10x、ONDS（Ondas Holdings）10x、QNTX（Quantinuum）10x",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aaoiusdt-perpetual-contract-with-up-to-10x-leverage-blt51052ee4e0e8b037/"
+        },
+        {
+          "token": "CTR (Citrea)",
+          "type": "合约上线",
+          "detail": "CTRUSDT 永续合约上线创新板块，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ctrusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage-bltc44262151a71eed5/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "KONET (KONET)",
+          "type": "现货上线",
+          "detail": "KONET/USDT 现货交易对上线",
+          "url": "https://www.kucoin.com/announcement/en-konet-konet-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Jotchua (JOTCHUA)",
+          "type": "Gate Alpha 首发上线",
+          "detail": "Gate Alpha 首发上线 Jotchua (JOTCHUA) 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/51587"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rNASA, rBMNR, rDIS, rROKU, rLCID 等30只",
+          "type": "股票现货",
+          "detail": "上线 rNASA、rBMNR、rDIS、rROKU、rLCID 等30只股票现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885293"
+        },
+        {
+          "token": "DXYZ, SATSSTOCK, PLU, SATL, IREN, CIEN, AMC, MDB, TWLO, ADBE, SPIR, BX, HPE, CRWD, IWM",
+          "type": "美股合约",
+          "detail": "15个永续合约上线：DXYZ（Destiny Tech100）、SATSSTOCK、PLU、SATL（Satellogic）、IREN（Iris Energy）、CIEN（Ciena）、AMC、MDB（MongoDB）、TWLO（Twilio）、ADBE（Adobe）、SPIR（Spire Global）、BX（黑石）、HPE（惠普企业）、CRWD（CrowdStrike）、IWM（罗素2000）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885274"
+        },
+        {
+          "token": "USDGO",
+          "type": "杠杆上线",
+          "detail": "全仓杠杆上线 USDGO/USDT 交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885241"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "US30 和 LEAD(XPB)",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 US30USDT（股指）和 LEAD(XPB)USDT（大宗商品）合约交易对，20倍杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-us30-and-lead-xpb-usdt-m-futures-17827791536103"
+        },
+        {
+          "token": "BX, CRDO, IWM, AXTI",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 BX、CRDO、IWM、AXTI 美股U本位合约交易对，20倍杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bx-crdo-iwm-and-axti-usdt-m-futures-17827791536102"
+        },
+        {
+          "token": "JOTCHUA",
+          "type": "Meme+ 区",
+          "detail": "首发上线 JOTCHUA 至 Meme+ 交易区，SOL链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536098"
+        },
+        {
+          "token": "KINS",
+          "type": "Meme+ 区",
+          "detail": "首发上线 KINS 至 Meme+ 交易区，SOL链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536097"
+        },
+        {
+          "token": "o1.exchange (O)",
+          "type": "盘前交易",
+          "detail": "o1.exchange (O) 盘前交易上线，2026年6月8日 22:00 (UTC+8) 开始",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536081"
+        }
+      ]
+    }
+  }
+}
