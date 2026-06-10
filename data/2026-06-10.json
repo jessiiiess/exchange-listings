@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "updatedAt": "2026-06-10T17:30:00+08:00",
+  "updatedAt": "2026-06-10T19:45:00+08:00",
   "exchanges": {
     "binance": {
       "listings": [
@@ -69,7 +69,68 @@
       ]
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "CIEN, SATSSTOCK",
+          "type": "美股合约",
+          "detail": "新美股合约上线：CIEN（Ciena）和 SATSSTOCK U本位永续合约，6/10上线，0交易费",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/new-stock-futures-listings-17827791536147"
+        },
+        {
+          "token": "ZM, DKNG, RIVN",
+          "type": "美股合约",
+          "detail": "新美股合约上线：ZM（Zoom）、DKNG（DraftKings）和 RIVN（Rivian）U本位永续合约，6/10上线，0交易费",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/new-stock-futures-listings-17827791536146"
+        },
+        {
+          "token": "EWZ",
+          "type": "指数合约",
+          "detail": "EWZ（iShares巴西指数ETF）指数合约上线，限时0费",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-to-list-ewz-index-futures-on-jun-10-with-0-fee-trading-17827791536145"
+        },
+        {
+          "token": "SOXL",
+          "type": "指数合约",
+          "detail": "SOXL（半导体3倍做多ETF）指数合约上线，限时0费",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-to-list-soxl-index-futures-on-jun-10-with-0-fee-trading-17827791536138"
+        },
+        {
+          "token": "JOTCHUA",
+          "type": "合约上线",
+          "detail": "JOTCHUAUSDT 合约上线创新板块，6/10 13:10 (UTC+8)",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-to-list-jotchuausdt-futures-in-innovation-zone-on-jun-10-2026-05-17827791536135"
+        },
+        {
+          "token": "NFLX, EBAY, URNM, NOW",
+          "type": "美股合约",
+          "detail": "新美股合约上线：NFLX（Netflix）、EBAY、URNM（铀矿ETF）、NOW（ServiceNow）U本位永续合约，6/10上线",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/new-stock-futures-listings-17827791536122"
+        },
+        {
+          "token": "SOXL 和 JOTCHUA",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 SOXL 和 JOTCHUA U本位合约交易对",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-copy-trade-now-supports-soxl-and-jotchua-usdt-m-futures-17827791536143"
+        },
+        {
+          "token": "NFLX, EBAY, URNM, NOW",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 NFLX、EBAY、URNM、NOW U本位合约交易对",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-copy-trade-now-supports-nflx-ebay-urnm-and-now-usdt-m-futures-17827791536142"
+        },
+        {
+          "token": "HPE",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 HPE（惠普企业）U本位合约交易对",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-copy-trade-now-supports-hpe-usdt-m-futures-17827791535938"
+        },
+        {
+          "token": "Tea Protocol (TEA)",
+          "type": "首发上线",
+          "detail": "首发上线 Tea Protocol (TEA) 至考核区现货交易",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/first-in-market-17827791535917"
+        }
+      ]
     }
   }
 }
