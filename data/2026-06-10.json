@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-10",
+  "updatedAt": "2026-06-10T17:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ZM, DKNG, RIVN, GME, XLE, EWZ",
+          "type": "美股合约",
+          "detail": "6个TradFi永续合约上线：ZM（Zoom通讯）、DKNG（DraftKings）、RIVN（Rivian）、GME（GameStop）、XLE（能源精选ETF）、EWZ（iShares巴西ETF），最高25倍杠杆",
+          "url": "https://www.binance.com/en/support/announcement/b893d3539ae34c47856013b1f3cc94fb"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "HYUNDAI, SAMSUNG, SKHYNIX",
+          "type": "美股合约",
+          "detail": "3个韩国股票永续合约上线：HYUNDAI（现代汽车）、SAMSUNG（三星电子）、SKHYNIX（SK海力士），20倍杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-perpetual-contracts"
+        },
+        {
+          "token": "USDG-SGD",
+          "type": "现货上线",
+          "detail": "USDG/SGD 现货交易对上线",
+          "url": "https://www.okx.com/help/okx-to-list-usdg-sgd"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ZM, DKNG, RIVN, GME, EWZ, EBAY",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线6个永续合约：ZM（Zoom通讯）、DKNG（DraftKings）、RIVN（里维安）、GME（游戏驿站）、EWZ（iShares巴西指数ETF）、EBAY，1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/51616"
+        },
+        {
+          "token": "Pnut (Peanut the Squirrel)、清正 (Kiyomasa)、hehe、drooling (drooling cat)",
+          "type": "Gate Alpha 首发上线",
+          "detail": "Gate Alpha 首发上线4个Meme代币：Pnut、清正、hehe、drooling，均为SOL链",
+          "url": "https://www.gate.com/zh/announcements/article/51608"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rSMH, rVOO, rWMT, rBAC, rVGT 等89只",
+          "type": "股票现货",
+          "detail": "上线 rSMH、rVOO、rWMT、rBAC、rVGT 等89只股票现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885452"
+        },
+        {
+          "token": "SPCX (SpaceX)",
+          "type": "盘前永续合约",
+          "detail": "SPCXUSDT IPO盘前永续合约回归，基于最新招股书股本数据重定价",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885389"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
