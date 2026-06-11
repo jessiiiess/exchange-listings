@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-11",
+  "updatedAt": "2026-06-11T18:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BMNR, UVXY, ADBE, GLW, STXX, ASML",
+          "type": "美股合约",
+          "detail": "TradFi永续合约，BMNR/UVXY/ADBE/GLW/STXX/ASML USDT本位，20x杠杆，6/11 09:15-09:40 UTC上线",
+          "url": "https://www.binance.com/en/support/announcement/f622c1f2a1a94ba1894d9a9e265fb4b9"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CIEN, CRDO, FLNC, ISRG",
+          "type": "美股合约",
+          "detail": "股票指数永续合约USDT本位，CRDO/CIEN 20x杠杆，ISRG 10x杠杆，FLNC 20x杠杆，6/11 17:00-17:45 UTC+8上线",
+          "url": "https://www.okx.com/help/okx-to-list-multiple-tradfi-perpetual-contracts-20260611"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ZM, DKNG, RIVN, GME, XLE, EWZ",
+          "type": "美股合约",
+          "detail": "股票指数永续合约USDT本位，20x杠杆，6/10 09:50 UTC上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-10"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "UVXY",
+          "type": "指数合约",
+          "detail": "UVXY指数合约6/11上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178"
+        },
+        {
+          "token": "OUST, AMC, PL",
+          "type": "美股合约",
+          "detail": "U本位合约6/11上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
+        },
+        {
+          "token": "ZM, DKNG, RIVN",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增ZM、DKNG和RIVN U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "EWZ, CIEN, SATSSTOCK",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增EWZ、CIEN和SATSSTOCK U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
+        {
+          "token": "Dexsport (DESU)",
+          "type": "首发上线",
+          "detail": "创新区上线DESU/USDT交易对，6/11 23:00 UTC+8开放交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536044"
+        }
+      ]
+    }
+  }
+}
