@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-12",
+  "updatedAt": "2026-06-12T18:20:55.449122+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "bStocks Tokenized Securities",
+          "type": "美股合约",
+          "detail": "bStocks代币化证券新增交易对，6/11 22:05 UTC+8公告",
+          "url": "https://www.binance.com/en/support/announcement/5646e3f9ea6b4c989cb76aa18bd99245"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "BX, CGNX, ROK, TWLO",
+          "type": "美股合约",
+          "detail": "股票指数永续合约USDT本位，BX/TWLO 20x杠杆，CGNX/ROK 10x杠杆，6/12 17:00-17:45 UTC+8上线",
+          "url": "https://www.okx.com/help/okx-to-list-multiple-tradfi-perpetual-contracts-20260612"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "盘前转正式合约",
+          "detail": "SPCXUSDT Pre-IPO合约转换为标准股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-to-convert-pre-ipo-contract-to-"
+        },
+        {
+          "token": "UVXY, ADBE, STXX",
+          "type": "美股合约",
+          "detail": "股票指数永续合约USDT本位，6/11 18:23 UTC+8公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-uvxyusdt-adbeusdt-stx"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Ondo U.S. Dollar Yield (USDY)",
+          "type": "现货 + 闪兑",
+          "detail": "USDY现货交易与闪兑交易上线",
+          "url": "https://www.gate.com/zh/announcements/article/100008"
+        },
+        {
+          "token": "SpaceX (SPCXX)",
+          "type": "现货上线",
+          "detail": "SPCXX现货交易上线",
+          "url": "https://www.gate.com/zh/announcements/article/100004"
+        },
+        {
+          "token": "UVXY等4个",
+          "type": "美股合约",
+          "detail": "合约股票专区上线UVXY（恐慌指数1.5倍做多ETF）等4个永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100002"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "盘前转正式合约",
+          "detail": "SPCXUSDT永续合约盘前交易转换为标准U本位永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885694"
+        },
+        {
+          "token": "rHIMS, rMARA, rOSCR, rXOM, rOXY等90只",
+          "type": "美股现货",
+          "detail": "上线rHIMS、rMARA、rOSCR、rXOM、rOXY等90只股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885637"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Levare (LVR)",
+          "type": "首发上线",
+          "detail": "创新区上线LVR，瓜分40,000 USDT Airdrop+奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536162"
+        },
+        {
+          "token": "SPCX",
+          "type": "盘前转正式合约",
+          "detail": "SPCXUSDT Pre-IPO永续合约转换为正式合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-convert-spcxusdt-pre-ipo-futures-into-standard-futures-17827791536201"
+        },
+        {
+          "token": "KINS",
+          "type": "合约上线",
+          "detail": "合约创新板块上线KINSUSDT合约，6/12 13:20 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536198"
+        },
+        {
+          "token": "KINS, PL, AMC, OUST, UVXY",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增KINS、PL、AMC、OUST和UVXY U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kins-pl-amc-oust-and-uvxy-usdt-m-futures-17827791536200"
+        }
+      ]
+    }
+  }
+}
