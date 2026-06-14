@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-13",
+  "updatedAt": "2026-06-14T20:56:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SpaceX (SPCXB)",
+          "type": "美股现货",
+          "detail": "bStocks代币化证券SpaceX (SPCXB)上线Binance现货交易",
+          "url": "https://www.binance.com/en/support/announcement/191cb96109f24c5c85362631a55a45d3"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SpaceX Ondo Tokenized (SPCXON)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线SPCXON现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/100028"
+        },
+        {
+          "token": "SpaceX (SPCXX)",
+          "type": "现货 + 闪兑",
+          "detail": "SPCXX现货交易与闪兑交易上线",
+          "url": "https://www.gate.com/zh/announcements/article/100026"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SpaceX (SPCX)",
+          "type": "现货上线",
+          "detail": "SPCX正式上线Bitget及交易通道开启，6/12 23:45 UTC+8公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885758"
+        },
+        {
+          "token": "rNU、rMCHP、rADSK、rFDX等108只",
+          "type": "美股现货",
+          "detail": "上线rNU、rMCHP、rADSK、rFDX等108只股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885751"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Veera (VEERA)",
+          "type": "盘前交易",
+          "detail": "VEERA即将上线盘前交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536189"
+        },
+        {
+          "token": "UVXY",
+          "type": "美股合约",
+          "detail": "UVXY指数合约上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-uvxy-index-futures-on-jun-11-with-0-fee-trading-17827791536178"
+        },
+        {
+          "token": "ZM, DKNG, RIVN",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增ZM、DKNG和RIVN U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zm-dkng-and-rivn-usdt-m-futures-17827791536173"
+        },
+        {
+          "token": "EWZ, CIEN, SATSSTOCK",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增EWZ、CIEN和SATSSTOCK U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ewz-cien-and-satsstock-usdt-m-futures-17827791536172"
+        },
+        {
+          "token": "OUST, AMC, PL",
+          "type": "美股合约",
+          "detail": "新美股合约上线OUST、AMC和PL U本位合约，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536171"
+        }
+      ]
+    }
+  }
+}
