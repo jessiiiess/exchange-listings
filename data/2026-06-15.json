@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-15",
+  "updatedAt": "2026-06-15T18:00:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SpaceX (SPCX)",
+          "type": "合约上线",
+          "detail": "SPCXUSDT 永续合约，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spcxusdt-perpetual-contract-with-up-to-10x-leverage-blt19bef84ccc826df8/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "XEFFY (XEF)",
+          "type": "首发上币",
+          "detail": "创新区现货，XEF/USDT，2026年6月15日 13:00 (UTC+8) 开放交易",
+          "url": "https://www.mexc.com/announcements/article/voting-result-and-listing-arrangement-for-xeffy-xef-kickstarter-17827791536159"
+        },
+        {
+          "token": "Cattoverse (CS)",
+          "type": "首发上币",
+          "detail": "创新区现货，CS/USDT，Airdrop+ 活动 40,000 USDT 奖池",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791536169"
+        },
+        {
+          "token": "TWLO、NTAP、SITM、AXON 和 RCAT",
+          "type": "合约 + 跟单",
+          "detail": "U本位美股合约跟单交易对新增，5个交易对",
+          "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-twlo-ntap-sitm-axon-and-rcat-usdt-m-futures-17827791536242"
+        }
+      ]
+    }
+  }
+}
