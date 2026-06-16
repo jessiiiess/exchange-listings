@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-16",
+  "updatedAt": "2026-06-16T17:30:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "ALAB、TER、AXTI、ONDS、POET",
+          "type": "美股合约",
+          "detail": "USDT永续合约，ALAB/TER 10倍杠杆，AXTI/ONDS/POET 20倍杠杆，instCategory=3",
+          "url": "https://www.okx.com/trade-swap/alab-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "United Stables (U)",
+          "type": "现货上线",
+          "detail": "U/USDT 交易对",
+          "url": "https://www.kucoin.com/announcement/en-united-stables-u-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "TWLO（特维利奥）、ROK（罗克韦尔自动化）等8个",
+          "type": "美股合约",
+          "detail": "首发上线，合约股票专区永续合约交易（USDT结算）",
+          "url": "https://www.gate.com/zh/announcements/article/100169"
+        },
+        {
+          "token": "Merlin (The Patriotic Duck) 和 Chaton (Le gros chaton)",
+          "type": "Alpha 上线",
+          "detail": "Gate Alpha 首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100164"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "AIVIVE (AVV)",
+          "type": "首发上币 AI区",
+          "detail": "Bitget AI 区上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885877"
+        },
+        {
+          "token": "GRAM",
+          "type": "合约上线",
+          "detail": "GRAMUSDT、GRAMUSDC 永续合约和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885855"
+        },
+        {
+          "token": "DKNG、BUD、NKE等11支世界杯概念股",
+          "type": "美股合约",
+          "detail": "DKNGUSDT、BUDUSDT、NKEUSDT等11支世界杯相关概念股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885854"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KO (可口可乐)",
+          "type": "美股合约",
+          "detail": "KO USDT本位永续合约，6/16上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536277"
+        },
+        {
+          "token": "SMH、TQQQ、SQQQ、SOXS",
+          "type": "合约上线",
+          "detail": "4个指数合约，2026年6月16日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-smh-tqqq-and-2-others-index-futures-on-jun-16-with-0-fee-trading-17827791536273"
+        },
+        {
+          "token": "GRAM",
+          "type": "合约上线",
+          "detail": "GRAMUSDT、GRAMUSDC、GRAMUSD1合约，6/15 22:45上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gramusdt-gramusdc-gramusd1-futures-on-jun-15-2026-14-17827791536266"
+        },
+        {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "KIOXIA USDT本位合约，6/15上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536255"
+        },
+        {
+          "token": "KO、KIOXIA、GRAM",
+          "type": "合约 + 跟单",
+          "detail": "U本位合约跟单交易对新增",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ko-kioxia-and-gram-usdt-m-futures-17827791536287"
+        },
+        {
+          "token": "SMH、TQQQ、SQQQ、SOXS",
+          "type": "合约 + 跟单",
+          "detail": "U本位合约跟单交易对新增",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-smh-tqqq-sqqq-and-soxs-usdt-m-futures-17827791536286"
+        }
+      ]
+    }
+  }
+}
