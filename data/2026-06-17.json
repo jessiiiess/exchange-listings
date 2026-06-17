@@ -1,0 +1,186 @@
+{
+  "date": "2026-06-17",
+  "updatedAt": "2026-06-17T17:38:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": [
+        {
+          "token": "Re (RE)",
+          "type": "Wallet TGE",
+          "detail": "第8期 Pre-TGE Prime Sale，6月17日12:00-14:00 UTC，每人上限3 BNB，需255+ Alpha积分",
+          "url": "https://x.com/BinanceWallet/status/1935115847291054080"
+        }
+      ]
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "GRAM",
+          "type": "现货上线",
+          "detail": "GRAM-USDT、GRAM-USDC、GRAM-USD、GRAM-EUR、GRAM-TRY 交易对，6月17日17:00-18:00上线",
+          "url": "https://www.okx.com/trade-spot/gram-usdt"
+        },
+        {
+          "token": "GRAM",
+          "type": "合约上线",
+          "detail": "GRAM-USDT永续合约，50倍杠杆，6月17日18:30上线",
+          "url": "https://www.okx.com/trade-swap/gram-usdt-swap"
+        },
+        {
+          "token": "RE",
+          "type": "合约上线",
+          "detail": "RE-USDT永续合约，10倍杠杆，6月17日18:30上线",
+          "url": "https://www.okx.com/trade-swap/re-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SPCX",
+          "type": "美股合约",
+          "detail": "SpaceX CFD，Bybit TradFi 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-spcx-cfd-bybit-tradfi--blt4190578c562271a2/"
+        },
+        {
+          "token": "COHR",
+          "type": "美股合约",
+          "detail": "COHRUSDT永续合约，10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cohrusdt-perpetual-contract-with-up-to-10x-leverage-blt9bb74cb5e7ab16eb/"
+        },
+        {
+          "token": "FLNC",
+          "type": "美股合约",
+          "detail": "FLNCUSDT永续合约，10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flncusdt-perpetual-contract-with-up-to-10x-leverage-blte9c294ad1e115242/"
+        },
+        {
+          "token": "AXTI",
+          "type": "美股合约",
+          "detail": "AXTIUSDT永续合约，10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-axtiusdt-perpetual-contract-with-up-to-10x-leverage-bltf3034b08f389b777/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "o1.exchange (O)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-o1-exchange-o-listed-on-kucoin"
+        },
+        {
+          "token": "ILITY (ILY)",
+          "type": "现货上线",
+          "detail": "ILY/USDT 交易对",
+          "url": "https://www.kucoin.com/announcement/en-ility-ily-listed-on-kucoin"
+        },
+        {
+          "token": "BTC",
+          "type": "合约上线",
+          "detail": "币本位BTC季度0925交割合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-launch-the-coin-margined-btc-quarterly-0925-delivery-contract"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "o1.exchange (O)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/100188"
+        },
+        {
+          "token": "SOXS（三倍做空半导体ETF）、GLW等",
+          "type": "美股合约",
+          "detail": "首发上线，合约股票专区永续合约交易（USDT结算）",
+          "url": "https://www.gate.com/zh/announcements/article/100186"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "o1.exchange (O)",
+          "type": "首发上币",
+          "detail": "DeFi 区上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885931"
+        },
+        {
+          "token": "FLNC、CGNX、SMH等10只股票",
+          "type": "美股合约",
+          "detail": "FLNCUSDT、CGNXUSDT、SMHUSDT等10只股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885937"
+        },
+        {
+          "token": "GRAM",
+          "type": "现货杠杆",
+          "detail": "GRAM/USDT 全仓/逐仓杠杆新增",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885891"
+        },
+        {
+          "token": "AI",
+          "type": "现货杠杆",
+          "detail": "AI/USDT 全仓/逐仓杠杆新增",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603885890"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "o1.exchange (O)",
+          "type": "合约上线",
+          "detail": "全球首發，6月17日22:10上线USDT合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536333"
+        },
+        {
+          "token": "o1.exchange (O)",
+          "type": "盘前转正式合约",
+          "detail": "盤前交易結束及交割安排",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536316"
+        },
+        {
+          "token": "ISRG (Intuitive Surgical)",
+          "type": "美股合约",
+          "detail": "ISRG USDT本位合约，6/17上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536319"
+        },
+        {
+          "token": "XLK、XLU",
+          "type": "合约上线",
+          "detail": "2个指数合约，6月17日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlk-and-xlu-usdt-m-index-futures-on-jun-17-with-0-fee-trading-17827791536318"
+        },
+        {
+          "token": "CCL、NKE和3个",
+          "type": "美股合约",
+          "detail": "CCL、NKE等5个USDT本位合约，6/16上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536310"
+        },
+        {
+          "token": "CCL、NKE、CMCSA、MAR、FOXA",
+          "type": "合约 + 跟单",
+          "detail": "U本位合约跟单交易对新增",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ccl-nke-cmcsa-mar-and-foxa-usdt-m-futures-17827791536325"
+        },
+        {
+          "token": "ISRG、XLK、XLU",
+          "type": "合约 + 跟单",
+          "detail": "U本位合约跟单交易对新增",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-isrg-xlk-and-xlu-usdt-m-futures-17827791536324"
+        },
+        {
+          "token": "Kazar (KAZAR)",
+          "type": "首发上币",
+          "detail": "創新區上線，瓜分60,000 USDT Airdrop+獎池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536288"
+        }
+      ]
+    }
+  }
+}
