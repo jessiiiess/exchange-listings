@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-18",
+  "updatedAt": "2026-06-18T17:40:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BTC、ETH等",
+          "type": "合约上线",
+          "detail": "USDⓈ-M & COIN-M 季度1225交割合约上线",
+          "url": "https://www.binance.com/en/support/announcement/81092181ec124efea616f591cf335c05"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "现货上线",
+          "detail": "RE-USDT、RE-USD、RE-TRY 交易对，6月18日21:00-22:00上线",
+          "url": "https://www.okx.com/trade-spot/re-usdt"
+        },
+        {
+          "token": "O",
+          "type": "合约上线",
+          "detail": "O-USDT永续合约，20倍杠杆，6月18日00:30上线",
+          "url": "https://www.okx.com/trade-swap/o-usdt-swap"
+        },
+        {
+          "token": "EWZ、SMH、RIVN、DKNG、RDDT",
+          "type": "美股合约",
+          "detail": "5只美股永续合约，20倍杠杆，6月18日17:00-18:00上线",
+          "url": "https://www.okx.com/trade-swap/ewz-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Re Protocol (RE)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线 RE/USDT",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-re-protocol-re-listed-on-kucoin"
+        },
+        {
+          "token": "O",
+          "type": "合约上线",
+          "detail": "OUSDT永续合约，20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ousdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "GRAM",
+          "type": "合约上线",
+          "detail": "GRAMUSDT永续合约，75倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-gramusdt-perpetual-contract-with-up-to-75x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "O",
+          "type": "合约 + 跟单",
+          "detail": "O合约交易、杠杆借贷、交易机器人、跟单、闪兑、定投功能上线",
+          "url": "https://www.gate.com/zh/announcements/article/100233"
+        },
+        {
+          "token": "KLAC、GS等7只美股",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区：KLAC（科磊公司）、GS（高盛集团）等7个永续合约交易（USDT结算）",
+          "url": "https://www.gate.com/zh/announcements/article/100215"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Re Protocol (RE)",
+          "type": "首发上币",
+          "detail": "DeFi 区上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886083"
+        },
+        {
+          "token": "HBAR",
+          "type": "合约上线",
+          "detail": "HBAR/USDT 全仓杠杆上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886017"
+        },
+        {
+          "token": "BILL",
+          "type": "合约上线",
+          "detail": "BILL/USDT 全仓杠杆上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886016"
+        },
+        {
+          "token": "Bluwhale AI (BLUAI)",
+          "type": "现货上线",
+          "detail": "AI 专区上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886006"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
