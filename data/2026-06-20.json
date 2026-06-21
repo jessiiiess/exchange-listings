@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-20",
+  "updatedAt": "2026-06-22T00:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "RE、UAI、PUMPBTC等14个",
+          "type": "杠杆上线",
+          "detail": "现货逐仓杠杆新增RE/USDT、UAI/USDT、PUMPBTC/USDT、AEVO/USDT、STABLE/USDT等14个交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886243"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZERO",
+          "type": "Meme+ 区",
+          "detail": "ZERO现已上线MEXC Meme+交易区，6/20 13:00开放交易",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/first-in-market-17827791536386"
+        },
+        {
+          "token": "ZERO",
+          "type": "合约上线",
+          "detail": "ZEROUSDT合约创新板块上线，1-20倍杠杆，6/20 21:15开放",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/first-in-market-17827791536388"
+        }
+      ]
+    }
+  }
+}

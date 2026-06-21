@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-19",
+  "updatedAt": "2026-06-22T00:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Re (RE)",
+          "type": "合约上线",
+          "detail": "RE上线Earn、Buy Crypto、Convert、Margin及Futures",
+          "url": "https://www.binance.com/en/support/announcement/005d1ef77538417cbe69d4703deb1969"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "合约上线",
+          "detail": "REUSDT永续合约上线，支持最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage-blt873940bb4fbcca71/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "合约上线",
+          "detail": "REUSDT永续合约上线，支持最高20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-reusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Re (RE)",
+          "type": "首发现货 + 闪兑",
+          "detail": "RE现货交易与闪兑交易上线",
+          "url": "https://www.gate.com/zh/announcements/article/100235"
+        },
+        {
+          "token": "Re (RE)",
+          "type": "合约 + 跟单",
+          "detail": "RE合约交易、杠杆借贷、交易机器人、跟单上线",
+          "url": "https://www.gate.com/zh/announcements/article/100237"
+        },
+        {
+          "token": "INTU、TER、IBIT等8只美股",
+          "type": "美股合约",
+          "detail": "Gate合约股票专区上线INTU、TER、IBIT、MRK、ADI、LIN、CVS、TMO永续合约，1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100241"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "RE",
+          "type": "合约上线",
+          "detail": "REUSDT上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886183"
+        },
+        {
+          "token": "ALAB、TER、LRCX等5只美股",
+          "type": "美股合约",
+          "detail": "上线ALABUSDT、TERUSDT、LRCXUSDT、MUUUSDT、XNDUUSDT股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886178"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ALAB、TER",
+          "type": "美股合约",
+          "detail": "ALAB和TER U本位合约上线，20倍杠杆，6/18 21:22上线",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/new-stock-futures-listings-17827791536374"
+        },
+        {
+          "token": "B-Lucky (LUCKY)",
+          "type": "首发上币",
+          "detail": "LUCKY/USDT创新区交易，6/19 21:00开放",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/first-in-market-17827791536322"
+        },
+        {
+          "token": "ALAB、TER",
+          "type": "合约 + 跟单",
+          "detail": "ALAB和TER U本位合约跟单上线，20倍杠杆",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-copy-trade-now-supports-alab-and-ter-usdt-m-futures-17827791536380"
+        }
+      ]
+    }
+  }
+}

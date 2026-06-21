@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-21",
+  "updatedAt": "2026-06-22T00:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ZERO",
+          "type": "创新区现货",
+          "detail": "ZERO从Meme+区迁移至创新区，6/21 10:30开放交易",
+          "url": "https://www.mexc.com/zh-MY/announcements/article/mexc-moves-zero-to-innovation-zone-17827791536389"
+        }
+      ]
+    }
+  }
+}
