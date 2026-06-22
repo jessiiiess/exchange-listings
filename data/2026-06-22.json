@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-22",
+  "updatedAt": "2026-06-22T18:30:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "LRCX、KLAC、ALAB、SMCI、CIEN、KORU、SONY",
+          "type": "美股合约",
+          "detail": "7个TradFi永续合约上线，LRCX(Lam Research)、KLAC(KLA)、ALAB(Astera Labs)、SMCI(Super Micro)、CIEN(Ciena)、KORU(韩国3倍做多ETF)、SONY(索尼)，6/22 13:30-14:00 UTC陆续上线",
+          "url": "https://www.binance.com/en/support/announcement/88ea4a4f9f0b4ad4b7b308195c026fe4"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GRAM",
+          "type": "合约上线",
+          "detail": "GRAMUSDT永续合约上线，最高50倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gramusdt-perpetual-contract-bltab67bca1a0b46"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere首发上线ARX现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-arcium-arx-listed-on-kucoin"
+        },
+        {
+          "token": "Manadia (UMXM)",
+          "type": "现货上线",
+          "detail": "UMXM现货交易上线",
+          "url": "https://www.kucoin.com/announcement/en-manadia-umxm-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ADSK、BKNG、VZ、SCHW、HON、PFE、SYK、AMGN",
+          "type": "美股合约",
+          "detail": "合约股票专区上线8个永续合约(USDT结算)，ADSK(欧特克)、BKNG(缤客控股)、VZ(威瑞森)、SCHW(嘉信理财)、HON(霍尼韦尔)、PFE(辉瑞)、SYK(史赛克)、AMGN(安进)，1-20倍杠杆，6/22 14:00 UTC+8上线",
+          "url": "https://www.gate.com/zh/announcements/article/100247"
+        },
+        {
+          "token": "韩国股票 (三星电子、SK海力士、NAVER、现代汽车、Celltrion等)",
+          "type": "TradFi 股票上线",
+          "detail": "Gate股票正式上线韩股交易，首批上线KRX市值前1000只股票，覆盖KOSPI主板及KOSDAQ，支持USDT交易",
+          "url": "https://www.gate.com/zh/announcements/article/100260"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "首发上币",
+          "detail": "ARX首发上线Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886296"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Zylo Ecosystem (ZYLO)",
+          "type": "首发上币",
+          "detail": "陽光普照活動首发上线ZYLO",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536289"
+        },
+        {
+          "token": "SOLANGELES",
+          "type": "Meme+ 区",
+          "detail": "SOLANGELES上线MEXC Meme+区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536402"
+        },
+        {
+          "token": "Arcium (ARX)",
+          "type": "首发合约",
+          "detail": "全球首发上线ARX USDT永续合约，6/22 18:10 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536397"
+        },
+        {
+          "token": "ZHIPU (智谱)",
+          "type": "美股合约",
+          "detail": "ZHIPU U本位股票合约上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536396"
+        },
+        {
+          "token": "NEM (纽蒙特矿业) 和 SLB (斯伦贝谢)",
+          "type": "美股合约",
+          "detail": "NEM、SLB U本位美股合约上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536395"
+        },
+        {
+          "token": "NEM、SLB、PYPL、TEM",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增NEM、SLB、PYPL和TEM U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-nem-slb-pypl-and-tem-usdt-m-futures-17827791536401"
+        },
+        {
+          "token": "ZHIPU 和 ZERO",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增ZHIPU和ZERO U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-zhipu-and-zero-usdt-m-futures-17827791536400"
+        }
+      ]
+    }
+  }
+}
