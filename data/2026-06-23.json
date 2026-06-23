@@ -1,0 +1,204 @@
+{
+  "date": "2026-06-23",
+  "updatedAt": "2026-06-23T18:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARXUSDT 永续合约，2026-06-23 上线",
+          "url": "https://www.binance.com/en/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b"
+        },
+        {
+          "token": "AMD、iShares MSCI South Korea ETF、Intel、Strategy",
+          "type": "美股上线",
+          "detail": "bStocks 代币化证券 AMDB、EWYB、INTCB、MSTRB 现货交易对上线，2026-06-23",
+          "url": "https://www.binance.com/en/support/announcement/d1343e10bc2648cd8302c83a5b1223a9"
+        },
+        {
+          "token": "MVLL、TQQQ、SQQQ",
+          "type": "美股合约",
+          "detail": "TradFi 永续合约，GraniteShares 2x Long MRVL/ProShares UltraPro QQQ/Short QQQ，2026-06-29 上线",
+          "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARX-USDT-SWAP，20x杠杆，2026-06-22 20:30 上线",
+          "url": "https://www.okx.com/help/okx-to-list-arxusdt-perpetual-contract"
+        },
+        {
+          "token": "KLAC、LRCX、TTMI",
+          "type": "美股合约",
+          "detail": "股票合约 KLAC/LRCX/TTMI-USDT-SWAP，20x/20x/10x杠杆，2026-06-23 上线",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARXUSDT 创新板块永续合约，20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ar"
+        },
+        {
+          "token": "o1.exchange (O)",
+          "type": "合约上线",
+          "detail": "OUSDT 创新板块永续合约，20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ou"
+        },
+        {
+          "token": "BBX",
+          "type": "合约上线",
+          "detail": "BBXUSDT 永续合约，20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bb"
+        },
+        {
+          "token": "CRDO",
+          "type": "合约上线",
+          "detail": "CRDOUSDT 永续合约，20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cr"
+        },
+        {
+          "token": "USAR",
+          "type": "合约上线",
+          "detail": "USARUSDT 永续合约，20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-us"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARXUSDT 永续合约，20x杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-arxusdt-perpetual-c"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Rain (RAIN)",
+          "type": "现货 + 闪兑",
+          "detail": "现货交易、闪兑交易上线，开启 HODLer Airdrop",
+          "url": "https://www.gate.com/zh/announcements/article/100282"
+        },
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARX 永续合约交易（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/100275"
+        },
+        {
+          "token": "SHOP、MELI、SPOT、MPWR、STM、WFC、FCX、NEE、LRCX、KORU、SONY",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线 11 个永续合约（USDT结算），支持1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100271"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "o1.exchange (O)",
+          "type": "合约上线",
+          "detail": "OUSDT 合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887194"
+        },
+        {
+          "token": "Arcium (ARX)",
+          "type": "合约上线",
+          "detail": "ARXUSDT 合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886485"
+        },
+        {
+          "token": "Arcium (ARX)",
+          "type": "杠杆上线",
+          "detail": "ARX/USDT 现货杠杆",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886484"
+        },
+        {
+          "token": "KLAC、JPM、GEV、CAT、GS、ADI、FLEX、LIN、APD、KORU",
+          "type": "美股合约",
+          "detail": "10支热门股票永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886343"
+        },
+        {
+          "token": "CC、GWEI、RAVE",
+          "type": "杠杆上线",
+          "detail": "CC/USDT, GWEI/USDT, RAVE/USDT 现货杠杆",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603886300"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MAME",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536427"
+        },
+        {
+          "token": "FARMTOWN",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536423"
+        },
+        {
+          "token": "XBI",
+          "type": "指数合约",
+          "detail": "XBI 指数合约，2026-06-23 上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xbi-usdt-m-index-futures-on-jun-23-with-0-fee-trading-17827791536425"
+        },
+        {
+          "token": "DeXe (DEXE)",
+          "type": "合约上线",
+          "detail": "DEXEUSDT 合约，2026-06-23 11:20 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dexeusdt-futures-on-jun-23-2026-03-17827791536415"
+        },
+        {
+          "token": "SONY、KORU",
+          "type": "美股合约",
+          "detail": "SONY 和 KORU U本位合约，6/22 上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536410"
+        },
+        {
+          "token": "VST、UPST、FCX、BLK、AXP",
+          "type": "美股合约",
+          "detail": "VST、UPST、FCX、BLK、AXP U本位合约，6/22 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536407"
+        },
+        {
+          "token": "DEXE、ARX、SONY、KORU",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 DEXE、ARX、SONY、KORU U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-dexe-arx-sony-and-koru-usdt-m-futures-17827791536420"
+        },
+        {
+          "token": "VST、UPST、FCX、BLK、AXP",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 VST、UPST、FCX、BLK、AXP U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vst-upst-fcx-blk-and-axp-usdt-m-futures-17827791536421"
+        },
+        {
+          "token": "Nesa (NES)",
+          "type": "盘前交易",
+          "detail": "盘前交易即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791536429"
+        }
+      ]
+    }
+  }
+}
