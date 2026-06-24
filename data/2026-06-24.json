@@ -110,21 +110,45 @@
         },
         {
           "token": "Nesa (NES)",
+          "type": "首发现货 + 闪兑",
+          "detail": "MEXC 將於創新區上線 Nesa (NES) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536430"
+        },
+        {
+          "token": "Nesa (NES)",
           "type": "合约上线",
           "detail": "全球首发 NES USDT永续合约，6/24 20:10 开放",
-          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536448"
+        },
+        {
+          "token": "MAME",
+          "type": "合约上线",
+          "detail": "合約創新板塊 MAMEUSDT 合約，6/24 13:00 上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-mameusdt-futures-in-innovation-zone-on-jun-24-2026-05-17827791536440"
         },
         {
           "token": "MAME",
           "type": "创新区现货",
           "detail": "MAME 迁移至创新区",
-          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-mame-to-innovation-zone-17827791536449"
+        },
+        {
+          "token": "ANET、ETN、CCJ、APD",
+          "type": "美股合约",
+          "detail": "ANET, ETN, CCJ, APD USDT本位合约 6/24 上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536441"
         },
         {
           "token": "ANET、ETN、CCJ、APD",
           "type": "合约 + 跟单",
-          "detail": "MEXC 跟单新增 ANET、ETN、CCJ、APD 合约交易对",
-          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+          "detail": "MEXC 跟单新增 ANET、ETN、CCJ、APD U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-anet-etn-ccj-and-apd-usdt-m-futures-17827791536443"
+        },
+        {
+          "token": "MAME、XBI、MVLL",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 MAME、XBI、MVLL U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mame-xbi-and-mvll-usdt-m-futures-17827791536442"
         }
       ]
     }
