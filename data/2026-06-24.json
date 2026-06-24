@@ -1,0 +1,114 @@
+{
+  "date": "2026-06-24",
+  "updatedAt": "2026-06-24T18:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi Perpetual Contracts",
+          "type": "美股合约",
+          "detail": "Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-24)",
+          "url": "https://www.binance.com/en/support/announcement/ba04ce1272df4bdf8d2595ccb0e1954b"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Nesa (NES)",
+          "type": "现货上线",
+          "detail": "NES/USDT、NES/USDC、NES/EUR、NES/TRY、NES/USD 交易对",
+          "url": "https://www.okx.com/help/okx-to-list-nesusdt"
+        },
+        {
+          "token": "KORU、MINIMAX、SMCI、SONY、UVXY、ZHIPU",
+          "type": "美股合约",
+          "detail": "USDT永续合约，10-20x杠杆，instCategory=3（股票合约）",
+          "url": "https://www.okx.com/trade-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GLW",
+          "type": "合约上线",
+          "detail": "GLWUSDT 永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-glwusdt-perpetual-contract-with-up-to-20x-leverage-blt1c8a222a102dd2f6/"
+        },
+        {
+          "token": "KORU、LRCX、TQQQ、SMCI",
+          "type": "美股合约",
+          "detail": "USDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-koruusdt-perpetual-contract-with-up-to-20x-leverage-bltfbc10bda086fd35e/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Nesa (NES)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere: Nesa (NES) Listed on KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-nesa-nes-listed-on-kucoin"
+        },
+        {
+          "token": "Stock Index Perpetual Contracts",
+          "type": "美股合约",
+          "detail": "Multiple Stock Index Perpetual Contracts (2026-06-24)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-06-24"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SAMSUNGEM、SKSQUARE、HPSP、JUSUNG 等韩股",
+          "type": "美股合约",
+          "detail": "首发上线：合约股票专区和指数专区上线韩国股票永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100310"
+        },
+        {
+          "token": "FIX（美国舒适系统）、SO（南方电力）等",
+          "type": "美股合约",
+          "detail": "首发上线：合约股票专区将上线美股永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100297"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ZHIPU（智谱AI）和 MINIMAX",
+          "type": "美股合约",
+          "detail": "ZHIPUUSDT、MINIMAXUSDT永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887315"
+        },
+        {
+          "token": "rSTRC、rQQQI、rASST、rSCHD、rDHI、rYUM、rAMP",
+          "type": "美股合约",
+          "detail": "7只股票现货上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887280"
+        },
+        {
+          "token": "H",
+          "type": "现货杠杆",
+          "detail": "H/USDT 现货杠杆新增",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887197"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Zylo Ecosystem (ZYLO)",
+          "type": "现货上线",
+          "detail": "投票上线，陽光普照",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-zylo-ecosystem-zylo-kickstarter-17827791536292"
+        }
+      ]
+    }
+  }
+}
