@@ -107,6 +107,24 @@
           "type": "现货上线",
           "detail": "投票上线，陽光普照",
           "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-zylo-ecosystem-zylo-kickstarter-17827791536292"
+        },
+        {
+          "token": "Nesa (NES)",
+          "type": "合约上线",
+          "detail": "全球首发 NES USDT永续合约，6/24 20:10 开放",
+          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+        },
+        {
+          "token": "MAME",
+          "type": "创新区现货",
+          "detail": "MAME 迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
+        },
+        {
+          "token": "ANET、ETN、CCJ、APD",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 ANET、ETN、CCJ、APD 合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/new-listings"
         }
       ]
     }
