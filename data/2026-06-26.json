@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-26",
+  "updatedAt": "2026-06-26T22:00:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "CAP-USDT-SWAP 永续合约，20x杠杆，instCategory=1（加密货币），6/26 20:30 上线",
+          "url": "https://www.okx.com/trade-swap/cap-usdt-swap"
+        },
+        {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "KIOXIA-USDT-SWAP 永续合约，10x杠杆，instCategory=3（股票合约），6/26 09:30 上线",
+          "url": "https://www.okx.com/trade-swap/kioxia-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "ASML、HPE、KLAC",
+          "type": "美股合约",
+          "detail": "ASMLUSDT (25x)、HPEUSDT (20x)、KLACUSDT (20x) 永续合约上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-asmlusdt-perpetual-contract-with-up-to-25x-leverage-blt62af8e37f8db88d4/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere: Cap (CAP) Listed on KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-cap-cap-listed-on-kucoin"
+        },
+        {
+          "token": "ESIM",
+          "type": "合约上线",
+          "detail": "ESIMUSDT Perpetual Contract，最高10x杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-esimusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "KBHLD（建滔集团）等3个",
+          "type": "美股合约",
+          "detail": "首发上线：Gate 合约股票专区将上线 KBHLD（建滔集团 00148.HK）等 3 个永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100355"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rRAM",
+          "type": "股票现货",
+          "detail": "上线 rRAM 股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887488"
+        },
+        {
+          "token": "EVAA",
+          "type": "合约上线",
+          "detail": "EVAAUSDT 上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887480"
+        },
+        {
+          "token": "RAM",
+          "type": "美股合约",
+          "detail": "首发上线RAMUSDT股票永续合约-两倍做多存储芯片板块",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887479"
+        },
+        {
+          "token": "BIO",
+          "type": "全仓杠杆",
+          "detail": "全仓杠杆上线 BIO/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887448"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "全球首发：2026年6月26日 20:10 (UTC+8) 上线 Cap (CAP) USDT合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536496"
+        },
+        {
+          "token": "Cap (CAP)",
+          "type": "首发现货 + 闪兑",
+          "detail": "MEXC 將於創新區上線 Cap (CAP) 並支援閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536474"
+        },
+        {
+          "token": "ADVANTEST 和 TOKYOEL",
+          "type": "美股合约",
+          "detail": "ADVANTESTSTOCK 和 TOKYOELSTOCK USDT 本位合约將於6月26日上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536494"
+        },
+        {
+          "token": "WEN",
+          "type": "美股合约",
+          "detail": "WEN USDT 本位合约將於6月25日上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536488"
+        },
+        {
+          "token": "SP500、SPCX 和 3个 USD1 合约",
+          "type": "合约上线",
+          "detail": "全球首发：上线 SP500, SPCX 和 3个 USD1 本位合约币对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536486"
+        },
+        {
+          "token": "WEN、ADVANTEST、TOKYOEL",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 WEN、ADVANTEST 和 TOKYOEL U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wen-advantest-and-tokyoel-usdt-m-futures-17827791536499"
+        }
+      ]
+    }
+  }
+}
