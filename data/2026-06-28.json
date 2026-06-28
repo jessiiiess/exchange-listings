@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-28",
+  "updatedAt": "2026-06-28T20:15:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ANSEM",
+          "type": "Meme+ 区",
+          "detail": "首发上线：ANSEM 现已上线 MEXC Meme+，随后迁移至创新区，2026-06-28 13:30 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536"
+        },
+        {
+          "token": "ANSEM",
+          "type": "合约上线",
+          "detail": "首发上线：MEXC 合约创新板块上线 ANSEMUSDT 合约，1-20倍杠杆，2026-06-28 15:40 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536538"
+        }
+      ]
+    }
+  }
+}

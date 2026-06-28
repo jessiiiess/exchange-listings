@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-27",
+  "updatedAt": "2026-06-28T20:15:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "Binance Futures 上线 CAPUSDT 永续合约，2026-06-27",
+          "url": "https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "Gate 已上线 CAP 永续合约交易（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/100371"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "CAPUSDT 现已上线合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887564"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
