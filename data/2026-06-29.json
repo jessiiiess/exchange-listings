@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-29",
+  "updatedAt": "2026-06-29T18:15:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Re (RE) 和 XPL",
+          "type": "现货上线",
+          "detail": "新增 RE/U, RE/USD1, XPL/U, XPL/USD1 交易对及 Trading Bots，2026-06-30 08:00 UTC 开放",
+          "url": "https://www.binance.com/en/support/announcement/8057e105f5724d9bbf29ba416f14149e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "STRC",
+          "type": "美股合约",
+          "detail": "STRC-USDT-SWAP 永续合约上线，instCategory=3（股票合约），10倍杠杆，2026-06-29 17:30 UTC+8",
+          "url": "https://www.okx.com/trade-swap/strc-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "CAPUSDT 永续合约上线创新板块，最高10倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-capusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage-bltc97599c16bda8ced/"
+        },
+        {
+          "token": "ALAB、CIEN 和 ADBE",
+          "type": "美股合约",
+          "detail": "ALABUSDT、CIENUSDT、ADBEUSDT 永续合约上线，最高20倍杠杆（Albemarle、Ciena、Adobe）",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-alabusdt-perpetual-contract-with-up-to-20x-leverage-blt47930611980e36dd/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "STRC",
+          "type": "美股合约",
+          "detail": "Bitget 已上线 STRCUSDT 股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887627"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RTX、NIO、AVAV、SMR 和 AEHR",
+          "type": "美股合约",
+          "detail": "RTX, NIO, AVAV, SMR, AEHR USDT 本位永续合约于6月29日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536542"
+        },
+        {
+          "token": "ANSEM 和 CAP",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 ANSEM 和 CAP U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ansem-and-cap-usdt-m-futures-17827791536545"
+        }
+      ]
+    }
+  }
+}
