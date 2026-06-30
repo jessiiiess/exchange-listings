@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updatedAt": "2026-06-30T17:50:00+08:00",
+  "updatedAt": "2026-06-30T18:00:00+08:00",
   "exchanges": {
     "binance": {
       "listings": [
@@ -84,10 +84,40 @@
     "mexc": {
       "listings": [
         {
-          "token": "ANSEM",
+          "token": "Ondo 代币化股票",
+          "type": "现货上线",
+          "detail": "MEXC 现货市场推出 Ondo 代币化股票交易对，2026-06-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550"
+        },
+        {
+          "token": "TJR",
           "type": "Meme+ 区",
-          "detail": "首发上线：ANSEM 现已上线 MEXC Meme+",
-          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536"
+          "detail": "首发上线：TJR 现已上线 MEXC Meme+，后迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536561"
+        },
+        {
+          "token": "TJR",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新板块于 2026-06-30 14:50 (UTC+8) 上线 TJRUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536567"
+        },
+        {
+          "token": "FLORK",
+          "type": "Meme+ 区",
+          "detail": "首发上线：FLORK 现已上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536560"
+        },
+        {
+          "token": "AZN、IBKR、SBUX、ADM 和 BIDU",
+          "type": "美股合约",
+          "detail": "AZN, IBKR, SBUX, ADM, BIDU USDT 本位合约于6月30日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536559"
+        },
+        {
+          "token": "SOLANGELES",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新板块于 2026-06-29 23:45 (UTC+8) 上线 SOLANGELESUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536552"
         }
       ]
     }
