@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-30",
+  "updatedAt": "2026-06-30T17:50:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Lumentum (LITEB)、Meta (METAB)、Microsoft (MSFTB)、Palantir (PLTRB) 和 Invesco QQQ Trust (QQQB)",
+          "type": "现货上线",
+          "detail": "bStocks Tokenized Securities 新增5个交易对上线 Binance Spot",
+          "url": "https://www.binance.com/en/support/announcement/03b264b679a646119d1a2415b9097bd6"
+        },
+        {
+          "token": "多币种",
+          "type": "杠杆上线",
+          "detail": "Binance Margin 新增交易对 2026-06-30",
+          "url": "https://www.binance.com/en/support/announcement/d8400c84767448a2bcb71b7bf3864a97"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Bittensor (TAO)",
+          "type": "现货上线",
+          "detail": "TAO-USDT、TAO-USDC、TAO-EUR、TAO-TRY、TAO-USD 交易对上线，2026-06-30 19:00-20:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot/tao-usdt"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "MVLL 和 STRC",
+          "type": "美股合约",
+          "detail": "MVLLUSDT 和 STRCUSDT 股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-mvllusdt-and-strcusdt-stock-index-perpetual-contracts-2026-06-30"
+        },
+        {
+          "token": "Cap (CAP)",
+          "type": "合约上线",
+          "detail": "CAPUSDT 永续合约上线，最高10倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-capusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "UVXY、SONY、EWZ、DKNG、RDDT、ONDS、KBHLD、KBLAM、POPMART",
+          "type": "美股合约",
+          "detail": "Gate CFD 股票专区上线9个差价合约，4倍固定杠杆（含ProShares VIX ETF、索尼、巴西ETF、DraftKings、Reddit、建滔集团、泡泡玛特等）",
+          "url": "https://www.gate.com/zh/announcements/article/100398"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "VOO、SOXX、PDD、WEN 等10支股票",
+          "type": "美股合约",
+          "detail": "上线 VOOUSDT、SOXXUSDT、PDDUSDT、WENUSDT 等10支热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887644"
+        },
+        {
+          "token": "IRYS 和 TRUST",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 IRYS/USDT, TRUST/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887629"
+        },
+        {
+          "token": "Re (RE)",
+          "type": "杠杆上线",
+          "detail": "全仓杠杆上线 RE/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887628"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ANSEM",
+          "type": "Meme+ 区",
+          "detail": "首发上线：ANSEM 现已上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536536"
+        }
+      ]
+    }
+  }
+}
