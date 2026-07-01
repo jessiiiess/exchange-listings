@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-01",
+  "updatedAt": "2026-07-01T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BTCU 和 ETHU",
+          "type": "合约上线",
+          "detail": "Binance Futures 上线 BTCUUSDT 和 ETHUUSDT 永续合约，2026-06-30 22:45发布",
+          "url": "https://www.binance.com/en/support/announcement/25da4614ffff435fa28544b27fd33a39"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "BOT",
+          "type": "合约上线",
+          "detail": "BOTUSDT 永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-botusdt-perpetual-contract-with-up-to-20x-leverage-blt773ea6e7dd2c5d10/"
+        },
+        {
+          "token": "SQQQ",
+          "type": "美股合约",
+          "detail": "SQQQUSDT 永续合约上线，最高20倍杠杆（ProShares三倍做空QQQ ETF）",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sqqqusdt-perpetual-contract-with-up-to-20x-leverage-blt5d5e5055e33eb96d/"
+        },
+        {
+          "token": "MVLL",
+          "type": "美股合约",
+          "detail": "MVLLUSDT 永续合约上线，最高20倍杠杆（2倍做多迈威尔每日ETF）",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mvllusdt-perpetual-contract-with-up-to-20x-leverage-blt4ad015ee600688bf/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Nesa (NES)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate 上线 NES 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/100445"
+        },
+        {
+          "token": "STRC、TSEM、AAL、AMKR、PDD、ASX、MVLL、FLEX、APD",
+          "type": "美股合约",
+          "detail": "首发上线：Gate 合约股票专区上线9个永续合约（微策略优先股、高塔半导体、美国航空、安靠技术、拼多多、日月光、2倍做多迈威尔ETF、伟创力、空气产品），1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100428"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rAMKR、rON、rUVXY、rCSIQ 等9只股票",
+          "type": "现货上线",
+          "detail": "上线 rAMKR、rON、rUVXY、rCSIQ 等9只股票现货（代币化股票）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887698"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SOLANGELES 和 TJR",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 SOLANGELES 和 TJR U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-solangeles-and-tjr-usdt-m-futures-17827791536591"
+        },
+        {
+          "token": "BKNG、COF、DDOG、HAL 和 KHC",
+          "type": "美股合约",
+          "detail": "BKNG, COF, DDOG, HAL, KHC USDT本位合约于7月1日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583"
+        },
+        {
+          "token": "SLS、MVLL、CATSTOCK、GS 和 ARKK",
+          "type": "美股合约",
+          "detail": "SLS, MVLL, CATSTOCK, GS, ARKK USDT本位合约于6月30日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574"
+        }
+      ]
+    }
+  }
+}
