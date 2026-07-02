@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-02",
+  "updatedAt": "2026-07-02T18:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "STRC、CAT、TXN、FLEX、TER、TTWO、KSTR 和 BSP",
+          "type": "美股合约",
+          "detail": "Binance Futures 上线8个TradFi永续合约：STRC（微策略优先股）、CAT（卡特彼勒）、TXN（德州仪器）、FLEX（伟创力）、TER（泰瑞达）、TTWO（Take-Two）、KSTR（KraneShares）、BSP，最高50倍杠杆",
+          "url": "https://www.binance.com/en/support/announcement/d2acaa91c14e4cc598aaee1017efc1ac"
+        },
+        {
+          "token": "Gram (GRAM)",
+          "type": "合约上线",
+          "detail": "Binance 上线 GRAM 全仓/逐仓杠杆及合约交易，同时支持 Earn、Buy Crypto、Convert、VIP Loan",
+          "url": "https://www.binance.com/en/support/announcement/3da0bd5b07bf497db5788fed38d478b0"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "RAM、BOT、MUU、MVLL、SOFTBANK 和 TQQQ",
+          "type": "美股合约",
+          "detail": "OKX 上线6个股票永续合约：RAM（20x）、BOT（20x）、MUU（20x）、MVLL（20x）、SOFTBANK（10x）、TQQQ（20x），均为 USDT 结算",
+          "url": "https://www.okx.com/help/okx-to-list-new-tradfi-perpetual-contracts-20260702"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MUU、XLU、CCL、BUD、NKE、FOXA、CMCSA、ABNB 和 MAR",
+          "type": "美股合约",
+          "detail": "首发上线：Gate 合约股票专区上线9个永续合约（2倍做多美光ETF、公用事业ETF、嘉年华邮轮、百威英博、耐克、福克斯、康卡斯特、爱彼迎、万豪），1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100453"
+        },
+        {
+          "token": "LR (Ledger Realms)",
+          "type": "首发上币",
+          "detail": "Gate Alpha 首发上线 LR (Ledger Realms)",
+          "url": "https://www.gate.com/zh/announcements/article/100466"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "TENCENT、XIAOMI、SMIC、POPMART 等7只股票",
+          "type": "美股合约",
+          "detail": "上线 TENCENTUSDT（腾讯）、XIAOMIUSDT（小米）、SMIC（中芯国际）、POPMART（泡泡玛特）等7只股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887840"
+        },
+        {
+          "token": "SLX",
+          "type": "杠杆上线",
+          "detail": "Bitget 现货杠杆新增 SLX/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603887736"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BSP、FLEX、TTWO、KSTR 和 STRC",
+          "type": "美股合约",
+          "detail": "BSP, FLEX, TTWO, KSTR, STRC USDT本位合约于7月2日上线，限时0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536641"
+        },
+        {
+          "token": "MARA、SYF 和 AFRM",
+          "type": "美股合约 + 跟单",
+          "detail": "MARA（Marathon）、SYF（Synchrony）、AFRM（Affirm）USDT本位合约于7月2日上线，同步支持跟单",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536631"
+        },
+        {
+          "token": "DATA",
+          "type": "合约上线",
+          "detail": "MEXC 于2026年7月2日 12:45 (UTC+8) 上线 DATAUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-datausdt-futures-on-jul-2-2026-04-17827791536630"
+        },
+        {
+          "token": "AERGO",
+          "type": "合约上线",
+          "detail": "MEXC 于2026年7月2日 12:45 (UTC+8) 上线 AERGOUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aergousdt-futures-on-jul-2-2026-04-17827791536629"
+        },
+        {
+          "token": "TESTIBULL",
+          "type": "Meme+ 区",
+          "detail": "首发上线：TESTIBULL 上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536627"
+        },
+        {
+          "token": "SOFI、MXL、PENG、NVTS 和 NU",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 SOFI、MXL、PENG、NVTS、NU U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
+        },
+        {
+          "token": "RTX、NIO、AVAV、SMR 和 AEHR",
+          "type": "美股合约 + 跟单",
+          "detail": "RTX（雷神）、NIO（蔚来）、AVAV（航空环境）、SMR（NuScale）、AEHR USDT本位合约+跟单",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rtx-nio-avav-smr-and-aehr-usdt-m-futures-17827791536614"
+        },
+        {
+          "token": "AZN、IBKR、SBUX、ADM 和 BIDU",
+          "type": "美股合约 + 跟单",
+          "detail": "AZN（阿斯利康）、IBKR（盈透）、SBUX（星巴克）、ADM、BIDU（百度）USDT本位合约+跟单",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-azn-ibkr-sbux-adm-and-bidu-usdt-m-futures-17827791536615"
+        },
+        {
+          "token": "TJR",
+          "type": "首发合约",
+          "detail": "首发上线：MEXC 合约创新板块上线 TJRUSDT 合约（2026年6月30日 14:50 UTC+8）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536567"
+        },
+        {
+          "token": "TJR",
+          "type": "Meme+ 区",
+          "detail": "首发上线：TJR 上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536561"
+        },
+        {
+          "token": "FLORK",
+          "type": "Meme+ 区",
+          "detail": "首发上线：FLORK 上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536560"
+        },
+        {
+          "token": "Ondo 代币化股票",
+          "type": "现货上线",
+          "detail": "MEXC 现货市场推出 Ondo 代币化股票交易对（2026年6月30日）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pair-on-spot-markets-jun-30-2026-17827791536550"
+        }
+      ]
+    }
+  }
+}
