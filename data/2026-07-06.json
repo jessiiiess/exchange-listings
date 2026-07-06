@@ -1,0 +1,119 @@
+{
+  "date": "2026-07-06",
+  "updatedAt": "2026-07-06T18:45:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ANTA、CBRS、DISK、FOTO、KMEM、QNT 和 STRC",
+          "type": "美股合约",
+          "detail": "Binance Stock Trading 新增 7 只股票交易对，2026-07-06 上线",
+          "url": "https://www.binance.com/en/support/announcement/c5b4fca755bd4920bd1a1fc1dcd05cb4"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "HYPE",
+          "type": "合约上线",
+          "detail": "HYPE-USD-SWAP 永续合约，20x 杠杆，2026-07-06 18:00 上线",
+          "url": "https://www.okx.com/help/okx-to-list-hypeusd-perpetual-contract"
+        },
+        {
+          "token": "APLD、BSP、ON、OSCR、SIMO、TTWO 和 UNH",
+          "type": "美股合约",
+          "detail": "7 只股票永续合约上线：APLD(20x)、BSP(20x)、ON(10x)、OSCR(10x)、SIMO(20x)、TTWO(20x)、UNH(20x)，2026-07-06 17:00-18:30 陆续上线",
+          "url": "https://www.okx.com/help/okx-to-list-multiple-stock-perpetual-contracts-20260706"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NFLX、TTWO 和 BSP",
+          "type": "美股合约",
+          "detail": "NFLXUSDT、TTWOUSDT、BSPUSDT 永续合约上线，支持最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nflxusdt-perpetual-contract-with-up-to-20x-leverage-bltc1fe4e39f2935562/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "10000REKT",
+          "type": "合约上线",
+          "detail": "10000REKTUSDT 永续合约，8x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-10000rektusdt-perpetual-contract-with-up-to-8x-leverage"
+        },
+        {
+          "token": "多只股票指数",
+          "type": "美股合约",
+          "detail": "KuCoin Futures 上线多只股票指数永续合约 (2026-07-06)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-07-06"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USDPT",
+          "type": "现货上线",
+          "detail": "Gate 正式上线 USDPT 现货交易，推出 450,000 USDPT 奖励及免手续费提现",
+          "url": "https://www.gate.com/zh/announcements/article/100503"
+        },
+        {
+          "token": "TTWO、KSTR、BSP、CAT、WEN 和 BAC",
+          "type": "美股合约",
+          "detail": "Gate 合约股票专区首发上线 6 只永续合约(USDT 结算)，1-20 倍杠杆，2026-07-06 14:00 上线",
+          "url": "https://www.gate.com/zh/announcements/article/100506"
+        },
+        {
+          "token": "TOLY、dingaling、PATTYICE 和 COBRA",
+          "type": "Alpha 首发",
+          "detail": "Gate Alpha 首发上线 TOLY (The Solana Bull)、dingaling、PATTYICE (The Bagworker)、COBRA (COBRA TATE)",
+          "url": "https://www.gate.com/zh/announcements/article/100515"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CRWD、OPENSTOCK、CELH、LIN 和 ASX",
+          "type": "美股合约",
+          "detail": "USDT 本位合约 2026-07-06 上线，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536697"
+        },
+        {
+          "token": "LEVI",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536694"
+        },
+        {
+          "token": "MENSA",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536687"
+        },
+        {
+          "token": "TCC",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536686"
+        },
+        {
+          "token": "TCC 和 CZ",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 TCC 和 CZ USDT 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tcc-and-cz-usdt-m-futures-17827791536689"
+        }
+      ]
+    }
+  }
+}
