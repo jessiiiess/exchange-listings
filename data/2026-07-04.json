@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-04",
+  "updatedAt": "2026-07-06T03:30:00.000Z",
+  "exchanges": {
+    "binance": { "listings": [], "alpha": [], "wallet": [] },
+    "okx": { "listings": [] },
+    "bybit": { "listings": [] },
+    "kucoin": { "listings": [] },
+    "gateio": { "listings": [] },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DATA",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 DATA/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888020"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SLS、MVLL、CATSTOCK、GS 和 ARKK",
+          "type": "美股合约",
+          "detail": "USDT 本位永续合约上线，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536574"
+        },
+        {
+          "token": "BKNG、COF、DDOG、HAL 和 KHC",
+          "type": "美股合约",
+          "detail": "USDT 本位永续合约上线，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536583"
+        },
+        {
+          "token": "SOLANGELES 和 TJR",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 SOLANGELES 和 TJR U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-solangeles-and-tjr-usdt-m-futures-17827791536591"
+        }
+      ]
+    }
+  }
+}

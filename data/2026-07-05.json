@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-05",
+  "updatedAt": "2026-07-06T03:30:00.000Z",
+  "exchanges": {
+    "binance": { "listings": [], "alpha": [], "wallet": [] },
+    "okx": { "listings": [] },
+    "bybit": { "listings": [] },
+    "kucoin": { "listings": [] },
+    "gateio": { "listings": [] },
+    "bitget": { "listings": [] },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CZ",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+，后转板至主板区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536680"
+        },
+        {
+          "token": "MANLET",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536675"
+        },
+        {
+          "token": "BKNG、COF、DDOG、HAL 和 KHC",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-bkng-cof-ddog-hal-and-khc-usdt-m-futures-17827791536612"
+        },
+        {
+          "token": "SOFI、MXL、PENG、NVTS 和 NU",
+          "type": "美股合约",
+          "detail": "USDT 本位永续合约上线，限时 0 费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536608"
+        }
+      ]
+    }
+  }
+}
