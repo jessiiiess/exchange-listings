@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Daily crypto exchange new listing announcements scraper",
   "scripts": {
-    "scrape": "node scripts/scraper.js"
+    "scrape": "node scripts/scraper.js",
+    "build-index": "node scripts/build-search-index.js"
   },
   "dependencies": {
     "playwright": "^1.52.0"

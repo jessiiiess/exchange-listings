@@ -9,6 +9,8 @@ const EXCHANGE_NAMES = {
 };
 
 let currentData = null;
+let searchIndex = null;
+let searchDebounceTimer = null;
 
 function getToday() {
   return new Date().toISOString().split('T')[0];
@@ -20,6 +22,7 @@ function init() {
   picker.addEventListener('change', () => loadData(picker.value));
   loadData(getToday());
   initExport();
+  initSearch();
 }
 
 async function loadData(date) {
@@ -187,6 +190,92 @@ function exportText(data) {
     out += '\n';
   }
   return out.trim();
+}
+
+function initSearch() {
+  const input = document.getElementById('search-input');
+  const clearBtn = document.getElementById('search-clear');
+
+  input.addEventListener('focus', loadSearchIndex);
+
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
+    clearBtn.style.display = query ? 'block' : 'none';
+
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      if (query) {
+        performSearch(query);
+      } else {
+        exitSearch();
+      }
+    }, 300);
+  });
+
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    clearBtn.style.display = 'none';
+    exitSearch();
+    input.focus();
+  });
+}
+
+async function loadSearchIndex() {
+  if (searchIndex) return;
+  try {
+    const res = await fetch('data/search-index.json');
+    if (res.ok) searchIndex = await res.json();
+  } catch (e) {
+    // silently fail
+  }
+}
+
+function performSearch(query) {
+  if (!searchIndex) return;
+
+  const q = query.toLowerCase();
+  const results = searchIndex.filter(item =>
+    item.token && item.token.toLowerCase().includes(q)
+  );
+
+  const dailyContent = document.getElementById('daily-content');
+  const searchContainer = document.getElementById('search-results-container');
+  const searchResults = document.getElementById('search-results');
+  const searchInfo = document.getElementById('search-results-info');
+
+  dailyContent.classList.add('hidden');
+  searchContainer.classList.remove('hidden');
+  searchInfo.textContent = `找到 ${results.length} 条相关公告`;
+
+  if (results.length === 0) {
+    searchResults.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text-3);font-size:0.82rem;">无匹配结果</div>';
+    return;
+  }
+
+  let html = '';
+  for (const item of results) {
+    const tokenHtml = highlightMatch(escapeHtml(item.token), query);
+    const link = item.url ? ` <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">查看公告</a>` : '';
+    const typeHtml = item.type ? `<span class="search-result-type">${escapeHtml(item.type)}</span>` : '';
+    html += `<div class="search-result-item">
+      <span class="search-result-date">${escapeHtml(item.date)}</span>
+      <span class="search-result-exchange">${escapeHtml(item.exchange)}</span>
+      <span class="search-result-detail"><span class="token-highlight">${tokenHtml}</span>${typeHtml} ${escapeHtml(item.detail || '')}${link}</span>
+    </div>`;
+  }
+  searchResults.innerHTML = html;
+}
+
+function highlightMatch(html, query) {
+  const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  return html.replace(regex, '<mark style="background:rgba(59,110,218,0.12);color:var(--text);padding:0 1px;border-radius:2px;">$1</mark>');
+}
+
+function exitSearch() {
+  const dailyContent = document.getElementById('daily-content');
+  const searchContainer = document.getElementById('search-results-container');
+  dailyContent.classList.remove('hidden');
+  searchContainer.classList.add('hidden');
 }
 
 init();

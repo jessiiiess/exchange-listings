@@ -392,6 +392,142 @@
 
     .hidden { display: none; }
 
+    /* Search */
+    .search-container {
+      position: relative;
+      margin-bottom: 1.25rem;
+    }
+
+    .search-container input {
+      width: 100%;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.85rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.6rem 2.5rem 0.6rem 2.2rem;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .search-container input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(59,110,218,0.08);
+    }
+
+    .search-container input::placeholder {
+      color: var(--text-3);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.7rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 14px;
+      height: 14px;
+      color: var(--text-3);
+      pointer-events: none;
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 0.7rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      color: var(--text-3);
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 0;
+      display: none;
+      transition: color 0.15s;
+    }
+
+    .search-clear:hover {
+      color: var(--text);
+    }
+
+    .search-results-info {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--text-3);
+      margin-bottom: 0.75rem;
+    }
+
+    #search-results {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .search-result-item {
+      display: grid;
+      grid-template-columns: 90px 80px 1fr;
+      gap: 0.75rem;
+      align-items: baseline;
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    .search-result-item:last-child {
+      border-bottom: none;
+    }
+
+    .search-result-item:hover {
+      background: var(--accent-soft);
+    }
+
+    .search-result-date {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--text-3);
+      white-space: nowrap;
+    }
+
+    .search-result-exchange {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .search-result-detail {
+      font-size: 0.78rem;
+      color: var(--text-2);
+      line-height: 1.4;
+    }
+
+    .search-result-detail .token-highlight {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .search-result-detail a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.72rem;
+    }
+
+    .search-result-detail a:hover {
+      text-decoration: underline;
+    }
+
+    .search-result-type {
+      font-size: 0.7rem;
+      color: var(--accent);
+      background: var(--accent-badge);
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.4rem;
+      white-space: nowrap;
+    }
+
     /* Mobile */
     @media (max-width: 640px) {
       .page { padding: 2rem 1rem; }
@@ -399,6 +535,12 @@
       .header-top { flex-direction: column; align-items: flex-start; }
       .card-head { padding: 0.65rem 1rem; }
       .card-body { padding: 0.4rem 0.75rem 0.75rem; overflow-x: visible; }
+
+      .search-result-item {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+        padding: 0.6rem 0.75rem;
+      }
 
       table, thead, tbody, tr, th, td { display: block; }
       thead { display: none; }
@@ -441,7 +583,7 @@
       header { margin-bottom: 1.5rem; }
       .header-top { justify-content: flex-start; }
       h1 { font-size: 1.4rem; }
-      .date-control, .header-meta, #no-data, .export-toast { display: none !important; }
+      .date-control, .header-meta, #no-data, .export-toast, .search-container, #search-results-container { display: none !important; }
       .print-title { display: block !important; font-size: 0.85rem; color: #555; margin-top: 0.3rem; }
       .exchange-card {
         border: none;
@@ -508,10 +650,27 @@
       </div>
     </header>
 
-    <div id="content"></div>
-    <div id="no-data" class="hidden">
-      <p>该日期暂无数据</p>
-      <p>数据每日手动更新</p>
+    <div class="search-container">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="search-input" placeholder="搜索币种…" autocomplete="off">
+      <button class="search-clear" id="search-clear" aria-label="清除搜索">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+
+    <div id="search-results-container" class="hidden">
+      <div class="search-results-info" id="search-results-info"></div>
+      <div class="exchange-card">
+        <div id="search-results"></div>
+      </div>
+    </div>
+
+    <div id="daily-content">
+      <div id="content"></div>
+      <div id="no-data" class="hidden">
+        <p>该日期暂无数据</p>
+        <p>数据每日手动更新</p>
+      </div>
     </div>
   </div>
 
