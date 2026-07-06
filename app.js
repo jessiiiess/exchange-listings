@@ -273,12 +273,14 @@ function showSuggestions(query) {
   const suggestions = document.getElementById('search-suggestions');
   const q = query.toLowerCase();
 
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`\\b${escaped}`, 'i');
   const tokenSet = new Set();
   for (const item of searchIndex) {
-    if (item.token && item.token.toLowerCase().includes(q)) {
+    if (item.token && regex.test(item.token)) {
       const tokens = item.token.split(/[、,，]\s*/);
       for (const t of tokens) {
-        if (t.trim().toLowerCase().includes(q)) {
+        if (regex.test(t.trim())) {
           tokenSet.add(t.trim());
         }
       }
@@ -329,9 +331,10 @@ async function loadSearchIndex() {
 function performSearch(query) {
   if (!searchIndex) return;
 
-  const q = query.toLowerCase();
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`\\b${escaped}\\b`, 'i');
   const results = searchIndex.filter(item =>
-    item.token && item.token.toLowerCase().includes(q)
+    item.token && regex.test(item.token)
   );
 
   const dailyContent = document.getElementById('daily-content');
