@@ -396,9 +396,18 @@
     .search-container {
       position: relative;
       margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      max-width: 260px;
     }
 
-    .search-container input {
+    .search-input-wrapper {
+      position: relative;
+      flex: 1;
+    }
+
+    .search-input-wrapper input {
       width: 100%;
       font-family: 'IBM Plex Sans', sans-serif;
       font-size: 0.85rem;
@@ -406,38 +415,38 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.6rem 2.5rem 0.6rem 2.2rem;
+      padding: 0.55rem 2rem 0.55rem 2rem;
       outline: none;
       transition: border-color 0.15s, box-shadow 0.15s;
     }
 
-    .search-container input:focus {
+    .search-input-wrapper input:focus {
       border-color: var(--accent);
       box-shadow: 0 0 0 3px rgba(59,110,218,0.08);
     }
 
-    .search-container input::placeholder {
+    .search-input-wrapper input::placeholder {
       color: var(--text-3);
     }
 
     .search-icon {
       position: absolute;
-      left: 0.7rem;
+      left: 0.65rem;
       top: 50%;
       transform: translateY(-50%);
-      width: 14px;
-      height: 14px;
+      width: 13px;
+      height: 13px;
       color: var(--text-3);
       pointer-events: none;
     }
 
     .search-clear {
       position: absolute;
-      right: 0.7rem;
+      right: 0.5rem;
       top: 50%;
       transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       color: var(--text-3);
       cursor: pointer;
       border: none;
@@ -449,6 +458,65 @@
 
     .search-clear:hover {
       color: var(--text);
+    }
+
+    .search-btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      border-radius: 8px;
+      padding: 0.55rem 1rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+
+    .search-btn:hover {
+      background: #2d5bc7;
+    }
+
+    /* Autocomplete */
+    .search-suggestions {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 200;
+      display: none;
+    }
+
+    .search-suggestions.open {
+      display: block;
+    }
+
+    .search-suggestion-item {
+      padding: 0.45rem 0.75rem;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--text);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .search-suggestion-item:hover,
+    .search-suggestion-item.active {
+      background: var(--accent-soft);
+    }
+
+    .search-suggestion-item mark {
+      background: rgba(59,110,218,0.12);
+      color: var(--text);
+      padding: 0 1px;
+      border-radius: 2px;
     }
 
     .search-results-info {
@@ -651,11 +719,15 @@
     </header>
 
     <div class="search-container">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="search-input" placeholder="搜索币种…" autocomplete="off">
-      <button class="search-clear" id="search-clear" aria-label="清除搜索">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-      </button>
+      <div class="search-input-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="search-input" placeholder="搜索币种…" autocomplete="off">
+        <button class="search-clear" id="search-clear" aria-label="清除搜索">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <div class="search-suggestions" id="search-suggestions"></div>
+      </div>
+      <button class="search-btn" id="search-btn">搜索</button>
     </div>
 
     <div id="search-results-container" class="hidden">
