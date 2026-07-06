@@ -395,8 +395,6 @@
     /* Search */
     .search-container {
       position: relative;
-      margin-bottom: 1.25rem;
-      margin-top: -0.5rem;
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -717,20 +715,19 @@
       <div class="header-meta">
         <div class="live-dot hidden" id="live-dot"></div>
         <div id="update-time"></div>
+        <div class="search-container">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="search-input" placeholder="搜索币种…" autocomplete="off">
+            <button class="search-clear" id="search-clear" aria-label="清除搜索">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+            <div class="search-suggestions" id="search-suggestions"></div>
+          </div>
+          <button class="search-btn" id="search-btn">搜索</button>
+        </div>
       </div>
     </header>
-
-    <div class="search-container">
-      <div class="search-input-wrapper">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" id="search-input" placeholder="搜索币种…" autocomplete="off">
-        <button class="search-clear" id="search-clear" aria-label="清除搜索">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-        </button>
-        <div class="search-suggestions" id="search-suggestions"></div>
-      </div>
-      <button class="search-btn" id="search-btn">搜索</button>
-    </div>
 
     <div id="search-results-container" class="hidden">
       <div class="search-results-info" id="search-results-info"></div>
