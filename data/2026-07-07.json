@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-07",
+  "updatedAt": "2026-07-07T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "10 只 bStocks 美股代币",
+          "type": "美股合约",
+          "detail": "Binance Stock Trading 新增 10 只 bStocks 现货交易对，2026-07-07 上线",
+          "url": "https://www.binance.com/en/support/announcement/6a55706a042c4a7ebedc2a0899744088"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Grove (GROVE)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere: Grove (GROVE) 首发上线 KuCoin 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-grove-grove-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ANTA、DISK 等 6 只美股",
+          "type": "美股合约",
+          "detail": "Gate 股票专区上线 ANTA（安塔阿尔法平台）、DISK（泰玛存储芯片 ETF）等 6 只美股 CFD 交易对",
+          "url": "https://www.gate.com/zh/announcements/article/100535"
+        },
+        {
+          "token": "FREEDOM",
+          "type": "Alpha 首发",
+          "detail": "Gate Alpha 首发上线 FREEDOM (FREEDOM)",
+          "url": "https://www.gate.com/zh/announcements/article/100537"
+        },
+        {
+          "token": "Shadow、BIF、LEVI 和 ₿en",
+          "type": "Alpha 首发",
+          "detail": "Gate Alpha 首发上线 Shadow (The bagworker)、BIF (bullwifhat)、LEVI (The White Bull)、₿en (₿en Token)",
+          "url": "https://www.gate.com/zh/announcements/article/100533"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DIASTOCK、CONL、MSTU 等 13 只股票",
+          "type": "美股合约",
+          "detail": "Bitget 上线 DIASTOCKUSDT、CONLUSDT、MSTUUSDT 等 13 支热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888404"
+        },
+        {
+          "token": "GRAM、HOME 和 JST",
+          "type": "合约上线",
+          "detail": "Bitget 全仓杠杆上线 GRAM/USDT, HOME/USDT, JST/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888375"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Grove (GROVE)",
+          "type": "首发上币",
+          "detail": "首發上線 MEXC 創新區 + 閃兌服務",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536724"
+        },
+        {
+          "token": "MSTU、TSEM、ABNB 和 ROK",
+          "type": "美股合约",
+          "detail": "USDT 本位合约 2026-07-07 上线，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536715"
+        },
+        {
+          "token": "LEVI",
+          "type": "合约上线",
+          "detail": "首發上線 MEXC 合約創新板塊，2026-07-07 14:30 (UTC+8) 上線 LEVIUSDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536714"
+        },
+        {
+          "token": "MSTU、TSEM、ABNB、ROK 和 LEVI",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟單新增 MSTU、TSEM、ABNB、ROK 和 LEVI U 本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mstu-tsem-abnb-rok-and-levi-usdt-m-futures-17827791536718"
+        }
+      ]
+    }
+  }
+}
