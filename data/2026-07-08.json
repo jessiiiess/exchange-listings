@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-08",
+  "updatedAt": "2026-07-08T18:15:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "COST",
+          "type": "美股合约",
+          "detail": "COSTUSDT 永续合约上线，支持最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-co"
+        },
+        {
+          "token": "SONY",
+          "type": "美股合约",
+          "detail": "SONYUSDT 永续合约上线，支持最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-so"
+        },
+        {
+          "token": "SHAZ",
+          "type": "合约上线",
+          "detail": "SHAZUSDT 永续合约上线，支持最高 20 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sh"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "AntFun (ANTFUN)",
+          "type": "现货上线",
+          "detail": "AntFun (ANTFUN) 上线 KuCoin 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-antfun-antfun-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SKHYNIX、SAMSUNG 等 11 个 gStocks",
+          "type": "美股合约",
+          "detail": "Gate gStocks 专区新增 SKHYNIXG（SK 海力士）、SAMSUNGG（三星电子）等 11 个 gStocks 代币化证券现货交易对",
+          "url": "https://www.gate.com/zh/announcements/article/100558"
+        },
+        {
+          "token": "ok、bibi 和 Cupsey",
+          "type": "Alpha 首发",
+          "detail": "Gate Alpha 首发上线 ok (ok)、bibi (Binance bibi)、Cupsey (Cupsey)",
+          "url": "https://www.gate.com/zh/announcements/article/100553"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CGPT、ZIG 和 RIF",
+          "type": "合约上线",
+          "detail": "Bitget 现货杠杆新增 CGPT/USDT, ZIG/USDT, RIF/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888471"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Ondo 代币化股票",
+          "type": "现货上线",
+          "detail": "MEXC 现货市场推出 Ondo 代币化股票交易对 (2026年7月8日)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-8-2026-17827791536728"
+        },
+        {
+          "token": "BIBI",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536742"
+        },
+        {
+          "token": "CUPSEY",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536741"
+        },
+        {
+          "token": "Grove (GROVE)",
+          "type": "合约上线",
+          "detail": "全球首发 GROVE USDT 永续合约，2026-07-07 23:10 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536729"
+        },
+        {
+          "token": "GROVE",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 GROVE U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-grove-usdt-m-futures-17827791536744"
+        },
+        {
+          "token": "BSP、FLEX、TTWO、KSTR 和 STRC",
+          "type": "美股合约",
+          "detail": "USDT 本位美股合约上线，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536641"
+        },
+        {
+          "token": "MARA、SYF 和 AFRM",
+          "type": "美股合约",
+          "detail": "USDT 本位美股合约上线，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536631"
+        },
+        {
+          "token": "DATA",
+          "type": "合约上线",
+          "detail": "DATAUSDT 合约上线，最高 20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-datausdt-futures-on-jul-2-2026-04-17827791536630"
+        },
+        {
+          "token": "AERGO",
+          "type": "合约上线",
+          "detail": "AERGOUSDT 合约上线，最高 50x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aergousdt-futures-on-jul-2-2026-04-17827791536629"
+        },
+        {
+          "token": "SOFI、MXL、PENG、NVTS 和 NU",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增美股合约交易对，最高 20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sofi-mxl-peng-nvts-and-nu-usdt-m-futures-17827791536637"
+        },
+        {
+          "token": "MARA、SYF、AFRM、DATA 和 AERGO",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增合约交易对，最高 20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mara-syf-afrm-data-and-aergo-usdt-m-futures-17827791536636"
+        },
+        {
+          "token": "TESTIBULL",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+ 交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536627"
+        }
+      ]
+    }
+  }
+}
