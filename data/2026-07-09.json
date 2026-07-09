@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-09",
+  "updatedAt": "2026-07-09T17:49:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Collector Crypt (CARDS)",
+          "type": "现货上线",
+          "detail": "KuCoin 上线 CARDS 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-collector-crypt-cards-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CBRSG、COING 等 15 个 gStocks",
+          "type": "美股合约",
+          "detail": "Gate gStocks 专区新增 CBRSG（赛睿斯）、COING (Coinbase) 等 15 个 gStocks 代币化证券现货交易对",
+          "url": "https://www.gate.com/zh/announcements/article/100571"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "盘前转正式合约",
+          "detail": "Bitget 将转换 SKHYUSDT 永续合约盘前交易为标准 U 本位永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888850"
+        },
+        {
+          "token": "VELVET、O、MANTRA",
+          "type": "现货杠杆上线",
+          "detail": "Bitget 现货杠杆新增 VELVET/USDT, O/USDT, MANTRA/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888707"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Arrow Finance (ARROW)",
+          "type": "首发上币",
+          "detail": "MEXC 考核区上线 ARROW 现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536764"
+        },
+        {
+          "token": "Cash Cat (CASHCAT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "MEXC 考核区上线 CASHCAT 现货交易并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536751"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新板块上线 CASHCAT 合约，2026-07-08 22:10 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536756"
+        },
+        {
+          "token": "HBM、USO 和 INDA",
+          "type": "美股合约",
+          "detail": "USDT 本位美股合约上线，限时享受 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536754"
+        },
+        {
+          "token": "CASHCAT、HBM、USO 和 INDA",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 CASHCAT、HBM、USO 和 INDA U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cashcat-hbm-uso-and-inda-usdt-m-futures-17827791536765"
+        },
+        {
+          "token": "Bana Protocol (BANA)",
+          "type": "首发上币",
+          "detail": "MEXC 创新区上线 BANA，瓜分 60,000 USDT Airdrop+ 奖池",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536743"
+        }
+      ]
+    }
+  }
+}
