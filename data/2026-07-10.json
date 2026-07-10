@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-10",
+  "updatedAt": "2026-07-10T17:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Multiple TradFi",
+          "type": "美股合约",
+          "detail": "Binance Futures 上线多个 USDⓈ 保证金 TradFi 永续合约 (2026-07-10)",
+          "url": "https://www.binance.com/en/support/announcement/d0833e4ae9b542be90dbf3fe1c960c53"
+        },
+        {
+          "token": "Multiple TradFi",
+          "type": "美股合约",
+          "detail": "Binance Futures 上线多个 USDⓈ 保证金 TradFi 永续合约 (2026-07-09 公告，跨日)",
+          "url": "https://www.binance.com/en/support/announcement/84ad610bdd284699bc451b7baaa0ff7d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SLX",
+          "type": "现货上线",
+          "detail": "OKX 上线 SLX/USDT、SLX/USDC、SLX/EUR、SLX/TRY、SLX/USD 现货交易对，7月10日 19:00-20:00 (UTC+8)",
+          "url": "https://www.okx.com/help/okx-to-list-slx"
+        },
+        {
+          "token": "JNJ",
+          "type": "美股合约",
+          "detail": "OKX 上线 JNJ-USDT-SWAP 永续合约，20x 杠杆，7月10日 17:15 (UTC+8)",
+          "url": "https://www.okx.com/help/okx-to-list-jnjusdt-perpetual-contract"
+        },
+        {
+          "token": "PENG",
+          "type": "美股合约",
+          "detail": "OKX 上线 PENG-USDT-SWAP 永续合约，10x 杠杆，7月10日 17:30 (UTC+8)",
+          "url": "https://www.okx.com/help/okx-to-list-pengusdt-perpetual-contract"
+        },
+        {
+          "token": "SHAZ",
+          "type": "美股合约",
+          "detail": "OKX 上线 SHAZ-USDT-SWAP 永续合约，20x 杠杆，7月10日 17:00 (UTC+8)",
+          "url": "https://www.okx.com/help/okx-to-list-shazusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DATA",
+          "type": "合约上线",
+          "detail": "Bybit 上线 DATAUSDT 永续合约，最高 12.5 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-datausdt-perpetual-con"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "The Black Bull (ANSEM)",
+          "type": "现货上线",
+          "detail": "KuCoin 上线 ANSEM 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-the-black-bull-ansem-listed-on-kucoin"
+        },
+        {
+          "token": "BOT、KSTR、SNXX",
+          "type": "美股合约",
+          "detail": "KuCoin Futures 上线 BOTUSDT、KSTRUSDT、SNXXUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-botusdt-kstrusdt-snxxusdt-stock"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "febu (FEBU)",
+          "type": "首发上币",
+          "detail": "Gate Alpha 首发上线 febu (febu)",
+          "url": "https://www.gate.com/zh/announcements/article/100594"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SK海力士 (rSKHY)",
+          "type": "现货上线",
+          "detail": "rSKHY 正式上线 Bitget 及交易通道开启",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888914"
+        },
+        {
+          "token": "AI 和 LITNEW",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 AI/USDT, LITNEW/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888852"
+        },
+        {
+          "token": "EVAA Protocol (EVAA)",
+          "type": "现货上线",
+          "detail": "EVAA 将上线 Bitget DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888851"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ARROW",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 ARROWUSDT 合约，2026年7月10日 14:10 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536783"
+        },
+        {
+          "token": "Ondo 代幣化股票",
+          "type": "现货上线",
+          "detail": "MEXC 现货市场推出 Ondo 代币化股票交易对 (2026年7月10日)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-10-2026-17827791536782"
+        },
+        {
+          "token": "QXO、AKAM、FLUT 和 GRAB",
+          "type": "美股合约",
+          "detail": "USDT 本位美股合约上线，限时享受 0 手续费，7月9日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536778"
+        },
+        {
+          "token": "SPY",
+          "type": "合约上线",
+          "detail": "MEXC 上线 SPYUSDT 指数合约，7月9日上线，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-spyusdt-index-futures-on-jul-9-with-0-fee-trading-17827791536777"
+        },
+        {
+          "token": "ARROW、SKHY 和 SPY",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 ARROW、SKHY 和 SPY U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-arrow-skhy-and-spy-usdt-m-futures-17827791536787"
+        },
+        {
+          "token": "QXO、AKAM、FLUT 和 GRAB",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 QXO、AKAM、FLUT 和 GRAB U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
+        }
+      ]
+    }
+  }
+}
