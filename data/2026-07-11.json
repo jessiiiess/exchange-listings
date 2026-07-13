@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-11",
+  "updatedAt": "2026-07-13T15:00:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SK海力士 (SKHY)",
+          "type": "合约上线",
+          "detail": "Binance Futures 上线 SKHYUSDT 永续合约 (2026-07-10 23:37 公告，跨日)",
+          "url": "https://www.binance.com/en/support/announcement/binance-futures-will-launch-usd-margined-skhyusdt-perpetual-contract"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "美股合约",
+          "detail": "OKX 上线 SKHY-USDT-SWAP 永续合约，20x 杠杆，7月11日 00:10 (UTC+8)",
+          "url": "https://www.okx.com/help/okx-to-list-skhyusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "合约上线",
+          "detail": "Bybit 上线 SKHYUSDT 永续合约，最高 25 倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skhyusdt-perpetual-contract"
+        },
+        {
+          "token": "GEV、VRT、SNOW、PURR",
+          "type": "合约上线",
+          "detail": "Bybit 上线 GEVUSDT、VRTUSDT、SNOWUSDT、PURRUSDT 永续合约，最高 20 倍杠杆 (2026-07-10 19:05 公告，跨日)",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gevusdt-vrtusdt-snowusdt-purrusdt-perpetual-contracts"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SK海力士 gStocks (SKHYG)",
+          "type": "现货上线",
+          "detail": "Gate.io 上线 SKHYG gStocks 代币化股票交易",
+          "url": "https://www.gate.com/zh/announcements/article/tradfi-skhyg"
+        },
+        {
+          "token": "SK海力士 (SKHY)",
+          "type": "盘前转正式合约",
+          "detail": "Gate.io SKHYUSDT 盘前交易转正式永续合约 (2026-07-10 跨日)",
+          "url": "https://www.gate.com/zh/announcements/article/futures-skhyusdt"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SWELL",
+          "type": "杠杆上线",
+          "detail": "Bitget 全仓杠杆上线 SWELL/USDT (2026-07-10 19:00 公告，跨日)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603888914"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HOODRAT",
+          "type": "Meme+ 区",
+          "detail": "MEXC Meme+ 上线 HOODRAT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/memeplus-hoodrat"
+        },
+        {
+          "token": "VEXAI",
+          "type": "Meme+ 区",
+          "detail": "MEXC Meme+ 上线 VEXAI",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/memeplus-vexai"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "Meme+ 区",
+          "detail": "MEXC Meme+ 上线 JUGGERNAUT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/memeplus-juggernaut"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 JUGGERNAUTUSDT 合约，2026年7月11日 14:30 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-juggernaut"
+        },
+        {
+          "token": "VEXAI",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 VEXAIUSDT 合约，2026年7月11日 14:30 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-vexai"
+        },
+        {
+          "token": "HOODRAT",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 HOODRATUSDT 合约，2026年7月11日 21:30 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-hoodrat"
+        },
+        {
+          "token": "SK海力士 (SKHY)",
+          "type": "盘前转正式合约",
+          "detail": "MEXC SKHYUSDT 盘前交易转正式永续合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-skhy-pre-market-to-official"
+        },
+        {
+          "token": "TSLL、NVDL 和 RAM",
+          "type": "美股合约",
+          "detail": "MEXC 上线 TSLL、NVDL、RAM USDT本位美股合约，限时 0 手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-tsll-nvdl-ram"
+        }
+      ]
+    }
+  }
+}
