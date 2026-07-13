@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-13",
+  "updatedAt": "2026-07-13T17:51:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SK Hynix (SKHYB)",
+          "type": "现货上线",
+          "detail": "bStocks 代币化证券 SK Hynix (SKHYB) 上线现货交易",
+          "url": "https://www.binance.com/en/support/announcement/c2e92c3c6c8347c197b9091851ec285e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "SKHY",
+          "type": "美股合约",
+          "detail": "SKHYUSDT 股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-skhyusdt-stock-index-perpetual-contract-2026-07-13"
+        },
+        {
+          "token": "READY",
+          "type": "合约上线",
+          "detail": "READYUSDT 永续合约上线，最高8倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-readyusdt-perpetual-contract-with-up-to-8x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Bison (The Charging Bison)",
+          "type": "首发现货",
+          "detail": "Gate Alpha 首发上线 Bison (The Charging Bison)",
+          "url": "https://www.gate.com/zh/announcements/article/100630"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ARROW和SKHY和SPY",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 ARROWUSDT (20x)、SKHYUSDT Pre-IPO (20x)、SPYUSDT 指数 (20x) 合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-arrow-skhy-and-spy-usdt-m-futures-17827791536787"
+        },
+        {
+          "token": "QXO和AKAM和FLUT和GRAB",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 QXOUSDT、AKAMUSDT、FLUTUSDT、GRABUSDT 美股合约交易对 (20x)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-qxo-akam-flut-and-grab-usdt-m-futures-17827791536788"
+        },
+        {
+          "token": "TSLL和NVDL和RAM",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 TSLL、NVDL 美股ETF合约及 RAM 合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tsll-nvdl-and-ram-usdt-m-futures-17827791536823"
+        },
+        {
+          "token": "HOODRAT和VEXAI和JUGGERNAUT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 HOODRATUSDT、VEXAIUSDT、JUGGERNAUTUSDT 合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hoodrat-vexai-and-juggernaut-usdt-m-futures-17827791536822"
+        }
+      ]
+    }
+  }
+}
