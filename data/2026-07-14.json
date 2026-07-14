@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-14",
+  "updatedAt": "2026-07-14T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SQQQ",
+          "type": "美股合约",
+          "detail": "SQQQ-USDT 永续合约上线，三倍做空纳斯达克100 ETF",
+          "url": "https://www.okx.com/help/okx-to-list-sqqqusdt-perpetual-contract"
+        },
+        {
+          "token": "SNXX",
+          "type": "美股合约",
+          "detail": "SNXX-USDT 永续合约上线，两倍做多闪迪每日杠杆 ETF",
+          "url": "https://www.okx.com/help/okx-to-list-snxxusdt-perpetual-contract"
+        },
+        {
+          "token": "XBI",
+          "type": "美股合约",
+          "detail": "XBI-USDT 永续合约上线，标普生物科技 ETF",
+          "url": "https://www.okx.com/help/okx-to-list-xbiusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SNXX",
+          "type": "美股合约",
+          "detail": "SNXXUSDT 永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-snxxusdt-perpetual-contract-with-up-to-20x-leverage--art56825706d32f/"
+        },
+        {
+          "token": "INTW",
+          "type": "美股合约",
+          "detail": "INTWUSDT 永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-intwusdt-perpetual-contract-with-up-to-20x-leverage--art389abfdad267/"
+        },
+        {
+          "token": "KSTR",
+          "type": "美股合约",
+          "detail": "KSTRUSDT 永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kstrusdt-perpetual-contract-with-up-to-20x-leverage--artc11077a42971/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BOT和INTW和SNXX和XBI和APP",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线 BOT（机器人策略封闭式基金）、INTW（2倍做多英特尔ETF）、SNXX（2倍做多闪迪ETF）、XBI（标普生物科技ETF）、APP (Applovin) 永续合约，1-20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100644"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "KUAISHOU",
+          "type": "美股合约",
+          "detail": "KUAISHOUUSDT 股票永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889221"
+        },
+        {
+          "token": "BEAM和BAN",
+          "type": "现货杠杆",
+          "detail": "现货杠杆新增 BEAM/USDT, BAN/USDT 交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889180"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DRV (Derive)",
+          "type": "现货上线",
+          "detail": "考核区上线 Derive (DRV) 现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-will-list-derive-drv-in-assessment-zone-17827791536848"
+        },
+        {
+          "token": "FEBU",
+          "type": "Meme+ 区",
+          "detail": "首发上线 FEBU 至 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536844"
+        },
+        {
+          "token": "WISHBONE",
+          "type": "合约上线",
+          "detail": "合约创新区首发上线 WISHBONEUSDT 合约，2026-07-14 14:55 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536843"
+        },
+        {
+          "token": "FIG和IONS和FRMI和BOT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 FIG、IONS、FRMI、BOT U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-fig-ions-frmi-and-bot-usdt-m-futures-17827791536840"
+        },
+        {
+          "token": "FIG和IONS和FRMI和BOT",
+          "type": "美股合约",
+          "detail": "新美股合约上线 FIG、IONS、FRMI、BOT USDT本位合约，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536834"
+        },
+        {
+          "token": "SKHYON (SK Hynix)",
+          "type": "现货上线",
+          "detail": "现货市场推出 Ondo 代币化股票 SK Hynix (SKHYON)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ondo-tokenized-stock-sk-hynix-skhyon-on-spot-jul-13-2026-17827791536790"
+        },
+        {
+          "token": "4663",
+          "type": "Meme+ 区",
+          "detail": "首发上线 4663 至 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536831"
+        },
+        {
+          "token": "WENLAMBO",
+          "type": "Meme+ 区",
+          "detail": "首发上线 WENLAMBO 至 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536830"
+        },
+        {
+          "token": "WISHBONE",
+          "type": "Meme+ 区",
+          "detail": "首发上线 WISHBONE 至 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536829"
+        }
+      ]
+    }
+  }
+}
