@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-15",
+  "updatedAt": "2026-07-15T17:46:17.136244+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "bStocks (10 trading pairs)",
+          "type": "现货上线",
+          "detail": "新增10个bStocks代币化证券现货交易对",
+          "url": "https://www.binance.com/en/support/announcement/f198d9602f3b4604a9b15cd0a1529e32"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "XLE",
+          "type": "美股合约",
+          "detail": "XLEUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xleusdt-perpetual-contract-with-up-to-20x-leverage--arted351c675379/"
+        },
+        {
+          "token": "XBI",
+          "type": "美股合约",
+          "detail": "XBIUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xbiusdt-perpetual-contract-with-up-to-20x-leverage--artda7f8060ad18/"
+        },
+        {
+          "token": "SMH",
+          "type": "美股合约",
+          "detail": "SMHUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-smhusdt-perpetual-contract-with-up-to-20x-leverage--art67c5e410d55d/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Cash Cat (CASHCAT)",
+          "type": "现货上线",
+          "detail": "CASHCAT现货交易",
+          "url": "https://www.kucoin.com/announcement/en-cash-cat-cashcat-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "VOOG和IVVG等",
+          "type": "美股合约",
+          "detail": "gStocks专区新增VOOG（领航标普500指数ETF）、IVVG（安硕核心标普500 ETF）等代币化证券现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/100663"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PONS",
+          "type": "Meme+ 区",
+          "detail": "PONS上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536873"
+        },
+        {
+          "token": "PONS",
+          "type": "合约上线",
+          "detail": "PONSUSDT合约，2026年7月15日17:00 UTC+8上线合约创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536871"
+        },
+        {
+          "token": "FWDI和BNC",
+          "type": "美股合约",
+          "detail": "FWDI和BNC USDT本位合约，7月15日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536868"
+        },
+        {
+          "token": "INDEX和DRV和INTW和SNXX和WISHBONE",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增INDEX、DRV、INTW、SNXX和WISHBONE U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-index-drv-intw-snxx-and-wishbone-usdt-m-futures-17827791536866"
+        },
+        {
+          "token": "DRV",
+          "type": "合约上线",
+          "detail": "全球首发DRVUSDT合约，2026年7月15日13:40 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536865"
+        },
+        {
+          "token": "INDEX",
+          "type": "合约上线",
+          "detail": "首发INDEXUSDT合约，2026年7月15日13:50 UTC+8上线合约创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536864"
+        },
+        {
+          "token": "INDEX",
+          "type": "Meme+ 区",
+          "detail": "INDEX上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536863"
+        },
+        {
+          "token": "INTW和SNXX",
+          "type": "美股合约",
+          "detail": "INTW和SNXX USDT本位合约，7月14日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536851"
+        }
+      ]
+    }
+  }
+}
