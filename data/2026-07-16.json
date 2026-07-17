@@ -1,0 +1,197 @@
+{
+  "date": "2026-07-16",
+  "updatedAt": "2026-07-17T13:16:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi Perpetual Contracts (7/16)",
+          "type": "美股合约",
+          "detail": "多个USDⓈ保证金TradFi永续合约上线（2026-07-16）",
+          "url": "https://www.binance.com/en/support/announcement/0a613aed15cc4cf78898594d7c767661"
+        },
+        {
+          "token": "TradFi Perpetual Contracts (7/17)",
+          "type": "美股合约",
+          "detail": "多个USDⓈ保证金TradFi永续合约上线（2026-07-17）",
+          "url": "https://www.binance.com/en/support/announcement/18724cba64a048938986a98bbb257258"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XAAPL, XCRCL, XEWY, XGOOGL, XINTC, XMRVL, XMSFT, XSOXL",
+          "type": "美股合约",
+          "detail": "代币化股票现货上线：XAAPL, XCRCL, XEWY, XGOOGL, XINTC, XMRVL, XMSFT, XSOXL-USDT，14:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot/xaapl-usdt"
+        },
+        {
+          "token": "XNVDA, XQQQ, XSKHY, XSNDK, XSPCX, XSPY, XTSLA",
+          "type": "美股合约",
+          "detail": "代币化股票现货上线：XNVDA, XQQQ, XSKHY, XSNDK, XSPCX, XSPY, XTSLA-USDT，13:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot/xnvda-usdt"
+        },
+        {
+          "token": "XAMD, XAMZN, XAVGO, XIWM, XLITE, XMETA, XMSTR, XTSM",
+          "type": "美股合约",
+          "detail": "代币化股票现货上线：XAMD, XAMZN, XAVGO, XIWM, XLITE, XMETA, XMSTR, XTSM-USDT，15:30 UTC+8",
+          "url": "https://www.okx.com/trade-spot/xamd-usdt"
+        },
+        {
+          "token": "XMU",
+          "type": "美股合约",
+          "detail": "代币化股票现货上线：XMU-USDT，09:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot/xmu-usdt"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "KORU",
+          "type": "美股合约",
+          "detail": "KORUUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-koruusdt-perpetual-contract-with-up-to-20x-leverage--arteac33acefd8d/"
+        },
+        {
+          "token": "APPSTOCK",
+          "type": "美股合约",
+          "detail": "APPSTOCKUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-appstockusdt-perpetual-contract-with-up-to-20x-leverage--art8f52a5b1babf/"
+        },
+        {
+          "token": "TZA",
+          "type": "美股合约",
+          "detail": "TZAUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tzausdt-perpetual-contract-with-up-to-20x-leverage--artfbba54ec9caa/"
+        },
+        {
+          "token": "FWDI",
+          "type": "美股合约",
+          "detail": "FWDIUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-fwdiusdt-perpetual-contract-with-up-to-20x-leverage--art946ddbe62e3b/"
+        },
+        {
+          "token": "SOXS",
+          "type": "美股合约",
+          "detail": "SOXSUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxsusdt-perpetual-contract-with-up-to-20x-leverage--art19e54880030c/"
+        },
+        {
+          "token": "AEHR",
+          "type": "美股合约",
+          "detail": "AEHRUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aehrusdt-perpetual-contract-with-up-to-20x-leverage--art497c7e92d719/"
+        },
+        {
+          "token": "RDW",
+          "type": "美股合约",
+          "detail": "RDWUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rdwusdt-perpetual-contract-with-up-to-20x-leverage--artf5fa097d816d/"
+        },
+        {
+          "token": "MUU",
+          "type": "美股合约",
+          "detail": "MUUUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-muuusdt-perpetual-contract-with-up-to-20x-leverage--art39091496975e/"
+        },
+        {
+          "token": "POET",
+          "type": "美股合约",
+          "detail": "POETUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-poetusdt-perpetual-contract-with-up-to-20x-leverage--artffe42f5bf044/"
+        },
+        {
+          "token": "BNC",
+          "type": "美股合约",
+          "detail": "BNCUSDT永续合约，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bncusdt-perpetual-contract-with-up-to-20x-leverage--art2242976fe74e/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "CRWD, SOXS, KORU",
+          "type": "美股合约",
+          "detail": "CRWDUSDT、SOXSUSDT、KORUUSDT股票指数永续合约上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-crwdusdt-soxsusdt-koruusdt-stock-index-perpetual-contracts-2026-07-16"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CPNG, PKX, MUFG, TM",
+          "type": "美股合约",
+          "detail": "CPNGUSDT、PKXUSDT、MUFGUSDT、TMUSDT股票永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889448"
+        },
+        {
+          "token": "AWE, CYBER, F",
+          "type": "现货杠杆",
+          "detail": "现货杠杆新增 AWE/USDT, CYBER/USDT, F/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889338"
+        },
+        {
+          "token": "rJEPQ, rCONL, rXBI, rDIA, rKSTR等16只",
+          "type": "现货上线",
+          "detail": "上线rJEPQ、rCONL、rXBI、rDIA、rKSTR等16只股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889337"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MARIAN",
+          "type": "Meme+ 区",
+          "detail": "MARIAN上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536876"
+        },
+        {
+          "token": "TENDIES",
+          "type": "Meme+ 区",
+          "detail": "TENDIES上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536886"
+        },
+        {
+          "token": "TENDIES",
+          "type": "合约上线",
+          "detail": "TENDIESUSDT合约，2026年7月16日14:50 UTC+8上线合约创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536885"
+        },
+        {
+          "token": "MUU",
+          "type": "美股合约",
+          "detail": "MUU USDT本位合约，7月16日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-stock-futures-listings-17827791536889"
+        },
+        {
+          "token": "STMON, FNON, TTON, APHON, PWRON",
+          "type": "现货上线",
+          "detail": "Ondo代币化股票现货交易对上线：STMON, FNON, TTON, APHON, PWRON-USDT，7月16日21:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-16-2026-17827791536887"
+        },
+        {
+          "token": "TZA",
+          "type": "美股合约",
+          "detail": "TZA指数合约，7月16日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tza-index-futures-on-jul-16-with-0-fee-trading-17827791536895"
+        },
+        {
+          "token": "APH, STM, ONSTOCK, MS",
+          "type": "美股合约",
+          "detail": "APH, STM, ONSTOCK, MS USDT本位合约，7月16日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aph-stm-onstock-and-ms-stock-futures-with-0-fee-trading-on-jul-16-17827791536896"
+        }
+      ]
+    }
+  }
+}
