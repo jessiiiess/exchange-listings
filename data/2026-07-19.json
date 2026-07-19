@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-19",
+  "updatedAt": "2026-07-20T00:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "JIMOTHY",
+          "type": "Meme+ 区",
+          "detail": "JIMOTHY首发上线MEXC Meme+，2026年7月19日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536919"
+        }
+      ]
+    }
+  }
+}

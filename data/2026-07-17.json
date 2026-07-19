@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-17",
+  "updatedAt": "2026-07-17T18:15:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SpaceX (SPCXUSD1)",
+          "type": "美股合约",
+          "detail": "USDⓈ保证金SPCXUSD1永续合约上线（2026-07-20）",
+          "url": "https://www.binance.com/en/support/announcement/6cbb1b11a9c843949624cf2eacaac8b4"
+        },
+        {
+          "token": "Aerodrome (AERO)",
+          "type": "现货上线",
+          "detail": "Binance上线Aerodrome (AERO)现货，Seed Tag",
+          "url": "https://www.binance.com/en/support/announcement/1631198cd282431bbb5fbd333106a413"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SOXS",
+          "type": "美股合约",
+          "detail": "SOXS-USDT永续合约上线，20倍杠杆，17:00 UTC+8",
+          "url": "https://www.okx.com/trade-futures/soxs-usdt-swap"
+        },
+        {
+          "token": "ZM",
+          "type": "美股合约",
+          "detail": "ZM-USDT永续合约上线，20倍杠杆，17:15 UTC+8",
+          "url": "https://www.okx.com/trade-futures/zm-usdt-swap"
+        },
+        {
+          "token": "TEV",
+          "type": "现货上线",
+          "detail": "USDC-TEV现货交易对上线，10:50 UTC+8",
+          "url": "https://www.okx.com/trade-spot/usdc-tev"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "MUU",
+          "type": "美股合约",
+          "detail": "MUUUSDT股票指数永续合约上线（2026-07-17）",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-muuusdt-stock-index-perpetual-contract-2026-07-17"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BRIAN",
+          "type": "Meme+ 区",
+          "detail": "BRIAN上线MEXC Meme+，BASE链，2026年7月17日10:45 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536902"
+        },
+        {
+          "token": "BRIAN",
+          "type": "合约上线",
+          "detail": "BRIANUSDT合约，2026年7月17日14:00 UTC+8上线合约创新区，1-20倍杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536903"
+        },
+        {
+          "token": "TENCENT, HK0700, XIAOMI 和 MUFG",
+          "type": "美股合约",
+          "detail": "TENCENT, HK0700, XIAOMI, MUFG USDT本位股票合约上线，2026年7月17日，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tencent-hk0700-xiaomi-and-mufg-stock-futures-with-0-fee-trading-on-jul-17-17827791536904"
+        }
+      ]
+    }
+  }
+}

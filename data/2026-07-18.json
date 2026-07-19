@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-18",
+  "updatedAt": "2026-07-20T00:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "APP (AppLovin)",
+          "type": "美股合约",
+          "detail": "APP-USDT永续合约上线，20倍杠杆，2026-07-17 19:45 UTC+8",
+          "url": "https://www.okx.com/trade-futures/app-usdt-swap"
+        },
+        {
+          "token": "SNOW (Snowflake)",
+          "type": "美股合约",
+          "detail": "SNOW-USDT永续合约上线，20倍杠杆，2026-07-17 19:30 UTC+8",
+          "url": "https://www.okx.com/trade-futures/snow-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "APLD (Applied Digital)",
+          "type": "美股合约",
+          "detail": "APLDUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-apldusdt-perpetual-contract-with-up-to-20x-leverage--artc81230e3245a/"
+        },
+        {
+          "token": "IONQ (IonQ)",
+          "type": "美股合约",
+          "detail": "IONQUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ionqusdt-perpetual-contract-with-up-to-20x-leverage--artd72126b5018b/"
+        },
+        {
+          "token": "BX (Blackstone)",
+          "type": "美股合约",
+          "detail": "BXUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bxusdt-perpetual-contract-with-up-to-20x-leverage--art10e89f81bf1b/"
+        },
+        {
+          "token": "MARA (Marathon Digital)",
+          "type": "美股合约",
+          "detail": "MARAUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-marausdt-perpetual-contract-with-up-to-20x-leverage--art7cec2fbf322c/"
+        },
+        {
+          "token": "TSEM (Tower Semiconductor)",
+          "type": "美股合约",
+          "detail": "TSEMUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tsemusdt-perpetual-contract-with-up-to-20x-leverage--art6acf5fe88d69/"
+        },
+        {
+          "token": "ZM (Zoom)",
+          "type": "美股合约",
+          "detail": "ZMUSDT永续合约上线，最高20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zmusdt-perpetual-contract-with-up-to-20x-leverage--artad51ebefdbc3/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
