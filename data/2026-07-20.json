@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-20",
+  "updatedAt": "2026-07-20T18:05:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Agamemnon (Aura Final Boss) 和 Jimothy (Jimothy The Raccoon) 和 屎币 和 nice",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线，SOL/BSC链，2026年7月20日 10:14 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/100731"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "STONKBROKER",
+          "type": "Meme+ 区",
+          "detail": "STONKBROKER首发上线MEXC Meme+，2026年7月20日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536925"
+        },
+        {
+          "token": "STONKBROKER",
+          "type": "合约上线",
+          "detail": "STONKBROKERUSDT 永续合约首发上线创新区，2026年7月20日 14:15 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536926"
+        },
+        {
+          "token": "STONKBROKER 和 BRIAN 和 TENDIES 和 PONS 和 CXMT",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增U本位合約交易對，2026年7月20日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-stonkbroker-brian-tendies-pons-and-cxmt-usdt-m-futures-17827791536928"
+        },
+        {
+          "token": "TZA 和 TENCENT 和 HK0700 和 XIAOMI 和 MUFG",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增U本位美股合約交易對，2026年7月20日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tza-tencent-hk0700-xiaomi-and-mufg-usdt-m-futures-17827791536929"
+        },
+        {
+          "token": "APH 和 STM 和 ONSTOCK 和 MS 和 CLSK",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增U本位美股合約交易對，2026年7月20日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aph-stm-onstock-ms-and-clsk-usdt-m-futures-17827791536930"
+        },
+        {
+          "token": "WULF 和 FAST 和 MUU 和 FWDI 和 BNC",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增U本位美股合約交易對，2026年7月20日",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-wulf-fast-muu-fwdi-and-bnc-usdt-m-futures-17827791536931"
+        }
+      ]
+    }
+  }
+}
