@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-21",
+  "updatedAt": "2026-07-21T19:05:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SharonAI (SHAZ) 和 SoFi (SOFI) 和 Palo Alto Networks (PANW) 和 Penguin Solutions (PENG)",
+          "type": "美股合约",
+          "detail": "USDⓈ-Margined TradFi 永续合约，2026-07-21 09:00-09:15 UTC 上线",
+          "url": "https://www.binance.com/en/support/announcement/f43403ef11974998bc0f46420826577a"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SOXX 和 ON 和 XLF 和 XLK 和 XLV 和 NVDL",
+          "type": "美股合约",
+          "detail": "USDT永续合约，最高20倍杠杆，2026-07-21 上线，含半导体ETF、金融ETF、科技ETF、医疗ETF、NVIDIA 2x杠杆ETF、ON半导体",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-soxxusdt-perpetual-contract-with-up-to-20x-leverage--artffef63767592/"
+        },
+        {
+          "token": "FLY 和 WENSTOCK 和 ARKK 和 TSLL 和 RIVN 和 DKNG",
+          "type": "美股合约",
+          "detail": "USDT永续合约，最高20倍杠杆，2026-07-20晚间上线，含ARK创新ETF、Tesla 2x杠杆ETF、Rivian、DraftKings、Wendy's",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-flyusdt-perpetual-contract-with-up-to-20x-leverage--art5b583282823c/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AntFun (ANTFUN)",
+          "type": "现货 + 闪兑",
+          "detail": "现货交易、闪兑交易并开启Launchpool，质押USDT/GUSD，2026-07-21",
+          "url": "https://www.gate.com/zh/announcements/article/100753"
+        },
+        {
+          "token": "TENCENTHKD (腾讯控股 00700.HK) 和 ZHIPUHKD (智谱 02513.HK) 和 MINIMAXHKD (MINIMAX-W 00100.HK) 和 XIAOMIHKD (小米集团 01810.HK)",
+          "type": "美股合约",
+          "detail": "首发上线Quanto永续合约，HKD计价USDT结算，1-20倍杠杆，2026-07-21 16:30 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/100769"
+        },
+        {
+          "token": "KIMI (月之暗面)",
+          "type": "合约上线",
+          "detail": "KIMIUSDT永续合约盘前交易，USDT结算，2026-07-21",
+          "url": "https://www.gate.com/zh/announcements/article/100758"
+        },
+        {
+          "token": "IBM 和 NOK 和 NBIS 和 RKLB",
+          "type": "美股合约",
+          "detail": "ETF上线 IBM3L/3S、NOK3L/3S、NBIS3L/3S、RKLB3L/3S 三倍杠杆ETF",
+          "url": "https://www.gate.com/zh/announcements/article/100764"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MINIMAX",
+          "type": "合约上线",
+          "detail": "MINIMAX Quanto永续合约上线，2026-07-21",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889791"
+        },
+        {
+          "token": "CLANKER 和 PRL 和 PEAQ",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 CLANKER/USDT, PRL/USDT, PEAQ/USDT，2026-07-21",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889632"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "YOLO",
+          "type": "Meme+ 区",
+          "detail": "首發上線MEXC Meme+，2026-07-21",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536951"
+        },
+        {
+          "token": "SNPS 和 CDNS",
+          "type": "美股合约",
+          "detail": "股票合約上線，限時享0費，2026-07-20晚間公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-snps-and-cdns-stock-futures-with-0-fee-trading-on-jul-20-17827791536937"
+        },
+        {
+          "token": "JIMOTHY",
+          "type": "合约上线",
+          "detail": "全球首發JIMOTHYUSDT合約，2026-07-20 21:15 UTC+8上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536936"
+        },
+        {
+          "token": "SNPS 和 CDNS 和 JIMOTHY",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增U本位合約交易對，2026-07-21",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-snps-cdns-and-jimothy-usdt-m-futures-17827791536949"
+        }
+      ]
+    }
+  }
+}
