@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-22",
+  "updatedAt": "2026-07-22T18:40:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "bStocks (10个代币化证券交易对)",
+          "type": "现货上线",
+          "detail": "10个bStocks代币化证券交易对上线Binance现货，2026-07-22",
+          "url": "https://www.binance.com/en/support/announcement/ea42cf41150f4e9ab7f1631fa21bba1e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "USDG",
+          "type": "现货上线",
+          "detail": "USDG-BRL交易对上线，2026-07-22 18:00 UTC+8",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SOFI (索菲科技) 和 PENGSTOCK (企鹅解决) 和 PANW (Palo Alto Networks)",
+          "type": "美股合约",
+          "detail": "USDT永续合约，最高20倍杠杆，2026-07-22上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sofiusdt-perpetual-contract-with-up-to-20x-leverage--art01184f30ecf9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "ZHIPU (智谱) 和 MINIMAX",
+          "type": "美股合约",
+          "detail": "美股指数永续合约上线，2026-07-22",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-zhipuusdt-and-minimaxusdt-stock-index-perpetual-contracts-2026-07-22"
+        },
+        {
+          "token": "ESE",
+          "type": "合约上线",
+          "detail": "ESEUSDT永续合约，最高8倍杠杆，2026-07-22",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-eseusdt-perpetual-contract-with-up-to-8x-leverage"
+        },
+        {
+          "token": "Lorenzo Protocol (BANK)",
+          "type": "现货上线",
+          "detail": "BANK现货上线KuCoin，2026-07-22",
+          "url": "https://www.kucoin.com/announcement/en-lorenzo-protocol-bank-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SK Hynix Ondo Tokenized (SKHYON)",
+          "type": "现货 + 闪兑",
+          "detail": "现货交易与闪兑交易上线，2026-07-22",
+          "url": "https://www.gate.com/zh/announcements/article/100775"
+        },
+        {
+          "token": "KORU 和 TZA 和 SHAZ 和 SOFI 和 PENG 和 CPNG 和 MUFG 和 TM",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区，USDT结算永续合约，1-20倍杠杆，2026-07-22 14:00 UTC+8，含韩国3x ETF、罗素2000 3x做空ETF、莎伦AI、索菲科技、企鹅解决、库鹏、三菱日联、丰田汽车",
+          "url": "https://www.gate.com/zh/announcements/article/100779"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "腾讯 和 小米 和 ZHIPU (智谱)",
+          "type": "美股合约",
+          "detail": "Quanto永续合约上线，2026-07-22",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889934"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KET",
+          "type": "Meme+ 区",
+          "detail": "首發上線MEXC Meme+，2026-07-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536985"
+        },
+        {
+          "token": "Sherwood Protocol (WOOD)",
+          "type": "首发上币",
+          "detail": "考核區上線，2026-07-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536982"
+        },
+        {
+          "token": "GMEBULL",
+          "type": "Meme+ 区",
+          "detail": "首發上線MEXC Meme+，2026-07-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536980"
+        },
+        {
+          "token": "HK1810 (小米) 和 LASERTEC 和 SUMIELEC",
+          "type": "美股合约",
+          "detail": "股票合約上線，限時享0費，2026-07-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-hk1810-lasertec-and-sumielec-stock-futures-with-0-fee-trading-on-jul-22-17827791536979"
+        }
+      ]
+    }
+  }
+}
