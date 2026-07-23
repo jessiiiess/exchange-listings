@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-23",
+  "updatedAt": "2026-07-23T17:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "POPMART (泡泡玛特)",
+          "type": "美股合约",
+          "detail": "POPMARTUSDT USDⓈ-Margined 永续合约，2026-07-23上线",
+          "url": "https://www.binance.com/en/support/announcement/fcdc949b45a644c78e341c88331a35ef"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XHOOD (Robinhood) 和 XIBM (IBM) 和 XORCL (Oracle) 和 XUSAR",
+          "type": "美股合约",
+          "detail": "现货代币化股票交易对上线，XHOOD-USDT 15:30、XIBM-USDT 15:00、XORCL-USDT 16:00、XUSAR-USDT 16:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-new-spot-trading-pairs"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "TENCENT (腾讯) 和 POPMART (泡泡玛特)",
+          "type": "美股合约",
+          "detail": "TENCENTUSDT 和 POPMARTUSDT 股票指数永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-tencentusdt-and-popmartusdt-stock-index-perpetual-contracts-2026-07-23"
+        },
+        {
+          "token": "Tagger (TAG)",
+          "type": "现货上线",
+          "detail": "TAG/USDT 现货交易对",
+          "url": "https://www.kucoin.com/announcement/en-tagger-tag-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AXTIG (AXT半导体) 和 CRWVG (CoreWeave) 等9个gStocks",
+          "type": "现货上线",
+          "detail": "gStocks代币化证券现货交易新增9个交易对",
+          "url": "https://www.gate.com/zh/announcements/article/100800"
+        },
+        {
+          "token": "MSFU (Direxion微软2倍做多ETF) 等7个",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100801"
+        },
+        {
+          "token": "BOP (Bear On Pole) 和 KET",
+          "type": "现货上线",
+          "detail": "Gate Alpha首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100807"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SHAZ 和 SOFI 和 PENG",
+          "type": "美股合约",
+          "detail": "SHAZUSDT、SOFIUSDT、PENGUSDT 股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889969"
+        },
+        {
+          "token": "MAGMA 和 EVAA 和 STRAX 和 BANK 和 GPS",
+          "type": "合约上线",
+          "detail": "现货杠杆新增 MAGMA/USDT, EVAA/USDT, STRAX/USDT, BANK/USDT, GPS/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603889948"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "RIOT 和 ARWR 和 WAB 和 NVD",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-riot-arwr-wab-and-nvd-stock-futures-with-0-fee-trading-on-jul-23-17827791537026"
+        },
+        {
+          "token": "AIINU",
+          "type": "合约上线",
+          "detail": "首发合约创新区，2026-07-23 17:30 UTC+8 上线 AIINUUSDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537024"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "合约上线",
+          "detail": "首发合约创新区，2026-07-23 17:30 UTC+8 上线 GMEROBINHOODUSDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537023"
+        },
+        {
+          "token": "KET 和 WOOD",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 KET 和 WOOD U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ket-and-wood-usdt-m-futures-17827791537019"
+        },
+        {
+          "token": "POPMART 和 SHAZ 和 HK1810 和 LASERTEC 和 SUMIELEC",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 POPMART、SHAZ、HK1810、LASERTEC、SUMIELEC U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-popmart-shaz-hk1810-lasertec-and-sumielec-usdt-m-futures-17827791537018"
+        },
+        {
+          "token": "Ondo代币化股票",
+          "type": "现货上线",
+          "detail": "现货市场推出Ondo代币化股票交易对，预计2026-07-24上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-launch-ondo-tokenized-stock-trading-pairs-on-spot-markets-jul-23-2026-17827791537016"
+        },
+        {
+          "token": "AIINU",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537014"
+        },
+        {
+          "token": "GMEROBINHOOD",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537013"
+        },
+        {
+          "token": "KET",
+          "type": "创新区现货",
+          "detail": "从Meme+区遷移至創新區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-ket-to-innovation-zone-17827791537012"
+        }
+      ]
+    }
+  }
+}
