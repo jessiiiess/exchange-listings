@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-24",
+  "updatedAt": "2026-07-24T17:48:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XASTS (AST SpaceMobile) 和 XBMNR (Bowman Consulting) 和 XCOIN (Coinbase) 和 XDELL (Dell) 和 XIREN (Iris Energy) 和 XLLY (Eli Lilly) 和 XNFLX (Netflix) 和 XPLTR (Palantir)",
+          "type": "美股合约",
+          "detail": "代币化股票现货交易对上线，XCOIN-USDT 09:30、XIREN-USDT 10:00、XLLY-USDT 10:30、XDELL-USDT 11:00、XPLTR-USDT 15:00、XNFLX-USDT 15:30、XBMNR-USDT 16:00、XASTS-USDT 16:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-new-spot-trading-pairs"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CRM (Salesforce) 和 AAL (American Airlines) 和 GS (Goldman Sachs)",
+          "type": "美股合约",
+          "detail": "CRMUSDT、AALUSDT、GSUSDT 永续合约，支持最高20倍杠杆，2026-07-23 18:04 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-crmusdt-perpetual-contract-with-up-to-20x-leverage--artb4d3b7dd9ec5/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "looong (looong) 和 VLAD (Vladhood) 和 GME (GameStop)",
+          "type": "现货上线",
+          "detail": "Gate Alpha首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100823"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GMEROBINHOOD 和 AIINU",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 GMEROBINHOOD 和 AIINU U本位合约交易对，最高20倍杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gmerobinhood-and-aiinu-usdt-m-futures-17827791537043"
+        },
+        {
+          "token": "RIOT 和 ARWR 和 WAB 和 NVD",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 RIOT、ARWR、WAB、NVD U本位股票合约交易对，最高20倍杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-riot-arwr-wab-and-nvd-usdt-m-futures-17827791537042"
+        },
+        {
+          "token": "FEFER",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+，STABLE链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537041"
+        },
+        {
+          "token": "BRODIE",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+，ROBINHOOD链，2026-07-23 18:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537033"
+        }
+      ]
+    }
+  }
+}
