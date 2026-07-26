@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-26",
+  "updatedAt": "2026-07-27T00:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CXMT (长鑫存储)",
+          "type": "盘前转正式合约",
+          "detail": "CXMTUSDT盘前永续合约迁移至正式永续合约交易",
+          "url": "https://www.gate.com/zh/announcements/article/100836"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-25",
+  "updatedAt": "2026-07-27T00:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SKHY (SK hynix) 和 AXTI (AXT) 和 FLNC (Fluence Energy) 和 DRAM (Roundhill ETF) 和 CBRS (Cerebras Systems) 和 NBIS (Nebius Group) 和 ARM (Arm Holdings) 和 QNT (Quantinuum) 和 SOXL (Direxion半导体3倍ETF) 和 KORU (Direxion韩国3倍ETF)",
+          "type": "美股合约",
+          "detail": "10支股票CFD上线Bybit TradFi，最高5倍杠杆，含半导体、AI、ETF等板块",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-10-stock-cfds-now-live-on-bybit-tradfi--artb4c314788f81/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FEFER",
+          "type": "合约上线",
+          "detail": "首发上线MEXC合约创新区，FEFERUSDT合约 2026-07-25 21:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537066"
+        },
+        {
+          "token": "ROL 和 GGLL",
+          "type": "美股合约",
+          "detail": "7月24日上线ROL和GGLL股票合约，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-rol-and-ggll-stock-futures-with-0-fee-trading-on-jul-24-17827791537064"
+        }
+      ]
+    }
+  }
+}
