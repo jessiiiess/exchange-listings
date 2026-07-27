@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-27",
+  "updatedAt": "2026-07-27T23:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TMF (Direxion Daily 20+ Year Treasury Bull 3X ETF) 和 TBT (ProShares UltraShort 20+ Year Treasury) 和 BITO (ProShares Bitcoin ETF)",
+          "type": "美股合约",
+          "detail": "USDⓈ-M TradFi永续合约, 25x杠杆",
+          "url": "https://www.binance.com/en/support/announcement/a827177a387e4ebea830110ba222ca48"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "现货上线",
+          "detail": "AEON-USDT/USD/TRY交易对",
+          "url": ""
+        },
+        {
+          "token": "AEON",
+          "type": "合约上线",
+          "detail": "AEON-USDT永续合约, 20x杠杆",
+          "url": ""
+        },
+        {
+          "token": "AEHR 和 FLY 和 FWDI",
+          "type": "美股合约",
+          "detail": "USDT永续合约, 20x杠杆",
+          "url": ""
+        },
+        {
+          "token": "KR200",
+          "type": "美股合约",
+          "detail": "韩国KOSPI 200指数永续合约, 10x杠杆",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "V",
+          "type": "合约上线",
+          "detail": "VUSDT永续合约, 25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vusdt-perpetual-contract-with-up-to-25x-leverage--art1a35950bbe4f/"
+        },
+        {
+          "token": "BITO (ProShares Bitcoin ETF) 和 GDX (VanEck Gold Miners ETF) 和 AMC (AMC Entertainment) 和 GME (GameStop)",
+          "type": "美股合约",
+          "detail": "USDT永续合约, 20-25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bitousdt-perpetual-contract-with-up-to-25x-leverage--art3052540a8a9c/"
+        },
+        {
+          "token": "CXMT (长鑫存储)",
+          "type": "美股合约",
+          "detail": "CXMTUSDT永续合约, 10x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cxmtusdt-perpetual-contract-with-up-to-10x-leverage--art111975768022/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere首发上线",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-aeon-aeon-listed-on-kucoin"
+        },
+        {
+          "token": "SHAZ 和 TENCENT(HKD) 和 XIAOMI(HKD)",
+          "type": "美股合约",
+          "detail": "Stock Index永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-shazusdt-tencenthkdusdt-xiaomihkdusdt-stock-index-perpetual-contracts-2026-07-27"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "首发现货 + 闪兑",
+          "detail": "AEON现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/100842"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "首发上币",
+          "detail": "AEON现货首发上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890235"
+        },
+        {
+          "token": "AEON",
+          "type": "合约上线",
+          "detail": "AEONUSDT合约交易和交易BOT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890269"
+        },
+        {
+          "token": "BOTZ 和 XLV 和 IBB 和 SKDD 和 SKUU 和 GILD 和 TMF 和 TBT 和 BITO",
+          "type": "美股合约",
+          "detail": "9只热门股票永续合约, 7月28日上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890268"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "YOLO",
+          "type": "Meme+ 区",
+          "detail": "YOLO上线Meme+交易区, Robinhood链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536951"
+        },
+        {
+          "token": "SNPS 和 CDNS 和 JIMOTHY",
+          "type": "合约 + 跟单",
+          "detail": "SNPS/CDNS(美股)20x, JIMOTHY 20x",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-snps-cdns-and-jimothy-usdt-m-futures-17827791536949"
+        },
+        {
+          "token": "STONKBROKER",
+          "type": "创新区现货",
+          "detail": "从Meme+迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-stonkbroker-to-innovation-zone-17827791536947"
+        },
+        {
+          "token": "JIMOTHY",
+          "type": "创新区现货",
+          "detail": "从Meme+迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-jimothy-to-innovation-zone-17827791536946"
+        }
+      ]
+    }
+  }
+}
