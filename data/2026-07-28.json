@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-28",
+  "updatedAt": "2026-07-28T17:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "新交易对（预告7月30日上线）",
+          "type": "现货上线",
+          "detail": "Binance Spot新增交易对及交易BOT服务, 7月30日开放交易",
+          "url": "https://www.binance.com/en/support/announcement/30b76da5daf8469a9f71b09a7441691e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XCRWD 和 XCSCO 和 XGME 和 XHIMS",
+          "type": "美股合约",
+          "detail": "股票代币化现货交易对, XCRWD(CoreWeave)/XCSCO(Costco)/XGME(GameStop)/XHIMS(Hims&Hers)",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "TMF (Direxion 美债20年以上3倍做多 ETF)",
+          "type": "美股合约",
+          "detail": "首发上线Gate合约股票专区",
+          "url": "https://www.gate.com/zh/announcements/article/100863"
+        },
+        {
+          "token": "AEON",
+          "type": "合约上线",
+          "detail": "AEON合约交易、杠杆借贷交易、交易机器人、跟单",
+          "url": "https://www.gate.com/zh/announcements/article/100857"
+        },
+        {
+          "token": "KORU 和 MSFU 等17个",
+          "type": "美股合约",
+          "detail": "CFD股票专区已上线KORU(Direxion MSCI韩国指数3倍做多ETF)等17个差价合约",
+          "url": "https://www.gate.com/zh/announcements/article/100866"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "合约 + 跟单",
+          "detail": "AEON U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aeon-usdt-m-futures-17827791537106"
+        },
+        {
+          "token": "EPIK",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537100"
+        },
+        {
+          "token": "AEON",
+          "type": "合约上线",
+          "detail": "全球首发AEON USDT合约, 7月27日18:50开放",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537098"
+        },
+        {
+          "token": "AEON",
+          "type": "考核区现货 + 闪兑",
+          "detail": "AEON考核区上线并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537077"
+        },
+        {
+          "token": "CATE",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537081"
+        },
+        {
+          "token": "CATE",
+          "type": "合约上线",
+          "detail": "CATEUSDT合约创新区, 7月27日14:00上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537082"
+        },
+        {
+          "token": "CATE",
+          "type": "创新区现货",
+          "detail": "CATE从Meme+迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-cate-to-innovation-zone-17827791537095"
+        },
+        {
+          "token": "MSFU 和 AAPU 和 AMZU 和 GEOD 和 CATE",
+          "type": "合约 + 跟单",
+          "detail": "MSFU/AAPU/AMZU/GEOD/CATE U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msfu-aapu-amzu-geod-and-cate-usdt-m-futures-17827791537087"
+        },
+        {
+          "token": "MSFU 和 AAPU 和 AMZU",
+          "type": "美股合约",
+          "detail": "指数合约7月27日上线, 限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-msfu-aapu-and-amzu-index-futures-on-jul-27-with-0-fee-trading-17827791537080"
+        }
+      ]
+    }
+  }
+}
