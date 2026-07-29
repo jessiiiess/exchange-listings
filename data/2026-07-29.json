@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-29",
+  "updatedAt": "2026-07-29T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "10 bStocks 代币化证券",
+          "type": "美股合约",
+          "detail": "Binance Spot新增10个bStocks代币化证券交易对",
+          "url": "https://www.binance.com/en/support/announcement/fd3c0f17a7504eb5be1cb1911c6da0cd"
+        },
+        {
+          "token": "多个TradFi永续合约",
+          "type": "美股合约",
+          "detail": "Binance Futures上线多个USDⓈ保证金TradFi永续合约(2026-07-29)",
+          "url": "https://www.binance.com/en/support/announcement/93b5cd2280874d9cb4303827374b940d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "TMF",
+          "type": "美股合约",
+          "detail": "TMF-USDT永续合约(Direxion美债20年以上3倍做多ETF), instCategory=3, 20x杠杆, 17:00上线",
+          "url": ""
+        },
+        {
+          "token": "XADBE 和 XAMAT 和 XASML 和 XGEV 和 XONDS 和 XTER 和 XVRT 和 XXLE",
+          "type": "美股合约",
+          "detail": "8个股票代币化现货交易对(Adobe/Applied Materials/ASML/GE Vernova/Ondas/Teradyne/Vertiv/XLE ETF)",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "TBT 和 TMF 和 SSPC",
+          "type": "美股合约",
+          "detail": "TBTUSDT/TMFUSDT/SSPCUSDT永续合约, 25x杠杆(TBT=ProShares Short 20+Year Treasury, TMF=Direxion美债3x, SSPC=SpaceX)",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tbtusdt-perpetual-contract-with-up-to-25x-leverage--art237da6342d93/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发GRVT现货上线KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-grvt-grvt-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BVOL (BTC波动率) 和 EVOL (ETH波动率)",
+          "type": "合约上线",
+          "detail": "首发上线Gate合约指数专区, BTC/ETH波动率永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100886"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rHSY、rWAT、rPAYX、rVMC、rHIG、rRKT、rHAL、rKVUE、rROP、rSUNB等30只股票",
+          "type": "美股合约",
+          "detail": "上线30只股票现货(Hershey/Waters/Paychex/Vulcan Materials/Hartford/Rocket/Halliburton/Kenvue/Roper/Sun Life等)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890405"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PIPEDOG",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537119"
+        },
+        {
+          "token": "PIPEDOG",
+          "type": "合约上线",
+          "detail": "PIPEDOGUSDT合约创新区, 7月29日14:50上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537124"
+        },
+        {
+          "token": "XLV 和 BITO",
+          "type": "美股合约",
+          "detail": "指数合约7月29日上线, 限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-xlv-and-bito-index-futures-on-jul-29-with-0-fee-trading-17827791537125"
+        },
+        {
+          "token": "GILD 和 IBB 和 WDAY 和 HUBS 和 HUT",
+          "type": "合约 + 跟单",
+          "detail": "GILD/IBB/WDAY/HUBS/HUT U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gild-ibb-wday-hubs-and-hut-usdt-m-futures-17827791537126"
+        },
+        {
+          "token": "EPIK",
+          "type": "合约 + 跟单",
+          "detail": "EPIK U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-epik-usdt-m-futures-17827791537127"
+        },
+        {
+          "token": "GILD 和 IBB 和 WDAY 和 HUBS 和 HUT",
+          "type": "美股合约",
+          "detail": "股票合约7月28日上线, 限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gild-ibb-wday-hubs-and-hut-stock-futures-with-0-fee-trading-on-jul-28-17827791537116"
+        },
+        {
+          "token": "EPIK",
+          "type": "合约上线",
+          "detail": "EPIKUSDT合约创新区, 7月28日21:40上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537114"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "盘前交易",
+          "detail": "GRVT盘前交易即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537112"
+        }
+      ]
+    }
+  }
+}
