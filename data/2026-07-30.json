@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-30",
+  "updatedAt": "2026-07-30T18:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CRM 和 INTW 和 OKTA",
+          "type": "美股合约",
+          "detail": "CRM-USDT(Salesforce,20x)/INTW-USDT(InterWest Medical,20x)/OKTA-USDT(Okta,10x) 永续合约, 17:00-17:30上线",
+          "url": ""
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "现货上线",
+          "detail": "GRVT-USDT/GRVT-USD/GRVT-TRY现货交易对, 21:00上线",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "WMT 和 KO 和 PEP 和 MA 和 PYPL 和 BRKB",
+          "type": "美股合约",
+          "detail": "WMTUSDT(沃尔玛)/KOUSDT(可口可乐)/PEPUSDT(百事)/MAUSDT(万事达)/PYPLUSDT(PayPal,20x)/BRKBUSDT(伯克希尔B) 永续合约, 25x杠杆(PYPL为20x)",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-wmtusdt-perpetual-contract-with-up-to-25x-leverage--artf13f8f440e1b/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "Futures + Payment",
+          "detail": "GRVT上线合约、闪兑(Convert)及支付(Payment)",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-will-add-grvt-grvt-on-futures-convert-and-payment"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ZHIPUG (智谱AI) 和 MINIMAXG (MiniMax) 等11个gStocks",
+          "type": "美股合约",
+          "detail": "Gate gStocks专区新增11个代币化证券现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/100902"
+        },
+        {
+          "token": "Jacket (Just a jacket)",
+          "type": "现货上线",
+          "detail": "Gate Alpha首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100916"
+        },
+        {
+          "token": "CATJAK (Catjak) 和 Chiikawa (ちいかわ) 和 NEEGY (Neegy)",
+          "type": "现货上线",
+          "detail": "Gate Alpha首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100904"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "首发上币",
+          "detail": "GRVT将上线DeFi专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890498"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MarsCoin (MARSCOIN)",
+          "type": "创新区现货",
+          "detail": "首发上线MEXC创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537154"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVTUSDT合约, 7月30日20:10上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537152"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线MEXC创新区并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791536838"
+        },
+        {
+          "token": "GDX 和 CTSH 和 AON 和 EXPE 和 REGN",
+          "type": "美股合约",
+          "detail": "股票合约7月30日上线, 限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gdx-ctsh-aon-expe-and-regn-stock-futures-with-0-fee-trading-on-jul-30-17827791537147"
+        },
+        {
+          "token": "XLV 和 BITO 和 PIPEDOG",
+          "type": "合约 + 跟单",
+          "detail": "XLV/BITO/PIPEDOG U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-xlv-bito-and-pipedog-usdt-m-futures-17827791537145"
+        },
+        {
+          "token": "TMF 和 TBT 和 IQV 和 RCL",
+          "type": "美股合约",
+          "detail": "股票合约7月29日上线, 限时0手续费(跨日公告)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-tmf-tbt-iqv-and-rcl-stock-futures-with-0-fee-trading-on-jul-29-17827791537138"
+        },
+        {
+          "token": "TMF 和 TBT 和 IQV 和 RCL",
+          "type": "合约 + 跟单",
+          "detail": "TMF/TBT/IQV/RCL U本位合约跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmf-tbt-iqv-and-rcl-usdt-m-futures-17827791537144"
+        }
+      ]
+    }
+  }
+}
