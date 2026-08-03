@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-03",
+  "updatedAt": "2026-08-03T19:18:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GIGADEV (GIGADEV)",
+          "type": "合约上线",
+          "detail": "GIGADEVUSDT U本位永续合约",
+          "url": "https://www.binance.com/en/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "JNJ (Johnson & Johnson)",
+          "type": "美股合约",
+          "detail": "JNJUSDT 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-jn"
+        },
+        {
+          "token": "XOM (Exxon Mobil)",
+          "type": "美股合约",
+          "detail": "XOMUSDT 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xo"
+        },
+        {
+          "token": "SPOT (Spotify)",
+          "type": "美股合约",
+          "detail": "SPOTUSDT 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sp"
+        },
+        {
+          "token": "UNITREE",
+          "type": "盘前合约",
+          "detail": "UNITREEUSDT 永续合约上线盘前交易平台，2026年8月3日 3:00 UTC",
+          "url": "https://announcements.bybit.com/zh-TW/article/listing-of-uni"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "XDC (XDC Network)",
+          "type": "合约上线",
+          "detail": "XDCUSDT 永续合约，最高10倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-xdcusdt-perpetual-c"
+        },
+        {
+          "token": "2U2 (2U2.ai)",
+          "type": "合约上线",
+          "detail": "2U2USDT 永续合约，最高10倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-2u2usdt-perpetual-c"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GIGADEV（兆易创新 03986.HK）等10个",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区，10个永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100961"
+        },
+        {
+          "token": "STONKBROKER (StonkBroker)",
+          "type": "Gate Alpha 现货",
+          "detail": "Gate Alpha 首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100974"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NET、APO 和 XYZ",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-net-apo-and-xyz-stock-futures-with-0-fee-trading-on-aug-3-17827791537229"
+        },
+        {
+          "token": "FRONG",
+          "type": "合约上线",
+          "detail": "FRONGUSDT 合约创新区，2026年8月3日 18:45 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537228"
+        },
+        {
+          "token": "币有",
+          "type": "合约上线",
+          "detail": "币有USDT 合约创新区，2026年8月3日 18:45 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537227"
+        },
+        {
+          "token": "Squid (QUID)",
+          "type": "盘前交易",
+          "detail": "MEXC 盘前交易即将上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791537224"
+        },
+        {
+          "token": "币有",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537221"
+        },
+        {
+          "token": "KOSPI、GPUBSC、ASTEROIDBSC 和 UNITREE",
+          "type": "合約 + 跟單",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kospi-gpubsc-asteroidbsc-and-unitree-usdt-m-futures-17827791537209"
+        },
+        {
+          "token": "KOSPI",
+          "type": "指数合约",
+          "detail": "KOSPI 指数合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kospi-index-futures-on-aug-3-with-0-fee-trading-17827791537208"
+        },
+        {
+          "token": "GPUBSC",
+          "type": "合约上线",
+          "detail": "GPUBSCUSDT 合约创新区，2026年8月3日 13:00 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537207"
+        }
+      ]
+    }
+  }
+}
