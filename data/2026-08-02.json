@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-02",
+  "updatedAt": "2026-08-03T12:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GPUBSC",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537199"
+        }
+      ]
+    }
+  }
+}

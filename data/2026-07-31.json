@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-31",
+  "updatedAt": "2026-08-03T12:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVTUSDT永续合约上线",
+          "url": "https://www.binance.com/en/support/announcement/20536b05b2a34b87a3bae99c45d0dc91"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVT-USDT-SWAP 永续合约, 20x杠杆, 7/30 23:00上线(跨日)",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GE 和 UNH 和 JPM 和 GILD",
+          "type": "美股合约",
+          "detail": "GEUSDT(通用电气)/UNHUSDT(联合健康)/JPMUSDT(摩根大通)/GILDUSDT(吉利德) 永续合约, 25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-geusdt-perpetual-contract-with-up-to-25x-leverage--artdf52b4e32921/"
+        },
+        {
+          "token": "AMGN 和 REGN",
+          "type": "美股合约",
+          "detail": "AMGNUSDT(安进,25x)/REGNUSDT(再生元,20x) 永续合约",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-amgnusdt-perpetual-contract-with-up-to-25x-leverage--artabbb3cd73d75/"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVTUSDT永续合约上线创新板块, 20x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-grvtusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artf2cb238a8a78/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "2U2.ai (2U2)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere首发上线KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-2u2-ai-2u2-listed-on-kucoin"
+        },
+        {
+          "token": "INTW",
+          "type": "美股合约",
+          "detail": "INTWUSDT Stock Index Perpetual Contract上线KuCoin Futures",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-intwusdt-stock-index-perpetual-contract-2026-07-31"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVT永续合约交易(USDT结算)",
+          "url": "https://www.gate.com/zh/announcements/article/100947"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "AEON",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 AEON/USDT(跨日7/30 20:00)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890635"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "合约上线",
+          "detail": "GRVTUSDT上线合约交易和交易BOT(跨日7/30 23:08)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890646"
+        },
+        {
+          "token": "rJMKE (Jersey Mike's Subs)",
+          "type": "美股合约",
+          "detail": "上线rJMKE的股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890708"
+        },
+        {
+          "token": "2U2.ai (2U2)",
+          "type": "首发上币",
+          "detail": "首发上币Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890657"
+        },
+        {
+          "token": "JMKE (Jersey Mike's Subs)",
+          "type": "美股合约",
+          "detail": "首发上线JMKEUSDT热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890645"
+        },
+        {
+          "token": "Grvt (GRVT)",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 GRVT/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890714"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AJG 和 LHX",
+          "type": "美股合约",
+          "detail": "股票合约7月30日上线, 限时0手续费(跨日)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ajg-and-lhx-stock-futures-with-0-fee-trading-on-jul-30-17827791537159"
+        },
+        {
+          "token": "V4",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+(跨日7/30)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537162"
+        },
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "合约上线",
+          "detail": "Pre-IPO合约7月31日上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/unitree-unitree-robotics-pre-ipo-futures-to-launch-on-jul-31-17827791537181"
+        },
+        {
+          "token": "JACKET",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537177"
+        },
+        {
+          "token": "FRONG",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537176"
+        },
+        {
+          "token": "GDX 和 CTSH 和 AON 和 EXPE 和 REGN",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gdx-ctsh-aon-expe-and-regn-usdt-m-futures-17827791537174"
+        },
+        {
+          "token": "MARSCOIN 和 GRVT 和 AJG 和 LHX",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-marscoin-grvt-ajg-and-lhx-usdt-m-futures-17827791537173"
+        }
+      ]
+    }
+  }
+}
