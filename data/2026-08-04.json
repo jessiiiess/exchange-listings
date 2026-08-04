@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-04",
+  "updatedAt": "2026-08-04T17:58:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "GIGADEV",
+          "type": "美股合约",
+          "detail": "GIGADEVUSDT Stock Index 永续合约",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-gigadevusdt-stock-index-perpetual-contract-2026-08-04"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CAMBRICON（寒武纪 688256.SH）等10个",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区，10个永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/100979"
+        },
+        {
+          "token": "OnlyMarms 和 TikTok (Tiktok Coin)",
+          "type": "Gate Alpha 现货",
+          "detail": "Gate Alpha 首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100997"
+        },
+        {
+          "token": "Fapcoin、Chonketha、STONK 等",
+          "type": "Gate Alpha 现货",
+          "detail": "Gate Alpha 首发上线",
+          "url": "https://www.gate.com/zh/announcements/article/100982"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "PEP、BKNG、SSPC、SPCH、GFS",
+          "type": "美股合约",
+          "detail": "热门股票永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891018"
+        },
+        {
+          "token": "XLE、VST、EWZ、SHOP、PYPL、AMGN、ZM",
+          "type": "美股合约",
+          "detail": "热门股票永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890872"
+        },
+        {
+          "token": "Squid (QUID)",
+          "type": "首发上币",
+          "detail": "将上线 DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603890843"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DXCM 和 THC",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dxcm-and-thc-stock-futures-with-0-fee-trading-on-aug-4-17827791537258"
+        },
+        {
+          "token": "GFS",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gfs-stock-futures-with-0-fee-trading-on-aug-4-17827791537257"
+        },
+        {
+          "token": "Squid (QUID)",
+          "type": "合约上线",
+          "detail": "全球首发 QUIDUSDT 合约，2026年8月4日 21:10 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537254"
+        },
+        {
+          "token": "WOOF",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537251"
+        },
+        {
+          "token": "GIGADEV、AMGN、JMKE 和 PEP",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gigadev-amgn-jmke-and-pep-stock-futures-with-0-fee-trading-on-aug-4-17827791537238"
+        },
+        {
+          "token": "CHONKETHA",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537237"
+        },
+        {
+          "token": "DOOM",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537236"
+        },
+        {
+          "token": "NET、APO、XYZ、FRONG 和 币有",
+          "type": "合約 + 跟單",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-net-apo-xyz-frong-and-币有-usdt-m-futures-17827791537235"
+        }
+      ]
+    }
+  }
+}
