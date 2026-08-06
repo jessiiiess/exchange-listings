@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-06",
+  "updatedAt": "2026-08-07T00:48:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Multiple TradFi Perpetual Contracts",
+          "type": "美股合约",
+          "detail": "上线多个USDⓈ保证金TradFi永续合约 (2026-08-06)",
+          "url": "https://www.binance.com/en/support/announcement/307687ad279e42e6909ee1be8c472b50"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "BRKB (Berkshire Hathaway B)",
+          "type": "美股合约",
+          "detail": "BRKB-USDT永续合约，20x杠杆，2026-08-06 19:15上线",
+          "url": "https://www.okx.com/help/okx-to-list-brkbusdt-perpetual-contract"
+        },
+        {
+          "token": "SHOP (Shopify)",
+          "type": "美股合约",
+          "detail": "SHOP-USDT永续合约，20x杠杆，2026-08-06 19:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-shopusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "UBER (Uber Technologies)",
+          "type": "美股合约",
+          "detail": "UBERUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-uberusdt-perpetual-contract-with-up-to-25x-leverage--artb0dce545129e/"
+        },
+        {
+          "token": "NVO (Novo Nordisk)",
+          "type": "美股合约",
+          "detail": "NVOUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nvousdt-perpetual-contract-with-up-to-25x-leverage--arte002c1fa8de9/"
+        },
+        {
+          "token": "NET (Cloudflare)",
+          "type": "美股合约",
+          "detail": "NETUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-netusdt-perpetual-contract-with-up-to-25x-leverage--art7d830ba83097/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Pipedog (PIPEDOG)",
+          "type": "现货上线",
+          "detail": "PIPEDOG现货交易对上线",
+          "url": "https://www.kucoin.com/announcement/en-pipedog-pipedog-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "US",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 US/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891402"
+        },
+        {
+          "token": "QUID (Squid)",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 QUID/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891401"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KIMI（月之暗面）",
+          "type": "Pre-IPO合约",
+          "detail": "KIMI Pre-IPO永续合约，2026-08-06 11:30 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kimi-moonshot-ai-pre-ipo-futures-on-aug-6-2026-03-17827791537307"
+        },
+        {
+          "token": "VGT、VUG 和 XLI",
+          "type": "美股合约",
+          "detail": "VGT、VUG、XLI股票合约上线，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vgt-vug-and-xli-stock-futures-with-0-fee-trading-on-aug-5-17827791537301"
+        }
+      ]
+    }
+  }
+}
