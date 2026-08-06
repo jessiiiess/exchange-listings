@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-05",
+  "updatedAt": "2026-08-06T15:00:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "10 bStocks Trading Pairs",
+          "type": "现货上线",
+          "detail": "Binance Spot新增10个bStocks代币化证券交易对",
+          "url": "https://www.binance.com/en/support/announcement/ae96da838d754f91bced1501de728f03"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "VRTXSTOCK",
+          "type": "美股合约",
+          "detail": "VRTXSTOCKUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vrtxstockusdt-perpetual-contract-with-up-to-25x-leverage--arte722cb56e533/"
+        },
+        {
+          "token": "BIIB",
+          "type": "美股合约",
+          "detail": "BIIBUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-biibusdt-perpetual-contract-with-up-to-25x-leverage--artdacdedd78db0/"
+        },
+        {
+          "token": "SHOP",
+          "type": "美股合约",
+          "detail": "SHOPUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-shopusdt-perpetual-contract-with-up-to-25x-leverage--art0cf9485e8c43/"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "合约上线",
+          "detail": "CASHCATUSDT 永续合约创新板块，10x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cashcatusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--art88df6bbd86fd/"
+        },
+        {
+          "token": "CLSK",
+          "type": "美股合约",
+          "detail": "CLSKUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-clskusdt-perpetual-contract-with-up-to-25x-leverage--art2abd8a27e022/"
+        },
+        {
+          "token": "RDDT",
+          "type": "美股合约",
+          "detail": "RDDTUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-rddtusdt-perpetual-contract-with-up-to-25x-leverage--art8ec4c7854d4f/"
+        },
+        {
+          "token": "BAC",
+          "type": "美股合约",
+          "detail": "BACUSDT 永续合约，25x杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bacusdt-perpetual-contract-with-up-to-25x-leverage--art4d2318188221/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "KIOXIA（铠侠控股 285A.T）",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区，永续合约交易 1-20x杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101015"
+        },
+        {
+          "token": "UNITREE（宇树科技）",
+          "type": "盘前合约",
+          "detail": "UNITREEUSDT永续合约盘前交易，1-10x杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/100999"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CUPSEY",
+          "type": "合约上线",
+          "detail": "首发上线合约创新区，CUPSEYUSDT 2026年8月5日 18:00 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537292"
+        },
+        {
+          "token": "FTNT、SCCO、TECK、RBRK 和 VEEV",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ftnt-scco-teck-rbrk-and-veev-stock-futures-with-0-fee-trading-on-aug-5-17827791537291"
+        },
+        {
+          "token": "DOOM",
+          "type": "合约上线",
+          "detail": "首发上线合约创新区，DOOMUSDT 2026年8月5日 11:00 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537272"
+        },
+        {
+          "token": "FOIL（龙电华鑫）",
+          "type": "Pre-IPO合约",
+          "detail": "首发上线FOIL Pre-IPO合约，2026年8月5日 11:00 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537271"
+        },
+        {
+          "token": "STONK",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537281"
+        },
+        {
+          "token": "FOIL、GIGADEV、AMGN、JMKE 和 PEP",
+          "type": "合約 + 跟單",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-foil-gigadev-amgn-jmke-and-pep-usdt-m-futures-17827791537280"
+        },
+        {
+          "token": "DOOM、QUID、DXCM、THC 和 GFS",
+          "type": "合約 + 跟單",
+          "detail": "跟单新增 U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-doom-quid-dxcm-thc-and-gfs-usdt-m-futures-17827791537279"
+        }
+      ]
+    }
+  }
+}
