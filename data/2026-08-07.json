@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-07",
+  "updatedAt": "2026-08-08T00:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XTESTA",
+          "type": "现货上线",
+          "detail": "XTESTA-USDT现货交易对，2026-08-07 10:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xtestausdt"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MOONSHOT (月之暗面)",
+          "type": "Pre-IPO合约",
+          "detail": "MOONSHOTUSDT Pre-IPO永续合约，2026-08-07 11:00 UTC上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-moonshot-pre-ipo-perpetual-contract-on-bybit-at-aug-7-2026-11am-utc--art0c8596c63f85/"
+        },
+        {
+          "token": "MO (Altria Group)",
+          "type": "美股合约",
+          "detail": "MOUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mousdt-perpetual-contract-with-up-to-25x-leverage--artdf9162c19299/"
+        },
+        {
+          "token": "EBAY (eBay)",
+          "type": "美股合约",
+          "detail": "EBAYUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ebayusdt-perpetual-contract-with-up-to-25x-leverage--artee53e6eaf1e8/"
+        },
+        {
+          "token": "CIFR (Cipher Mining)",
+          "type": "美股合约",
+          "detail": "CIFRUSDT永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cifrusdt-perpetual-contract-with-up-to-25x-leverage--art4abe62b6b693/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CJS（中国巨石）、SINOCERA（国瓷材料）、TUNGSTEN（中钨高新）、LUXSHARE（立讯精密）、CCTC（三环集团）、SYTECH（生益科技）、TFME（通富微电）、ZTT（中天科技）、LETTALL（利通电子）、PERIC（中船特气）",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线10个A股永续合约（USDT结算），1-20倍杠杆，2026-08-07 13:30 (UTC+8)",
+          "url": "https://www.gate.com/zh/announcements/article/101041"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MOONSHOT (月之暗面)",
+          "type": "Pre-IPO合约",
+          "detail": "MOONSHOTUSDT IPO盘前永续合约上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891454"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PAYC 和 MTSI",
+          "type": "美股合约",
+          "detail": "PAYC、MTSI股票合约上线，限时0费率，2026-08-07",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-payc-and-mtsi-stock-futures-with-0-fee-trading-on-aug-7-17827791537389"
+        },
+        {
+          "token": "HTZ 和 CAVA",
+          "type": "美股合约",
+          "detail": "HTZ、CAVA股票合约上线，限时0费率，2026-08-07",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-htz-and-cava-stock-futures-with-0-fee-trading-on-aug-7-17827791537370"
+        },
+        {
+          "token": "DPZ、EAT、BROS 和 WING",
+          "type": "美股合约",
+          "detail": "DPZ、EAT、BROS、WING股票合约上线，限时0费率，2026-08-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dpz-eat-bros-and-wing-stock-futures-with-0-fee-trading-on-aug-6-17827791537356"
+        },
+        {
+          "token": "AU、WPM 和 CDE",
+          "type": "美股合约",
+          "detail": "AU、WPM、CDE股票合约上线，限时0费率，2026-08-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-au-wpm-and-cde-stock-futures-with-0-fee-trading-on-aug-6-17827791537340"
+        },
+        {
+          "token": "DPZ、EAT、BROS 和 WING",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 DPZ、EAT、BROS、WING U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-dpz-eat-bros-and-wing-usdt-m-futures-17827791537366"
+        },
+        {
+          "token": "AU、WPM 和 CDE",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 AU、WPM、CDE U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-au-wpm-and-cde-usdt-m-futures-17827791537367"
+        },
+        {
+          "token": "MANCER",
+          "type": "Meme+ 区",
+          "detail": "MANCER 上线 MEXC Meme+ 交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537391"
+        }
+      ]
+    }
+  }
+}
