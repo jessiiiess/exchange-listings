@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-08",
+  "updatedAt": "2026-08-09T14:50:00.000Z",
+  "exchanges": {
+    "binance": { "listings": [], "alpha": [], "wallet": [] },
+    "okx": { "listings": [] },
+    "bybit": { "listings": [] },
+    "kucoin": { "listings": [] },
+    "gateio": { "listings": [] },
+    "bitget": { "listings": [] },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KIMI (月之暗面)",
+          "type": "Pre-IPO合约",
+          "detail": "KIMI（月之暗面）Pre-IPO合约上线，2026-08-06 11:30 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kimi-moonshot-ai-pre-ipo-futures-on-aug-6-2026-03-17827791537307"
+        },
+        {
+          "token": "STONK",
+          "type": "合约上线",
+          "detail": "MEXC合约创新区上线STONKUSDT合约，1-20倍杠杆，2026-08-06 13:40 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537310"
+        },
+        {
+          "token": "VRTX 和 BIIB",
+          "type": "美股合约",
+          "detail": "VRTX、BIIB股票合约上线，限时0费率，2026-08-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vrtx-and-biib-stock-futures-with-0-fee-trading-on-aug-6-17827791537311"
+        },
+        {
+          "token": "Ondo 代币化股票",
+          "type": "现货上线",
+          "detail": "MEXC现货市场推出Ondo代币化股票交易对，2026-08-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-new-ondo-tokenized-stock-trading-pairs-on-spot-aug-6-2026-17827791537308"
+        },
+        {
+          "token": "JMDT Blockchain (JMDT)",
+          "type": "首发上币",
+          "detail": "JMDT陽光普照投票结果，免费空投20,000 JMDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-jmdt-blockchain-jmdt-kickstarter-17827791537343"
+        },
+        {
+          "token": "VRTX、BIIB 和 STONK",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 VRTX、BIIB、STONK U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vrtx-biib-and-stonk-usdt-m-futures-17827791537313"
+        },
+        {
+          "token": "KIMI、VGT、VUG、XLI 和 CUPSEY",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 KIMI、VGT、VUG、XLI、CUPSEY U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kimi-vgt-vug-xli-and-cupsey-usdt-m-futures-17827791537314"
+        },
+        {
+          "token": "FTNT、SCCO、TECK、RBRK 和 VEEV",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 FTNT、SCCO、TECK、RBRK、VEEV U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ftnt-scco-teck-rbrk-and-veev-usdt-m-futures-17827791537315"
+        }
+      ]
+    }
+  }
+}
