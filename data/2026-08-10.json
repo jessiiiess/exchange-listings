@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-10",
+  "updatedAt": "2026-08-10T19:24:20.885133+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi Perpetual Contracts",
+          "type": "美股合约",
+          "detail": "Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-10)",
+          "url": "https://www.binance.com/en/support/announcement/45c2f20d589b420e80063ab75feb41f2"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "KAITO-TRY",
+          "type": "现货上线",
+          "detail": "KAITO/TRY 现货交易对上线",
+          "url": "https://www.okx.com/help/okx-to-list-kaito-try-spot"
+        },
+        {
+          "token": "KO (Coca-Cola)",
+          "type": "美股合约",
+          "detail": "KO-USDT 永续合约，20x杠杆，instCategory=3",
+          "url": "https://www.okx.com/help/okx-to-list-kousdt-perpetual-contract"
+        },
+        {
+          "token": "SKDD (ProShares UltraPro Short QQQ)",
+          "type": "美股合约",
+          "detail": "SKDD-USDT 永续合约，20x杠杆，instCategory=3",
+          "url": "https://www.okx.com/help/okx-to-list-skddusdt-perpetual-contract"
+        },
+        {
+          "token": "SKUU (ProShares Ultra QQQ)",
+          "type": "美股合约",
+          "detail": "SKUU-USDT 永续合约，20x杠杆，instCategory=3",
+          "url": "https://www.okx.com/help/okx-to-list-skuuusdt-perpetual-contract"
+        },
+        {
+          "token": "DOS (DAPPOS)",
+          "type": "合约上线",
+          "detail": "DOS-USDT 永续合约，20:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-dosusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "OUST",
+          "type": "合约上线",
+          "detail": "OUSTUSDT 永续合約，25倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-oustusdt-perpetual-contract-with-up-to-25x-leverage--art15fe79d8c030/"
+        },
+        {
+          "token": "SKDD",
+          "type": "美股合约",
+          "detail": "SKDDUSDT 永續合約，25倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skddusdt-perpetual-contract-with-up-to-25x-leverage--art49b02c760333/"
+        },
+        {
+          "token": "SKUU",
+          "type": "美股合约",
+          "detail": "SKUUUSDT 永續合約，25倍槓桿",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-skuuusdt-perpetual-contract-with-up-to-25x-leverage--artfa017f9229d9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BICO",
+          "type": "合约上线",
+          "detail": "BICOUSDT 永续合约，20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-bicousdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 DOS 现货交易、闪兑交易并开启 Launchpool",
+          "url": "https://www.gate.com/zh/announcements/article/101067"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "Launchpool",
+          "detail": "DOS 上线 Launchpool，参与瓜分 1,250,000 DOS",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891508"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "首发上币",
+          "detail": "首发上线創新區 DOS 現貨並支援閃兌",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537404"
+        },
+        {
+          "token": "TOAD",
+          "type": "合约上线",
+          "detail": "TOAD USDT合約，2026年8月10日 14:30 上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-toad-usdt-m-futures-on-aug-10-2026-06-17827791537419"
+        },
+        {
+          "token": "BULLCOIN",
+          "type": "首发合约",
+          "detail": "首發上線合約創新區 BULLCOINUSDT 合約，14:30上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537418"
+        },
+        {
+          "token": "TOAD 和 BULLCOIN",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 TOAD 和 BULLCOIN U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-toad-and-bullcoin-usdt-m-futures-17827791537420"
+        },
+        {
+          "token": "PAYC、MTSI、HTZ、CAVA",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 PAYC、MTSI、HTZ 和 CAVA U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-payc-mtsi-htz-and-cava-usdt-m-futures-17827791537417"
+        }
+      ]
+    }
+  }
+}
