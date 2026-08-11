@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-11",
+  "updatedAt": "2026-08-11T19:33:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CSOPSKHYNIX2L (南方东英SK海力士2倍杠杆ETF)",
+          "type": "美股合约",
+          "detail": "CSOPSKHYNIX2LUSDT 永续合约，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-csopskhynix2lusdt-perpetual-contract-with-up-to-20x-leverage--art4a66a47ad279/"
+        },
+        {
+          "token": "CSOPSAMSUNG2L (南方东英三星2倍杠杆ETF)",
+          "type": "美股合约",
+          "detail": "CSOPSAMSUNG2LUSDT 永续合约，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-csopsamsung2lusdt-perpetual-contract-with-up-to-20x-leverage--artf2bf745905ab/"
+        },
+        {
+          "token": "MEITUAN (美团)",
+          "type": "美股合约",
+          "detail": "MEITUANUSDT 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-meituanusdt-perpetual-contract-with-up-to-25x-leverage--artf28854e4db7b/"
+        },
+        {
+          "token": "KUAISHOU (快手)",
+          "type": "美股合约",
+          "detail": "KUAISHOUUSDT 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kuaishouusdt-perpetual-contract-with-up-to-25x-leverage--art4b0805b03863/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "现货上线",
+          "detail": "DOS 现货交易上线",
+          "url": "https://www.kucoin.com/announcement/en-dappos-dos-listed-on-kucoin"
+        },
+        {
+          "token": "AI Router Protocol (AIR)",
+          "type": "World Premiere 现货",
+          "detail": "HODLer Airdrops World Premiere 首发上线",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-ai-router-protocol-air-world-premiere-listing-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线",
+          "detail": "DOSUSDT 合约交易和交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891631"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KUAISHOU、MEITUAN、CSOPSKHYNIX2L 和 CSOPSAMSUNG2L",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时享0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-stock-futures-with-0-fee-trading-on-aug-11-17827791537452"
+        },
+        {
+          "token": "ALON",
+          "type": "Meme+ 区",
+          "detail": "首發上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537445"
+        },
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线",
+          "detail": "DOS USDT合约，13:15 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dappos-dos-usdt-m-futures-on-aug-11-2026-05-17827791537442"
+        },
+        {
+          "token": "UPROBINHOOD",
+          "type": "首发上币",
+          "detail": "首發上線合約創新區 UPROBINHOODUSDT 合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537441"
+        },
+        {
+          "token": "KRMN、ENPH、NTRA、SKDD 和 SKUU",
+          "type": "美股合约",
+          "detail": "股票合约上线(8月10日)，限时享0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-krmn-enph-ntra-skdd-and-skuu-stock-futures-with-0-fee-trading-on-aug-10-17827791537440"
+        },
+        {
+          "token": "AI Router Protocol (AIR)",
+          "type": "首发上币",
+          "detail": "首發上線創新區，瓜分 1,250,000 AIR & 10,000 USDT",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537437"
+        },
+        {
+          "token": "UPROBINHOOD",
+          "type": "首发上币",
+          "detail": "首發上線考核區現貨",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537431"
+        },
+        {
+          "token": "UPROBINHOOD 和 DOS",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 UPROBINHOOD 和 DOS U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uprobinhood-and-dos-usdt-m-futures-17827791537443"
+        },
+        {
+          "token": "KRMN、ENPH、NTRA、SKDD 和 SKUU",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 KRMN、ENPH、NTRA、SKDD 和 SKUU U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-krmn-enph-ntra-skdd-and-skuu-usdt-m-futures-17827791537444"
+        }
+      ]
+    }
+  }
+}
