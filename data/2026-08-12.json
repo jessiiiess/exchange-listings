@@ -1,0 +1,192 @@
+{
+  "date": "2026-08-12",
+  "updatedAt": "2026-08-12T19:05:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "bStocks (PLTR)",
+          "type": "美股合约",
+          "detail": "新增 1 个 bStocks 代币化证券作为抵押资产",
+          "url": "https://www.binance.com/en/support/announcement/2e02db3c8dcd4a03a365655c501aa7c9"
+        },
+        {
+          "token": "bStocks (PLTR)",
+          "type": "现货上线",
+          "detail": "新增 1 个 bStocks 现货交易对",
+          "url": "https://www.binance.com/en/support/announcement/3f884f8f195a419eb855510d203def2a"
+        },
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线",
+          "detail": "DOSUSDT 永续合约上线",
+          "url": "https://www.binance.com/en/support/announcement/a2ee872d61654a5bb43a87c3122b5706"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "NET",
+          "type": "美股合约",
+          "detail": "NET-USDT-SWAP 永续合约，10倍杠杆，16:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-netusdt-perpetual-contract"
+        },
+        {
+          "token": "POPMART (泡泡玛特)",
+          "type": "美股合约",
+          "detail": "POPMART-USDT-SWAP 永续合约，20倍杠杆，15:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-popmartusdt-perpetual-contract"
+        },
+        {
+          "token": "RIOT",
+          "type": "美股合约",
+          "detail": "RIOT-USDT-SWAP 永续合约，10倍杠杆，16:15上线",
+          "url": "https://www.okx.com/help/okx-to-list-riotusdt-perpetual-contract"
+        },
+        {
+          "token": "XIAOMI (小米)",
+          "type": "美股合约",
+          "detail": "XIAOMI-USDT-SWAP 永续合约，20倍杠杆，15:45上线",
+          "url": "https://www.okx.com/help/okx-to-list-xiaomiusdt-perpetual-contract"
+        },
+        {
+          "token": "XTESTA",
+          "type": "现货上线",
+          "detail": "XTESTA-USDC 现货交易对，16:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xtesta"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "RIOT",
+          "type": "美股合约",
+          "detail": "RIOTUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-riotusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art0a0b0abf0d31/"
+        },
+        {
+          "token": "SMIC (中芯国际)",
+          "type": "美股合约",
+          "detail": "SMICUSDT TradFi 永续合约，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-smicusdt-tradfi-perpetual-contract-with-up-to-20x-leverage--artfce1b3842a16/"
+        },
+        {
+          "token": "XIAOMI (小米)",
+          "type": "美股合约",
+          "detail": "XIAOMIUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xiaomiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art65f8ec9cd168/"
+        },
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线",
+          "detail": "DOSUSDT 永续合约上线创新板块，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dosusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artd58c845131aa/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线",
+          "detail": "DOSUSDT 永续合约，20倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-dosusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "USD1",
+          "type": "合约上线",
+          "detail": "新增 USD1 永续合约并开启限时交易手续费折扣",
+          "url": "https://www.gate.com/zh/announcements/article/101117"
+        },
+        {
+          "token": "CSOPSKHYNIX2L (南方东英SK海力士每日杠杆ETF)",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线 CSOPSKHYNIX2L 永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/101099"
+        },
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "合约上线 + 闪兑",
+          "detail": "上线 DOS 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/101093"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CSOPSK2LHKD 和 CSOPSS2LHKD",
+          "type": "美股合约",
+          "detail": "上线 CSOPSK2LHKD、CSOPSS2LHKD Quanto永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891685"
+        },
+        {
+          "token": "CSOPSS2LHKDUSDT",
+          "type": "美股合约",
+          "detail": "CSOPSS2LHKDUSDT 合约交易和交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891700"
+        },
+        {
+          "token": "CSOPSK2LHKDUSDT",
+          "type": "美股合约",
+          "detail": "CSOPSK2LHKDUSDT 合约交易和交易BOT上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891699"
+        },
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 DOS/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891657"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HMM",
+          "type": "首发上币",
+          "detail": "合約創新區 HMMUSDT 合约，14:30 (UTC+8) 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537490"
+        },
+        {
+          "token": "KUAISHOU、MEITUAN、CSOPSKHYNIX2L 和 CSOPSAMSUNG2L",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 KUAISHOU、MEITUAN、CSOPSKHYNIX2L 和 CSOPSAMSUNG2L U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kuaishou-meituan-csopskhynix2l-and-csopsamsung2l-usdt-m-futures-17827791537488"
+        },
+        {
+          "token": "VLO、MPC、DVN 和 BKR",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 VLO、MPC、DVN 和 BKR U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-vlo-mpc-dvn-and-bkr-usdt-m-futures-17827791537487"
+        },
+        {
+          "token": "HMM",
+          "type": "Meme+ 区",
+          "detail": "首發上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537484"
+        },
+        {
+          "token": "PLUMBER",
+          "type": "Meme+ 区",
+          "detail": "首發上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537479"
+        },
+        {
+          "token": "VLO、MPC、DVN 和 BKR",
+          "type": "美股合约",
+          "detail": "股票合约上线(8月11日)，限时享0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-vlo-mpc-dvn-and-bkr-stock-futures-with-0-fee-trading-on-aug-11-17827791537470"
+        }
+      ]
+    }
+  }
+}
