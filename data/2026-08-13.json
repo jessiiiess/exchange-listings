@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-13",
+  "updatedAt": "2026-08-13T19:20:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi (LYTEUSDT, NCLDUSDT, VSTUSDT 等)",
+          "type": "美股合约",
+          "detail": "Binance Futures 将于 2026-08-14 上线多个 USDⓈ-Margined TradFi 永续合约",
+          "url": "https://www.binance.com/en/support/announcement/343eff2647754fb1bd0664bba24e9a36"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "DAPPOS (DOS)",
+          "type": "现货上线",
+          "detail": "DOS-USDT 17:00上线，DOS-USDC/EUR/TRY/USD 18:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-dos"
+        },
+        {
+          "token": "XAAOI",
+          "type": "美股合约",
+          "detail": "XAAOI-USDT 现货交易对，14:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xaaoi"
+        },
+        {
+          "token": "XARM",
+          "type": "美股合约",
+          "detail": "XARM-USDT 现货交易对，15:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xarm"
+        },
+        {
+          "token": "XBE",
+          "type": "美股合约",
+          "detail": "XBE-USDT 现货交易对，17:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xbe"
+        },
+        {
+          "token": "XCBRS",
+          "type": "美股合约",
+          "detail": "XCBRS-USDT 现货交易对，15:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xcbrs"
+        },
+        {
+          "token": "XCRWV",
+          "type": "美股合约",
+          "detail": "XCRWV-USDT 现货交易对，17:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xcrwv"
+        },
+        {
+          "token": "XNBIS",
+          "type": "美股合约",
+          "detail": "XNBIS-USDT 现货交易对，14:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xnbis"
+        },
+        {
+          "token": "XRKLB",
+          "type": "美股合约",
+          "detail": "XRKLB-USDT 现货交易对，16:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xrklb"
+        },
+        {
+          "token": "XTQQQ",
+          "type": "美股合约",
+          "detail": "XTQQQ-USDT 现货交易对，16:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xtqqq"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NESA (NESA)",
+          "type": "合约上线",
+          "detail": "NESAUSDT 永续合约上线创新板块，20倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-nesausdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art27f51560279f/"
+        },
+        {
+          "token": "AEON (AEON)",
+          "type": "合约上线",
+          "detail": "AEONUSDT 永续合约上线创新板块，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-aeonusdt-perpetual-contract-in-innovation-zone-with-up-to-25x-leverage--arte73ea6345fe9/"
+        },
+        {
+          "token": "LYTE",
+          "type": "美股合约",
+          "detail": "LYTEUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lyteusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art04f427ed585b/"
+        },
+        {
+          "token": "NCLD",
+          "type": "美股合约",
+          "detail": "NCLDUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ncldusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artb14167bfe5bf/"
+        },
+        {
+          "token": "VST",
+          "type": "美股合约",
+          "detail": "VSTUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-vstusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--arte4f0335f875f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MO、CIFR、NET、VRTX、BIIB、CLSK 和 REGN",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线 MO（奥驰亚集团）、CIFR（赛弗数字）、NET（克劳德弗拉）、VRTX（福泰制药）、BIIB（渤健）、CLSK（克林斯帕克）、REGN（再生元制药）永续合约，20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101122"
+        },
+        {
+          "token": "ZHONGJI、HANMI、LGELECTRONICS、NAVER 和 KODEX200",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线中际旭创(03308.HK)、韩美半导体、LG电子、NAVER、三星KODEX 200 ETF永续合约，20倍杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101141"
+        },
+        {
+          "token": "utility (utility token)",
+          "type": "现货上线",
+          "detail": "Gate Alpha 首发上线 utility token (BSC链)",
+          "url": "https://www.gate.com/zh/announcements/article/101138"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rVRSN、rHUBB、rBAP、rCTSH、rQSR 等25只股票",
+          "type": "现货上线",
+          "detail": "上线 rVRSN、rHUBB、rBAP、rCTSH、rQSR 等25只股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891719"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "UTILITY",
+          "type": "Meme+ 区",
+          "detail": "首發上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537542"
+        },
+        {
+          "token": "AA、CHYM、ENTG、JBL 和 KKR",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 AA、CHYM、ENTG、JBL 和 KKR U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-aa-chym-entg-jbl-and-kkr-usdt-m-futures-17827791537522"
+        },
+        {
+          "token": "HMM",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增 HMM U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hmm-usdt-m-futures-17827791537521"
+        },
+        {
+          "token": "PACK",
+          "type": "Meme+ 区",
+          "detail": "首發上線 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537519"
+        },
+        {
+          "token": "AA、CHYM、ENTG、JBL 和 KKR",
+          "type": "美股合约",
+          "detail": "股票合约上线(8月12日)，限时享0费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-aa-chym-entg-jbl-and-kkr-stock-futures-with-0-fee-trading-on-aug-12-17827791537518"
+        }
+      ]
+    }
+  }
+}
