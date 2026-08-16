@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-14",
+  "updatedAt": "2026-08-17T01:25:26.557329+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XALAB",
+          "type": "美股合约",
+          "detail": "XALAB-USDT 现货交易对，16:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xalab"
+        },
+        {
+          "token": "XAPP",
+          "type": "美股合约",
+          "detail": "XAPP-USDT 现货交易对，16:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xapp"
+        },
+        {
+          "token": "XBSP",
+          "type": "美股合约",
+          "detail": "XBSP-USDT 现货交易对，14:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xbsp"
+        },
+        {
+          "token": "XCOHR",
+          "type": "美股合约",
+          "detail": "XCOHR-USDT 现货交易对，14:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xcohr"
+        },
+        {
+          "token": "XON",
+          "type": "美股合约",
+          "detail": "XON-USDT 现货交易对，15:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xon"
+        },
+        {
+          "token": "XSHAZ",
+          "type": "美股合约",
+          "detail": "XSHAZ-USDT 现货交易对，17:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xshaz"
+        },
+        {
+          "token": "XSMCI",
+          "type": "美股合约",
+          "detail": "XSMCI-USDT 现货交易对，17:30上线",
+          "url": "https://www.okx.com/help/okx-to-list-xsmci"
+        },
+        {
+          "token": "XTWLO",
+          "type": "美股合约",
+          "detail": "XTWLO-USDT 现货交易对，15:00上线",
+          "url": "https://www.okx.com/help/okx-to-list-xtwlo"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "ZHONGJI",
+          "type": "美股合约",
+          "detail": "ZHONGJIUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-zhongjiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artaaf9883cc201/"
+        },
+        {
+          "token": "SAMSUNGEMU",
+          "type": "美股合约",
+          "detail": "SAMSUNGEMUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-samsungemusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art09b8dc7b38f2/"
+        },
+        {
+          "token": "LGELECTRONICS",
+          "type": "美股合约",
+          "detail": "LGELECTRONICSUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-lgelectronicsusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--arte72f650e68d9/"
+        },
+        {
+          "token": "HANMI",
+          "type": "美股合约",
+          "detail": "HANMIUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hanmiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdeb175f485c2/"
+        },
+        {
+          "token": "NAVER",
+          "type": "美股合约",
+          "detail": "NAVERUSDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-naverusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artdb8ea16bd442/"
+        },
+        {
+          "token": "KODEX200",
+          "type": "美股合约",
+          "detail": "KODEX200USDT TradFi 永续合约，25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kodex200usdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art149cf29e91e5/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "KiiChain (KII)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere: KiiChain (KII) Listed on KuCoin",
+          "url": "https://www.kucoin.com/announcement/en-World-premiere-kiichain-kii-listed-on-kucoin-20260813"
+        },
+        {
+          "token": "ZHONGJI",
+          "type": "美股合约",
+          "detail": "ZHONGJIUSDT Stock Index Perpetual Contract 上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-zhongjiusdt-stock-index-perpetual-contract-2026-08-14"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Kiichain (KII)",
+          "type": "首发上币",
+          "detail": "Kiichain (KII) 将上线 Bitget",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891954"
+        },
+        {
+          "token": "ZHONGJI、HANMI、LGELECTRONICS、NAVER、SAMSUNGEMU、KR200",
+          "type": "美股合约",
+          "detail": "上线 ZHONGJIUSDT、HANMIUSDT、LGELECTRONICSUSDT、NAVERUSDT、SAMSUNGEMUSDT、KR200USDT 热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892049"
+        },
+        {
+          "token": "CYS",
+          "type": "合约上线",
+          "detail": "现货杠杆新增 CYS/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603891940"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
