@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-17",
+  "updatedAt": "2026-08-17T20:22:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Multiple TradFi Contracts",
+          "type": "美股合约",
+          "detail": "Binance Futures上线多个USDⓈ-Margined TradFi永续合约",
+          "url": "https://www.binance.com/en/support/announcement/0872245db74c4daaabd4f11984ba52c1"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "LYTE",
+          "type": "美股合约",
+          "detail": "LYTE-USDT-SWAP 永续合约，最大杠杆20x，2026-08-17 17:15上线",
+          "url": "https://www.okx.com/trade-swap/lyte-usdt-swap"
+        },
+        {
+          "token": "MOONSHOT",
+          "type": "美股合约",
+          "detail": "MOONSHOT-USDT-SWAP 永续合约，最大杠杆5x，2026-08-17 17:00上线",
+          "url": "https://www.okx.com/trade-swap/moonshot-usdt-swap"
+        },
+        {
+          "token": "OUST",
+          "type": "美股合约",
+          "detail": "OUST-USDT-SWAP 永续合约，最大杠杆20x，2026-08-17 17:30上线",
+          "url": "https://www.okx.com/trade-swap/oust-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SHENHUA（中国神华）等10个",
+          "type": "美股合约",
+          "detail": "首发上线Gate合约股票专区，SHENHUA（中国神华 601088.SH）等10个永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/101195"
+        },
+        {
+          "token": "BILLY (Billycoin) 和 CRASHIUS (The Leader)",
+          "type": "现货上线",
+          "detail": "Gate Alpha首发上线BILLY和CRASHIUS",
+          "url": "https://www.gate.com/zh/announcements/article/101193"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "LENOVO",
+          "type": "美股合约",
+          "detail": "Bitget上线LENOVO Quanto永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892215"
+        },
+        {
+          "token": "CXMT",
+          "type": "美股合约",
+          "detail": "Bitget上线CXMTUSDT热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892214"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BASECAT",
+          "type": "合约上线",
+          "detail": "全球首发BASECATUSDT合约，1-20x杠杆，2026-08-17 17:20上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537607"
+        },
+        {
+          "token": "SKSQUARE、MITSUBISHI、SOFTBANK、MURATA 和 LYTE",
+          "type": "美股合约",
+          "detail": "上线5个股票合约，最大杠杆20x，限时0费率",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-sksquare-mitsubishi-softbank-murata-and-lyte-stock-futures-with-0-fee-trading-on-aug-17-17827791537603"
+        },
+        {
+          "token": "LAYOOO",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+交易区，SOL链，2026-08-17 13:10上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537598"
+        },
+        {
+          "token": "牛来",
+          "type": "盘前转正式合约",
+          "detail": "牛来USDT从创新区转板至主板区，1-20x杠杆，2026-08-17 13:55",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-move-牛来usdt-from-innovation-zone-to-main-board-on-aug-17-2026-05-17827791537597"
+        },
+        {
+          "token": "BASECAT",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+交易区，BASE链，2026-08-17 09:30上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537591"
+        },
+        {
+          "token": "MARSCOIN1",
+          "type": "Meme+ 区",
+          "detail": "首发上线MEXC Meme+交易区，BSC链，2026-08-16 21:25上线（跨日）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537588"
+        }
+      ]
+    }
+  }
+}
