@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-19",
+  "updatedAt": "2026-08-19T10:35:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "合约上线",
+          "detail": "UNITREEUSDT USDⓈ-Margined 永续合约，10:30 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/3e662272597c44b7939f5db5c8c86d4f"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "美股合约",
+          "detail": "UNITREE-USDT-SWAP 永续合约，20x杠杆，13:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-unitreeusdt-perpetual-contract"
+        },
+        {
+          "token": "XCIEN、XKO、XLRCX、XPOPMART、XRDDT、XSMH、XTTWO、XXIAOMI",
+          "type": "美股合约",
+          "detail": "8个代币化股票现货交易对（Ciena、可口可乐、Lam Research、泡泡玛特、Reddit、SMH ETF、Take-Two、小米），14:00–17:30 UTC+8分批上线",
+          "url": "https://www.okx.com/markets/prices"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "盘前转正式合约",
+          "detail": "UNITREEUSDT 盘前永续合约转标准永续合约，10:20 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/bybit-to-convert-unitreeusdt-pre-market-perpetual-contract-to-standard-perpetual-contract--art1bb0acb9b378/"
+        },
+        {
+          "token": "ADI (Analog Devices)",
+          "type": "美股合约",
+          "detail": "ADIUSDT TradFi 永续合约，最高25倍杠杆，17:19 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-adiusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art836d3d68bd47/"
+        },
+        {
+          "token": "HD (Home Depot)",
+          "type": "美股合约",
+          "detail": "HDUSDT TradFi 永续合约，最高25倍杠杆，17:19 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hdusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art78396c9ed567/"
+        },
+        {
+          "token": "MAGS (Magnificent 7 ETF)",
+          "type": "美股合约",
+          "detail": "MAGSUSDT TradFi 永续合约，最高25倍杠杆，17:19 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-magsusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9e2a59ca0aa1/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "牛来 (NIULAI)",
+          "type": "现货上线",
+          "detail": "NIULAI 现货上线 KuCoin，13:07 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-niulai-listed-on-kucoin"
+        },
+        {
+          "token": "KO (可口可乐)、LYTE、SAMSUNGEM、HANMI",
+          "type": "美股合约",
+          "detail": "4个股票指数永续合约（可口可乐NYSE:KO、Roundhill光子ETF LYTE、三星电机SAMSUNGEM、韩美HANMI），均支持1-20x，17:00 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-08-19"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AXE (Trading Axe)、DELTA (Delta)、CLUG (Clug)、雪球股票",
+          "type": "Meme+ 区",
+          "detail": "Gate Alpha 首发上线 4 个代币，10:20 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101226"
+        },
+        {
+          "token": "UNITREE3L/3S、SNDK5L/5S、SPCX5L/5S、SKHYNIX5L/5S、MU5L/5S",
+          "type": "合约上线",
+          "detail": "Gate ETF 上线宇树科技、闪迪、SpaceX、SK海力士、美光 5组3x/5x ETF产品，12:00 UTC+8开始",
+          "url": "https://www.gate.com/zh/announcements/article/101227"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "美股合约",
+          "detail": "UNITREEUSDT 热门股票永续合约，16:13 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892507"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "UNITREE (宇树科技)",
+          "type": "盘前转正式合约",
+          "detail": "UNITREEUSDT Pre-IPO 永续合约已转换为正式永续合约，1-25倍杠杆，2026-08-19",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-completes-conversion-of-unitree-robotics-unitree-pre-ipo-futures-to-standard-futures-17827791537670"
+        },
+        {
+          "token": "EYE",
+          "type": "合约上线",
+          "detail": "EYEUSDT 合约全球首发，1-20x杠杆，2026-08-18 19:00 UTC+8（跨日）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537667"
+        }
+      ]
+    }
+  }
+}
