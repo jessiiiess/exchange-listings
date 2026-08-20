@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-20",
+  "updatedAt": "2026-08-20T20:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XAPLD、XBX、XISRG、XOKTA、XRIVN、XUNH、XWDC、XZM",
+          "type": "美股合约",
+          "detail": "8只美股代币化现货上线，含Apple (XAPLD)、BHP (XBX)、Intuitive Surgical (XISRG)、Okta (XOKTA)、Rivian (XRIVN)、UnitedHealth (XUNH)、Western Digital (XWDC)、Zoom (XZM)",
+          "url": "https://www.okx.com/help/okx-new-spot-trading-pairs"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "FUTU (富途控股)",
+          "type": "美股合约",
+          "detail": "FUTUUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-futuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art52549516a047/"
+        },
+        {
+          "token": "ANET (Arista Networks)",
+          "type": "美股合约",
+          "detail": "ANETUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-anetusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art3b073b3064ae/"
+        },
+        {
+          "token": "SPCH (Sprinklr)",
+          "type": "美股合约",
+          "detail": "SPCHUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spchusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art022339563bd5/"
+        },
+        {
+          "token": "MRNA (Moderna)",
+          "type": "美股合约",
+          "detail": "MRNAUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrnausdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art651f7e93635c/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Aligned (ALIGN)",
+          "type": "World Premiere 现货",
+          "detail": "HODLer Airdrops World Premiere 上线",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-aligned-align-world-premiere-listing-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Aligned (ALIGN)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线现货交易、闪兑交易并开启 Launchpool",
+          "url": "https://www.gate.com/zh/announcements/article/101251"
+        },
+        {
+          "token": "MRNA (莫德纳)",
+          "type": "美股合约",
+          "detail": "合约股票专区上线 MRNA 永续合约交易（USDT 结算）",
+          "url": "https://www.gate.com/zh/announcements/article/101241"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Aligned (ALIGN)",
+          "type": "首发上币",
+          "detail": "首发上线 Aligned (ALIGN)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892577"
+        },
+        {
+          "token": "rHDV、rJEPI、rLQDA、rAMPG、rAMPX 等23只股票",
+          "type": "美股合约",
+          "detail": "上线 23 只股票现货（代币化股票）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892576"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Aligned (ALIGN)",
+          "type": "首发上币",
+          "detail": "创新区上线 ALIGN 并支援闪兑服务",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537608"
+        },
+        {
+          "token": "ALIGN",
+          "type": "合约上线",
+          "detail": "8月21日 03:10 (UTC+8) 上线 ALIGN USDT合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537731"
+        },
+        {
+          "token": "QoreChain (QOR)",
+          "type": "现货上线",
+          "detail": "陽光普照投票結果，安排上線",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-qorechain-qor-kickstarter-17827791537740"
+        },
+        {
+          "token": "MRNAON (Moderna代币化股票)",
+          "type": "现货上线",
+          "detail": "现货市场推出 Ondo 代幣化股票 Moderna (MRNAON)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ondo-tokenized-stock-moderna-mrnaon-on-spot-aug-20-2026-17827791537719"
+        },
+        {
+          "token": "HL、AEM、CVNA、DHR、TGT",
+          "type": "美股合约",
+          "detail": "8月20日上线 HL, AEM, CVNA, DHR, TGT 股票合约",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537742"
+        },
+        {
+          "token": "FUJIKURA、FURUKAWA、TOYOTA、HITACHI、IBIDEN",
+          "type": "美股合约",
+          "detail": "8月20日上线日股合约（藤仓、古河电气、丰田、日立、揖斐电）",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537721"
+        },
+        {
+          "token": "PLN",
+          "type": "现货上线",
+          "detail": "上线 PLN/USDC 现货交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pln-usdc-spot-trading-pair-17827791537644"
+        }
+      ]
+    }
+  }
+}
