@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-22",
+  "updatedAt": "2026-08-23T23:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Bitway (BTW)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 BTW 现货交易、闪兑交易并开启 HODLer Airdrop",
+          "url": "https://www.gate.com/zh/announcements/article/101289"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}

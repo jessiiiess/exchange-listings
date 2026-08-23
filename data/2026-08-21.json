@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-21",
+  "updatedAt": "2026-08-23T23:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "MRNA (Moderna)",
+          "type": "美股合约",
+          "detail": "MRNA-USDT 永续合约上线，最高20倍杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-mrnausdt-perpetual-contract"
+        },
+        {
+          "token": "PURR",
+          "type": "合约上线",
+          "detail": "PURR-USDT 永续合约上线，最高20倍杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-purrusdt-perpetual-contract"
+        },
+        {
+          "token": "XGLW、XJNJ、XKLAC、XQCOM、XROK、XSTRC",
+          "type": "美股合约",
+          "detail": "6只美股代币化现货上线，含 Corning (XGLW)、Johnson & Johnson (XJNJ)、KLA Corp (XKLAC)、Qualcomm (XQCOM)、Rockwell (XROK)、Stryker (XSTRC)",
+          "url": "https://www.okx.com/help/okx-new-spot-trading-pairs"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MRK (Merck)",
+          "type": "美股合约",
+          "detail": "MRKUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mrkusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art4ceec6e07ee8/"
+        },
+        {
+          "token": "PDD (拼多多)",
+          "type": "美股合约",
+          "detail": "PDDUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-pddusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--artf267b4d94fd7/"
+        },
+        {
+          "token": "JD (京东)",
+          "type": "美股合约",
+          "detail": "JDUSDT TradFi 永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-jdusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art8972c1a94bd9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 DGrid AI (DGAI)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-dgrid-ai-dgai-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "富贵 (富贵) 和 SUMMER (SUMMER)",
+          "type": "Gate Alpha 首发",
+          "detail": "Gate Alpha 首发上线 富贵、SUMMER",
+          "url": "https://www.gate.com/zh/announcements/article/101283"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "首发上币",
+          "detail": "首发上线 DGrid AI (DGAI) DePIN 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892844"
+        },
+        {
+          "token": "ALIGN",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增 ALIGN/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603892909"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-23",
+  "updatedAt": "2026-08-23T23:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 DGrid AI (DGAI) 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101292"
+        },
+        {
+          "token": "TPT",
+          "type": "Gate Alpha 首发",
+          "detail": "Gate Alpha 首发上线 TPT",
+          "url": "https://www.gate.com/zh/announcements/article/101291"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
