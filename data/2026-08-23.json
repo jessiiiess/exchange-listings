@@ -36,7 +36,14 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "QENIS",
+          "type": "Meme+ 区",
+          "detail": "首发上线 QENIS，Meme+ 交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537791"
+        }
+      ]
     }
   }
 }

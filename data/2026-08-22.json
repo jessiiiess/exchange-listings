@@ -30,7 +30,20 @@
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "Dolphin (POD)",
+          "type": "考核区现货",
+          "detail": "考核区上线 POD/USDT，2026年8月22日 15:10 (UTC+8) 开启交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537786"
+        },
+        {
+          "token": "DebtReliefBot (DRB)",
+          "type": "考核区现货",
+          "detail": "考核区上线 DRB",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537785"
+        }
+      ]
     }
   }
 }
