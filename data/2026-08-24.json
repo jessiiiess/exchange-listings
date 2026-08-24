@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-24",
+  "updatedAt": "2026-08-24T18:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CVXV666 (CVXV666 Capital) 和 BLUECHIP (BLUE CHIP) 和 LARP (Live Action Roleplay)",
+          "type": "Gate Alpha 首发",
+          "detail": "Gate Alpha 首发上线 CVXV666、BLUECHIP、LARP",
+          "url": "https://www.gate.com/zh/announcements/article/101306"
+        },
+        {
+          "token": "Morty (Gucci Morty) 和 DOPAMEME (dopameme) 和 肥嘟嘟",
+          "type": "Gate Alpha 首发",
+          "detail": "Gate Alpha 首发上线 Morty、DOPAMEME、肥嘟嘟",
+          "url": "https://www.gate.com/zh/announcements/article/101294"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Teller (DEBIT)",
+          "type": "首发上币",
+          "detail": "Teller（DEBIT）将上线 Bitget，2026-08-24 18:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893069"
+        },
+        {
+          "token": "Permacast (PWT)",
+          "type": "首发上币 AI区",
+          "detail": "Permacast（PWT）将上线 AI 专区，2026-08-24 15:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893047"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EGG",
+          "type": "合约上线",
+          "detail": "合约创新区上线 EGGUSDT，1-20倍杠杆，2026-08-24 15:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537825"
+        },
+        {
+          "token": "PURR",
+          "type": "合约上线",
+          "detail": "合约创新区上线 PURRUSDT，1-20倍杠杆，2026-08-24 15:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537824"
+        },
+        {
+          "token": "BLUECHIP",
+          "type": "Meme+ 区",
+          "detail": "首发上线 BLUECHIP，Meme+ 交易区，BASE链，2026-08-24 13:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537803"
+        },
+        {
+          "token": "CC1",
+          "type": "Meme+ 区",
+          "detail": "首发上线 CC1，Meme+ 交易区，SOL链，2026-08-24 12:45 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537802"
+        },
+        {
+          "token": "MORTY",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MORTY (Gucci Morty)，Meme+ 交易区，SOL链，2026-08-24 11:25 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537801"
+        },
+        {
+          "token": "BNBCAT",
+          "type": "Meme+ 区",
+          "detail": "首发上线 BNBCAT，Meme+ 交易区，BSC链，2026-08-24 11:45 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537800"
+        },
+        {
+          "token": "EGG",
+          "type": "Meme+ 区",
+          "detail": "首发上线 EGG，Meme+ 交易区，HyperEVM链，2026-08-24 10:05 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537794"
+        }
+      ]
+    }
+  }
+}
