@@ -1,0 +1,155 @@
+{
+  "date": "2026-08-25",
+  "updatedAt": "2026-08-25T23:12:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "SKUU (GraniteShares 2x Long SK Hynix Daily ETF) 和 SKDD (GraniteShares 2x Short SK Hynix Daily ETF) 和 RAM (Roundhill T-REX 2X Long DRAM Daily Target ETF) 和 DJT (Trump Media & Technology) 和 MRNA (Moderna)",
+          "type": "美股合约",
+          "detail": "TradFi永续合约，2026-08-25 09:00-09:20 UTC上线，USDT结算",
+          "url": "https://www.binance.com/en/support/announcement/bda2e5ae3e3d46718a14a493521f6078"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "INTU (Intuitive Surgical) 和 RAM (Roundhill T-REX 2X Long DRAM ETF) 和 DJT (Trump Media & Technology)",
+          "type": "美股合约",
+          "detail": "TradFi永续合约，最高25倍杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-intuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9879ccabbdff/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Teller (DEBIT)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere首发上线，Trading: 12:00 on August 26, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-teller-debit-listed-on-kucoin"
+        },
+        {
+          "token": "TermMax (TMX)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere首发上线，Trading: 10:00 on August 25, 2026 (UTC)",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-termmax-tmx-listed-on-kucoin"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "合约上线",
+          "detail": "CASHCATUSDT永续合约，最高10倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-cashcatusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "牛来",
+          "type": "现货 + 闪兑",
+          "detail": "Gate将上线牛来现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101342"
+        },
+        {
+          "token": "Cash Cat (CASHCAT)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate将上线CASHCAT现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101335"
+        },
+        {
+          "token": "Cash Cat (CASHCAT)",
+          "type": "合约 + 杠杆 + 跟单",
+          "detail": "Gate已上线CASHCAT合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/101341"
+        },
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "合约 + 杠杆 + 跟单",
+          "detail": "Gate已上线DGAI合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/101313"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DE (Deere & Company) 和 JP225 (日经225指数)",
+          "type": "美股合约",
+          "detail": "热门股票永续合约上线DEUSDT、JP225USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893116"
+        },
+        {
+          "token": "TermMax (TMX)",
+          "type": "首发上币",
+          "detail": "TermMax (TMX) 将上线 Bitget DeFi 专区",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893101"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DJT (Trump Media & Technology)",
+          "type": "美股合约",
+          "detail": "首發上線DJT股票合約，限時享0費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537853"
+        },
+        {
+          "token": "TermMax (TMX)",
+          "type": "合约上线",
+          "detail": "全球首發，2026年8月25日 18:10 (UTC+8) 上線TMX USDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537848"
+        },
+        {
+          "token": "DISCO (Disco Corp) 和 RENESAS (Renesas Electronics) 和 NEC",
+          "type": "美股合约",
+          "detail": "首發上線DISCO、RENESAS、NEC股票合約，限時享0費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537840"
+        },
+        {
+          "token": "SHEIN (希音)",
+          "type": "美股合约",
+          "detail": "首發上線SHEIN Pre-IPO合約，8月25日11:35 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537838"
+        },
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "合约上线",
+          "detail": "2026年8月25日 14:40 (UTC+8) 上線DGAIUSDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dgaiusdt-futures-on-aug-25-2026-06-17827791537844"
+        },
+        {
+          "token": "DELTA",
+          "type": "合约上线",
+          "detail": "首發上線，合約創新區2026年8月25日 14:40 (UTC+8) 上線DELTAUSDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537843"
+        },
+        {
+          "token": "CHAMELEON",
+          "type": "Meme+ 区",
+          "detail": "首發上線CHAMELEON，Meme+交易區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537839"
+        },
+        {
+          "token": "EGG 和 PURR 和 MRK 和 MNST 和 TWST",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增EGG、PURR、MRK、MNST、TWST U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-egg-purr-mrk-mnst-and-twst-usdt-m-futures-17827791537846"
+        },
+        {
+          "token": "SHEIN 和 DISCO 和 RENESAS 和 NEC",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增SHEIN、DISCO、RENESAS、NEC U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-shein-disco-renesas-and-nec-usdt-m-futures-17827791537845"
+        }
+      ]
+    }
+  }
+}
