@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-26",
+  "updatedAt": "2026-08-26T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "DJTB (Trump Media & Technology Group)",
+          "type": "代币化股票现货",
+          "detail": "Binance bStocks代币化股票现货上线DJTB，2026-08-26 09:00 UTC",
+          "url": "https://www.binance.com/en/support/announcement/653dce6a74234b999d7a189c0fa49a80"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Based (BASED)",
+          "type": "现货上线",
+          "detail": "BASED-EUR、BASED-USDC现货交易对上线，2026-08-26 16:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-based-spot"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Pons (PONS)",
+          "type": "现货上线",
+          "detail": "Gate将上线PONS现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101372"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rDJT (Trump Media & Technology) 和 rPURR",
+          "type": "代币化股票现货",
+          "detail": "上线rDJT、rPURR 2只股票现货",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893410"
+        },
+        {
+          "token": "MARA (Marathon Digital)",
+          "type": "美股合约",
+          "detail": "上线MARAUSDT热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893405"
+        },
+        {
+          "token": "DGrid AI (DGAI)",
+          "type": "杠杆上线",
+          "detail": "现货杠杆新增DGAI/USDT",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893326"
+        },
+        {
+          "token": "DJT (Trump Media & Technology)",
+          "type": "美股合约",
+          "detail": "上线DJTUSDT热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893304"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PISTACIO",
+          "type": "合约上线",
+          "detail": "首發上線，合約創新區2026年8月26日 18:00 (UTC+8) 上線PISTACIOUSDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537891"
+        },
+        {
+          "token": "IOT (Samsara) 和 DE (Deere & Company) 和 MO (Altria Group)",
+          "type": "美股合约",
+          "detail": "上線IOT、DE和MO股票合約，限時享0費",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-iot-de-and-mo-stock-futures-with-0-fee-trading-on-aug-26-17827791537890"
+        },
+        {
+          "token": "Teller (DEBIT)",
+          "type": "合约上线",
+          "detail": "首發上線，合約創新區2026年8月26日 18:10 (UTC+8) 上線DEBITUSDT合約",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537886"
+        },
+        {
+          "token": "TMX 和 DGAI 和 DELTA 和 DJT",
+          "type": "合约 + 跟单",
+          "detail": "跟單新增TMX、DGAI、DELTA和DJT U本位合約交易對",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tmx-dgai-delta-and-djt-usdt-m-futures-17827791537881"
+        },
+        {
+          "token": "PISTACIO",
+          "type": "Meme+ 区",
+          "detail": "首發上線PISTACIO，Meme+交易區",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537876"
+        }
+      ]
+    }
+  }
+}
