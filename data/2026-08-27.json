@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-27",
+  "updatedAt": "2026-08-27T18:10:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "SOPH (Sophon)",
+          "type": "现货上线",
+          "detail": "SOPH-EUR、SOPH-USDC现货交易对上线，2026-08-27 16:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-soph-spot"
+        },
+        {
+          "token": "MARA (Marathon Digital)",
+          "type": "美股合约",
+          "detail": "MARA-USDT永续合约上线，cat=3（美股），20x杠杆，2026-08-27 18:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-marausdt-perpetual-contract"
+        },
+        {
+          "token": "MRK (Merck & Co.)",
+          "type": "美股合约",
+          "detail": "MRK-USDT永续合约上线，cat=3（美股），20x杠杆，2026-08-27 17:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-mrkusdt-perpetual-contract"
+        },
+        {
+          "token": "WMT (Walmart)",
+          "type": "美股合约",
+          "detail": "WMT-USDT永续合约上线，cat=3（美股），20x杠杆，2026-08-27 17:45 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-wmtusdt-perpetual-contract"
+        },
+        {
+          "token": "NVDL (GraniteShares 2x Long NVDA ETF)",
+          "type": "美股合约",
+          "detail": "NVDL-USDT永续合约上线，cat=3（美股），20x杠杆，2026-08-27 18:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-nvdlusdt-perpetual-contract"
+        },
+        {
+          "token": "TSLL (Direxion Daily TSLA Bull 2X Shares)",
+          "type": "美股合约",
+          "detail": "TSLL-USDT永续合约上线，cat=3（美股），20x杠杆，2026-08-27 18:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-tsllusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "XLP (Consumer Staples Select Sector SPDR)",
+          "type": "美股合约",
+          "detail": "XLPUSDT TradFi永续合约，25x杠杆，2026-08-27 16:44 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xlpusdt"
+        },
+        {
+          "token": "XLU (Utilities Select Sector SPDR)",
+          "type": "美股合约",
+          "detail": "XLUUSDT TradFi永续合约，25x杠杆，2026-08-27 16:44 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xluusdt"
+        },
+        {
+          "token": "MCD (McDonald's)",
+          "type": "美股合约",
+          "detail": "MCDUSDT TradFi永续合约，25x杠杆，2026-08-27 16:44 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mcdusdt"
+        },
+        {
+          "token": "SHEIN",
+          "type": "合约上线",
+          "detail": "SHEINUSDT Pre-IPO永续合约，2026-08-27 08:00 UTC上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-sheinusdt"
+        },
+        {
+          "token": "TMX (TermMax)",
+          "type": "合约上线",
+          "detail": "TMXUSDT永续合约上线创新板块，20x杠杆，2026-08-26 18:51 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-tmxusdt"
+        },
+        {
+          "token": "MSTU (T-Rex 2X Long MSTR Daily Target ETF)",
+          "type": "美股合约",
+          "detail": "MSTUUSDT TradFi永续合约，25x杠杆，2026-08-26 18:06 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mstuusdt"
+        },
+        {
+          "token": "INFQ (Infosys)",
+          "type": "美股合约",
+          "detail": "INFQUSDT TradFi永续合约，25x杠杆，2026-08-26 18:06 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-infqusdt"
+        },
+        {
+          "token": "SPXL (Direxion Daily S&P 500 Bull 3X Shares)",
+          "type": "美股合约",
+          "detail": "SPXLUSDT TradFi永续合约，25x杠杆，2026-08-26 18:05 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-spxlusdt"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "龙虾 (龙虾)",
+          "type": "首发现货 + 合约",
+          "detail": "龙虾现货上线2026-08-27 11:31 UTC+8，龙虾USDT永续合约10x杠杆2026-08-27 15:55 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-listed-on-kucoin"
+        },
+        {
+          "token": "DIAM (DIAM)",
+          "type": "现货上线",
+          "detail": "DIAM现货上线KuCoin，2026-08-27 11:11 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-diam-diam-listed-on-kucoin"
+        },
+        {
+          "token": "Pons (PONS)",
+          "type": "现货上线",
+          "detail": "PONS现货上线KuCoin，2026-08-27 11:04 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-pons-pons-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Pons (PONS)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate将上线PONS现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101387"
+        },
+        {
+          "token": "GOOD (Good In The Hood) 和 蝴蝶人生 (蝴蝶人生)",
+          "type": "Gate Alpha首发",
+          "detail": "Gate Alpha首发上线GOOD和蝴蝶人生",
+          "url": "https://www.gate.com/zh/announcements/article/101384"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "PURR",
+          "type": "美股合约",
+          "detail": "上线PURRUSDT热门股票永续合约，2026-08-26 19:09 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893437"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BISCOTTI",
+          "type": "Meme+ 区",
+          "detail": "首发上线BISCOTTI现货，MEXC Meme+交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537897"
+        },
+        {
+          "token": "BISCOTTI",
+          "type": "合约上线",
+          "detail": "首发上线BISCOTTIUSDT合约，合约创新区2026-08-27 14:55 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537904"
+        },
+        {
+          "token": "CC1",
+          "type": "合约上线",
+          "detail": "首发上线CC1USDT合约，合约创新区2026-08-27 14:55 (UTC+8)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537902"
+        },
+        {
+          "token": "SUE",
+          "type": "Meme+ 区",
+          "detail": "首发上线SUE现货，MEXC Meme+交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537901"
+        },
+        {
+          "token": "FONE",
+          "type": "Meme+ 区",
+          "detail": "首发上线FONE现货，MEXC Meme+交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537898"
+        },
+        {
+          "token": "CLAN",
+          "type": "Meme+ 区",
+          "detail": "首发上线CLAN现货，MEXC Meme+交易区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537905"
+        },
+        {
+          "token": "BISCOTTI、CC1、PISTACIO 和 DEBIT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增BISCOTTI、CC1、PISTACIO和DEBIT U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-biscotti-cc1-pistacio-and-debit-usdt-m-futures-17827791537909"
+        },
+        {
+          "token": "IOT、DE 和 MO",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增IOT、DE和MO U本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-iot-de-and-mo-usdt-m-futures-17827791537910"
+        }
+      ]
+    }
+  }
+}
