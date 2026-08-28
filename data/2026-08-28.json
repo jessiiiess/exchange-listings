@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-28",
+  "updatedAt": "2026-08-28T19:38:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TEM (Tempus AI)、MRK (Merck)、IONQ (IonQ)、MARA (MARA Holdings) 和 PDD (PDD Holdings)",
+          "type": "美股合约",
+          "detail": "上线TEMUSDT、MRKUSDT、IONQUSDT、MARAUSDT、PDDUSDT TradFi永续合约，2026-08-28 09:00-09:20 UTC",
+          "url": "https://www.binance.com/en/support/announcement/32ac927d1cbe4aa3b527eca1c401a98f"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "牛来 (NIULAI)",
+          "type": "合约上线",
+          "detail": "牛来USDT永续合约上线创新板块，20x杠杆，2026-08-28 16:13 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-niulai"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Bless (BLESS)",
+          "type": "现货上线",
+          "detail": "BLESS现货上线KuCoin，2026-08-28 11:01 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-bless-bless-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "RAM (Roundhill T-REX 2倍做多 DRAM 每日目标ETF)",
+          "type": "美股合约",
+          "detail": "首发上线Gate合约股票专区RAM永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/101420"
+        },
+        {
+          "token": "SHEIN (希音)",
+          "type": "合约上线",
+          "detail": "首发上线SHEINUSDT永续合约盘前交易（USDT结算）",
+          "url": "https://www.gate.com/zh/announcements/article/101416"
+        },
+        {
+          "token": "PINK (PINK COIN)、AU (AUTSM)、RAWR (RAWR)、WindChill (The Coge) 和 DTF (Do The Fun)",
+          "type": "Gate Alpha首发",
+          "detail": "Gate Alpha首发上线PINK、AU、RAWR、WindChill、DTF",
+          "url": "https://www.gate.com/zh/announcements/article/101411"
+        },
+        {
+          "token": "MarsCoin (MARSCOIN)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate将上线MarsCoin现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101401"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "HPQ (HP Inc.)",
+          "type": "美股合约",
+          "detail": "上线HPQUSDT热门股票永续合约，2026-08-27 21:47 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893608"
+        },
+        {
+          "token": "SHEIN",
+          "type": "合约上线",
+          "detail": "重磅上线SHEINUSDT IPO盘前永续合约，抢跑快时尚独角兽定价权，2026-08-27 21:38 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893607"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
