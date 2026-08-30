@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-29",
+  "updatedAt": "2026-08-30T22:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Catecoin (CATE)",
+          "type": "现货上线",
+          "detail": "Gate将上线Catecoin (CATE) 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101425"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "OKTA (Okta) 和 VEEV (Veeva Systems)",
+          "type": "美股合约",
+          "detail": "上线OKTAUSDT、VEEVUSDT热门股票永续合约，2026-08-28 20:06 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893702"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MICRODUCK",
+          "type": "Meme+ 区",
+          "detail": "首发上线MICRODUCK至MEXC Meme+区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537956"
+        },
+        {
+          "token": "COPPERINU",
+          "type": "Meme+ 区",
+          "detail": "首发上线COPPERINU至MEXC Meme+区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537955"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-30",
+  "updatedAt": "2026-08-30T22:20:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "牛来 (NIULAI)",
+          "type": "合约上线",
+          "detail": "上线牛来USDT永续合约，2026-08-30 16:35 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/6e9e9784397745f4a49d3f69b1cfebda"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Catecoin (CATE)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate将上线Catecoin (CATE) 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101427"
+        },
+        {
+          "token": "MarsCoin (MARSCOIN)",
+          "type": "合约 + 跟单",
+          "detail": "Gate已上线MARSCOIN合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101428"
+        },
+        {
+          "token": "Pons (PONS)",
+          "type": "合约 + 跟单",
+          "detail": "Gate已上线PONS合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/101426"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "牛来 (NIULAI)",
+          "type": "合约上线",
+          "detail": "牛来USDT现已上线合约交易和交易BOT，2026-08-30 21:03 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893765"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "PROLOGUE",
+          "type": "Meme+ 区",
+          "detail": "首发上线PROLOGUE至MEXC Meme+区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791537958"
+        },
+        {
+          "token": "PROLOGUE",
+          "type": "合约上线",
+          "detail": "MEXC合约创新板块上线PROLOGUEUSDT合约，2026-08-30 18:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-prologueusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537961"
+        },
+        {
+          "token": "COPPERINU",
+          "type": "合约上线",
+          "detail": "MEXC合约创新板块上线COPPERINUMUSDT合约，2026-08-30 18:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-copperinumusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537960"
+        },
+        {
+          "token": "MICRODUCK",
+          "type": "合约上线",
+          "detail": "MEXC合约创新板块上线MICRODUCKUSDT合约，2026-08-30 18:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-microduckusdt-futures-in-innovation-zone-on-aug-30-2026-10-17827791537959"
+        }
+      ]
+    }
+  }
+}
