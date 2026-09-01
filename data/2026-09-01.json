@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-01",
+  "updatedAt": "2026-09-01T21:56:05+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "合约上线",
+          "detail": "MARSCOINUSDT U本位永续合约，2026-09-01 16:45 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/4d9ae75c02114187b699cfe1380ac81e"
+        },
+        {
+          "token": "SHEIN (HK0625)",
+          "type": "美股合约",
+          "detail": "HK0625USDT Quanto永续合约（希音港股00625.HK），SHEIN 2026-09-01港交所IPO上市首日",
+          "url": "https://www.binance.com/en/support/announcement/969a4628dd5d4a479c071b02175bae57"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "合约上线",
+          "detail": "MARSCOINUSDT永续合约上线创新板块，最高20倍杠杆，2026-09-01 18:54 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-marscoinusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--arte386b0ccffa1/"
+        },
+        {
+          "token": "SHEIN (00625.HK)",
+          "type": "盘前转正式合约",
+          "detail": "SHEINUSDT由盘前永续合约转为标准版永续合约，支持1-50倍杠杆，2026-09-01 11:40 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/bybit-to-convert-sheinusdt-pre-market-perpetual-contract-to-standard-perpetual-contract--art4992500b6dd8/"
+        },
+        {
+          "token": "FIS、ORLY、MBLY、FANG、CB、DXCM、D、DBX、MGM、OKE",
+          "type": "美股合约",
+          "detail": "10支美股CFD上线Bybit TradFi，最高5倍杠杆，2026-08-31 20:31 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-10-stock-cfds-now-live-on-bybit-tradfi--arted7e4a96fd4b/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "World Premiere 现货",
+          "detail": "CP全球首发上线KuCoin现货，2026-09-01 17:53 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-cluster-protocol-cp-listed-on-kucoin"
+        },
+        {
+          "token": "MARSCOIN",
+          "type": "合约上线",
+          "detail": "MARSCOINUSDT永续合约，最高20倍杠杆，2026-09-01 17:29 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-marscoinusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "快手 (KUAISHOU) 和 SHEIN港元 (SHEINHKD)",
+          "type": "美股合约",
+          "detail": "KUAISHOUUSDT和SHEINHKDUSDT港股股票指数永续合约，2026-09-01 15:36 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-kuaishouusdt-and-sheinhkdusdt-stock-index-perpetual-contracts-2026-09-01"
+        },
+        {
+          "token": "PONS",
+          "type": "合约上线",
+          "detail": "PONSUSDT永续合约，最高10倍杠杆，2026-09-01 10:12 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ponsusdt-perpetual-contract-with-up-to-10x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "SHEIN (00625.HK)",
+          "type": "盘前转正式合约",
+          "detail": "SHEINUSDT盘前永续合约迁移至正式永续合约（1-50倍杠杆），SHEIN港股IPO日，2026-09-01 11:14 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101461"
+        },
+        {
+          "token": "JD (京东)、BTGO (BitGo)、RDDT (Reddit)、SLV (白银ETF)、ORCL (甲骨文)、AMZN (亚马逊)",
+          "type": "美股合约",
+          "detail": "6个股票永续合约，1-20倍杠杆，2026-08-31 18:00 UTC+8上线",
+          "url": "https://www.gate.com/zh/announcements/article/101445"
+        },
+        {
+          "token": "RVH (Ravenhood)、RADIO、ORBIO (Orbio.so)、PICKLES (Pickles Robinhood Agent)、CTO (Vida Global)",
+          "type": "首发上币",
+          "detail": "5个代币首发上线Gate Alpha（Robinhood链+SOL），2026-09-01 19:29 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101480"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MARSCOIN",
+          "type": "合约上线",
+          "detail": "MARSCOINUSDT合约交易和交易BOT上线，2026-09-01 18:02 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893943"
+        },
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "首发上币 AI区",
+          "detail": "CP首发上线Bitget AI专区，2026-09-01 16:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893912"
+        },
+        {
+          "token": "PONS",
+          "type": "合约上线",
+          "detail": "PONSUSDT合约交易和交易BOT上线，2026-08-31 19:03 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603893868"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "OTC",
+          "type": "Meme+ 区",
+          "detail": "OTC首发上线MEXC Meme+，SOL链，2026-09-01 16:45 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538071"
+        },
+        {
+          "token": "RABBIT",
+          "type": "Meme+ 区",
+          "detail": "RABBIT首发上线MEXC Meme+，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538034"
+        },
+        {
+          "token": "AU",
+          "type": "Meme+ 区",
+          "detail": "AU首发上线MEXC Meme+，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538033"
+        },
+        {
+          "token": "SPACEHOOD",
+          "type": "Meme+ 区",
+          "detail": "SPACEHOOD首发上线MEXC Meme+，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538031"
+        },
+        {
+          "token": "MOO",
+          "type": "Meme+ 区",
+          "detail": "MOO首发上线MEXC Meme+，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538015"
+        },
+        {
+          "token": "SPACEHOOD",
+          "type": "合约上线",
+          "detail": "SPACEHOODUSDT合约创新区，2026-09-01 20:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538066"
+        },
+        {
+          "token": "SAYLORMOON",
+          "type": "合约上线",
+          "detail": "SAYLORMOONUSDT合约创新区，2026-09-01 20:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538065"
+        },
+        {
+          "token": "BONER",
+          "type": "合约上线",
+          "detail": "BONERUSDT合约，2026-09-01 14:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-bonerusdt-futures-on-sep-1-2026-06-17827791538026"
+        },
+        {
+          "token": "GG",
+          "type": "合约上线",
+          "detail": "GGUSDT合约创新区，2026-09-01 14:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538025"
+        },
+        {
+          "token": "MOO",
+          "type": "合约上线",
+          "detail": "MOOUSDT合约创新区，2026-09-01 14:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538024"
+        },
+        {
+          "token": "SKHY、KORU、UNITREE",
+          "type": "美股合约",
+          "detail": "SKHY/KORU/UNITREE USD1本位合约，全球首发，2026-09-01，0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538067"
+        },
+        {
+          "token": "SKHYNIX (SK海力士)、SNDK (闪迪)、SOXL",
+          "type": "美股合约",
+          "detail": "SKHYNIX/SNDK/SOXL USD1本位合约，全球首发，2026-09-01，0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538027"
+        },
+        {
+          "token": "GPRO (GoPro)",
+          "type": "美股合约",
+          "detail": "GPRO股票合约上线，2026-09-01，0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gpro-stock-futures-with-0-fee-trading-on-sep-1-17827791538068"
+        },
+        {
+          "token": "BONER、HOOKR、CLAN、PROLOGUE",
+          "type": "创新区现货",
+          "detail": "BONER、HOOKR、CLAN、PROLOGUE从Meme+迁移至创新区，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-boner-to-innovation-zone-17827791538023"
+        },
+        {
+          "token": "COPPERINU、MICRODUCK",
+          "type": "创新区现货",
+          "detail": "COPPERINU、MICRODUCK从Meme+迁移至创新区，2026-09-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-copperinu-to-innovation-zone-17827791538017"
+        }
+      ]
+    }
+  }
+}
