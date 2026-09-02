@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-02",
+  "updatedAt": "2026-09-02T23:25:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CRWDB (CrowdStrike)、MRNAB (Moderna)、SQQQB (ProShares UltraPro Short QQQ)、STXB (Seagate)",
+          "type": "美股合约",
+          "detail": "4个bStocks代币化证券上线Binance现货/闪兑，12:00 UTC（20:00 UTC+8）",
+          "url": "https://www.binance.com/en/support/announcement/b3ba5cf68daf4264a1260c8da11eef6d"
+        },
+        {
+          "token": "NVDL、TSLL、DDOG (Datadog)、TEAM (Atlassian)、MDB (MongoDB)、ZS (Zscaler)、GTLB (GitLab)",
+          "type": "美股合约",
+          "detail": "7个TradFi U本位永续合约，2026-09-02 18:00-18:30 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/989347def916494f98bf3ba5ec8f9557"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "GRVT",
+          "type": "现货上线",
+          "detail": "GRVT-USDC 16:00、GRVT-EUR 16:10 UTC+8现货上线",
+          "url": "https://www.okx.com/help/okx-to-list-grvt-usdt-grvt-for-spot-trading"
+        },
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "现货上线",
+          "detail": "CP-USDT 21:30、CP-TRY 22:30 UTC+8现货上线",
+          "url": "https://www.okx.com/help/okx-to-list-cp-usdt-cluster-protocol-for-spot-trading"
+        },
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "合约上线",
+          "detail": "CP-USDT-SWAP永续合约，2026-09-02 23:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-perpetual-futures-for-cp-crypto"
+        },
+        {
+          "token": "SHEIN (00625.HK)",
+          "type": "美股合约",
+          "detail": "SHEIN-USDT-SWAP港股永续合约（cat=3），2026-09-02 15:00 UTC+8",
+          "url": ""
+        },
+        {
+          "token": "SPCH",
+          "type": "美股合约",
+          "detail": "SPCH-USDT-SWAP股票永续合约（cat=3），2026-09-02 16:15 UTC+8",
+          "url": ""
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "GPRO (GoPro)",
+          "type": "美股合约",
+          "detail": "GPROUSDT TradFi永续合约，最高25倍杠杆，2026-09-02 16:26 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-gprousdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art8e542b406998/"
+        },
+        {
+          "token": "LAOPU (老铺黄金 6181.HK)",
+          "type": "美股合约",
+          "detail": "LAOPUUSDT TradFi永续合约，最高25倍杠杆，2026-09-02 16:26 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-laopuusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art1d0f78859e8a/"
+        },
+        {
+          "token": "YOFC (长飞光纤 6869.HK)",
+          "type": "美股合约",
+          "detail": "YOFCUSDT TradFi永续合约，最高25倍杠杆，2026-09-02 16:26 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-yofcusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art89618d6f9abb/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Artificial Inu (AINVDA)",
+          "type": "现货 + 闪兑",
+          "detail": "AINVDA现货和闪兑上线Gate，约2026-09-02 20:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101515"
+        },
+        {
+          "token": "AINVDA (Artificial Inu)、MOO (Memory cow)、MICRODUCK、BONER、SPACEHOOD",
+          "type": "首发上币",
+          "detail": "Gate合约Robinhood专区首发5个Robinhood Chain Meme代币，1-10倍杠杆，约2026-09-02 22:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101517"
+        },
+        {
+          "token": "FLORK",
+          "type": "合约 + 跟单",
+          "detail": "FLORK合约交易、交易机器人、跟单功能上线，约2026-09-02 23:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101518"
+        },
+        {
+          "token": "FONE",
+          "type": "合约 + 跟单",
+          "detail": "FONE合约交易、交易机器人、跟单功能上线，约2026-09-02 12:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101492"
+        },
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "合约上线",
+          "detail": "CP合约、杠杆借贷、交易机器人、跟单首发上线Gate，约2026-09-02 10:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101487"
+        },
+        {
+          "token": "PLTR (帕兰提尔)、HOOD (Robinhood)、COIN (Coinbase)、SPY、AAPL、META、TSLA、GOOGL、CRCL (Circle)、MSTR、QQQ、NVDA",
+          "type": "美股合约",
+          "detail": "12个股票永续合约，1-20倍杠杆，公告于09-02，上线2026-09-03 14:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101513"
+        },
+        {
+          "token": "YARD (Yardkeeper)、ROBINCAT",
+          "type": "首发上币 AI区",
+          "detail": "Gate Alpha首发上线，约2026-09-02 17:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101509"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "TEAM (Atlassian)、ZS (Zscaler)、GTLB (GitLab)、NVS (Novartis)",
+          "type": "美股合约",
+          "detail": "4个热门股票永续合约上线Bitget，2026-09-02 23:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894079"
+        },
+        {
+          "token": "AKE",
+          "type": "合约上线",
+          "detail": "AKEUSDT合约交易和交易BOT上线Bitget，2026-09-02 20:48 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894068"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "首发上币",
+          "detail": "CPUSDT合约全球首发，2026-09-02 22:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538090"
+        },
+        {
+          "token": "FASTRETAIL (迅销/优衣库)、TAIYOYUDEN (太阳诱电)、AJINOMOTO (味之素)、SHINETSU (信越化工)",
+          "type": "美股合约",
+          "detail": "4个日本股票合约全球首发上线MEXC，2026-09-02，0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-fastretail-taiyoyuden-ajinomoto-and-shinetsu-stock-futures-with-0-fee-trading-on-sep-2-17827791538097"
+        },
+        {
+          "token": "ZS (Zscaler)、GTLB (GitLab)、TEAM (Atlassian)",
+          "type": "美股合约",
+          "detail": "ZS/GTLB/TEAM股票合约首发上线MEXC，2026-09-02，0手续费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538133"
+        },
+        {
+          "token": "ORBIO",
+          "type": "Meme+ 区",
+          "detail": "ORBIO首发上线MEXC Meme+，约2026-09-02 14:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538101"
+        },
+        {
+          "token": "FLORK",
+          "type": "Meme+ 区",
+          "detail": "FLORK首发上线MEXC Meme+，约2026-09-02 10:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538084"
+        },
+        {
+          "token": "RAM",
+          "type": "Meme+ 区",
+          "detail": "RAM首发上线MEXC Meme+，约2026-09-02 17:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538124"
+        },
+        {
+          "token": "UBIK",
+          "type": "Meme+ 区",
+          "detail": "UBIK首发上线MEXC Meme+，约2026-09-02 17:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538125"
+        }
+      ]
+    }
+  }
+}
