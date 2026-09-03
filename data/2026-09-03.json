@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-03",
+  "updatedAt": "2026-09-03T14:42:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GPRO (GoPro)",
+          "type": "美股合约",
+          "detail": "GPROUSDT USDⓈ-Margined 永续合约，20:30 UTC+8 上线",
+          "url": "https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "DGAI (DGrid AI)",
+          "type": "合约上线",
+          "detail": "DGAI-USDT 永续合约，11:00 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-dgaiusdt-perpetual-contract"
+        },
+        {
+          "token": "CASHCAT",
+          "type": "合约上线",
+          "detail": "CASHCAT-USDT 永续合约，11:30 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-cashcatusdt-perpetual-contract"
+        },
+        {
+          "token": "CSOPSKHYNIX2L (CSOP SK Hynix 2x)",
+          "type": "美股合约",
+          "detail": "CSOPSKHYNIX2L-USDT 永续合约（股票 ETF，cat=3），14:00 UTC+8 上线，10x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-csopskhynix2lusdt-perpetual-contract"
+        },
+        {
+          "token": "CSOPSAMSUNG2L (CSOP Samsung 2x)",
+          "type": "美股合约",
+          "detail": "CSOPSAMSUNG2L-USDT 永续合约（股票 ETF，cat=3），14:15 UTC+8 上线，10x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-csopsamsung2lusdt-perpetual-contract"
+        },
+        {
+          "token": "PYPL (PayPal)",
+          "type": "美股合约",
+          "detail": "PYPL-USDT 永续合约，17:00 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-pyptlusdt-perpetual-contract"
+        },
+        {
+          "token": "DDOG (Datadog)",
+          "type": "美股合约",
+          "detail": "DDOG-USDT 永续合约，17:15 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-ddogusdt-perpetual-contract"
+        },
+        {
+          "token": "IONQ",
+          "type": "美股合约",
+          "detail": "IONQ-USDT 永续合约，17:30 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-ionqusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "10 支 TradFi 股票 CFD",
+          "type": "美股合约",
+          "detail": "10 支股票 CFD 现已登陆 Bybit TradFi，16:45 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/tradfi-stock-listing-10-stock-cfds-now-live-on-bybit-tradfi--art4df210a260e9/"
+        },
+        {
+          "token": "CVXSTOCK (Chevron)",
+          "type": "美股合约",
+          "detail": "CVXSTOCKUSDT TradFi 永续合约，最高 25x 杠杆，17:29 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cvxstockusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art0d98f57fedd4/"
+        },
+        {
+          "token": "TEAM (Atlassian)",
+          "type": "美股合约",
+          "detail": "TEAMUSDT TradFi 永续合约，最高 25x 杠杆，17:29 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-teamusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art9fe06770e3a1/"
+        },
+        {
+          "token": "MDB (MongoDB)",
+          "type": "美股合约",
+          "detail": "MDBUSDT TradFi 永续合约，最高 25x 杠杆，17:29 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-mdbusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art54c16d329c7f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Cluster Protocol (CP)",
+          "type": "合约上线",
+          "detail": "CPUSDT 永续合约，最高 20x 杠杆，13:35 UTC+8 上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-cpusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CP (Cluster Protocol)",
+          "type": "合约上线",
+          "detail": "CPUSDT 合约及交易Bot上线，23:43 UTC+8（Sep 2 跨日）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894081"
+        },
+        {
+          "token": "SHEIN",
+          "type": "合约上线",
+          "detail": "SHEIN Quanto 永续合约上线，23:33 UTC+8（Sep 2 跨日）",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894080"
+        },
+        {
+          "token": "GPRO (GoPro)",
+          "type": "美股合约",
+          "detail": "GPROUSDT 热门股票永续合约，22:00 UTC+8 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894181"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FONE (apeonfone)",
+          "type": "现货 + 闪兑",
+          "detail": "FONE 现货交易与闪兑交易上线，~09:35 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101538"
+        },
+        {
+          "token": "SANTACOIN (SANTAHOOD)、SOLCAT、Shrek、VISTA (Robinvista)",
+          "type": "首发上币",
+          "detail": "Gate Alpha 首发上线，Robinhood 链 Meme 代币，~09:35 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101535"
+        },
+        {
+          "token": "PROLOGUE、INDEX、DELTA",
+          "type": "首发上币",
+          "detail": "Gate 合约 Robinhood 专区首发，永续合约 + 跟单 + 交易机器人，~10:35 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101541"
+        },
+        {
+          "token": "TEAM (Atlassian)、ZS (Zscaler)、GTLB (GitLab)、GPRO (GoPro)、LAOPU (老铺黄金 06181.HK)",
+          "type": "美股合约",
+          "detail": "股票专区合约 + 跟单 + 交易机器人，16:00 UTC+8 上线，1–20x 杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101526"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "NUDES",
+          "type": "Meme+ 区",
+          "detail": "NUDES 首发上线 MEXC Meme+，~06:35 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538146"
+        },
+        {
+          "token": "NUDES",
+          "type": "合约上线",
+          "detail": "NUDESUSDT 首发合约创新区，14:40 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538147"
+        },
+        {
+          "token": "YMTC (长江存储)",
+          "type": "美股合约",
+          "detail": "YMTC Pre-IPO 合约首发上线，14:40 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538145"
+        },
+        {
+          "token": "FLORKBSC",
+          "type": "首发上币",
+          "detail": "全球首发 FLORKBSCUSDT 合约，18:40 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538164"
+        },
+        {
+          "token": "ORBIO",
+          "type": "合约上线",
+          "detail": "ORBIOUSDT 首发合约创新区，18:40 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538163"
+        }
+      ]
+    }
+  }
+}
