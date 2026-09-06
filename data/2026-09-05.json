@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-05",
+  "updatedAt": "2026-09-07T00:36:25.901823+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "FET (Fetch.ai)",
+          "type": "合约上线",
+          "detail": "FET-USDT 永续合约，11:30 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-fetusdt-perpetual-contract"
+        },
+        {
+          "token": "PONS",
+          "type": "合约上线",
+          "detail": "PONS-USDT 永续合约，11:00 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-ponsusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "MarsCoin (MARSCOIN)",
+          "type": "现货上线",
+          "detail": "MARSCOIN 上线 KuCoin 现货，09:57 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-marscoin-marscoin-listed-on-kucoin"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FATCOIN、SHROOM、STONKS",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 Robinhood 专区和 Meme 专区上线合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101569"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SHROOM",
+          "type": "Meme+ 区",
+          "detail": "SHROOM 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538249"
+        },
+        {
+          "token": "ROBINCAT",
+          "type": "Meme+ 区",
+          "detail": "ROBINCAT 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538247"
+        },
+        {
+          "token": "STONKS",
+          "type": "Meme+ 区",
+          "detail": "STONKS 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538246"
+        }
+      ]
+    }
+  }
+}

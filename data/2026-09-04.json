@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-04",
+  "updatedAt": "2026-09-07T00:36:25.901200+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BYD (比亚迪 HKEX:1211) 和 Lenovo (联想 HKEX:0992)",
+          "type": "美股合约",
+          "detail": "BYDUSDT USDT-Priced 永续合约 和 HK0992USDT Quanto 永续合约，2026-09-07 10:00/10:05 UTC+8 上线，20x 杠杆",
+          "url": "https://www.binance.com/en/support/announcement/89a035c3ee0e4b7782bf0089323d8e78"
+        },
+        {
+          "token": "MarsCoin (MARSCOIN)",
+          "type": "现货上线",
+          "detail": "Seed Tag，18:15 UTC+8 上线",
+          "url": "https://www.binance.com/en/support/announcement/c2eaa763831745b2b1701dab45e20225"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AMC (AMC Entertainment)",
+          "type": "美股合约",
+          "detail": "AMC-USDT 永续合约（cat=3），16:45 UTC+8 上线，20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-amcusdt-perpetual-contract"
+        },
+        {
+          "token": "GPRO (GoPro)",
+          "type": "美股合约",
+          "detail": "GPRO-USDT 永续合约（cat=3），21:35 UTC+8 上线，10x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-gprousdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DGAI (DGrid AI)",
+          "type": "合约上线",
+          "detail": "DGAIUSDT 永续合约创新板块，最高 20x 杠杆，15:49 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-dgaiusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art151aff198a7e/"
+        },
+        {
+          "token": "CP (Cluster Protocol)",
+          "type": "合约上线",
+          "detail": "CPUSDT 永续合约创新板块，最高 20x 杠杆，16:17 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-cpusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--arta2f11bae44af/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DGAI (DGrid AI)",
+          "type": "合约上线",
+          "detail": "DGAIUSDT 合约及交易Bot上线，23:29 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894266"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GIGGLEMAX",
+          "type": "合约 + 跟单",
+          "detail": "GIGGLEMAX 合约交易、交易机器人、跟单功能上线",
+          "url": "https://www.gate.com/zh/announcements/article/101568"
+        },
+        {
+          "token": "MEMECOIN",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 Robinhood 专区首发上线 MEMECOIN 合约交易、交易机器人、跟单",
+          "url": "https://www.gate.com/zh/announcements/article/101556"
+        },
+        {
+          "token": "CONCERN、VOXEL、CRCL",
+          "type": "首发上币",
+          "detail": "Gate Alpha 首发上线 CONCERN (what's the concern)、VOXEL (Voxelithic Protocol)、CRCL (Just a Circle)",
+          "url": "https://www.gate.com/zh/announcements/article/101564"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MEMEROBINHOOD",
+          "type": "合约上线",
+          "detail": "MEMEROBINHOODUSDT 合约创新区首发，17:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538209"
+        },
+        {
+          "token": "SKINNOV、KBFIN、HANWHAAERO",
+          "type": "美股合约",
+          "detail": "股票合约上线，限时享 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-skinnov-kbfin-and-hanwhaaero-stock-futures-with-0-fee-trading-on-sep-4-17827791538188"
+        },
+        {
+          "token": "FATCOIN",
+          "type": "合约上线",
+          "detail": "FATCOINUSDT 合约创新区首发，14:20 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538179"
+        },
+        {
+          "token": "BUN",
+          "type": "合约上线",
+          "detail": "BUN 合约创新区首发，14:20 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538180"
+        },
+        {
+          "token": "Blobacoin (BLOB)",
+          "type": "首发上币",
+          "detail": "MEXC 创新区首发上线，含 60,000 USDT Airdrop+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538175"
+        },
+        {
+          "token": "FATCOIN",
+          "type": "Meme+ 区",
+          "detail": "FATCOIN 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538183"
+        },
+        {
+          "token": "MEME1",
+          "type": "Meme+ 区",
+          "detail": "MEME1 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538182"
+        },
+        {
+          "token": "BUN",
+          "type": "Meme+ 区",
+          "detail": "BUN 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538173"
+        }
+      ]
+    }
+  }
+}

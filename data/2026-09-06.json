@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-06",
+  "updatedAt": "2026-09-07T00:36:25.901835+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "PONS 和 哈基米",
+          "type": "合约上线",
+          "detail": "PONSUSDT 和 哈基米USDT USDⓈ-Margined 永续合约，13:55 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/ca3196e008da448da107d397bae0b4b0"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "哈基米",
+          "type": "合约上线",
+          "detail": "哈基米USDT 合约及交易Bot上线，20:49 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894295"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "哈基米",
+          "type": "现货 + 闪兑",
+          "detail": "Gate 将上线哈基米现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101570"
+        },
+        {
+          "token": "哈基米、SUE",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 Meme 专区上线哈基米、SUE 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101571"
+        },
+        {
+          "token": "PAIR",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 HOOD 专区上线 PAIR 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101572"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "哈基米",
+          "type": "首发上币",
+          "detail": "MEXC 考核区首发上线 哈基米 (哈基米)",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538265"
+        },
+        {
+          "token": "哈基米",
+          "type": "合约上线",
+          "detail": "哈基米USDT 合约，23:30 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-哈基米usdt-futures-on-sep-6-2026-15-17827791538270"
+        },
+        {
+          "token": "STONKEX",
+          "type": "合约上线",
+          "detail": "STONKEXUSDT 合约创新区首发，23:30 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538273"
+        },
+        {
+          "token": "ROBIN",
+          "type": "合约上线",
+          "detail": "ROBINUSDT 合约创新区首发，23:30 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538272"
+        },
+        {
+          "token": "STONK",
+          "type": "合约上线",
+          "detail": "STONKUSDT 合约创新板块，23:30 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-stonkusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538271"
+        },
+        {
+          "token": "PAIR",
+          "type": "合约上线",
+          "detail": "PAIRUSDT 合约创新板块，23:30 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-pairusdt-futures-in-innovation-zone-on-sep-6-2026-15-17827791538274"
+        },
+        {
+          "token": "SHROOM",
+          "type": "合约上线",
+          "detail": "SHROOMUSDT 合约，14:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-shroomusdt-futures-on-sep-6-2026-06-17827791538262"
+        },
+        {
+          "token": "BLUECHIP",
+          "type": "合约上线",
+          "detail": "BLUECHIPUSDT 合约创新区首发，14:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538261"
+        },
+        {
+          "token": "ZZZ",
+          "type": "合约上线",
+          "detail": "ZZZUSDT 合约创新区首发，14:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538260"
+        },
+        {
+          "token": "SUE",
+          "type": "合约上线",
+          "detail": "SUEUSDT 合约创新区首发，14:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538259"
+        },
+        {
+          "token": "PAIR",
+          "type": "Meme+ 区",
+          "detail": "PAIR 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538269"
+        },
+        {
+          "token": "ROBIN",
+          "type": "Meme+ 区",
+          "detail": "ROBIN 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538268"
+        },
+        {
+          "token": "STONKEX",
+          "type": "Meme+ 区",
+          "detail": "STONKEX 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538267"
+        },
+        {
+          "token": "ZCAT",
+          "type": "Meme+ 区",
+          "detail": "ZCAT 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538263"
+        },
+        {
+          "token": "ZZZ",
+          "type": "Meme+ 区",
+          "detail": "ZZZ 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538256"
+        }
+      ]
+    }
+  }
+}
