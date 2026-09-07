@@ -1,0 +1,156 @@
+{
+  "date": "2026-09-07",
+  "updatedAt": "2026-09-07T20:53:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "BYD 和 Lenovo (HK0992)",
+          "type": "美股合约",
+          "detail": "BYDUSDT USDT-Priced 永续合约 (BYD CO. LTD. - H SHARES, HKEX:1211) 和 HK0992USDT Quanto 永续合约 (LENOVO GROUP LTD., HKEX:0992)，20x 杠杆，9/7 02:00 UTC 上线",
+          "url": "https://www.binance.com/en/support/announcement/89a035c3ee0e4b7782bf0089323d8e78"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CNPY",
+          "type": "合约上线",
+          "detail": "CNPY-USDT-SWAP 永续合约，20x 杠杆，9/7 21:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-cnpyusdt-perpetual-contract"
+        },
+        {
+          "token": "XSNDK 和 XSPY",
+          "type": "美股合约",
+          "detail": "XSNDK-USDC (SanDisk) 和 XSPY-USDC (SPY ETF) 现货交易对，9/7 09:00 UTC+8 上线",
+          "url": "https://www.okx.com/trade-spot/xsndk-usdc"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "哈基米",
+          "type": "合约上线",
+          "detail": "哈基米USDT 永续合约创新板块，10x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-hajimiusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--arte7ee8f9bc7dc/"
+        },
+        {
+          "token": "BYD、Lenovo 和华虹半导体 (HUAHONG)",
+          "type": "美股合约",
+          "detail": "BYDUSDT、LENOVOUSDT、HUAHONGUSDT TradFi 永续合约，25x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-bydusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art0b888fe9272b/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "GPRO、MARA、IONQ、PDD 和 MEITUAN",
+          "type": "美股合约",
+          "detail": "GPROUSDT (GoPro)、MARAUSDT (MARA Holdings)、IONQUSDT (IonQ)、PDDUSDT (PDD Holdings)、MEITUANUSDT (美团) 股票指数永续合约，20x 杠杆，9/7 09:00 UTC 上线",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-09-07"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Canopy (CNPY)",
+          "type": "首发现货 + 闪兑",
+          "detail": "Gate 首发上线 Canopy (CNPY) 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101583"
+        },
+        {
+          "token": "StonkBroker (STONKBROKER)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate 上线 StonkBroker (STONKBROKER) 现货交易、闪兑交易并开启 CandyDrop",
+          "url": "https://www.gate.com/zh/announcements/article/101592"
+        },
+        {
+          "token": "CNPY",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 CNPY 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投",
+          "url": "https://www.gate.com/zh/announcements/article/101596"
+        },
+        {
+          "token": "BREW",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 BREW 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101589"
+        },
+        {
+          "token": "STONK、BEN 和 ZCAT",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 STONK、BEN、ZCAT 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101579"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Canopy (CNPY)",
+          "type": "首发上币",
+          "detail": "【首发上币】Canopy (CNPY) 将上线 Bitget，14:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894305"
+        },
+        {
+          "token": "Pons (PONS)",
+          "type": "现货上线",
+          "detail": "Pons (PONS) 将上线 Bitget，19:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894378"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BEN (BSC)",
+          "type": "合约上线",
+          "detail": "全球首发 BENBSCUSDT 合约，9/7 20:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538318"
+        },
+        {
+          "token": "CNPY",
+          "type": "合约上线",
+          "detail": "全球首发 Canopy (CNPY) USDT 合约，9/7 20:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538290"
+        },
+        {
+          "token": "BEN",
+          "type": "Meme+ 区",
+          "detail": "BEN 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538320"
+        },
+        {
+          "token": "AGISOL",
+          "type": "Meme+ 区",
+          "detail": "AGISOL 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538298"
+        },
+        {
+          "token": "BREW",
+          "type": "Meme+ 区",
+          "detail": "BREW 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538296"
+        },
+        {
+          "token": "BUTT",
+          "type": "Meme+ 区",
+          "detail": "BUTT 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538295"
+        },
+        {
+          "token": "CTO",
+          "type": "Meme+ 区",
+          "detail": "CTO 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538291"
+        }
+      ]
+    }
+  }
+}
