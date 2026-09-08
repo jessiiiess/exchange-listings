@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-08",
+  "updatedAt": "2026-09-08T18:40:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XDRAM、XINTW、XKORU、XMUU、XMVLL、XSHEIN、XSNXX 和 XSOXS",
+          "type": "美股合约",
+          "detail": "8 个美股/ETF USDT 交易对上线现货，包括 SK Hynix DRAM (XDRAM)、Intel TW (XINTW)、Korea ETF (XKORU)、Micron (XMUU)、Marvell (XMVLL)、SHEIN (XSHEIN)、SNXX (XSNXX)、SOXS 半导体熊 ETF (XSOXS)，9/8 14:00-17:30 UTC+8 陆续上线",
+          "url": "https://www.okx.com/trade-spot/xshein-usdt"
+        },
+        {
+          "token": "XAMD、XCBRS、XCOIN、XCRCL、XCRWV、XEWY、XINTC、XLITE、XMRVL、XMSTR、XMU、XNBIS、XNVDA、XQQQ、XSKHY、XSOXL、XSPCX 和 XTSLA",
+          "type": "美股合约",
+          "detail": "18 个美股/ETF USDC 交易对上线现货，包括 AMD、Coinbase (COIN)、Circle (CRCL)、CrowdStrike (CRWV)、Intel (INTC)、Marvell (MRVL)、MicroStrategy (MSTR)、Micron (MU)、Nebius (NBIS)、NVIDIA、QQQ ETF、SK Hynix (SKHY)、SOXL 半导体牛 ETF、S&P 500 (SPCX)、Tesla 等，9/8 08:00 UTC+8 上线",
+          "url": "https://www.okx.com/trade-spot/xnvda-usdc"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "EUR/USD、USD/JPY 和 GBP/USD",
+          "type": "美股合约",
+          "detail": "EURUSDUSDT、USDJPYUSDT、GBPUSDUSDT TradFi 外汇永续合约，100x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-eurusdusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--art24098f22b9c7/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "4STOCK",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 Meme 专区上线 4STOCK 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101614"
+        },
+        {
+          "token": "MU、SNDK、SKHYNIX 和宇树科技",
+          "type": "美股合约",
+          "detail": "Gate 全球首发股票事件合约：独家上线 MU (Micron)、SNDK (SanDisk)、SKHYNIX (SK海力士) 及宇树科技",
+          "url": "https://www.gate.com/zh/announcements/article/101615"
+        },
+        {
+          "token": "4Stock、FATPANDA 和 build",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 4Stock (4Stock)、FATPANDA (Fat Panda)、build (build)",
+          "url": "https://www.gate.com/zh/announcements/article/101622"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SoftBank (SOFTBANK)",
+          "type": "美股合约",
+          "detail": "SOFTBANKUSDT 热门股票永续合约上线，9/7 21:29 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894419"
+        },
+        {
+          "token": "H100 和 B200",
+          "type": "合约上线",
+          "detail": "Bitget 首发上线算力盘前永续合约 H100USDT (NVIDIA H100 算力) 和 B200USDT (NVIDIA B200 算力)",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894397"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "SOCK",
+          "type": "Meme+ 区",
+          "detail": "SOCK 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538323"
+        },
+        {
+          "token": "4STOCK",
+          "type": "Meme+ 区",
+          "detail": "4STOCK 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538335"
+        },
+        {
+          "token": "SOCK",
+          "type": "合约上线",
+          "detail": "全球首发 SOCKUSDT 合约，9/8 13:50 UTC+8 上线，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538336"
+        },
+        {
+          "token": "CTO",
+          "type": "合约上线",
+          "detail": "首发上线 CTOUSDT 合约，9/8 13:50 UTC+8 上线，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538337"
+        },
+        {
+          "token": "4STOCK",
+          "type": "合约上线",
+          "detail": "首发上线 4stockUSDT 合约，9/8 13:50 UTC+8 上线，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538338"
+        },
+        {
+          "token": "SOCK、CTO 和 4STOCK",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 SOCK、CTO 和 4STOCK U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-sock-cto-and-4stock-usdt-m-futures-17827791538339"
+        },
+        {
+          "token": "BENBSC、CNPY、ZCAT 和 BREW",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 BENBSC、CNPY、ZCAT 和 BREW U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-benbsc-cnpy-zcat-and-brew-usdt-m-futures-17827791538340"
+        }
+      ]
+    }
+  }
+}
