@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-09",
+  "updatedAt": "2026-09-09T17:45:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Salesforce (CRMB) 和 Hims & Hers Health (HIMSB)",
+          "type": "现货 + 闪兑",
+          "detail": "Binance 上线 Salesforce (CRMB) 和 Hims & Hers Health (HIMSB) bStocks 代币化股票交易对，支持现货和闪兑",
+          "url": "https://www.binance.com/en/support/announcement/7880bcb7f4744d8bbbba88cbbcd43124"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "JP225 和 ZHONGJI",
+          "type": "美股合约",
+          "detail": "JP225USDT（日经225指数）10x杠杆永续合约 12:00 UTC+8 上线，ZHONGJIUSDT（中集集团）20x杠杆永续合约 14:00 UTC+8 上线",
+          "url": "https://www.okx.com/trade-futures/jp225-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "4Stock (4STOCK)",
+          "type": "现货上线",
+          "detail": "4Stock (4STOCK) 上线 KuCoin 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-4stock-4stock-listed-on-kucoin"
+        },
+        {
+          "token": "哈基米",
+          "type": "合约上线",
+          "detail": "哈基米USDT 永续合约上线 KuCoin Futures，最高 3x 杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-usdt-perpetual-contract-with-up-to-3x-leverage"
+        },
+        {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "BYDUSDT 股票指数永续合约上线 KuCoin Futures",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bydusdt-stock-index-perpetual-contract-2026-09-09"
+        },
+        {
+          "token": "BNC",
+          "type": "美股合约",
+          "detail": "BNCUSDT 股票指数永续合约上线 KuCoin Futures",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-bncusdt-stock-index-perpetual-contract-2026-09-09"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "ZZZ",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 HOOD 专区上线 ZZZ 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101648"
+        },
+        {
+          "token": "H100 和 B200",
+          "type": "合约上线",
+          "detail": "Gate 上线 NVIDIA H100、B200 GPU 租赁价格指数算力盘前永续合约",
+          "url": "https://www.gate.com/zh/announcements/article/101637"
+        },
+        {
+          "token": "CRUMBS、tip、MONEROCHAN、MUCHWOW 和 うさぎ (Suica Rabbit)",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 CRUMBS (Crumbs)、tip (tipcoin)、MONEROCHAN (Monero-Chan)、MUCHWOW (MuchWow)、うさぎ (Suica Rabbit)",
+          "url": "https://www.gate.com/zh/announcements/article/101649"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "EUR/USD、USD/JPY 和 GBP/USD",
+          "type": "合约上线",
+          "detail": "Bitget 上线 EURUSDUSDT、USDJPYUSDT、GBPUSDUSDT 热门外汇永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894667"
+        },
+        {
+          "token": "CP 和 SOPH",
+          "type": "杠杆上线",
+          "detail": "Bitget 现货杠杆新增 CP/USDT 和 SOPH/USDT 交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894616"
+        },
+        {
+          "token": "BYD",
+          "type": "美股合约",
+          "detail": "Bitget 上线 BYDUSDT 热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894613"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "BUILD",
+          "type": "合约上线",
+          "detail": "首发上线 BUILDUSDT 合约创新区，1-20x 杠杆，9/8 21:50 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538354"
+        },
+        {
+          "token": "STRATTON",
+          "type": "Meme+ 区",
+          "detail": "STRATTON 首发上线 MEXC Meme+，Robinhood 链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538352"
+        },
+        {
+          "token": "BUILD",
+          "type": "Meme+ 区",
+          "detail": "BUILD 首发上线 MEXC Meme+，BSC 链",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538351"
+        },
+        {
+          "token": "PONS、MARSCOIN、MEMEROBINHOOD 和 BASECAT",
+          "type": "闪兑",
+          "detail": "PONS、MARSCOIN、MEMEROBINHOOD、BASECAT 上线 MEXC 闪兑，9/8 18:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/new-convert-listing-17827791538349"
+        },
+        {
+          "token": "BUILD、CEG、CIFR、ALNY 和 HPQ",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 BUILD、CEG（股票）、CIFR（股票）、ALNY（股票）和 HPQ（股票）U 本位合约交易对，20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-build-ceg-cifr-alny-and-hpq-usdt-m-futures-17827791538362"
+        }
+      ]
+    }
+  }
+}
