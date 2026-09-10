@@ -1,0 +1,156 @@
+{
+  "date": "2026-09-10",
+  "updatedAt": "2026-09-11T10:00:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "牛来 (牛来)",
+          "type": "现货上线",
+          "detail": "Binance 上线 牛来 (牛来) 现货交易，附带 Seed Tag",
+          "url": "https://www.binance.com/en/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "US100、US500 和 XOM",
+          "type": "美股合约",
+          "detail": "US100USDT（纳斯达克100指数）、US500USDT（标普500指数）20x杠杆永续合约 17:00 UTC+8 上线，XOMUSDT（埃克森美孚）20x杠杆永续合约 17:30 UTC+8 上线",
+          "url": "https://www.okx.com/trade-futures/us100-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "4Stock (4STOCK)",
+          "type": "合约上线",
+          "detail": "4STOCKUSDT 永续合约上线创新板块，最高 10x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-4stockusdt-perpetual-contract-in-innovation-zone-with-up-to-10x-leverage--art5e48228cacb5/"
+        },
+        {
+          "token": "FORMSTOCK、CGNX 和 BTDR",
+          "type": "美股合约",
+          "detail": "FORMSTOCKUSDT、CGNXUSDT、BTDRUSDT TradFi 永续合约上线，最高 25x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-formstockusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art93adbfcdc60e/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "World Premiere 现货",
+          "detail": "MarsCat (MCAT) 首发上线 KuCoin 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-marscat-mcat-listed-on-kucoin"
+        },
+        {
+          "token": "Hunter Biden's Laptop (LAPTOP)",
+          "type": "World Premiere 现货",
+          "detail": "Hunter Biden's Laptop (LAPTOP) 首发上线 KuCoin 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-hunter-biden-s-laptop-laptop-listed-on-kucoin-0909"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FRONG 和 JUGGERNAUT",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 HOOD 专区上线 FRONG、JUGGERNAUT 合约交易、交易机器人、跟单功能，1-10x 杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
+        },
+        {
+          "token": "BHP (必和必拓)、RIO (力拓)、VALE、PURR (Hyperliquid 策略) 和 SOFTBANK (软银集团)",
+          "type": "美股合约",
+          "detail": "Gate 合约股票专区上线 BHP、RIO、VALE、PURR、SOFTBANK 合约交易、交易机器人、跟单功能，1-20x 杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101669"
+        },
+        {
+          "token": "UPONLY、FLORK、PENIS (Peniscoin)、CANAL、ND4 (ND4.eth) 和 DARK (DarkRoute)",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 UPONLY、FLORK、PENIS、CANAL、ND4、DARK 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        },
+        {
+          "token": "4Stock (4STOCK)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate 上线 4Stock (4STOCK) 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101663"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "Gate 首发上线 MarsCat (MCAT) 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101662"
+        },
+        {
+          "token": "LAPTOP",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 Meme 专区上线 LAPTOP 合约交易、交易机器人、跟单功能，1-10x 杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101661"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rBAM、rNSC、rTRP、rNWG、rMFC 等 472 只股票",
+          "type": "现货上线",
+          "detail": "Bitget 上线 rBAM、rNSC、rTRP、rNWG、rMFC 等 472 只股票现货交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894817"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "首发上币",
+          "detail": "MarsCat (MCAT) 首发上线 Bitget 现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894777"
+        },
+        {
+          "token": "FCX、BHP、RIO 和 VALE",
+          "type": "美股合约",
+          "detail": "Bitget 上线 FCXUSDT、BHPUSDT、RIOUSDT、VALEUSDT 热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894735"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FRONG",
+          "type": "合约上线",
+          "detail": "首发上线 FRONGUSDT 合约创新区，9/10 23:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "合约上线",
+          "detail": "JUGGERNAUTUSDT 合约上线，9/10 23:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "合约上线",
+          "detail": "首发上线 MCATUSDT 合约创新区，9/10 20:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538448"
+        },
+        {
+          "token": "KNOTS",
+          "type": "Meme+ 区",
+          "detail": "KNOTS 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538418"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "首发上币",
+          "detail": "MEXC 创新区首发上线 MarsCat (MCAT)，开放 MCAT/USDT 交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538395"
+        }
+      ]
+    }
+  }
+}
