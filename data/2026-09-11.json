@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-11",
+  "updatedAt": "2026-09-11T09:55:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FRONG 和 JUGGERNAUT",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 HOOD 专区上线 FRONG、JUGGERNAUT 合约交易、交易机器人、跟单功能，1-10x 杠杆",
+          "url": "https://www.gate.com/zh/announcements/article/101689"
+        },
+        {
+          "token": "UPONLY、FLORK、PENIS (Peniscoin)、CANAL、ND4 (ND4.eth) 和 DARK (DarkRoute)",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 UPONLY、FLORK、PENIS、CANAL、ND4、DARK 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101686"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rBAM、rNSC、rTRP、rNWG、rMFC 等 472 只股票",
+          "type": "现货上线",
+          "detail": "Bitget 上线 rBAM、rNSC、rTRP、rNWG、rMFC 等 472 只股票现货交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894817"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "首发上币",
+          "detail": "MarsCat (MCAT) 首发上线 Bitget 现货交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603894777"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "FRONG",
+          "type": "合约上线",
+          "detail": "首发上线 FRONGUSDT 合约创新区，9/10 23:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538451"
+        },
+        {
+          "token": "JUGGERNAUT",
+          "type": "合约上线",
+          "detail": "JUGGERNAUTUSDT 合约上线，9/10 23:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-juggernautusdt-futures-on-sep-10-2026-15-17827791538450"
+        },
+        {
+          "token": "MarsCat (MCAT)",
+          "type": "合约上线",
+          "detail": "首发上线 MCATUSDT 合约创新区，9/10 20:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538448"
+        }
+      ]
+    }
+  }
+}
