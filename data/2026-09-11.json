@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T10:05:00.000000+08:00",
+  "updatedAt": "2026-09-11T17:50:00.000000+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -11,19 +11,70 @@
       "listings": []
     },
     "bybit": {
-      "listings": []
+      "listings": [
+        {
+          "token": "HORIZON、MEITU 和 SENSETIME",
+          "type": "美股合约",
+          "detail": "HORIZONUSDT（中国飞鹤）、MEITUUSDT（美图）、SENSETIMEUSDT（商汤科技）TradFi 永续合约上线，最高 25x 杠杆",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-horizonusdt-tradfi-perpetual-contract-with-up-to-25x-leverage--art5e48228cacb5/"
+        }
+      ]
     },
     "kucoin": {
       "listings": []
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "KNOTS",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 KNOTS (KNOTS) 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101700"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "合约 + 跟单",
+          "detail": "Gate 合约 HOOD 专区上线 FLYBRAIN 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101699"
+        }
+      ]
     },
     "bitget": {
       "listings": []
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "FLYBRAIN",
+          "type": "合约上线",
+          "detail": "首发上线 FLYBRAINUSDT 合约创新区，9/11 14:30 UTC+8 上线，跟单同步支持",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538482"
+        },
+        {
+          "token": "CME",
+          "type": "合约上线",
+          "detail": "首发上线 CMEUSDT 合约创新区，9/11 14:30 UTC+8 上线，跟单同步支持",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538483"
+        },
+        {
+          "token": "FLYBRAIN",
+          "type": "Meme+ 区",
+          "detail": "FLYBRAIN 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538480"
+        },
+        {
+          "token": "CME",
+          "type": "Meme+ 区",
+          "detail": "CME 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538478"
+        },
+        {
+          "token": "NEARKAT",
+          "type": "Meme+ 区",
+          "detail": "NEARKAT 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538484"
+        }
+      ]
     }
   }
 }
