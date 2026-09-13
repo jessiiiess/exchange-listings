@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-12",
+  "updatedAt": "2026-09-14T01:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "FLOCK",
+          "type": "合约上线",
+          "detail": "FLOCK-USDT-SWAP 永续合约上线，最高 20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-flockusdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "EMBER",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 EMBER 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101710"
+        },
+        {
+          "token": "Rialto (Rialto)",
+          "type": "现货上线",
+          "detail": "Gate 打金狗首发上线 Rialto (Rialto) 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101707"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EMBER",
+          "type": "Meme+ 区",
+          "detail": "EMBER 首发上线 MEXC Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538519"
+        }
+      ]
+    }
+  }
+}
