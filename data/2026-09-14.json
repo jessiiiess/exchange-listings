@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-14",
+  "updatedAt": "2026-09-14T17:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CEA Industries (BNCB)",
+          "type": "bStocks 现货 + 闪兑",
+          "detail": "上线 BNCB bStocks 代币化股票现货和闪兑交易",
+          "url": "https://www.binance.com/en/support/announcement/d625f87897a843febc1f4c139740d875"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "CATE",
+          "type": "合约 + 跟单",
+          "detail": "上线 CATE 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101730"
+        },
+        {
+          "token": "STRATEGY、XL、PERPSPAD、ALLINU、Tulip 和 TULIP",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 6 个链上 Meme 代币（Robinhood/SOL 链）",
+          "url": "https://www.gate.com/zh/announcements/article/101717"
+        },
+        {
+          "token": "PAIREX、CATGPT、TWINE、FRONTIER 和 SEND",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 5 个链上 Meme 代币（Robinhood/ETH 链）",
+          "url": "https://www.gate.com/zh/announcements/article/101716"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EMBER",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 EMBER U 本位合约交易对，最大杠杆 20x",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ember-usdt-m-futures-17827791538541"
+        }
+      ]
+    }
+  }
+}
