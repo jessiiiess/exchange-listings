@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-15",
+  "updatedAt": "2026-09-15T20:15:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Pons Family (PONS)",
+          "type": "现货上线",
+          "detail": "上线 PONS/USDT 和 PONS/TRY 现货交易对",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-pons-usdt-pons-family-for-spot-trading"
+        },
+        {
+          "token": "Venice (VVV)",
+          "type": "现货上线",
+          "detail": "上线 VVV/USDT 和 VVV/TRY 现货交易对",
+          "url": "https://www.okx.com/en-sg/help/okx-to-list-vvv-usdt-venice-for-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Gno.land (GNOT)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 首发上线 Gno.land (GNOT) 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-gnoland-gnot-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "STONK (STONK)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 STONK 现货交易与闪兑交易",
+          "url": "https://www.gate.com/zh/announcements/article/101733"
+        },
+        {
+          "token": "STANDARD",
+          "type": "合约 + 跟单",
+          "detail": "HOOD 专区上线 STANDARD 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101747"
+        },
+        {
+          "token": "HUHCAT、NECTAR、BORT、果蝇 (永生果蝇) 和 FUSE",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 5 个链上代币现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101758"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "STANDARD",
+          "type": "首发上币 Meme+ → 创新区",
+          "detail": "首发上线 STANDARD 现货 Meme+ 区，后迁移至创新区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538575"
+        },
+        {
+          "token": "STANDARD",
+          "type": "合约上线",
+          "detail": "全球首发上线 STANDARDUSDT 永续合约，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538579"
+        },
+        {
+          "token": "BATON",
+          "type": "Meme+ → 创新区现货",
+          "detail": "BATON 从 Meme+ 区迁移至创新区现货",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-baton-to-innovation-zone-17827791538580"
+        },
+        {
+          "token": "BATON",
+          "type": "合约上线",
+          "detail": "全球首发上线 BATONUSDT 永续合约，1-20x 杠杆",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538578"
+        },
+        {
+          "token": "Everything (EV)",
+          "type": "创新区现货",
+          "detail": "首发上线 Everything (EV) 创新区现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538498"
+        },
+        {
+          "token": "ADI、CLS、SWKS、U 和 PWR",
+          "type": "美股合约 + 跟单",
+          "detail": "上线 ADI、CLS、SWKS、U、PWR 股票合约，限时 0 费率 + 跟单新增交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-adi-cls-swks-u-and-pwr-stock-futures-with-0-fee-trading-on-sep-14-17827791538564"
+        },
+        {
+          "token": "BEM",
+          "type": "Meme+ 区",
+          "detail": "首发上线 BEM 现货 Meme+ 区",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538562"
+        }
+      ]
+    }
+  }
+}
