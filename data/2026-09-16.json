@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-16",
+  "updatedAt": "2026-09-16T17:10:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "GoPro (GPROB) 和 Reddit (RDDTB)",
+          "type": "bStocks 现货",
+          "detail": "上线 GPROB 和 RDDTB bStocks 代币化证券现货/闪兑交易对",
+          "url": "https://www.binance.com/en/support/announcement/da7f14dd847f436ea92330a024ce0245"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "AKE",
+          "type": "合约上线",
+          "detail": "上线 AKE-USDT 永续合约，最高 20x 杠杆，15:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-akeusdt-perpetual-contract"
+        },
+        {
+          "token": "HANMI、LG Electronics 和 NAVER",
+          "type": "美股合约",
+          "detail": "上线 HANMI-USDT、LGELECTRONICS-USDT、NAVER-USDT 韩国股票永续合约，最高 20x 杠杆",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-contracts"
+        },
+        {
+          "token": "xGOOGL 和 xHOOD",
+          "type": "美股现货",
+          "detail": "上线 XGOOGL/USDC 和 XHOOD/USDC 代币化股票现货交易对，17:00-17:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-tokenized-stocks-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Trusta.AI (TA)",
+          "type": "现货上线",
+          "detail": "上线 Trusta.AI (TA) 现货交易",
+          "url": "https://www.kucoin.com/announcement/en-trusta-ai-ta-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "PAID (Paid)、ELON (Elon Coin)、par、永生果蝇 等",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线多个链上代币现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101761"
+        },
+        {
+          "token": "musebook",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 musebook 现货交易",
+          "url": "https://www.gate.com/zh/announcements/article/101773"
+        },
+        {
+          "token": "PAID",
+          "type": "合约 + 跟单",
+          "detail": "上线 PAID 合约交易、交易机器人、跟单功能",
+          "url": "https://www.gate.com/zh/announcements/article/101765"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CVX Stock (CVXSTOCK)",
+          "type": "美股合约",
+          "detail": "上线 CVXSTOCKUSDT 热门股票永续合约",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895268"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "COOL、Paid (PAID)、LONG 和 ARGUS",
+          "type": "Meme+ 区",
+          "detail": "首发上线 Meme+ 区现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538607"
+        },
+        {
+          "token": "COOL、PAID、LONG 和 ARGUS",
+          "type": "合约 + 跟单",
+          "detail": "首发上线合约创新区 COOLUSDT、PAIDUSDT、LONGUSDT、ARGUSUSDT 永续合约 1-20x 杠杆，同时新增跟单交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538609"
+        },
+        {
+          "token": "ALLINU、果蝇 和 TOLLY",
+          "type": "Meme+ 区",
+          "detail": "首发上线 Meme+ 区现货交易",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538624"
+        },
+        {
+          "token": "BATON 和 STANDARD",
+          "type": "跟单新增",
+          "detail": "跟单新增 BATON 和 STANDARD U 本位合约交易对",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-baton-and-standard-usdt-m-futures-17827791538615"
+        }
+      ]
+    }
+  }
+}
