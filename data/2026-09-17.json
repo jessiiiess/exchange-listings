@@ -1,0 +1,209 @@
+{
+  "date": "2026-09-17",
+  "updatedAt": "2026-09-17T18:56:09.772535+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CP (Cluster Protocol)",
+          "type": "现货上线",
+          "detail": "上线 CP/USDC、CP/EUR 现货交易对，16:10-16:15 UTC+8",
+          "url": "https://www.okx.com/trade-spot/cp-usdc"
+        },
+        {
+          "token": "IOST 和 STRK",
+          "type": "合约上线",
+          "detail": "上线 IOSTUSD、STRKUSD X-Perp 永续合约（IOST 最高 10x、STRK 最高 20x），16:00-16:15 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-iostusd-strkusd-x-perps"
+        },
+        {
+          "token": "COHR (Coherent)",
+          "type": "美股合约",
+          "detail": "上线 COHRUSD Equity X-Perp，最高 20x 杠杆，16:45 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-cohrusd-equity-x-perp"
+        },
+        {
+          "token": "xMETA",
+          "type": "美股现货",
+          "detail": "上线 xMETA 代币化股票 USDC 现货交易对，17:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xmeta"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "MSFU",
+          "type": "美股合约",
+          "detail": "上线 MSFUUSDT Bybit TradFi 永续合约，09-16 19:30 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-msfuusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte81bdfd89fc8/"
+        },
+        {
+          "token": "CONL",
+          "type": "美股合约",
+          "detail": "上线 CONLUSDT Bybit TradFi 永续合约，09-16 19:30 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-conlusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--arte89a4819df26/"
+        },
+        {
+          "token": "IBIT",
+          "type": "美股合约",
+          "detail": "上线 IBITUSDT Bybit TradFi 永续合约，09-16 19:30 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ibitusdt-on-bybit-tradfi-perpetual-on-sep-16-2026-11-30am-utc--art0557e92de728/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Orochi Network (ON)",
+          "type": "现货上线",
+          "detail": "上线 Orochi Network (ON) 现货交易，11:04 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-orochi-network-on-listed-on-kucoin"
+        },
+        {
+          "token": "MAGNE.AI (MHA)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线 MAGNE.AI (MHA) 现货交易，09-16 20:55 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-magne-ai-mha-listed-on-kucoin"
+        },
+        {
+          "token": "TINA (TINA)",
+          "type": "World Premiere 现货",
+          "detail": "全球首发上线 TINA (TINA) 现货交易，09-16 18:35 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-tina-tina-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "GP (RuneScape Gold)、MEME (MEME)、NEARKAT (NearKat)、PANCHU (Pacharan)",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线多个链上代币现货交易，18:31 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101808"
+        },
+        {
+          "token": "DUKE (The Duke of Arc)、Minara (Minara)、DOGGO (Dancing Dog)、FAZE (Faze)、IPOD (iPod)、wifout (wifout)、LEVERCAT (Leveraged Cat)",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线多个链上代币现货交易，11:24 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101790"
+        },
+        {
+          "token": "ARGUS (Argus)、TOLLY (Tolly)、LONG (LONG)、Architects (Architects)、COOL (usdc is cool)、ARCAT (ARCAT)、PI、BOZO (Bozo.fun)、USDC (FatCatBatRatWifHat)、pill (pill)、ODYS (ODYS)",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线多个链上代币现货交易，09-16 18:46 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101780"
+        },
+        {
+          "token": "ARGUS (Argus)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 ARGUS 现货交易与闪兑交易，11:51 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101793"
+        },
+        {
+          "token": "TOLLY (Tolly)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 TOLLY 现货交易与闪兑交易，11:37 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101791"
+        },
+        {
+          "token": "Boner Coin (BONER)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 BONER 现货交易与闪兑交易，09-16 19:28 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101783"
+        },
+        {
+          "token": "Anonymous Cat (ZCAT)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 ZCAT 现货交易与闪兑交易，09-16 19:25 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101782"
+        },
+        {
+          "token": "ARGUS、TOLLY 和 COOL",
+          "type": "合约 + 跟单",
+          "detail": "上线 ARGUS、TOLLY、COOL 合约交易、交易机器人、跟单功能，00:22 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101788"
+        },
+        {
+          "token": "ALLINU",
+          "type": "合约 + 跟单",
+          "detail": "合约 Meme 专区上线 ALLINU 合约交易、交易机器人、跟单功能，09-16 20:13 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101785"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "QLD、IBIT 和 CLSK",
+          "type": "美股合约",
+          "detail": "上线 QLDUSDT、IBITUSDT、CLSKUSDT 热门股票永续合约，17:16 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
+        },
+        {
+          "token": "rCOMP、rIAG、rQGEN、rRRC、rCBSH 等 480 只",
+          "type": "美股现货",
+          "detail": "上线 480 只股票现货交易，09-16 20:45 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895360"
+        },
+        {
+          "token": "MAGNE.AI (MHA)",
+          "type": "首发上币",
+          "detail": "首发上线 MAGNE.AI (MHA)，09-16 20:00 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895256"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "TREAD",
+          "type": "合约上线",
+          "detail": "首发上线合约创新区 TREADUSDT 永续合约，09-17 13:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538647"
+        },
+        {
+          "token": "TOLLY、ALLINU 和 果蝇",
+          "type": "跟单新增",
+          "detail": "跟单新增 TOLLY、ALLINU 和 果蝇 U 本位合约交易对，09-17 13:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tolly-allinu-and-果蝇-usdt-m-futures-17827791538650"
+        },
+        {
+          "token": "TREAD、MUSEBOOK 和 ILMN",
+          "type": "跟单新增",
+          "detail": "跟单新增 TREAD、MUSEBOOK 和 ILMN U 本位合约交易对，09-17 13:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-tread-musebook-and-ilmn-usdt-m-futures-17827791538649"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "合约上线",
+          "detail": "首发上线合约创新区 MUSEBOOKUSDT 永续合约，09-16 22:20 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538641"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "Meme+ 区",
+          "detail": "首发上线 Meme+ 区现货交易，09-16 19:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538639"
+        },
+        {
+          "token": "ILMN",
+          "type": "美股合约",
+          "detail": "上线 ILMNUSDT 股票合约（因美纳），最高 20x 杠杆，09-16 18:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-ilmn-stock-futures-with-0-fee-trading-on-sep-16-17827791538637"
+        },
+        {
+          "token": "TOLLY",
+          "type": "合约上线",
+          "detail": "首发上线合约创新区 TOLLYUSDT 永续合约，09-16 18:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538635"
+        }
+      ]
+    }
+  }
+}
