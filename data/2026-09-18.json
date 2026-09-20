@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-18",
+  "updatedAt": "2026-09-20T23:45:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "PATH、AMC、CYPH、ANET、HUT、APLD 和 AGPU",
+          "type": "合约上线",
+          "detail": "上线 PATHUSDT、AMCUSDT、CYPHUSDT、ANETUSDT、HUTUSDT、APLDUSDT、AGPUUSDT 多个 USDT 本位永续合约，15:00 UTC+8 公告，09:00-09:30 UTC 依次开放交易",
+          "url": "https://www.binance.com/en/support/announcement/detail/3c2b63c9c3e44d40b8cec99961166fe8"
+        },
+        {
+          "token": "USDⓈ-M & COIN-M Quarterly 0326",
+          "type": "合约上线",
+          "detail": "上线 USDⓈ-M 与 COIN-M 季度 0326 交割合约，16:00 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/detail/fcd1b50824c04192b80091599c452ee8"
+        },
+        {
+          "token": "USDBRL (TradFi)",
+          "type": "美股合约",
+          "detail": "上线 USDBRLUSDT USDⓈ-Margined TradFi 永续合约，09-18 22:00 UTC+8 公告，09-21 上线",
+          "url": "https://www.binance.com/en/support/announcement/detail/533eb2f3998a43e3a34df310998bee48"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "xAAPL 和 xAMZN",
+          "type": "美股现货",
+          "detail": "上线 XAAPL/USDC 和 XAMZN/USDC 代币化股票现货交易对，17:00-17:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-tokenized-stocks-spot-trading"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "STONK",
+          "type": "合约上线",
+          "detail": "上线 STONKUSDT 永续合约（创新板块），最高 5x 杠杆，16:38 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/?type=new_crypto"
+        },
+        {
+          "token": "ZS、CORZ 和 GTLB",
+          "type": "美股合约",
+          "detail": "上线 ZSUSDT、CORZUSDT、GTLBUSDT TradFi 永续合约，支持最高 25x 杠杆，17:43-17:48 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/?type=new_crypto"
+        },
+        {
+          "token": "AMZU、SECZ 和 TLT",
+          "type": "美股合约",
+          "detail": "上线 AMZUUSDT、SECZUSDT、TLTUSDT TradFi 永续合约，支持最高 25x 杠杆，18:44-18:45 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/?type=new_crypto"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MUSEBOOK",
+          "type": "合约 + 跟单",
+          "detail": "合约 HOOD 专区上线 MUSEBOOK 合约交易、交易机器人、跟单功能，支持 1-10x 多空，09-17 19:45 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101809"
+        },
+        {
+          "token": "MCAT (Mooncat)、Tilcayo、MONEY、SOLCAT 和 INU",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 MCAT、Tilcayo、MONEY、SOLCAT、INU 多个链上代币现货交易，09-18 11:05 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101811"
+        },
+        {
+          "token": "Hunter Biden's Laptop (LAPTOP)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 LAPTOP 现货交易（14:00 UTC+8）与闪兑交易（15:00 UTC+8），09-18 11:22 UTC+8 公告",
+          "url": "https://www.gate.com/zh/announcements/article/101812"
+        },
+        {
+          "token": "GSTOCKBSC",
+          "type": "合约 + 跟单",
+          "detail": "合约 Meme 专区上线 GSTOCKBSC 合约交易、交易机器人、跟单功能，09-18 13:07 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101814"
+        },
+        {
+          "token": "PATH (UiPath) 等 7 个",
+          "type": "美股合约",
+          "detail": "合约股票专区上线 PATH、CYPH、HUT、APLD、AGPU、QLD、CONL 等 7 个股票合约交易、交易机器人、跟单功能，09-18 16:58 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101826"
+        },
+        {
+          "token": "PERK、Wire、SCHIFFY、Hound、AMBA、xp 和 CPU",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 PERK、Wire、SCHIFFY、Hound、AMBA、xp、CPU 多个链上代币现货交易，09-18 18:49 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101831"
+        },
+        {
+          "token": "FastX Network (FXNW)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 FXNW 现货交易、闪兑交易并开启 CandyDrop，09-18 22:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101835"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "STONK",
+          "type": "合约上线",
+          "detail": "上线 STONKUSDT 合约交易和交易 BOT，09-18 22:09 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
+        },
+        {
+          "token": "SDGR、PATH、AGPU、GNRC、HUT 和 CYPH",
+          "type": "美股合约",
+          "detail": "上线 SDGRUSDT、PATHUSDT、AGPUUSDT、GNRCUSDT、HUTUSDT、CYPHUSDT 热门股票永续合约，09-18 22:22 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895506"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MAX",
+          "type": "Meme+ 区",
+          "detail": "首发上线 Meme+ 区现货交易，09-17 20:50 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538657"
+        },
+        {
+          "token": "GLD 和 TLT",
+          "type": "美股合约",
+          "detail": "上线 GLD、TLT 股票合约，限时享 0 费，09-17 22:00 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gld-and-tlt-stock-futures-with-0-fee-trading-on-sep-17-17827791538659"
+        },
+        {
+          "token": "GSTOCK",
+          "type": "Meme+ 区",
+          "detail": "首发上线 GSTOCK 现货交易，09-18 12:27 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538685"
+        },
+        {
+          "token": "GLD 和 TLT",
+          "type": "跟单新增",
+          "detail": "跟单新增 GLD 和 TLT U 本位合约交易对，09-18 13:02 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gld-and-tlt-usdt-m-futures-17827791538686"
+        },
+        {
+          "token": "APM",
+          "type": "合约上线",
+          "detail": "合约创新区上线 APMUSDT 永续合约，09-18 14:00 UTC+8 上线，13:33 UTC+8 公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-apmusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538687"
+        },
+        {
+          "token": "GSTOCK",
+          "type": "合约上线",
+          "detail": "合约创新区上线 GSTOCKUSDT 永续合约，09-18 14:00 UTC+8 上线，13:35 UTC+8 公告",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gstockusdt-futures-in-innovation-zone-on-sep-18-2026-06-17827791538688"
+        },
+        {
+          "token": "GSTOCK 和 APM",
+          "type": "跟单新增",
+          "detail": "跟单新增 GSTOCK 和 APM U 本位合约交易对，09-18 14:22 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gstock-and-apm-usdt-m-futures-17827791538689"
+        },
+        {
+          "token": "PATH、CYPH 和 AGPU",
+          "type": "美股合约",
+          "detail": "首发上线 PATH、CYPH、AGPU 股票合约，限时享 0 费，09-18 16:58 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538693"
+        },
+        {
+          "token": "Mintellect (MINT)",
+          "type": "首发上币",
+          "detail": "创新区上线 Mintellect (MINT)，瓜分 60,000 USDT Airdrop+ 奖池，09-18 18:32 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538699"
+        }
+      ]
+    }
+  }
+}

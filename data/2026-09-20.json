@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-20",
+  "updatedAt": "2026-09-20T23:45:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "JEANPHIL、FLEX、URANUS、FEELSGOOD、SI、$牛马、WOW 和 ASKR",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 JEANPHIL、FLEX、URANUS、FEELSGOOD、SI、牛马、WOW、ASKR 等多个链上代币现货交易，09-20 12:07 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101836"
+        },
+        {
+          "token": "GSTOCK (Gstock)、GCAT、QUEEF、FLX、QUBIT 和 TRUMAN",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 GSTOCK、GCAT、QUEEF、FLX、QUBIT、TRUMAN 等多个链上代币现货交易，09-20 17:49 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101848"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}

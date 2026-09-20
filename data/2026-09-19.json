@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-19",
+  "updatedAt": "2026-09-20T23:45:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "INU",
+          "type": "Meme+ 区",
+          "detail": "首发上线 INU 现货交易，09-19 13:41 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538705"
+        }
+      ]
+    }
+  }
+}
