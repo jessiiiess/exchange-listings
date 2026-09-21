@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-21",
+  "updatedAt": "2026-09-22T02:05:00.000000+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ARB 和 ENA",
+          "type": "现货上线",
+          "detail": "上线 ARB/U 和 ENA/USD1 现货交易对，09-22 08:00 UTC 开放交易；并为 NVDAB/USDT、QQQB/USDT 开启现货网格和定投机器人服务",
+          "url": "https://www.binance.com/en/support/announcement/e92a42b474e344a69b620dcee1e9c987"
+        },
+        {
+          "token": "AADX、ADIG、ALIT 等 25 只",
+          "type": "美股合约",
+          "detail": "Binance Stocks 新增 25 只股票交易（含 AADX、ADIG、ALIT、CYPH、FDXF、IAUM、SIVR 等），09-21 13:30 UTC 起",
+          "url": "https://www.binance.com/en/support/announcement/a0adb246c4a24f108fd0d1f51dfd3d1d"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "TEAM、TEM、OKLO 和 HUT",
+          "type": "美股合约",
+          "detail": "上线 TEAM-USDT、TEM-USDT、OKLO-USDT、HUT-USDT 股票永续合约（cat=3），最高 20x 杠杆，17:00-17:45 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-contracts"
+        },
+        {
+          "token": "EURC",
+          "type": "现货上线",
+          "detail": "上线 EURC-USDC 现货交易对，16:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot/eurc-usdc"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "PATH、CYPH 和 HUT",
+          "type": "美股合约",
+          "detail": "上线 PATHUSDT、CYPHUSDT、HUTUSDT Bybit TradFi 永续合约，09-21 19:00 UTC+8 上线，17:35-17:36 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-pathusdt-on-bybit-tradfi-perpetual-on-sep-21-2026-11-00am-utc--art1f998cfd4023/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "Gate 股票专区上线 OURAUSDT（奥拉智能戒指）永续合约盘前交易（USDT 结算），支持 1-10x 杠杆，09-21",
+          "url": "https://www.gate.com/zh/announcements/article/101874"
+        },
+        {
+          "token": "STAMP 和 ORBIO",
+          "type": "合约 + 跟单",
+          "detail": "上线 STAMP、ORBIO 永续合约（支持 1-10x 杠杆）、交易机器人、跟单功能，09-21",
+          "url": "https://www.gate.com/zh/announcements/article/101872"
+        },
+        {
+          "token": "NOSH (UseNosh)、中国人能飞、CALI 和 MURMUR",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 NOSH、中国人能飞、CALI、MURMUR 链上 Meme 代币，覆盖 Robinhood、BSC、SOL、ARC 链，09-21",
+          "url": "https://www.gate.com/zh/announcements/article/101868"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "USD/BRL (USDBRL)",
+          "type": "美股合约",
+          "detail": "上线 USDBRLUSDT 热门外汇永续合约，09-21 22:30 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895782"
+        },
+        {
+          "token": "TLT、JEPQ、CORZ、BLSH 和 SECZ",
+          "type": "美股合约",
+          "detail": "上线 TLTUSDT、JEPQUSDT、CORZUSDT、BLSHUSDT、SECZUSDT 热门股票永续合约，09-21 21:31 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "rFDVV、rGDXU、rBITX、rJPIE 和 rCWB 等",
+          "type": "美股现货",
+          "detail": "上线 rFDVV、rGDXU、rBITX、rJPIE、rCWB 等多只股票及 ETF 现货，09-21 19:04 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895774"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "POLYMARKET",
+          "type": "美股合约",
+          "detail": "首发上线 POLYMARKETUSDT Pre-IPO 永续合约，最高 20x 杠杆，逐仓，24/7 交易，09-21 21:00 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-polymarket-pre-ipo-futures-on-sep-21-17827791538742"
+        },
+        {
+          "token": "KOKUSAI、ACN、MPWR 和 HUT",
+          "type": "美股合约",
+          "detail": "上线 KOKUSAIUSDT、ACNUSDT、MPWRUSDT、HUTUSDT 股票合约，最高 20x 杠杆，全仓/逐仓，09-21 21:00 UTC+8 上线，限时 0 费",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kokusai-acn-mpwr-and-hut-stock-futures-with-0-fee-trading-on-sep-21-17827791538741"
+        },
+        {
+          "token": "PATH、CYPH 和 AGPU",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 PATH、CYPH 和 AGPU U 本位合约交易对，09-21 14:08 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-path-cyph-and-agpu-usdt-m-futures-17827791538738"
+        },
+        {
+          "token": "STAMP",
+          "type": "Meme+ 区",
+          "detail": "首发上线 STAMP 现货交易，09-21 12:21 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538736"
+        }
+      ]
+    }
+  }
+}
