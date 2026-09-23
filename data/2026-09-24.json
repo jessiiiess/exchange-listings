@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-24",
+  "updatedAt": "2026-09-24T04:47:27.196373+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURA-USDT 股票/盘前永续合约（cat=3），最高 20x 杠杆，09-23 18:00 UTC+8 上线",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-contracts"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "URNM 和 WBD",
+          "type": "美股合约",
+          "detail": "上线 URNMUSDT、WBDUSDT 热门股票永续合约，09-23 22:05 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "美股合约",
+          "detail": "上线 POLYMARKET IPO 盘前永续合约，09-23 21:39 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895946"
+        },
+        {
+          "token": "rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等 462 只股票",
+          "type": "美股合约",
+          "detail": "上线 rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等 462 只股票的现货交易，09-23 20:22 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895945"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
