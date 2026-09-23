@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-22",
+  "updatedAt": "2026-09-24T04:58:30.150143+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "MOONSHOT",
+          "type": "美股合约",
+          "detail": "上线 MOONSHOTUSDT U 本位永续合约盘前交易，09-22 15:31 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/7379b99aa0f349a49c3b3feca1b4bbd6"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CARDS",
+          "type": "现货上线",
+          "detail": "上线 CARDS-EUR、CARDS-USDC 现货交易对，09-22 16:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURAUSDT Pre-IPO 永续合约，09-22 13:30 UTC 上线，20:25 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ourausdt-on-bybit-pre-ipo-tradfi-perpetual-on-sep-22-2026-1-30pm-utc--art3ac526788c1e/"
+        },
+        {
+          "token": "SDGR、URNM 和 OKLO",
+          "type": "美股合约",
+          "detail": "上线 SDGRUSDT、URNMUSDT、OKLOUSDT TradFi 永续合约，09-22 13:00 UTC 上线，20:13 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-sdgrusdt-on-bybit-tradfi-perpetual-on-sep-22-2026-1-00pm-utc--art2a8a6a044e70/"
+        },
+        {
+          "token": "PONS",
+          "type": "现货上线",
+          "detail": "上线 Pons (PONS) 现货交易，09-22 16:00 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/bybit-to-list-pons-pons-on-spot--art9c05fc201aad/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "BTC 季度交割合约",
+          "type": "合约上线",
+          "detail": "上线 COIN-Margined BTC Quarterly 1225 交割合约，09-22 15:22 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-launch-the-coin-margined-btc-quarterly-1225-delivery-contract"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MOONSHOT",
+          "type": "美股合约",
+          "detail": "首发上线 Gate 股票专区 MOONSHOTUSDT（月之暗面 KIMI AI）永续合约盘前交易，09-22",
+          "url": "https://www.gate.com/zh/announcements/article/101894"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURA（奥拉戒指）IPO 盘前永续合约，09-22 20:49 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895865"
+        },
+        {
+          "token": "USD/BRL (USDBRL)",
+          "type": "美股合约",
+          "detail": "上线 USDBRLUSDT 热门外汇永续合约，09-21 22:30 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895782"
+        },
+        {
+          "token": "TLT、JEPQ、CORZ、BLSH 和 SECZ",
+          "type": "美股合约",
+          "detail": "上线 TLTUSDT、JEPQUSDT、CORZUSDT、BLSHUSDT、SECZUSDT 热门股票永续合约，09-21 21:31 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895779"
+        },
+        {
+          "token": "rFDVV、rGDXU、rBITX、rJPIE、rCWB 等",
+          "type": "美股合约",
+          "detail": "上线 rFDVV、rGDXU、rBITX、rJPIE、rCWB 等多只股票及 ETF 现货，09-21 19:04 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895774"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURA Pre-IPO 合约，09-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-oura-pre-ipo-futures-on-sep-22-17827791538757"
+        },
+        {
+          "token": "DAL 和 HONA",
+          "type": "美股合约",
+          "detail": "上线 DAL 和 HONA 股票合约（限时 0 费），09-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538780"
+        },
+        {
+          "token": "UBIK",
+          "type": "合约上线",
+          "detail": "首发上线 UBIK USDT 合约，09-22 12:20 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538756"
+        },
+        {
+          "token": "SCHIFFY",
+          "type": "Meme+ 区",
+          "detail": "首发上线 SCHIFFY 至 MEXC Meme+，09-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538758"
+        },
+        {
+          "token": "ACN、MPWR 和 HUT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 ACN、MPWR、HUT U 本位合约交易对，09-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-acn-mpwr-and-hut-usdt-m-futures-17827791538763"
+        },
+        {
+          "token": "OURA、UBIK 和 POLYMARKET",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 OURA、UBIK、POLYMARKET U 本位合约交易对，09-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-oura-ubik-and-polymarket-usdt-m-futures-17827791538762"
+        }
+      ]
+    }
+  }
+}
