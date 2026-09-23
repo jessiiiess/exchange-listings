@@ -1,0 +1,162 @@
+{
+  "date": "2026-09-23",
+  "updatedAt": "2026-09-24T04:50:36.744835+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURAUSDT U 本位永续合约盘前交易，09-23 15:15 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/8bd2b3a7684749bba472e71fc3ad8043"
+        },
+        {
+          "token": "AGPUB、AMCB 和 CYPHB",
+          "type": "美股合约",
+          "detail": "上线 Axe Compute (AGPUB)、AMC Entertainment (AMCB)、Cypherpunk Technologies (CYPHB) bStocks 代币化股票现货/闪兑交易对，09-23 13:00 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/3cc589ca05904ca28e6ddebeb14148db"
+        },
+        {
+          "token": "3 只 bStocks 代币化证券",
+          "type": "美股合约",
+          "detail": "新增 3 只 bStocks 代币化证券作为抵押资产，09-23 13:30 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/c61f3c18a3004f968b53fb09841f7bc7"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CYPH、GTLB、KSTR、MSTU 和 OURA",
+          "type": "美股合约",
+          "detail": "上线 CYPH-USDT、GTLB-USDT、KSTR-USDT（20x）、MSTU-USDT（10x）、OURA-USDT（20x）股票永续合约（cat=3），09-23 17:00-18:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-contracts"
+        },
+        {
+          "token": "CETUS、LAT 和 LIT",
+          "type": "现货上线",
+          "detail": "上线 CETUS-USDC、LAT-USDC、LIT-USDC 现货交易对，09-23 17:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "POLYMARKET",
+          "type": "美股合约",
+          "detail": "上线 POLYMARKETUSDT Pre-IPO 永续合约，09-23 17:00 UTC+8（09:00 UTC）上线，16:04 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-polymarketusdt-on-bybit-pre-ipo-tradfi-perpetual-on-sep-23-2026-9-00am-utc--art447e5c5467ec/"
+        },
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURAUSDT Pre-IPO 永续合约，09-22 13:30 UTC 上线，09-22 20:25 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ourausdt-on-bybit-pre-ipo-tradfi-perpetual-on-sep-22-2026-1-30pm-utc--art3ac526788c1e/"
+        },
+        {
+          "token": "SDGR、URNM 和 OKLO",
+          "type": "美股合约",
+          "detail": "上线 SDGRUSDT、URNMUSDT、OKLOUSDT TradFi 永续合约，09-22 13:00 UTC 上线，09-22 20:13 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-sdgrusdt-on-bybit-tradfi-perpetual-on-sep-22-2026-1-00pm-utc--art2a8a6a044e70/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURAUSDT Pre-IPO 股票指数永续合约盘前交易，09-23 16:46 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ourausdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading"
+        },
+        {
+          "token": "AAPLX、HOODX、MSTRX 和 SPCXX",
+          "type": "美股合约",
+          "detail": "现货上线代币化股票 AAPLX、HOODX、MSTRX、SPCXX，09-23 10:34 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplx-hoodx-mstrx-and-spcxx"
+        },
+        {
+          "token": "MOONSHOT",
+          "type": "美股合约",
+          "detail": "上线 MOONSHOTUSDT Pre-IPO 股票指数永续合约盘前交易，09-23 10:22 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-moonshotusdt-pre-ipo-stock-index-perpetual-contract-pre-market-trading"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AGRIPPA",
+          "type": "合约 + 跟单",
+          "detail": "合约 HOOD 专区上线 AGRIPPA 永续合约、交易机器人、跟单功能，09-23",
+          "url": "https://www.gate.com/zh/announcements/article/101922"
+        },
+        {
+          "token": "MONITOR",
+          "type": "合约 + 跟单",
+          "detail": "合约 HOOD 专区上线 MONITOR 永续合约、交易机器人、跟单功能，09-23",
+          "url": "https://www.gate.com/zh/announcements/article/101907"
+        },
+        {
+          "token": "BABYCATE (Baby Catecoin) 和 BOP (Bop)",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 BABYCATE、BOP 链上 Meme 代币，09-23",
+          "url": "https://www.gate.com/zh/announcements/article/101924"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "现货 + 闪兑",
+          "detail": "上线 Musebook (MUSEBOOK) 现货交易与闪兑交易，09-23",
+          "url": "https://www.gate.com/zh/announcements/article/101910"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "URNM 和 WBD",
+          "type": "美股合约",
+          "detail": "上线 URNMUSDT、WBDUSDT 热门股票永续合约，09-23 22:05 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895947"
+        },
+        {
+          "token": "POLYMARKET",
+          "type": "美股合约",
+          "detail": "上线 POLYMARKET IPO 盘前永续合约，09-23 21:39 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895946"
+        },
+        {
+          "token": "rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等 462 只股票",
+          "type": "美股合约",
+          "detail": "上线 rGPRO、rHSAI、rBRZE、rALRM、rLCLN 等 462 只股票现货交易，09-23 20:22 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895945"
+        },
+        {
+          "token": "OURA",
+          "type": "美股合约",
+          "detail": "上线 OURA（奥拉戒指）IPO 盘前永续合约，09-22 20:49 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603895865"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MONITOR",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MONITOR 至 MEXC Meme+，09-23",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538805"
+        },
+        {
+          "token": "JEANPHIL",
+          "type": "Meme+ 区",
+          "detail": "首发上线 JEANPHIL 至 MEXC Meme+，09-23",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538793"
+        }
+      ]
+    }
+  }
+}
