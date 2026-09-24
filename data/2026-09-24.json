@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-24",
+  "updatedAt": "2026-09-24T20:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Hyperliquid (HYPE)",
+          "type": "现货上线",
+          "detail": "上线 Hyperliquid (HYPE) 现货交易，附带 Seed Tag 标签，09-24 15:30 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d"
+        },
+        {
+          "token": "Hyperliquid (HYPE)",
+          "type": "现货 + 闪兑",
+          "detail": "HYPE 新增至 Earn、Buy Crypto、Convert（闪兑）、VIP 借贷及杠杆支持，09-24 18:45 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "KII",
+          "type": "合约上线",
+          "detail": "上线 KII-USDT-SWAP 永续合约，最高 20x 杠杆，09-24 19:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-kii-usdt-perpetual-contract"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "KII",
+          "type": "合约 + 跟单",
+          "detail": "上线 KII 合约交易、交易机器人及跟单功能，09-24",
+          "url": "https://www.gate.com/zh/announcements/article/101956"
+        },
+        {
+          "token": "GP",
+          "type": "合约 + 跟单",
+          "detail": "合约 Meme 专区上线 GP 合约交易、交易机器人及跟单功能，09-24",
+          "url": "https://www.gate.com/zh/announcements/article/101940"
+        },
+        {
+          "token": "MSTU（MSTR 每日 2 倍做多 ETF）",
+          "type": "美股合约",
+          "detail": "首发上线合约股票专区及外汇专区 MSTU（MSTR 每日 2 倍做多 ETF）永续合约，09-24",
+          "url": "https://www.gate.com/zh/announcements/article/101931"
+        },
+        {
+          "token": "Bucket (Bucket Shop)、PRIORS (Priors Agents)、SHARTCOIN (Shartcoin)",
+          "type": "打金狗首发现货",
+          "detail": "打金狗首发上线 Bucket Shop、Priors Agents、Shartcoin 链上代币，09-24",
+          "url": "https://www.gate.com/zh/announcements/article/101958"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "MONITOR",
+          "type": "Meme+ 区",
+          "detail": "首发上线 MONITOR 至 MEXC Meme+，09-24",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538805"
+        },
+        {
+          "token": "MUSEBOOK",
+          "type": "创新区现货",
+          "detail": "MUSEBOOK 迁移至创新区，09-24",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-moves-musebook-to-innovation-zone-17827791538795"
+        },
+        {
+          "token": "JEANPHIL",
+          "type": "Meme+ 区",
+          "detail": "首发上线 JEANPHIL 至 MEXC Meme+，09-24",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538793"
+        }
+      ]
+    }
+  }
+}
