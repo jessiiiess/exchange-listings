@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-28",
+  "updatedAt": "2026-09-29T04:30:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "股票批次（5 支）",
+          "type": "美股合约",
+          "detail": "Binance 股票交易新增 5 支股票，09-28 18:00 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94"
+        },
+        {
+          "token": "TradFi 合约（多支）",
+          "type": "美股合约",
+          "detail": "上线多支 TradFi U 本位永续合约，09-28 12:45 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/d4c5a66cdce246cc952d13bab215b688"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XDP",
+          "type": "现货上线",
+          "detail": "上线 XDP-USDT、XDP-USDC、XDP-EUR、XDP-TRY 现货交易对，09-28 20:00-21:45 UTC+8",
+          "url": "https://www.okx.com/trade-spot"
+        },
+        {
+          "token": "XDP",
+          "type": "合约上线",
+          "detail": "上线 XDP-USDT-SWAP 永续合约，最高 20 倍杠杆，09-28 22:00 UTC+8",
+          "url": "https://www.okx.com/trade-swap/xdp-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "KII",
+          "type": "合约上线",
+          "detail": "上线 KIIUSDT 永续合约（创新板块），最高 5 倍杠杆，09-28 18:07 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-kiiusdt-perpetual-contract-in-innovation-zone-with-up-to-5x-leverage--art19f31101a8d2/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MAG7XON 等 7 个代币",
+          "type": "现货上线",
+          "detail": "Gate 股票代币专区上线 MAG7XON、BRAINON、YLD5ON、YLD8ON、BLKHION、BLKDIGON、BLKGRWON 现货与闪兑，09-28 20:00-20:30 交易",
+          "url": "https://www.gate.com/zh/announcements/article/101963"
+        },
+        {
+          "token": "QNT3L 和 QNT3S",
+          "type": "现货上线",
+          "detail": "上线 QNT 3 倍做多/做空 ETF 代币 QNT3L、QNT3S 现货交易对，09-28 17:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/101992"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KOD",
+          "type": "美股合约",
+          "detail": "上线 KOD 股票合约，限时 0 费率，09-28 23:07 UTC+8 公告",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791538879"
+        },
+        {
+          "token": "XDP",
+          "type": "合约上线",
+          "detail": "上线 XDPUSDT 永续合约，09-28 13:55 UTC 上线，21:58 UTC+8 公告",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791538878"
+        },
+        {
+          "token": "DASH、ROST、VKTX、TJX 和 CVS",
+          "type": "美股合约",
+          "detail": "上线 DASH、ROST、VKTX、TJX、CVS 股票合约，限时 0 费率，09-28 20:44 UTC+8 公告",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791538876"
+        },
+        {
+          "token": "CTM",
+          "type": "创新区现货",
+          "detail": "上线 c8ntinuum (CTM) 至创新区，09-28 16:00 UTC+8 公告",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-c8ntinuum-ctm-in-innovation-zone-17827791538863"
+        },
+        {
+          "token": "QNT",
+          "type": "合约上线",
+          "detail": "0-Fee Fest 新增 QNTUSDT 合约交易对，09-28 15:49 UTC+8 公告",
+          "url": "https://www.mexc.com/announcements/article/0-fee-fest-17827791538872"
+        }
+      ]
+    }
+  }
+}
