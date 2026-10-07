@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-06",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi 合约（多支）",
+          "type": "美股合约",
+          "detail": "上线多支 TradFi U 本位永续合约，10-06 14:15 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/ea19450f515843098a5d5e55fc6e3589"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "USDESTOCK、VKTX、PCVX、XP",
+          "type": "美股合约",
+          "detail": "上线 USDESTOCKUSDT、VKTXUSDT、PCVXUSDT、XPUSDT 热门股票永续合约，10-06 23:00 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896776"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "CLAUS",
+          "type": "Meme+ 区",
+          "detail": "CLAUS 上线 MEXC Meme+，10-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539025"
+        },
+        {
+          "token": "HIGGS",
+          "type": "Meme+ 区",
+          "detail": "HIGGS 上线 MEXC Meme+，10-06",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539011"
+        }
+      ]
+    }
+  }
+}

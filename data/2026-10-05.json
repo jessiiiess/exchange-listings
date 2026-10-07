@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-05",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "EVAA Protocol (EVAA)",
+          "type": "现货上线",
+          "detail": "上线 EVAA Protocol (EVAA)，10-05 11:01 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-evaa-protocol-evaa-listed-on-kucoin"
+        },
+        {
+          "token": "多支股票指数合约",
+          "type": "美股合约",
+          "detail": "上线多支股票指数永续合约，10-05 21:36 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-05"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "AGENCY",
+          "type": "合约 + 跟单",
+          "detail": "上线 AGENCY 合约交易、交易机器人、跟单功能，10-05",
+          "url": "https://www.gate.com/zh/announcements/article/102085"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "旺柴",
+          "type": "Meme+ 区",
+          "detail": "旺柴 上线 MEXC Meme+，10-05",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538992"
+        },
+        {
+          "token": "Crocpad (CROC)",
+          "type": "创新区现货",
+          "detail": "阳光普照投票通过，创新区上线 Crocpad (CROC)，10-05",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-crocpad-croc-kickstarter-17827791538989"
+        },
+        {
+          "token": "HOOKED、AGENCY、GM、GUC",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 HOOKED、AGENCY、GM、GUC U 本位合约交易对，10-05",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hooked-agency-gm-and-guc-usdt-m-futures-17827791539012"
+        }
+      ]
+    }
+  }
+}

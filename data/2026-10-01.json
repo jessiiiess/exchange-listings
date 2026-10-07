@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-01",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CT",
+          "type": "合约上线",
+          "detail": "上线 CTUSDT U 本位永续合约，10-01 14:30 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/6bd26adeb6f742fe88eb72faca183566"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "QUANT",
+          "type": "合约上线",
+          "detail": "上线 QUANT-USDT-SWAP 永续合约，最高 50 倍杠杆，10-01 16:00 UTC+8",
+          "url": "https://www.okx.com/trade-swap/quant-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "CT",
+          "type": "合约上线",
+          "detail": "上线 CTUSDT 永续合约，最高 20 倍杠杆，10-01 17:27 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-ctusdt-perpetual-contract-with-up-to-20x-leverage--art4fe8469b5876/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Super Inu (SI)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 Super Inu (SI) 现货交易与闪兑交易，10-01",
+          "url": "https://www.gate.com/zh/announcements/article/102070"
+        },
+        {
+          "token": "CT",
+          "type": "合约 + 跟单",
+          "detail": "上线 CT 合约交易、杠杆借贷交易、交易机器人、跟单、闪兑、定投功能，10-01",
+          "url": "https://www.gate.com/zh/announcements/article/102073"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "CT",
+          "type": "合约上线",
+          "detail": "CTUSDT 上线合约交易和交易 BOT，10-01 14:52 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896419"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GLOBALWFR、POWERCHIP、BIZLINK",
+          "type": "美股合约",
+          "detail": "上线 GLOBALWFR、POWERCHIP、BIZLINK 股票合约，限时 0 费率，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538950"
+        },
+        {
+          "token": "AVC、ASE、INNOLUX、TUC、GOLDCIR",
+          "type": "美股合约",
+          "detail": "上线 AVC、ASE、INNOLUX、TUC、GOLDCIR 股票合约，限时 0 费率，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538949"
+        },
+        {
+          "token": "NANYATECH、UNIMICRON、WINBOND、LARGAN、ELITEMAT",
+          "type": "美股合约",
+          "detail": "上线 NANYATECH、UNIMICRON、WINBOND、LARGAN、ELITEMAT 股票合约，限时 0 费率，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538948"
+        },
+        {
+          "token": "ABT、MDT、AZO、DTE、KR",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 ABT、MDT、AZO、DTE、KR U 本位合约交易对，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-abt-mdt-azo-dte-and-kr-usdt-m-futures-17827791538955"
+        },
+        {
+          "token": "GLOBALWFR、POWERCHIP、BIZLINK、CT",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 GLOBALWFR、POWERCHIP、BIZLINK、CT U 本位合约交易对，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-globalwfr-powerchip-bizlink-and-ct-usdt-m-futures-17827791538954"
+        },
+        {
+          "token": "AVC、ASE、INNOLUX、TUC、GOLDCIR",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 AVC、ASE、INNOLUX、TUC、GOLDCIR U 本位合约交易对，10-01",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-avc-ase-innolux-tuc-and-goldcir-usdt-m-futures-17827791538953"
+        }
+      ]
+    }
+  }
+}

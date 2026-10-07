@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-29",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "TradFi 合约（多支）",
+          "type": "美股合约",
+          "detail": "上线多支 TradFi U 本位永续合约，09-29 12:45 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/0c6ea14ba89b451db6ec9ec364045d22"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "XDP",
+          "type": "合约上线",
+          "detail": "上线 XDPUSDT 永续合约（创新板块），最高 25 倍杠杆，09-29 17:46 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-xdpusdt-perpetual-contract-in-innovation-zone-with-up-to-25x-leverage--art4ecba634c35d/"
+        },
+        {
+          "token": "RUM、CVNA、TWST",
+          "type": "美股合约",
+          "detail": "上线 RUMUSDT、CVNAUSDT、TWSTUSDT 之 Bybit TradFi 永续合约，09-29 16:52 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-rumusdt-on-bybit-tradfi-perpetual-on-sep-29-2026-9-40am-utc--artf282236c31a0/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "KIOXIA",
+          "type": "美股合约",
+          "detail": "重新上线 KIOXIAUSDT 股票指数永续合约，09-29 13:26 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-relist-kioxiausdt-stock-index-perpetual-contract-2026-09-29"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Collector Crypt (CARDS)",
+          "type": "现货 + 闪兑",
+          "detail": "上线 Collector Crypt (CARDS) 现货交易与闪兑交易，09-29",
+          "url": "https://www.gate.com/zh/announcements/article/102029"
+        },
+        {
+          "token": "CARDS",
+          "type": "合约 + 跟单",
+          "detail": "上线 CARDS 合约交易、交易机器人、跟单功能，09-29",
+          "url": "https://www.gate.com/zh/announcements/article/102023"
+        },
+        {
+          "token": "XDP",
+          "type": "合约 + 跟单",
+          "detail": "上线 XDP 合约交易、交易机器人、跟单功能，09-29",
+          "url": "https://www.gate.com/zh/announcements/article/102026"
+        },
+        {
+          "token": "TWST 等 6 个合约",
+          "type": "美股合约",
+          "detail": "合约股票专区首发上线 TWST（特维斯特生物科技）等 6 个股票合约，09-29",
+          "url": "https://www.gate.com/zh/announcements/article/102022"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Paimon Polymarket SPV",
+          "type": "创新区现货",
+          "detail": "创新区上线 Paimon Polymarket SPV Token，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538910"
+        },
+        {
+          "token": "STOCKER",
+          "type": "Meme+ 区",
+          "detail": "STOCKER 上线 MEXC Meme+，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538896"
+        },
+        {
+          "token": "ZC",
+          "type": "Meme+ 区",
+          "detail": "ZC 上线 MEXC Meme+，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538895"
+        },
+        {
+          "token": "STOCKER、ZC",
+          "type": "合约 + 跟单",
+          "detail": "合约创新区上线 STOCKERUSDT、ZCUSDT 合约，09-29 14:00 UTC+8；跟单新增 STOCKER、ZC、KOD、XDP",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538889"
+        },
+        {
+          "token": "DASHSTOCK、ROST、VKTX、TJX、CVS",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 DASHSTOCK、ROST、VKTX、TJX、CVS U 本位合约交易对，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-dashstock-rost-vktx-tjx-and-cvs-usdt-m-futures-17827791538894"
+        },
+        {
+          "token": "Game Terminal (GTT)",
+          "type": "创新区现货",
+          "detail": "创新区上线 Game Terminal (GTT)，瓜分 60,000 USDT，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538890"
+        },
+        {
+          "token": "Doppler Finance (XDP)",
+          "type": "创新区现货",
+          "detail": "创新区上线 Doppler Finance (XDP)，瓜分 40,000 USDT，09-29",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-doppler-finance-xdp-in-innovation-zone-with-40-000-usdt-airdrop-rewards-17827791538884"
+        }
+      ]
+    }
+  }
+}

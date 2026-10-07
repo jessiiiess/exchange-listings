@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-07",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "JPMorgan (JPMB)、Eli Lilly (LLYB) 等",
+          "type": "美股合约",
+          "detail": "Binance 股票交易新增 JPMB、LLYB 等代币化证券，10-07 11:00 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/9c34999b27234dfe9c43d2ac33cebde4"
+        },
+        {
+          "token": "bStocks 代币化证券（4 支）",
+          "type": "美股合约",
+          "detail": "新增 4 支 bStocks 代币化证券作为抵押品，10-07 12:00 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/a1a7996170f246da90ea49f199a61bcd"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "IBVM",
+          "type": "创新区现货",
+          "detail": "创新区首发上线 IBVM (IBVM)，瓜分 60,000 USDT，10-07",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539028"
+        },
+        {
+          "token": "Whuffie (WHUF)",
+          "type": "盘前转正式合约",
+          "detail": "盘前交易上线 Whuffie (WHUF)，10-07",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791539049"
+        }
+      ]
+    }
+  }
+}

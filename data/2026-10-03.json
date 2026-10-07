@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-03",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "HOOKED、HOOKR",
+          "type": "合约 + 跟单",
+          "detail": "上线 HOOKED、HOOKR 合约交易、交易机器人、跟单功能，10-03",
+          "url": "https://www.gate.com/zh/announcements/article/102084"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HOOKED",
+          "type": "Meme+ 区",
+          "detail": "HOOKED 上线 MEXC Meme+，10-03",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538977"
+        }
+      ]
+    }
+  }
+}

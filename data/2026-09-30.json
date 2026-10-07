@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-30",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Adobe (ADBEB)、Forward Industries (FWDB) 等",
+          "type": "美股合约",
+          "detail": "Binance 股票交易新增 ADBEB、FWDB 等代币化证券，09-30 11:00 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/172e44302d6143578e40acc48570a2e5"
+        },
+        {
+          "token": "bStocks 代币化证券（7 支）",
+          "type": "美股合约",
+          "detail": "新增 7 支 bStocks 代币化证券作为抵押品，09-30 11:30 UTC+8 公告",
+          "url": "https://www.binance.com/en/support/announcement/1a94597986cf476f939609c02b87ee79"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CT",
+          "type": "合约上线",
+          "detail": "上线 CT-USDT-SWAP 永续合约，最高 20 倍杠杆，09-30 19:00 UTC+8",
+          "url": "https://www.okx.com/trade-swap/ct-usdt-swap"
+        },
+        {
+          "token": "CT",
+          "type": "现货上线",
+          "detail": "上线 CT-USDT、CT-USDC、CT-EUR、CT-TRY 现货交易对，09-30 17:00-18:30 UTC+8",
+          "url": "https://www.okx.com/trade-spot"
+        },
+        {
+          "token": "BTC、ETH、USDC（PLN 对）",
+          "type": "现货上线",
+          "detail": "上线 BTC-PLN、ETH-PLN、USDC-PLN 现货交易对，09-30 12:00-14:00 UTC+8",
+          "url": "https://www.okx.com/trade-spot"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Concrete (CT)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 上线 Concrete (CT)，09-30 14:03 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-concrete-ct-listed-on-kucoin"
+        },
+        {
+          "token": "XDP",
+          "type": "合约上线",
+          "detail": "上线 XDPUSDT 永续合约，最高 20 倍杠杆，09-30 10:36 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-xdpusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "CT",
+          "type": "合约上线",
+          "detail": "上线 CTUSDT 永续合约，最高 20 倍杠杆，09-30 21:26 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-ctusdt-perpetual-contract-with-up-to-20x-leverage"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Concrete (CT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "首发上线 Concrete (CT) 现货交易与闪兑交易，09-30",
+          "url": "https://www.gate.com/zh/announcements/article/102044"
+        },
+        {
+          "token": "SI",
+          "type": "Meme+ 区",
+          "detail": "合约 Meme 专区上线 SI 合约交易、交易机器人、跟单功能，09-30",
+          "url": "https://www.gate.com/zh/announcements/article/102039"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Concrete (CT)",
+          "type": "首发上币",
+          "detail": "首发上线 Concrete (CT)，09-30 14:00 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896301"
+        },
+        {
+          "token": "TWST、CVNA、RUM、CRML、BWET、ACN、KOD 等",
+          "type": "美股合约",
+          "detail": "上线 TWSTUSDT、CVNAUSDT、RUMUSDT、CRMLUSDT、BWETUSDT、ACNUSDT、KODUSDT 等热门股票永续合约，09-30 19:21 UTC+8 公告",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603896414"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Concrete (CT)",
+          "type": "首发现货 + 闪兑",
+          "detail": "创新区首发上线 Concrete (CT)，09-30；CT USDT 合约 16:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538925"
+        },
+        {
+          "token": "ABT、MDT、AZO、DTE、KR",
+          "type": "美股合约",
+          "detail": "上线 ABT、MDT、AZO、DTE、KR 股票合约，限时 0 费率，09-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538937"
+        },
+        {
+          "token": "Autheo (THEO)",
+          "type": "创新区现货",
+          "detail": "创新区上线 Autheo (THEO)，瓜分 60,000 USDT，09-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538892"
+        },
+        {
+          "token": "Ritual (RITUAL)",
+          "type": "盘前转正式合约",
+          "detail": "盘前交易上线 Ritual (RITUAL)，09-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791538935"
+        },
+        {
+          "token": "NEARLY",
+          "type": "Meme+ 区",
+          "detail": "NEARLY 上线 MEXC Meme+，09-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538932"
+        },
+        {
+          "token": "KINSUS、YAGEO、NANYAPLST、NANYAPCB、ZHENDING",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 KINSUS、YAGEO、NANYAPLST、NANYAPCB、ZHENDING U 本位合约交易对，09-30",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kinsus-yageo-nanyaplst-nanyapcb-and-zhending-usdt-m-futures-17827791538929"
+        }
+      ]
+    }
+  }
+}

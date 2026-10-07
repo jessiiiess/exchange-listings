@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-04",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HOOKED",
+          "type": "合约 + 跟单",
+          "detail": "合约创新区上线 HOOKEDUSDT 合约，10-04 15:26 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538982"
+        },
+        {
+          "token": "AGENCY",
+          "type": "合约 + 跟单",
+          "detail": "合约创新区上线 AGENCYUSDT 合约，10-04 15:24 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538981"
+        },
+        {
+          "token": "AGENCY",
+          "type": "Meme+ 区",
+          "detail": "AGENCY 上线 MEXC Meme+，10-04",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538978"
+        }
+      ]
+    }
+  }
+}

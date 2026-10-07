@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-02",
+  "updatedAt": "2026-10-07T22:09:58+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "ACN、NKE、SECZ、BWET",
+          "type": "美股合约",
+          "detail": "上线 ACN、NKE、SECZ、BWET 美股 U 本位永续合约，最高 20 倍杠杆，10-02 17:45-18:30 UTC+8",
+          "url": "https://www.okx.com/trade-swap/acn-usdt-swap"
+        },
+        {
+          "token": "H100",
+          "type": "美股合约",
+          "detail": "上线 H100-USDT-SWAP 永续合约，最高 3 倍杠杆，10-02 17:30 UTC+8",
+          "url": "https://www.okx.com/trade-swap/h100-usdt-swap"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Pheasant Network (PNT)",
+          "type": "World Premiere 现货",
+          "detail": "World Premiere 上线 Pheasant Network (PNT)，10-02 18:01 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-pheasant-network-pnt-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "POD",
+          "type": "合约 + 跟单",
+          "detail": "上线 POD 合约交易、交易机器人、跟单功能，10-02",
+          "url": "https://www.gate.com/zh/announcements/article/102080"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GUC",
+          "type": "美股合约",
+          "detail": "上线 GUC 股票合约，限时 0 费率，10-02",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538974"
+        },
+        {
+          "token": "KBLAM、WUXIBIO、INNOVENT、GENSCRIPT、AKESO",
+          "type": "美股合约",
+          "detail": "上线 KBLAM、WUXIBIO、INNOVENT、GENSCRIPT、AKESO 股票合约，限时 0 费率，10-02",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538964"
+        },
+        {
+          "token": "GM",
+          "type": "合约 + 跟单",
+          "detail": "合约创新区上线 GMUSDT 合约，10-02 23:13 UTC+8；GM 上线 Meme+",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538973"
+        },
+        {
+          "token": "Dolphin (POD)",
+          "type": "创新区现货",
+          "detail": "创新区上线 Dolphin (POD)，合约创新区 PODUSDT 10-02 14:10 UTC+8 上线",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-dolphin-pod-in-innovation-zone-17827791538968"
+        },
+        {
+          "token": "POD",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 POD U 本位合约交易对，10-02",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pod-usdt-m-futures-17827791538970"
+        },
+        {
+          "token": "KBLAM、WUXIBIO、INNOVENT、GENSCRIPT、AKESO",
+          "type": "合约 + 跟单",
+          "detail": "跟单新增 KBLAM、WUXIBIO、INNOVENT、GENSCRIPT、AKESO U 本位合约交易对，10-02",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-kblam-wuxibio-innovent-genscript-and-akeso-usdt-m-futures-17827791538966"
+        },
+        {
+          "token": "SAPLING、PRIORS、MOE",
+          "type": "Meme+ 区",
+          "detail": "SAPLING、PRIORS、MOE 上线 MEXC Meme+，10-02",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791538965"
+        }
+      ]
+    }
+  }
+}
