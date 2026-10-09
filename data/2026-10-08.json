@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-08",
+  "updatedAt": "2026-10-09T17:25:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "LIT",
+          "type": "现货上线",
+          "detail": "OKX 上线 LIT-EUR 现货交易对，10-08 16:00 UTC+8",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "NKE、ACN、LULU",
+          "type": "美股合约",
+          "detail": "Bybit TradFi 永续合约上线 NKEUSDT、ACNUSDT、LULUUSDT，10-08 20:00 UTC+8 上线",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-nkeusdt-on-bybit-tradfi-perpetual-on-oct-8-2026-12-00pm-utc--art68dd3f74cc31/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Whuffie (WHUF)",
+          "type": "创新区现货",
+          "detail": "MEXC 考核区首发上线 Whuffie (WHUF)，10-08",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539040"
+        },
+        {
+          "token": "WHUF",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 WHUFUSDT 合约，10-08 23:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539067"
+        },
+        {
+          "token": "HCA、TLN、XP、PCVX、USDE",
+          "type": "美股合约",
+          "detail": "MEXC 首发上线 HCA、TLN、XP、PCVX、USDE 股票合约，10-08",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539065"
+        },
+        {
+          "token": "CLAUS",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 CLAUSUSDT 合约，10-08 13:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-claususdt-futures-in-innovation-zone-on-oct-8-2026-05-17827791539059"
+        },
+        {
+          "token": "旺柴 (WANGCHAI)",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区首发上线 旺柴USDT 合约，10-08 13:30 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539058"
+        },
+        {
+          "token": "ALCHIP",
+          "type": "美股合约",
+          "detail": "MEXC 首发上线 ALCHIP 股票合约，10-08",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539073"
+        },
+        {
+          "token": "DARK",
+          "type": "Meme+ 区",
+          "detail": "DARK 上线 MEXC Meme+，10-08",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539054"
+        }
+      ]
+    }
+  }
+}
