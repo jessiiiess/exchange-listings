@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-12",
+  "updatedAt": "2026-10-14T10:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "ZCSH、MSTU、SNPS、RDW",
+          "type": "美股合约",
+          "detail": "Binance 上线 ZCSHUSDT、MSTUUSDT、SNPSUSDT、RDWUSDT 美股 USDT 本位永续合约，10-12 17:00–17:15 UTC+8，最高 20x",
+          "url": "https://www.binance.com/en/support/announcement/394e61b6f81e4a349272dcb9d78876d6"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XQNT、XAMC、XBB、XIONQ、XCGNX、XFLY、XFWDI、XINFQ",
+          "type": "美股合约",
+          "detail": "OKX 上线代币化股票现货 XQNT、XAMC、XBB、XIONQ、XCGNX、XFLY、XFWDI、XINFQ/USDT，10-12 14:00–17:30 UTC+8",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+        },
+        {
+          "token": "CXMT、BSP、TQQQ、UNITREE",
+          "type": "美股合约",
+          "detail": "OKX 上线 CXMTUSD、BSPUSD、TQQQUSD、UNITREEUSD Equity X-Perps 股票永续合约，10-12",
+          "url": "https://www.okx.com/help/okx-to-list-cxmtusd-bspusd-tqqqusd-and-unitreeusd-equity-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "YPF、VIST、PBR、NUSTOCK、MELI",
+          "type": "美股合约",
+          "detail": "Bybit 上线 YPFUSDT、VISTUSDT、PBRUSDT、NUSTOCKUSDT、MELIUSDT 之 TradFi 永续合约，10-12 19:00–19:05 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-ypfusdt-on-bybit-tradfi-perpetual-on-oct-12-2026-11-05am-utc--artb3f6f34ce9b9/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "VAYLA (VAYLA)",
+          "type": "World Premiere 现货",
+          "detail": "KuCoin 全球首发上线 VAYLA，10-12 18:06 UTC+8",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-vayla-vayla-listed-on-kucoin"
+        },
+        {
+          "token": "APP、TMF、SKUU、MRNA、SOFI",
+          "type": "美股合约",
+          "detail": "KuCoin 上线 APPUSDT、TMFUSDT、SKUUUSDT、MRNAUSDT、SOFIUSDT 股票指数永续合约，10-12 17:00 UTC+8，支持 1–20x",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-12"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "BATON (baton)",
+          "type": "Meme+ 区",
+          "detail": "Gate 合约 Meme 专区上线 BATON 合约交易、交易机器人、跟单功能，10-12 21:30 UTC+8，支持 1–10x",
+          "url": "https://www.gate.com/zh/announcements/article/102198"
+        },
+        {
+          "token": "SAFU (Funds Are Safu)、SI (smoking Inu)",
+          "type": "打金狗首发",
+          "detail": "Gate 打金狗首发上线 SAFU、SI，10-12 17:42 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/102191"
+        },
+        {
+          "token": "DOPE (Doge Pepe)、core (core)、TORCH (Torch)、SWOLF (Starknet Wolf)、DNA (DNA)",
+          "type": "打金狗首发",
+          "detail": "Gate 打金狗首发上线 DOPE、core、TORCH、SWOLF、DNA，10-12",
+          "url": "https://www.gate.com/zh/announcements/article/102168"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ZCSH、SNPS",
+          "type": "美股合约",
+          "detail": "Bitget 上线 ZCSHUSDT、SNPSUSDT 热门股票永续合约，10-12 22:41 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897163"
+        },
+        {
+          "token": "KIA、LGENERGY、SSBIOLOGICS、KBFG、KAKAO",
+          "type": "美股合约",
+          "detail": "Bitget 上线 KIAUSDT、LGENERGYUSDT、SSBIOLOGICSUSDT、KBFGUSDT、KAKAOUSDT 热门股票永续合约，10-12 14:52 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897007"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HCA、TLN、XP、PCVX、USDE",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 HCA、TLN、XP、PCVX、USDE U 本位合约交易对，10-12",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-hca-tln-xp-pcvx-and-usde-usdt-m-futures-17827791539110"
+        },
+        {
+          "token": "MDB、PM、SHEL、PBR、BABAHK",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 MDB、PM、SHEL、PBR、BABAHK U 本位合约交易对，10-12",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-mdb-pm-shel-pbr-and-babahk-usdt-m-futures-17827791539109"
+        },
+        {
+          "token": "CLAUDIA、JEANPHIL、WHUF",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 CLAUDIA、JEANPHIL、WHUF U 本位合约交易对，10-12",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-claudia-jeanphil-and-whuf-usdt-m-futures-17827791539108"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "updatedAt": "2026-10-14T10:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XTSEM、XTTMI、XEWJ、XEWT、XEWZ、XLYTE、XSPCH、XRAM",
+          "type": "美股合约",
+          "detail": "OKX 上线代币化股票现货 XTSEM、XTTMI、XEWJ、XEWT、XEWZ、XLYTE、XSPCH、XRAM/USDT，10-14 14:00–17:30 UTC+8",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}

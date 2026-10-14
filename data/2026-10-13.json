@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-13",
+  "updatedAt": "2026-10-14T10:40:00+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "RWUSD",
+          "type": "现货上线",
+          "detail": "Binance 上线 RWUSD/USDT 现货交易对并开启零手续费活动，10-13 16:00 UTC+8，同时支持全仓杠杆抵押",
+          "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XLUNR、XOSCR、XPENG、XPURR、XRDW、XSHOP、XSIMO、XSONY",
+          "type": "美股合约",
+          "detail": "OKX 上线代币化股票现货 XLUNR、XOSCR、XPENG、XPURR、XRDW、XSHOP、XSIMO、XSONY/USDT，10-13 14:00–17:30 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xlunr-xoscr-and-more-for-spot-trading"
+        },
+        {
+          "token": "WUSD、BLURUSD",
+          "type": "合约上线",
+          "detail": "OKX 上线 WUSD、BLURUSD X-Perps 永续合约，10-13 12:00 UTC+8",
+          "url": "https://www.okx.com/help/okx-to-list-wusd-blurusd-x-perps"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "SNPS、ZCSH、GRAL",
+          "type": "美股合约",
+          "detail": "Bybit 上线 SNPSUSDT、ZCSHUSDT、GRALUSDT 之 TradFi 永续合约，10-13 18:00 UTC+8",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-snpsusdt-on-bybit-tradfi-perpetual-on-oct-13-2026-10-00am-utc--artcfecc6ff9d5e/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MP、ZCSH、SNPS、LEN、SBUX、VKTX、UMC、USDEX、LULU、AKAM",
+          "type": "美股合约",
+          "detail": "Gate 合约股票专区上线 MP（MP 材料）、ZCSH、SNPS、LEN、SBUX、VKTX、UMC、USDEX、LULU、AKAM 等 10 个股票合约、交易机器人、跟单功能，10-13 12:00 UTC+8，支持 1–20x",
+          "url": "https://www.gate.com/zh/announcements/article/102194"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "MURATA、TAIYOYUDEN、TOYOTA、JPMUFG、JPSONY",
+          "type": "美股合约",
+          "detail": "Bitget 上线 MURATAUSDT、TAIYOYUDENUSDT、TOYOTAUSDT、JPMUFGUSDT、JPSONYUSDT 热门股票永续合约，10-13 15:45 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897195"
+        },
+        {
+          "token": "CEG、HD、KAKAO、KBFG、KIA、LEN、LGENERGY、PCVX、SBUX、SNPS、SSBIOLOGICS、USDESTOCK、VKTX、XP、ZCSH",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 CEGUSDT、HDUSDT、KAKAOUSDT、KBFGUSDT、KIAUSDT、LENUSDT、LGENERGYUSDT、PCVXUSDT、SBUXUSDT、SNPSUSDT、SSBIOLOGICSUSDT、USDESTOCKUSDT、VKTXUSDT、XPUSDT、ZCSHUSDT 等 15 个永续合约，10-13 16:13 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897198"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "AMT、WMB、CCI、TMUS、FICO",
+          "type": "美股合约",
+          "detail": "MEXC 首發上線 AMTUSDT、WMBUSDT、CCIUSDT、TMUSUSDT、FICOUSDT 股票合约，10-13 19:00 UTC+8，最高 20x，支持全仓/逐仓",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539135"
+        },
+        {
+          "token": "CENT",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 CENTUSDT U 本位合约交易对，10-13，最高 20x",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cent-usdt-m-futures-17827791539129"
+        }
+      ]
+    }
+  }
+}
