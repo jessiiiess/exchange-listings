@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-15",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XSHLD、XSQQQ、XTMF、XTSLL、XURNM、XUSO、XUVXY、XXBI",
+          "type": "现货上线",
+          "detail": "代币化股票 USDT 现货分批上线：2026-10-15 XSHLD 14:00、XSQQQ 14:30、XTMF 15:00、XTSLL 15:30、XURNM 16:00、XUSO 16:30、XUVXY 17:00、XXBI 17:30 (UTC+8)",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "NeoSoul (DNA)",
+          "type": "World Premiere 现货",
+          "detail": "DNA/USDT 全球首发现货及交易机器人于 2026-10-16 18:00 UTC+8 开放，BSC-BEP20 充值已开放；公告发布于 10-15",
+          "url": "https://www.kucoin.com/announcement/en-world-premiere-neosoul-dna-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "NeoSoul (DNA)",
+          "type": "现货 + 闪兑",
+          "detail": "10-15 公告：DNA 首发上线 Gate，现货 10-16 19:00、闪兑 10-16 20:00 (UTC+8)，同步开启 Launchpool",
+          "url": "https://www.gate.com/zh/announcements/article/102248"
+        },
+        {
+          "token": "NeoSoul (DNA)",
+          "type": "合约 + 跟单",
+          "detail": "10-15 公告：DNA 永续合约于 10-16 19:10 UTC+8 首发上线，1–20 倍杠杆，同步开放杠杆借贷及机器人、跟单等服务",
+          "url": "https://www.gate.com/zh/announcements/article/102259"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DNA",
+          "type": "首发上币 AI区",
+          "detail": "10-15 公告：DNA/USDT 首发上线 AI 专区，现货于 2026-10-16 19:00 UTC+8 开放，闪兑在交易开始后 10 分钟内开放",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897627"
+        },
+        {
+          "token": "FASTRETAILINGUSDT",
+          "type": "美股合约",
+          "detail": "FASTRETAILINGUSDT 日本股票永续合约于 2026-10-15 上线，最高 20 倍杠杆，24/7 交易",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897654"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "UNP、CAH、MCK、WFC、VZ",
+          "type": "美股合约",
+          "detail": "MEXC 上线 UNP、CAH、MCK、WFC、VZ 股票合约，2026-10-15",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539168"
+        },
+        {
+          "token": "PLD、BPSTOCK、MRSH、TSTOCK、BSX",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 PLD、BPSTOCK、MRSH、TSTOCK、BSX U 本位合约，2026-10-15",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-pld-bpstock-mrsh-tstock-and-bsx-usdt-m-futures-17827791539152"
+        },
+        {
+          "token": "TAPEFOUR",
+          "type": "Meme+ 区",
+          "detail": "TAPEFOUR 上线 MEXC Meme+，2026-10-15",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539170"
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-18T15:39:23.100Z"
+}

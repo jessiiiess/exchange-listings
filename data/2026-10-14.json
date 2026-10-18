@@ -1,9 +1,16 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T10:40:00+08:00",
+  "updatedAt": "2026-10-18T15:39:23.081Z",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "BBB、MDBB、PENGB、UVXYB",
+          "type": "现货 + 闪兑",
+          "detail": "Binance 新增四只 bStocks 代币化证券现货及闪兑交易对，公告发布于 2026-10-14 11:00 UTC+8",
+          "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906"
+        }
+      ],
       "alpha": [],
       "wallet": []
     },
@@ -11,9 +18,15 @@
       "listings": [
         {
           "token": "XTSEM、XTTMI、XEWJ、XEWT、XEWZ、XLYTE、XSPCH、XRAM",
-          "type": "美股合约",
+          "type": "现货上线",
           "detail": "OKX 上线代币化股票现货 XTSEM、XTTMI、XEWJ、XEWT、XEWZ、XLYTE、XSPCH、XRAM/USDT，10-14 14:00–17:30 UTC+8",
           "url": "https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+        },
+        {
+          "token": "SOFI、TLT、TXN、VICR",
+          "type": "美股合约",
+          "detail": "OKX 美股永续合约上线：TXN 17:00、SOFI 17:15、VICR 17:30、TLT 17:45 (UTC+8)",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
         }
       ]
     },
@@ -21,16 +34,56 @@
       "listings": []
     },
     "kucoin": {
-      "listings": []
+      "listings": [
+        {
+          "token": "SKDD、VST、SECZ、SMH、PENG",
+          "type": "美股合约",
+          "detail": "五只 USDT 本位股票指数永续合约于 2026-10-14 17:00 UTC+8 上线，均支持 1–20 倍杠杆",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-14"
+        }
+      ]
     },
     "gateio": {
-      "listings": []
+      "listings": [
+        {
+          "token": "JIOUSDT (Jio Platforms)",
+          "type": "美股合约",
+          "detail": "Gate 股票专区上线 JIOUSDT 永续合约盘前交易，1-10 倍杠杆，2026-10-14 20:52 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/102239"
+        }
+      ]
     },
     "bitget": {
-      "listings": []
+      "listings": [
+        {
+          "token": "JIO (Jio Platforms)",
+          "type": "美股合约",
+          "detail": "JIOUSDT IPO 盘前永续合约已上线，最高 20 倍杠杆、24/7 交易；公告发布于 2026-10-14 17:01 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897601"
+        }
+      ]
     },
     "mexc": {
-      "listings": []
+      "listings": [
+        {
+          "token": "PLD、BP、MRSH、T、BSX",
+          "type": "美股合约",
+          "detail": "MEXC 上线 PLD、BP、MRSH、T、BSX 股票合约，2026-10-14",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539147"
+        },
+        {
+          "token": "AMT、WMB、CCI、TMUS、FICO",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 AMT、WMB、CCI、TMUS、FICO U 本位合约交易对，2026-10-14",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-amt-wmb-cci-tmus-and-fico-usdt-m-futures-17827791539143"
+        },
+        {
+          "token": "BORDR",
+          "type": "Meme+ 区",
+          "detail": "BORDR 上线 MEXC Meme+，2026-10-14",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539141"
+        }
+      ]
     }
   }
 }

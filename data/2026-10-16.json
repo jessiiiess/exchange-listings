@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-16",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "MCD、JPM、V、GS",
+          "type": "美股合约",
+          "detail": "股票 USDT 永续合约于 2026-10-16 分批上线：MCD 17:00、JPM 17:15、V 17:30、GS 17:45 (UTC+8)，最高 20 倍杠杆",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+        },
+        {
+          "token": "DNA",
+          "type": "合约上线",
+          "detail": "DNA-USDT-SWAP 永续合约于 2026-10-16 20:00 UTC+8 上线，最高 20 倍杠杆",
+          "url": "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "DRVUSDT",
+          "type": "合约上线",
+          "detail": "DRVUSDT 永续合约上线 Bybit，最高 20 倍杠杆，2026-10-16 10:30 UTC（18:30 UTC+8）",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-drvusdt-on-bybit-perpetual-on-oct-16-2026-10-30am-utc--arta27d4222539c/"
+        },
+        {
+          "token": "DNAUSDT",
+          "type": "合约上线",
+          "detail": "DNAUSDT 永续合约上线 Bybit，最高 20 倍杠杆，2026-10-16 11:45 UTC（19:45 UTC+8）",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-dnausdt-on-bybit-perpetual-on-oct-16-2026-11-45am-utc--art2e000df3b3e1/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Capybobo (PYBOBO)",
+          "type": "合约上线",
+          "detail": "PYBOBOUSDT 永续合约于 2026-10-16 17:00 UTC+8 上线，最高 8 倍杠杆，1 张合约 = 1000 PYBOBO",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-pybobousdt-perpetual-contract-with-up-to-8x-leverage-2026-10-16"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "DNA",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 DNAUSDT 合约，2026-10-16 16:10 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539179"
+        },
+        {
+          "token": "DOPE",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 DOPEUSDT 合约，2026-10-16 18:05 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539186"
+        },
+        {
+          "token": "DOPE",
+          "type": "Meme+ 区",
+          "detail": "DOPE 上线 MEXC Meme+，2026-10-16",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539190"
+        },
+        {
+          "token": "URI、KMB、KEYS、PG、FIX",
+          "type": "美股合约",
+          "detail": "MEXC 上线 URI、KMB、KEYS、PG、FIX 股票合约，最高 20 倍杠杆，2026-10-16 18:45 UTC+8",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539187"
+        },
+        {
+          "token": "UNP、CAH、MCK、WFC、VZ",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 跟单新增 UNP、CAH、MCK、WFC、VZ U 本位合约交易对，2026-10-16",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-unp-cah-mck-wfc-and-vz-usdt-m-futures-17827791539177"
+        },
+        {
+          "token": "Hoodlers (HDLR)",
+          "type": "创新区现货",
+          "detail": "10-16 发布上币安排：HDLR/USDT 创新区现货于 2026-10-17 16:00 UTC+8 开放，提现 10-18 16:00 开放",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/voting-result-and-listing-arrangement-for-hoodlers-hdlr-kickstarter-17827791539176"
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-18T15:39:23.101Z"
+}
