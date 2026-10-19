@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-19",
+  "updatedAt": "2026-10-19T12:38:03.581643+00:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "VICR和GRAL和YPF和VIST和PBR和NU",
+          "type": "美股合约",
+          "detail": "Gate 合约股票专区上线 VICR（Vicor 电子）、GRAL（格雷尔公司）、YPF（阿根廷国家石油公司）、VIST（维斯塔能源）、PBR（巴西石油公司）、NU（Nu Holdings）永续合约，支持 1–20 倍杠杆、交易机器人、跟单，2026-10-19 18:00 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/102298"
+        },
+        {
+          "token": "PAPER (PaperTrade)",
+          "type": "合约上线",
+          "detail": "Gate 上线 PAPERUSDT 永续合约盘前交易（USDT 结算），1-10 倍杠杆，2026-10-19",
+          "url": "https://www.gate.com/zh/announcements/article/102286"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "TWTSM和TWDELTA和TWASX和TWUMC和NANYA和WINBOND和YAGEO和WALSIN",
+          "type": "美股合约",
+          "detail": "Bitget 上线 TWTSM（台积电）、TWDELTA（台达电）、TWASX（日月光投控）、TWUMC（联华电子）、NANYA（南亚科技）、WINBOND（华邦电）、YAGEO（国巨）、WALSIN（华新科）等 8 支台湾热门股票永续合约，最高 20 倍杠杆、24/7 交易；公告发布于 2026-10-19 11:48 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897858"
+        },
+        {
+          "token": "rTCEHY和rBYDDY和rXIACY和rVWAGY和rLNVGY和rSFTBY和rNVDX和rMETU和rMSFU和rAMZU和rTSLL和rSPXL和rTECL和rGDX和rGLDM和rAVGX和rTSMX和rSKHX和rSPCH和rRKLX和rTIGR和rHSAI和rETOR和rCHA和rWRD和rCLSK和rCORZ和rXPEV",
+          "type": "现货上线",
+          "detail": "Bitget 上线腾讯控股 ADR、比亚迪 ADR、小米 ADR、大众、联想、软银、以及多支 AI 巨头杠杆 ETF（rNVDX/rMETU/rMSFU/rAMZU/rTSLL）、标普/科技 3 倍 ETF、黄金 ETF、AI 芯片杠杆 ETF、SpaceX/RKLB ETF、UP Fintech 等股票现货 rToken，平台 rToken 总数突破 3000 只，2026-10-19 16:40 UTC+8",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603897903"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "URI和KMB和KEYS和PG和FIX",
+          "type": "合约 + 跟单",
+          "detail": "2026-10-19 新增 URIUSDT、KMBUSDT、KEYSUSDT、PGUSDT 和 FIXUSDT 股票合约跟单，跟单最大杠杆均为 20 倍；并非首次上线这些合约。",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-uri-kmb-keys-pg-and-fix-usdt-m-futures-17827791539217"
+        },
+        {
+          "token": "PAPER和DOPE和DNA",
+          "type": "合约 + 跟单",
+          "detail": "2026-10-19 新增 PAPERUSDT、DOPEUSDT 和 DNAUSDT 合约跟单，跟单最大杠杆均为 20 倍。",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-paper-dope-and-dna-usdt-m-futures-17827791539216"
+        },
+        {
+          "token": "PaperTrade (PAPER)",
+          "type": "合约上线",
+          "detail": "2026-10-19 13:20 UTC+8 首发上线 PAPERUSDT 创新区合约，1–20 倍杠杆，支持全仓和逐仓；合约网格于上线后 5 分钟内开放。",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539214"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "盘前交易",
+          "detail": "仅盘前 OTC 交易：2026-10-19 13:00 UTC+8 开始，10-21 19:00 结束，10-21 23:00 开始交割；正式现货上线时间待定。",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-pre-market-17827791539210"
+        },
+        {
+          "token": "TORCH",
+          "type": "Meme+ 区",
+          "detail": "2026-10-19 11:10 UTC+8 首发上线 Meme+，网络为 Robinhood；17:10 开放提币，现货网格于交易开始 1 小时后开放。",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539206"
+        }
+      ]
+    }
+  }
+}
