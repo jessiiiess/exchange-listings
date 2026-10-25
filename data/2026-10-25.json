@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-25",
+  "updatedAt": "2026-10-26T00:37:21+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "Predict.fun (PREDICT)",
+          "type": "合约 + 跟单",
+          "detail": "币安上线 PREDICTUSDT USDT 本位永续合约盘前交易，2026-10-25 16:15（UTC+8）开盘（公告已更新上线时间），最高 5 倍杠杆，USDT 结算，24/7 交易；上线后 24 小时内开放合约跟单。",
+          "url": "https://www.binance.com/en/support/announcement/detail/5ef55cf8358e4a48b2512a156e89c8e5"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": []
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": []
+    },
+    "bitget": {
+      "listings": []
+    },
+    "mexc": {
+      "listings": []
+    }
+  }
+}
