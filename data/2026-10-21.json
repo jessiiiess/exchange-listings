@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-21",
+  "updatedAt": "2026-10-26T00:00:00+00:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "CEG和BAC和IBKR和MDT",
+          "type": "美股合约",
+          "detail": "Binance 合约上线 CEGUSDT（Constellation Energy）、BACUSDT（美国银行）、IBKRUSDT（盈透证券）、MDTUSDT（美敦力）TradFi 美股永续，均最高 20 倍，USDT 结算，24/7 交易，2026-10-21 17:00–17:20 UTC+8 陆续开盘",
+          "url": "https://www.binance.com/en/support/announcement/detail/29e4e52d711946c88762f0ba2259de2e"
+        },
+        {
+          "token": "BOTB和BRKBB和KSTRB和TMFB和VSTB",
+          "type": "现货 + 闪兑",
+          "detail": "Binance 现货上线 BOTB（RoboStrategy）、BRKBB（Berkshire Hathaway）、KSTRB（STAR Market 50 ETF）、TMFB（20 年美债 3 倍做多 ETF）、VSTB（Vistra）等 5 个 bStocks 代币化证券 /USDT 交易对，2026-10-21 20:00 UTC+8 开盘；开盘后 1 小时内开放闪兑",
+          "url": "https://www.binance.com/en/support/announcement/detail/b965e028041c4d0fbb4291372f55e4d4"
+        }
+      ],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约上线",
+          "detail": "OKX 上线 AXIS-USDT-SWAP 永续合约（加密货币），最高 20 倍杠杆，2026-10-21 22:00 UTC+8",
+          "url": "https://www.okx.com/help"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约上线",
+          "detail": "Bybit 创新板块上线 AXISUSDT 永续合约，最高 20 倍杠杆，2026-10-21 21:20 UTC+8 公告",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-axisusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--art3e8fd0024821/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "多个股票指数永续",
+          "type": "美股合约",
+          "detail": "KuCoin Futures 上线多个股票指数永续合约，2026-10-21 14:45 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-21"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "FASTRETAILING和TAIYOYUDEN和IBKR和VLO",
+          "type": "美股合约",
+          "detail": "Gate 股票专区上线 FASTRETAILINGUSDT（迅销）、TAIYOYUDENUSDT（太阳诱电）、IBKRUSDT（盈透证券）、VLOUSDT（瓦莱罗能源）永续合约，最高 20 倍，2026-10-21 17:00 UTC+8 开盘，上线后 1 小时内开放跟单及机器人",
+          "url": "https://www.gate.com/zh/announcements/article/102349"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 AXISUSDT 永续合约，最高 20 倍，2026-10-21 21:10 UTC+8 开盘，上线后 1 小时内开放跟单及机器人",
+          "url": "https://www.gate.com/zh/announcements/article/102353"
+        },
+        {
+          "token": "predict.fun (PREDICT)",
+          "type": "盘前转正式合约",
+          "detail": "Gate 上线 PREDICTUSDT 盘前永续合约，USDT 结算，最高 10 倍，2026-10-21 23:25 UTC+8 公告",
+          "url": "https://www.gate.com/zh/announcements/article/102368"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "ELICE (Elice)",
+          "type": "美股合约",
+          "detail": "Bitget 上线 ELICEUSDT（韩国 AI 基础设施公司 Elice）股票永续合约，最高 20 倍，USDT 结算，24/7 交易，2026-10-21 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898332"
+        },
+        {
+          "token": "EBAY和IBKR和MSCI和HLT和ABBV",
+          "type": "美股合约",
+          "detail": "Bitget 上线 EBAYUSDT（eBay）、IBKRUSDT（盈透证券）、MSCIUSDT（明晟）、HLTUSDT（希尔顿）、ABBVUSDT（艾伯维）股票永续合约，均最高 20 倍，USDT 结算，24/7 交易，2026-10-21 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898430"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约上线",
+          "detail": "Bitget 上线 AXISUSDT 永续合约，最高 20 倍，USDT 结算，支持合约交易机器人，2026-10-21 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898434"
+        },
+        {
+          "token": "ABBV和EBAY和HLT和IBKR和MSCI",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 ABBVUSDT、EBAYUSDT、HLTUSDT、IBKRUSDT、MSCIUSDT 共 5 个股票永续合约，2026-10-21",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898435"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "KIMCHI (Aura Final Boss)",
+          "type": "Meme+ 区",
+          "detail": "MEXC Meme+ 区首发 KIMCHI 现货（SOL 网络），2026-10-21 16:45 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539251"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 AXISUSDT 永续，最高 20 倍，全仓/逐仓，2026-10-21 21:10 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539246"
+        },
+        {
+          "token": "KIMCHI",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 KIMCHIUSDT 永续，最高 20 倍，全仓/逐仓，2026-10-21 23:45 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-kimchiusdt-futures-in-innovation-zone-on-oct-21-2026-15-17827791539254"
+        },
+        {
+          "token": "MSCI和GM和CB和NOC",
+          "type": "美股合约",
+          "detail": "MEXC 上线 MSCIUSDT（明晟）、GMUSDT（通用汽车）、CBUSDT（安达）、NOCUSDT（诺斯洛普·格鲁曼）美股永续合约，均最高 20 倍，全仓/逐仓，2026-10-21 21:00 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539253"
+        },
+        {
+          "token": "PH和WM和KMI和MDLZ和MPLX",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 PHUSDT、WMUSDT、KMIUSDT、MDLZUSDT、MPLXUSDT，均最高 20 倍，2026-10-21",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-ph-wm-kmi-mdlz-and-mplx-usdt-m-futures-17827791539248"
+        }
+      ]
+    }
+  }
+}

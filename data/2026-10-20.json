@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-20",
+  "updatedAt": "2026-10-26T00:00:00+00:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "RUM和CRML和CVNA和MP和TWST",
+          "type": "美股合约",
+          "detail": "OKX 上线 RUM（Rumble）、CRML（Critical Metals）、CVNA（Carvana）、MP（MP Materials）、TWST（Twist Bioscience）美股永续合约，USDT 结算，最高 20 倍杠杆，2026-10-20 17:00–18:00 UTC+8 陆续开盘",
+          "url": "https://www.okx.com/help"
+        },
+        {
+          "token": "XNFLX",
+          "type": "美股合约",
+          "detail": "OKX 上线 XNFLX-USDC（Netflix 代币化股票）现货，2026-10-20 18:00 UTC+8",
+          "url": "https://www.okx.com/help"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": []
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MPLX (MPLX)",
+          "type": "合约 + 跟单",
+          "detail": "Gate 上线 MPLXUSDT 永续合约，最高 20 倍杠杆，同步支持交易机器人和跟单，2026-10-20 18:07 UTC+8",
+          "url": "https://www.gate.com/zh/announcements/article/102335"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "首发上币 AI区",
+          "detail": "Bitget AI 专区首发 AXIS/USDT 现货+闪兑，2026-10-21 21:00 UTC+8 开盘；现货交易开始后 10 分钟内开放闪兑。公告 2026-10-20 发布",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898107"
+        },
+        {
+          "token": "TWDELTA和TWUMC和WALSIN",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 TWDELTAUSDT、TWUMCUSDT、WALSINUSDT 共 3 个永续合约，2026-10-20",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898196"
+        },
+        {
+          "token": "CT和JPMUFG和MURATA和TAIYOYUDEN和TOYOTA",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 CTUSDT、JPMUFGUSDT、MURATAUSDT、TAIYOYUDENUSDT、TOYOTAUSDT 共 5 个永续合约，2026-10-20",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898198"
+        },
+        {
+          "token": "JIO和JPSONY和NANYA和TWASX和TWTSM和WINBOND和YAGEO",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 JIOUSDT、JPSONYUSDT、NANYAUSDT、TWASXUSDT、TWTSMUSDT、WINBONDUSDT、YAGEOUSDT 共 7 个永续合约，2026-10-20",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898197"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Metaplex (MPLX)",
+          "type": "创新区现货",
+          "detail": "MEXC 创新区首发上线 MPLX/USDT 现货，2026-10-20 18:20 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-metaplex-mplx-in-innovation-zone-17827791539243"
+        },
+        {
+          "token": "MPLX (MPLX)",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 MPLXUSDT 永续，最高 20 倍，全仓/逐仓，2026-10-20 20:30 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539241"
+        },
+        {
+          "token": "GTC",
+          "type": "合约上线",
+          "detail": "MEXC 上线 GTCUSDT 永续合约，最高 20 倍，全仓/逐仓，2026-10-20 11:50 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-gtcusdt-futures-on-oct-20-2026-03-17827791539225"
+        },
+        {
+          "token": "PH和WM和KMI和MDLZ",
+          "type": "美股合约",
+          "detail": "MEXC 上线 PHUSDT（派克汉尼汾）、WMUSDT（Waste Management）、KMIUSDT（Kinder Morgan）、MDLZUSDT（亿滋）美股永续合约，均最高 20 倍，全仓/逐仓，2026-10-20 20:30 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539242"
+        },
+        {
+          "token": "GTC",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 GTC/USDT，最高 20 倍，2026-10-20",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-gtc-usdt-m-futures-17827791539226"
+        },
+        {
+          "token": "ALLSTOCK和EOG和LHX和NXPI和DIASTOCK",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 ALLSTOCKUSDT、EOGUSDT、LHXUSDT、NXPIUSDT、DIASTOCKUSDT 股票/ETF 合约，均最高 20 倍，2026-10-20",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-allstock-eog-lhx-nxpi-and-diastock-usdt-m-futures-17827791539227"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "首发现货 + 闪兑",
+          "detail": "MEXC 创新区首发 AXIS/USDT 现货，2026-10-21 21:00 UTC+8 开盘；闪兑于现货开盘 1 小时后（22:00）开放。公告 2026-10-20 发布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539229"
+        },
+        {
+          "token": "RealGo (RT)",
+          "type": "首发现货",
+          "detail": "MEXC 创新区首发 RT/USDT 现货，2026-10-22 20:00 UTC+8 开盘。公告 2026-10-20 发布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539233"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-23",
+  "updatedAt": "2026-10-26T00:00:00+00:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XACN和XAXTI和XCOST和XDDOG和XGS和XGTLB和XHUT和XJPM",
+          "type": "美股合约",
+          "detail": "OKX 上线 XACN、XAXTI、XCOST（Costco）、XDDOG（Datadog）、XGS、XGTLB（GitLab）、XHUT、XJPM（摩根大通）代币化美股现货，USDT 结算，2026-10-23 14:00–17:30 UTC+8 陆续开盘",
+          "url": "https://www.okx.com/help"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "AXP和CSTOCK和IBKR和BA和CRML和MDTSTOCK",
+          "type": "美股合约",
+          "detail": "Bybit TradFi 永续合约上线 AXPUSDT（美国运通）、CSTOCKUSDT、IBKRUSDT（盈透证券）、BAUSDT（波音）、CRMLUSDT、MDTSTOCKUSDT（美敦力），2026-10-23 18:00 UTC+8（11:00–11:05 UTC）开盘",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-axpusdt-on-bybit-tradfi-perpetual-on-oct-23-2026-11-00am-utc--artc4e61b5ec30f/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": []
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "MDT和DHR和MXL和MSCI和HLT",
+          "type": "美股合约",
+          "detail": "Gate 股票专区上线 MDTUSDT（美敦力）、DHRUSDT（丹纳赫）、MXLUSDT（迈思凌）、MSCIUSDT（明晟）、HLTUSDT（希尔顿）永续合约，均最高 20 倍，2026-10-23 17:00 UTC+8 开盘，上线后 1 小时内开放跟单及机器人",
+          "url": "https://www.gate.com/zh/announcements/article/102393"
+        },
+        {
+          "token": "Pearl (PEARL)",
+          "type": "现货 + 闪兑",
+          "detail": "Gate 上线 PEARL/USDT 现货，2026-10-23 21:00 UTC+8 开盘；闪兑于当日 22:00 开放",
+          "url": "https://www.gate.com/zh/announcements/article/102410"
+        },
+        {
+          "token": "ValueX Chain (VLX)",
+          "type": "首发现货",
+          "detail": "Gate 首发上线 VLX/USDT 现货，开盘时间待定，2026-10-23 21:48 UTC+8 公告",
+          "url": "https://www.gate.com/zh/announcements/article/102411"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "SPOT和PG和CSX",
+          "type": "美股合约",
+          "detail": "Bitget 上线 SPOTUSDT（Spotify）、PGUSDT（宝洁）、CSXUSDT（CSX）股票永续合约，均最高 20 倍，USDT 结算，24/7 交易，2026-10-23 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898699"
+        },
+        {
+          "token": "CSX和PG和SPOT",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 CSXUSDT、PGUSDT、SPOTUSDT 共 3 个股票永续合约，2026-10-23",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898703"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "HON和MMM和CTSH和TSCO和ABBV",
+          "type": "美股合约",
+          "detail": "MEXC 上线 HONUSDT（霍尼韦尔）、MMMUSDT（3M）、CTSHUSDT（Cognizant）、TSCOUSDT（Tractor Supply）、ABBVUSDT（艾伯维）美股永续合约，均最高 20 倍，全仓/逐仓，2026-10-23 21:00 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539303"
+        },
+        {
+          "token": "LAZBUBU AI (LALA)",
+          "type": "创新区现货",
+          "detail": "MEXC 创新区首发 LALA/USDT 现货，2026-10-25 18:00 UTC+8 开盘。公告 2026-10-23 发布",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539298"
+        },
+        {
+          "token": "CMI和HLT和SPGI和MCHP和UAL",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 CMIUSDT、HLTUSDT、SPGIUSDT、MCHPUSDT、UALUSDT 美股永续，均最高 20 倍，2026-10-23",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-cmi-hlt-spgi-mchp-and-ual-usdt-m-futures-17827791539296"
+        },
+        {
+          "token": "RealGo (RT)",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 RT/USDT，最高 20 倍，2026-10-23",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rt-usdt-m-futures-17827791539297"
+        }
+      ]
+    }
+  }
+}

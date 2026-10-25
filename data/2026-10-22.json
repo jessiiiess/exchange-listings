@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-26T00:00:00+00:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "BTW",
+          "type": "合约上线",
+          "detail": "OKX 上线 BTW-USDT-SWAP 永续合约（加密货币），最高 20 倍杠杆，2026-10-22 16:00 UTC+8",
+          "url": "https://www.okx.com/help"
+        },
+        {
+          "token": "VST和GE和NVO和ABBV和AMGN和PANW",
+          "type": "美股合约",
+          "detail": "OKX 上线 VST（Vistra）、GE（通用电气）、NVO（诺和诺德）、ABBV（艾伯维）、AMGN（安进）、PANW（Palo Alto Networks）美股永续合约，USDT 结算，最高 20 倍，2026-10-22 16:30–17:45 UTC+8 陆续开盘",
+          "url": "https://www.okx.com/help"
+        },
+        {
+          "token": "XWDC",
+          "type": "美股合约",
+          "detail": "OKX 上线 XWDC-USDC（Western Digital 代币化股票）现货，2026-10-22 17:00 UTC+8",
+          "url": "https://www.okx.com/help"
+        }
+      ]
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "LMT和MXL和PG",
+          "type": "美股合约",
+          "detail": "Bybit TradFi 永续合约上线 LMTUSDT（洛克希德·马丁）、MXLUSDT、PGUSDT（宝洁），2026-10-22 18:00 UTC+8（10:00 UTC）开盘",
+          "url": "https://announcements.bybit.com/zh-TW/article/new-listing-listing-of-pgusdt-on-bybit-tradfi-perpetual-on-oct-22-2026-10-00am-utc--art2ad8a831d7b6/"
+        }
+      ]
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "合约上线",
+          "detail": "KuCoin Futures 上线 AXISUSDT 永续合约，最高 20 倍杠杆，2026-10-22 12:33 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-axisusdt-perpetual-contract-with-up-to-20x-leverage"
+        },
+        {
+          "token": "Axis Robotics (AXIS)",
+          "type": "现货上线",
+          "detail": "KuCoin 现货上线 AXIS，2026-10-22 14:39 UTC+8 公告",
+          "url": "https://www.kucoin.com/announcement/en-axis-robotics-axis-listed-on-kucoin"
+        }
+      ]
+    },
+    "gateio": {
+      "listings": [
+        {
+          "token": "Aura Final Boss (KIMCHI)",
+          "type": "合约上线",
+          "detail": "Gate 合约 Meme 专区上线 KIMCHIUSDT 永续，最高 10 倍，已开放跟单及机器人，2026-10-22 14:47 UTC+8 公告",
+          "url": "https://www.gate.com/zh/announcements/article/102377"
+        }
+      ]
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "DHR和TSTOCK",
+          "type": "美股合约",
+          "detail": "Bitget 上线 DHRUSDT（丹纳赫）、TSTOCKUSDT（AT&T）股票永续合约，均最高 20 倍，USDT 结算，24/7 交易，2026-10-22 上线",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898581"
+        },
+        {
+          "token": "DHR和TSTOCK",
+          "type": "合约 + 跟单",
+          "detail": "Bitget 合约跟单新增 DHRUSDT、TSTOCKUSDT 共 2 个股票永续合约，2026-10-22",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603898582"
+        }
+      ]
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "predict.fun (PREDICT)",
+          "type": "盘前转正式合约",
+          "detail": "MEXC 盘前合约上线 PREDICTUSDT，2026-10-22 11:15 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-predictusdt-on-pre-market-futures-17827791539262"
+        },
+        {
+          "token": "RealGo (RT)",
+          "type": "合约上线",
+          "detail": "MEXC 合约创新区上线 RTUSDT 永续，最高 20 倍，全仓/逐仓，2026-10-22 20:10 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/first-in-market-17827791539279"
+        },
+        {
+          "token": "CMI和HLT和SPGI和MCHP和UAL",
+          "type": "美股合约",
+          "detail": "MEXC 上线 CMIUSDT（康明斯）、HLTUSDT（希尔顿）、SPGIUSDT（标普全球）、MCHPUSDT（微芯科技）、UALUSDT（联合航空）美股永续合约，均最高 20 倍，全仓/逐仓，2026-10-22 21:00 UTC+8 开盘",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-to-list-cmi-hlt-spgi-mchp-and-ual-stock-futures-on-oct-22-17827791539283"
+        },
+        {
+          "token": "PREDICT和KIMCHI和AXIS",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 PREDICTUSDT（盘前）、KIMCHIUSDT、AXISUSDT，均最高 20 倍，2026-10-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-predict-kimchi-and-axis-usdt-m-futures-17827791539264"
+        },
+        {
+          "token": "MSCI和GMSTOCK和CB和NOC",
+          "type": "合约 + 跟单",
+          "detail": "MEXC 合约跟单新增 MSCIUSDT、GMSTOCKUSDT（通用汽车）、CBUSDT、NOCUSDT 美股永续，均最高 20 倍，2026-10-22",
+          "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-msci-gmstock-cb-and-noc-usdt-m-futures-17827791539265"
+        }
+      ]
+    }
+  }
+}
