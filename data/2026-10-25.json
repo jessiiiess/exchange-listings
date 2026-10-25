@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-26T00:37:21+08:00",
+  "updatedAt": "2026-10-26T00:49:30+08:00",
   "exchanges": {
     "binance": {
       "listings": [
@@ -12,7 +12,39 @@
         }
       ],
       "alpha": [],
-      "wallet": []
+      "wallet": [],
+      "verification": {
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-10-26T00:49:30+08:00",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00",
+          "basis": "listingTime",
+          "recordsChecked": 685,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "latestListing": {
+            "token": "Axis Robotics (AXIS)",
+            "time": "2026-10-21T19:00:00+08:00"
+          },
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list",
+            "https://developers.binance.com/en/docs/catalog/advanced-trading-alpha-trading/api/rest-api/market-data"
+          ],
+          "emptyMessage": "官方 Alpha API 核对：当日及前一日18:00后无新增上线记录"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T00:49:30+08:00",
+          "scope": "TGE / Pre-TGE",
+          "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
+            "https://t.me/s/binance_wallet_announcements"
+          ],
+          "limitation": "未取得完整历史 TGE / Pre-TGE 活动列表；不能把公开渠道未检索到解释为确定没有新增。",
+          "emptyMessage": "公开渠道未检索到新增 TGE / Pre-TGE；完整活动列表待核实"
+        }
+      }
     },
     "okx": {
       "listings": []

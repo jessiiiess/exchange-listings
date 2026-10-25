@@ -91,7 +91,7 @@ function renderExchanges(container, exchanges) {
       if (alpha.length > 0) {
         html += renderTable(alpha);
       } else {
-        html += `<p class="empty-msg">今日无新增代币</p>`;
+        html += `<p class="empty-msg">${escapeHtml(data.verification?.alpha?.emptyMessage || '今日无新增代币')}</p>`;
       }
       html += `</div>`;
 
@@ -100,7 +100,7 @@ function renderExchanges(container, exchanges) {
       if (wallet.length > 0) {
         html += renderTable(wallet);
       } else {
-        html += `<p class="empty-msg">今日无新代币上线</p>`;
+        html += `<p class="empty-msg">${escapeHtml(data.verification?.wallet?.emptyMessage || '今日无新代币上线')}</p>`;
       }
       html += `</div>`;
     }
