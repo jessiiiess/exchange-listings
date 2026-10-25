@@ -1,0 +1,4 @@
+interface:
+  display_name: "交易所上新网站更新"
+  short_description: "核查七家交易所及币安 Alpha、Wallet 的上新公告并发布网站"
+  default_prompt: "使用 $update-exchange-listings 核查今天及昨天遗漏的上线公告，更新网站并验证部署结果。"
