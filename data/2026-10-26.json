@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-26",
+  "updatedAt": "2026-10-26T18:34:08+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "EIDO和EQT和STM和ABBV",
+          "type": "美股/ETF永续合约",
+          "detail": "公告发布：2026-10-26T14:15:01.713+08:00（UTC+8）。上线 EIDOUSDT（iShares MSCI Indonesia ETF）、EQTUSDT（EQT Corporation）、STMUSDT（STMicroelectronics）、ABBVUSDT（AbbVie），均最高 20 倍、USDT 结算、24/7，支持多资产模式；2026-10-26 17:00、17:05、17:10、17:15（UTC+8）依次开盘。EIDO 为 ETF，其余为股票。",
+          "url": "https://www.binance.com/en/support/announcement/detail/02d204fc963f4f8687599fc22a13d538",
+          "announcedAt": "2026-10-26T14:15:01.713+08:00",
+          "launchAt": [
+            "2026-10-26T17:00:00+08:00",
+            "2026-10-26T17:05:00+08:00",
+            "2026-10-26T17:10:00+08:00",
+            "2026-10-26T17:15:00+08:00"
+          ],
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "USDC/AED",
+          "type": "现货新增交易对",
+          "detail": "公告发布：2026-10-26 15:30（UTC+8）。新增 USDC/AED 现货交易对及现货算法订单，2026-10-28 16:00（UTC+8）开盘；AED 为阿联酋迪拉姆法币。本条为新增交易对，不是新代币发行。",
+          "url": "https://www.binance.com/en/support/announcement/detail/8a61b05a34694eab8e2044b6e005e85a",
+          "announcedAt": "2026-10-26T15:30:00.000+08:00",
+          "launchAt": "2026-10-28T16:00:00+08:00",
+          "timeBasis": "announcementTime"
+        }
+      ],
+      "alpha": [],
+      "wallet": [],
+      "verification": {
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
+          ],
+          "coverageMessage": "已核对上新及最新消息分类，收录 2 则。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "已核对上新及最新消息分类，收录 2 则。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "coverageMessage": "官方 Alpha API 返回记录中，本次窗口无新增上线；按 listingTime 核查（含 offline）。",
+          "emptyMessage": "官方 Alpha API 返回记录中，本次窗口无新增上线；按 listingTime 核查（含 offline）。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00",
+          "basis": "listingTime",
+          "recordsChecked": 685,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "latestListing": {
+            "token": "Axis Robotics (AXIS)",
+            "time": "2026-10-21T19:00:00.000+08:00"
+          }
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
+            "https://t.me/s/binance_wallet_announcements"
+          ],
+          "coverageMessage": "待核实：已检索官方 Square/Telegram 公开内容，仍未取得完整 TGE / Pre-TGE 历史活动列表；不能据未检索到认定无新增。",
+          "emptyMessage": "待核实：已检索官方 Square/Telegram 公开内容，仍未取得完整 TGE / Pre-TGE 历史活动列表；不能据未检索到认定无新增。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00",
+          "scope": "TGE / Pre-TGE",
+          "limitation": "公开页面历史覆盖不完整；部分帖子未暴露准确日期。"
+        }
+      }
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "GEVUSD和NOWUSD",
+          "type": "美股 X-Perp",
+          "detail": "公告日期：2026-10-26（官网仅显示日期，未核实发布时间及展示时区）。上线 GEVUSD、NOWUSD 股权 USD Expiry Perps（X-Perp），2026-10-26 16:30、16:45（UTC+8）依次开盘，支持网页、App 和 API；本公告未披露最高杠杆。",
+          "url": "https://www.okx.com/help/okx-to-list-gevusd-and-nowusd-equity-x-perps",
+          "announcedDate": "2026-10-26",
+          "launchAt": [
+            "2026-10-26T16:30:00+08:00",
+            "2026-10-26T16:45:00+08:00"
+          ],
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings"
+          ],
+          "coverageMessage": "已核对官网上新分类；部分产品/地区公告及精确发布时间仍待补核。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "已核对官网上新分类；部分产品/地区公告及精确发布时间仍待补核。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Predict.fun (PREDICT)",
+          "type": "盘前永续合约",
+          "detail": "公告日期：2026-10-26（官网只显示日期，未核实具体发布时间）。PREDICTUSDT 盘前永续于 2026-10-26 18:00（UTC+8）上线；公告未披露最高杠杆。盘前上线不代表保证转为正式永续。",
+          "url": "https://announcements.bybit.com/en/article/bybit-to-list-pre-market-perpetuals-for-predictusdt-on-oct-26-2026-10-00am-utc--art63ae9bbf2a84/",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T18:00:00+08:00",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "AbbVie (ABBV)",
+          "type": "美股永续合约",
+          "detail": "公告日期：2026-10-26（官网只显示日期，未核实具体发布时间）。ABBVUSDT TradFi 股票永续于 2026-10-26 18:00（UTC+8）开盘，最高 25 倍，USDT 结算，24/7；支持合约网格、马丁格尔及组合机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-abbvusdt-on-bybit-tradfi-perpetual-on-oct-26-2026-10-00am-utc--art9f876bb7aada/",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T18:00:00+08:00",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "TTM Technologies (TTMI)",
+          "type": "美股永续合约",
+          "detail": "公告日期：2026-10-26（官网只显示日期，未核实具体发布时间）。TTMIUSDT TradFi 股票永续于 2026-10-26 18:00（UTC+8）开盘，最高 25 倍，USDT 结算，24/7；支持合约网格、马丁格尔及组合机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-ttmiusdt-on-bybit-tradfi-perpetual-on-oct-26-2026-10-00am-utc--art1877c5f450b3/",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T18:00:00+08:00",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "Axe Compute (AGPU)",
+          "type": "美股永续合约",
+          "detail": "公告日期：2026-10-26（官网只显示日期，未核实具体发布时间）。AGPUUSDT TradFi 股票永续于 2026-10-26 18:00（UTC+8）开盘，最高 25 倍，USDT 结算，24/7；支持合约网格、马丁格尔及组合机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-agpuusdt-on-bybit-tradfi-perpetual-on-oct-26-2026-10-00am-utc--art19ffe527cd4f/",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T18:00:00+08:00",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto"
+          ],
+          "coverageMessage": "已核对官网上新分类，收录 4 则；公告 API 无法访问，单独跟单分类未取得，覆盖待补核。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "已核对官网上新分类，收录 4 则；公告 API 无法访问，单独跟单分类未取得，覆盖待补核。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Predict.fun (PREDICT)",
+          "type": "盘前永续合约",
+          "detail": "官网发布时间显示 2026/10/26 11:32:00，但页面未标明其时区，故不转换为北京时间。上线 PREDICTUSDT USDT 本位盘前永续，2026-10-26 11:00（UTC+8）开盘，最高 5 倍，USDT 结算，24/7；资金费每 4 小时结算。",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-predictusdt-perpetual-contract-pre-market-trading",
+          "announcedDate": "2026-10-26",
+          "publishedTimeDisplay": "2026/10/26 11:32:00",
+          "publishedTimeZone": "unconfirmed",
+          "launchAt": "2026-10-26T11:00:00+08:00",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings",
+            "https://www.kucoin.com/announcement"
+          ],
+          "coverageMessage": "已核对官网上新与近期公告；公告 API 无法访问，发布时间展示时区待核实。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "已核对官网上新与近期公告；公告 API 无法访问，发布时间展示时区待核实。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd"
+          ],
+          "coverageMessage": "所查现货、合约、TradFi/CFD 分类未发现本日新增上线公告；仅限已检查分类。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "所查现货、合约、TradFi/CFD 分类未发现本日新增上线公告；仅限已检查分类。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support"
+          ],
+          "coverageMessage": "所查上币 API、现货/合约分类及 support sitemap 未发现本日新增上线公告。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "所查上币 API、现货/合约分类及 support sitemap 未发现本日新增上线公告。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "GANG",
+          "type": "Meme+ 区现货",
+          "detail": "公告页面本次显示“约 1 小时前”，归档日期 2026-10-26，具体发布时间待核实。GANG/USDT 上线 Meme+ 区，BSC 网络，2026-10-26 16:00（UTC+8）开盘；现货网格在开盘 1 小时后开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539358",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T16:00:00+08:00",
+          "timeBasis": "announcementDate",
+          "contractAddress": "0x0c6302401aa5325C2E36F170f52C00B1d220B405"
+        },
+        {
+          "token": "EIDO和STM",
+          "type": "美股/ETF永续合约",
+          "detail": "公告页面本次显示“约 1–2 小时前”，归档日期 2026-10-26，具体发布时间待核实。EIDOUSDT（iShares MSCI Indonesia ETF）和 STMUSDT（STMicroelectronics）于 2026-10-26 17:30（UTC+8）开盘，均最高 20 倍，支持全仓/逐仓，24/7；合约网格在上线 5 分钟内开放。EIDO 为 ETF，STM 为股票。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-eido-and-stm-stock-futures-on-oct-26-17827791539356",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T17:30:00+08:00",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "EQT Corporation (EQT)",
+          "type": "美股永续合约",
+          "detail": "公告页面本次显示“约 2 小时前”，归档日期 2026-10-26，具体发布时间待核实。首发 EQTUSDT 股票永续，2026-10-26 17:00（UTC+8）开盘，最高 20 倍，支持全仓/逐仓、24/7；合约网格在上线 5 分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539355",
+          "announcedDate": "2026-10-26",
+          "launchAt": "2026-10-26T17:00:00+08:00",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "HON和MMM和CTSH和TSCO和ABBV",
+          "type": "跟单新增交易对",
+          "detail": "公告页面本次显示“约 4 小时前”，归档日期 2026-10-26，具体发布时间待核实。合约跟单新增 HONUSDT、MMMUSDT、CTSHUSDT、TSCOUSDT、ABBVUSDT 股票永续，跟单最高均为 20 倍；公告称现已支持，未披露独立开盘时刻。",
+          "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-hon-mmm-ctsh-tsco-and-abbv-usdt-m-futures-17827791539342",
+          "announcedDate": "2026-10-26",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings"
+          ],
+          "coverageMessage": "已核对中英文上新页并确认英文第 2 页降至 10 月 22 日；相对发布时间无法还原为精确时分。KAMIRAI 今日结果公告沿用 10 月 23 日上线安排，已回补原日期，不重复计入。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "emptyMessage": "已核对中英文上新页并确认英文第 2 页降至 10 月 22 日；相对发布时间无法还原为精确时分。KAMIRAI 今日结果公告沿用 10 月 23 日上线安排，已回补原日期，不重复计入。核查截至 2026-10-26T18:34:08+08:00；当日尚未结束。",
+          "windowStart": "2026-10-25T18:00:00+08:00",
+          "windowEnd": "2026-10-26T18:34:08+08:00"
+        }
+      }
+    }
+  }
+}

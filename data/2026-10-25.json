@@ -1,14 +1,17 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-26T00:49:30+08:00",
+  "updatedAt": "2026-10-26T18:34:08+08:00",
   "exchanges": {
     "binance": {
       "listings": [
         {
           "token": "Predict.fun (PREDICT)",
           "type": "合约 + 跟单",
-          "detail": "币安上线 PREDICTUSDT USDT 本位永续合约盘前交易，2026-10-25 16:15（UTC+8）开盘（公告已更新上线时间），最高 5 倍杠杆，USDT 结算，24/7 交易；上线后 24 小时内开放合约跟单。",
-          "url": "https://www.binance.com/en/support/announcement/detail/5ef55cf8358e4a48b2512a156e89c8e5"
+          "detail": "公告发布：2026-10-25T15:05:15.552+08:00（UTC+8）。币安上线 PREDICTUSDT USDT 本位永续合约盘前交易，2026-10-25 16:15（UTC+8）开盘（公告已更新上线时间），最高 5 倍杠杆，USDT 结算，24/7 交易；上线后 24 小时内开放合约跟单。",
+          "url": "https://www.binance.com/en/support/announcement/detail/5ef55cf8358e4a48b2512a156e89c8e5",
+          "announcedAt": "2026-10-25T15:05:15.552+08:00",
+          "launchAt": "2026-10-25T16:15:00+08:00",
+          "timeBasis": "announcementTime"
         }
       ],
       "alpha": [],
@@ -16,7 +19,12 @@
       "verification": {
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-10-26T00:49:30+08:00",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "coverageMessage": "官方 Alpha API 返回记录中，本次窗口无新增上线；按 listingTime 核查（含 offline）。",
+          "emptyMessage": "官方 Alpha API 返回记录中，本次窗口无新增上线；按 listingTime 核查（含 offline）。",
           "windowStart": "2026-10-24T18:00:00+08:00",
           "windowEnd": "2026-10-26T00:00:00+08:00",
           "basis": "listingTime",
@@ -25,44 +33,142 @@
           "includesOfflineRecords": true,
           "latestListing": {
             "token": "Axis Robotics (AXIS)",
-            "time": "2026-10-21T19:00:00+08:00"
-          },
-          "sources": [
-            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list",
-            "https://developers.binance.com/en/docs/catalog/advanced-trading-alpha-trading/api/rest-api/market-data"
-          ],
-          "emptyMessage": "官方 Alpha API 核对：当日及前一日18:00后无新增上线记录"
+            "time": "2026-10-21T19:00:00.000+08:00"
+          }
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-10-26T00:49:30+08:00",
-          "scope": "TGE / Pre-TGE",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
           "sources": [
             "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
           ],
-          "limitation": "未取得完整历史 TGE / Pre-TGE 活动列表；不能把公开渠道未检索到解释为确定没有新增。",
-          "emptyMessage": "公开渠道未检索到新增 TGE / Pre-TGE；完整活动列表待核实"
+          "coverageMessage": "待核实：已检索官方 Square/Telegram 公开内容，仍未取得完整 TGE / Pre-TGE 历史活动列表；不能据未检索到认定无新增。",
+          "emptyMessage": "待核实：已检索官方 Square/Telegram 公开内容，仍未取得完整 TGE / Pre-TGE 历史活动列表；不能据未检索到认定无新增。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00",
+          "scope": "TGE / Pre-TGE",
+          "limitation": "公开页面历史覆盖不完整；部分帖子未暴露准确日期。"
+        },
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
         }
       }
     },
     "okx": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     },
     "bybit": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     },
     "kucoin": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings",
+            "https://www.kucoin.com/announcement"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     },
     "gateio": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     },
     "bitget": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "checked_sources",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     },
     "mexc": {
-      "listings": []
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-26T18:34:08+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings"
+          ],
+          "coverageMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "emptyMessage": "补查 10 月 25 日及 24 日 18:00 后跨日候选，所查来源未发现需新增至 25 日的其他上线公告；保留已收录条目。部分公告时间或分类覆盖不完整，仍待补核。",
+          "windowStart": "2026-10-24T18:00:00+08:00",
+          "windowEnd": "2026-10-26T00:00:00+08:00"
+        }
+      }
     }
   }
 }

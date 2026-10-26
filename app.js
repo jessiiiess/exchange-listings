@@ -81,8 +81,11 @@ function renderExchanges(container, exchanges) {
     const listings = data.listings || [];
     if (listings.length > 0) {
       html += renderTable(listings);
+      if (data.verification?.listings?.coverageMessage) {
+        html += `<p class="empty-msg">${escapeHtml(data.verification.listings.coverageMessage)}</p>`;
+      }
     } else {
-      html += `<p class="empty-msg">今日无新币上线</p>`;
+      html += `<p class="empty-msg">${escapeHtml(data.verification?.listings?.emptyMessage || '今日无新币上线')}</p>`;
     }
 
     if (key === 'binance') {

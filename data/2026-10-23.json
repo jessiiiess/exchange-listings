@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-26T00:00:00+00:00",
+  "updatedAt": "2026-10-26T18:34:08+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -93,6 +93,16 @@
           "type": "合约 + 跟单",
           "detail": "MEXC 合约跟单新增 RT/USDT，最高 20 倍，2026-10-23",
           "url": "https://www.mexc.com/zh-TW/announcements/article/mexc-copy-trade-now-supports-rt-usdt-m-futures-17827791539297"
+        },
+        {
+          "token": "Kamirai (KAMIRAI)",
+          "type": "首发现货",
+          "detail": "公告日期：2026-10-23（官网只显示日期，具体发布时间及时区未核实）。首发 KAMIRAI/USDT 现货，上线安排为 2026-10-26 18:00（UTC+8）；10 月 26 日结果公告进一步确认创新区开盘及现货网格于开盘 1 小时后开放。本条从混合 Kickstarter 公告提取真实上线内容，不列空投奖励。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539291",
+          "announcedDate": "2026-10-23",
+          "launchAt": "2026-10-26T18:00:00+08:00",
+          "timeBasis": "announcementDate",
+          "confirmationUrl": "https://www.mexc.com/announcements/article/voting-result-and-listing-arrangement-for-kamirai-kamirai-kickstarter-17827791539344"
         }
       ]
     }
