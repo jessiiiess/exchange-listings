@@ -33,3 +33,8 @@ GET https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alp
 保留根字段 date/updatedAt/exchanges。exchange keys 为 binance/okx/bybit/kucoin/gateio/bitget/mexc，各有 listings 数组，binance 另有 alpha/wallet 数组。每条至少 token/type/detail/url；已核实时间可加 announcedAt/launchAt/timeBasis。只有日期可用 announcedDate 与精度说明，不编造秒级时间。
 
 verification 应与 listings 平级，避免被索引脚本误作条目。Alpha 已有状态 `no_matches_in_returned_records`，Wallet 已有 `partial_check`；emptyMessage 的前端兼容已在 app.js 实现。其他来源如需待核实提示，先检查并补齐对应 renderer，再发布，不能只写隐藏元数据。
+
+
+## 页面展示偏好（2026-10-26 更新，优先于前文展示规则）
+
+按用户要求，交易所、Alpha、Wallet 的空列表统一显示“今日无新币上线”，不显示“待核实”或覆盖范围提示；有条目时也不追加 verification.coverageMessage。保留后台真实 verification 状态、来源和限制供后续补漏，空态文案不代表所有来源已完整核实。日常结果简报不再重复待核实提示；实际发布失败仍如实报告。不要为了页面简洁而删除核查记录或虚构已核实时间。
