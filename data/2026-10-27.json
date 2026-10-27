@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-27",
+  "updatedAt": "2026-10-27T18:34:39+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "sources": [
+            "https://t.me/s/binance_wallet_announcements"
+          ]
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "recordsChecked": 685,
+          "includesOfflineRecords": true,
+          "basis": "listingTime"
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "CEG和BAC和IBKR和MPWR",
+          "type": "永续 / X-Perp",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。CEG/USDT、BAC/USDT、IBKR/USDT、MPWR/USDT 于2026-10-27 18:00、18:15、18:30、18:45（UTC+8）依次开盘，USDT本位、24/7；最高杠杆未披露。",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-futures-for-ceg-bac-ibkr-and-mpwr",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "HUMAUSD",
+          "type": "永续 / X-Perp",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。HUMAUSD UM X-Perp 于2026-10-27 16:00（UTC+8）开盘；最高杠杆未披露。",
+          "url": "https://www.okx.com/help/okx-to-list-humausd-x-perp",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "ASMLUSD和ONUSD和ALABUSD",
+          "type": "永续 / X-Perp",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。股权X-Perp于2026-10-27 16:30、16:45、17:00（UTC+8）依次开盘；最高杠杆未披露。",
+          "url": "https://www.okx.com/help/okx-to-list-asmlusd-onusd-and-alabusd-equity-x-perps",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "EIDOUSDT",
+          "type": "股票/ETF永续",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。EIDOUSDT，2026-10-27 18:30（UTC+8）开盘，最高25倍，USDT结算，24/7，支持合约机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-eidousdt-on-bybit-tradfi-perpetual-on-oct-27-2026-10-30am-utc--artf6104f150eda/",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "EQTUSDT",
+          "type": "股票/ETF永续",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。EQTUSDT，2026-10-27 18:30（UTC+8）开盘，最高25倍，USDT结算，24/7，支持合约机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-eqtusdt-on-bybit-tradfi-perpetual-on-oct-27-2026-10-30am-utc--arta5560f164247/",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "STMUSDT",
+          "type": "股票/ETF永续",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。STMUSDT，2026-10-27 18:30（UTC+8）开盘，最高25倍，USDT结算，24/7，支持合约机器人。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-stmusdt-on-bybit-tradfi-perpetual-on-oct-27-2026-10-30am-utc--artf6de65ad7c28/",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "PYPL和GEV和NET和PANW和TXN",
+          "type": "美股永续合约",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。PYPLUSDT、GEVUSDT、NETUSDT、PANWUSDT、TXNUSDT 于2026-10-27 17:00（UTC+8）开盘，最高20倍，USDT结算、24/7；标的为五只个股。",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-10-27",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "NaoX Protocol (NAORIS)",
+          "type": "现货",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。NAORIS/USDT，ETH-ERC20；2026-10-27 17:00–18:00（UTC+8）集合竞价，18:00开盘，支持现货机器人。",
+          "url": "https://www.kucoin.com/announcement/en-naox-protocol-naoris-listed-on-kucoin",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "HONHAI和MEDIATEK",
+          "type": "台湾股票永续",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。HONHAIUSDT（鸿海）、MEDIATEKUSDT（联发科），2026-10-27上线，最高20倍，USDT结算，24/7；未披露具体开盘时分。",
+          "url": "https://www.bitget.com/support/articles/12560603898876",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EMR和EIDO和STM和EQT",
+          "type": "跟单新增对",
+          "detail": "公告日期：2026-10-27；具体发布时间的时区未确认。跟单新增EMRUSDT、EIDOUSDT、STMUSDT、EQTUSDT，最高20倍；官方上新列表正文确认，独立详情链接尚未取得，链接指向官方列表。",
+          "url": "https://www.mexc.com/announcements/new-listings",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-27T18:34:39+08:00",
+          "limitation": "核查公开分类和已取得正文；其他分类及精确发布时间覆盖不完整。"
+        }
+      }
+    }
+  }
+}

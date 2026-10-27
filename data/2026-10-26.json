@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T18:34:08+08:00",
+  "updatedAt": "2026-10-27T18:34:39+08:00",
   "exchanges": {
     "binance": {
       "listings": [
@@ -210,7 +210,16 @@
       }
     },
     "bitget": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "EIDO和STM和EQT",
+          "type": "股票/ETF永续",
+          "detail": "公告日期：2026-10-26；具体发布时间的时区未确认。EIDOUSDT、STMUSDT、EQTUSDT于2026-10-26上线，最高20倍、USDT结算、24/7；具体开盘时分未披露。",
+          "url": "https://www.bitget.com/support/articles/12560603898835",
+          "announcedDate": "2026-10-26",
+          "timeBasis": "announcementDate"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "checked_sources",
