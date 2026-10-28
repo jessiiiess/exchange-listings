@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T18:34:39+08:00",
+  "updatedAt": "2026-10-28T18:27:50+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -126,7 +126,17 @@
       }
     },
     "gateio": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "Ritual (RITUAL)",
+          "type": "现货 + 闪兑",
+          "detail": "公告日期：2026-10-27（未取得精确发布时间时不推算时分）。公告发布2026-10-27 18:00（UTC+8）；RITUAL/USDT 现货于当日21:00开盘，闪兑22:00开放。",
+          "url": "https://www.gate.com/zh/announcements/article/102459",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-10-27T18:00:00+08:00"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
@@ -144,6 +154,15 @@
           "url": "https://www.bitget.com/support/articles/12560603898876",
           "announcedDate": "2026-10-27",
           "timeBasis": "announcementDate"
+        },
+        {
+          "token": "JIOUSDT",
+          "type": "盘前转正式永续",
+          "detail": "公告日期：2026-10-27（未取得精确发布时间时不推算时分）。JIOUSDT 将在对应股票完成传统市场竞价、开始正常交易后半小时内，在指数稳定条件满足时转为标准USDT本位永续；最高20倍并支持机器人。无固定转换时刻。",
+          "url": "https://www.bitget.com/support/articles/12560603898974",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-10-27T22:00:43+08:00"
         }
       ],
       "verification": {
@@ -163,6 +182,24 @@
           "url": "https://www.mexc.com/announcements/new-listings",
           "announcedDate": "2026-10-27",
           "timeBasis": "announcementDate"
+        },
+        {
+          "token": "CART和RRC和CMG和UPS",
+          "type": "美股永续合约",
+          "detail": "公告日期：2026-10-27（未取得精确发布时间时不推算时分）。CARTUSDT、RRCUSDT、CMGUSDT、UPSUSDT 于2026-10-27 22:00（UTC+8）开盘，均最高20倍，全仓/逐仓，24/7。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539379",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-10-27T22:00:00+08:00"
+        },
+        {
+          "token": "GANGUSDT",
+          "type": "永续合约",
+          "detail": "公告日期：2026-10-27（未取得精确发布时间时不推算时分）。GANGUSDT 于2026-10-27 22:00（UTC+8）开盘，最高20倍，全仓/逐仓；网格在开盘5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-gangusdt-futures-on-oct-27-2026-14-17827791539378",
+          "announcedDate": "2026-10-27",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-10-27T22:00:00+08:00"
         }
       ],
       "verification": {
