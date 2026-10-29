@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T18:28:35+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [
+        {
+          "token": "EWZS和SMR和OXY和AMGN和PFE和MELI",
+          "type": "股票/ETF永续合约",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。EWZSUSDT（巴西小盘ETF）、SMRUSDT（NuScale）、OXYUSDT、AMGNUSDT、PFEUSDT、MELIUSDT 于2026-10-29 18:05、18:10、18:15、18:20、18:25、18:30（UTC+8）依次开盘，均最高20倍，USDT结算、24/7，支持多资产模式。公告发布时间：2026-10-29T16:45:10.993000+08:00。",
+          "url": "https://www.binance.com/en/support/announcement/detail/784c65be33d44de0b2099cadf8742846",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-10-29T16:45:10.993000+08:00"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "recordsChecked": 685,
+          "includesOfflineRecords": true,
+          "missingListingTime": 0,
+          "basis": "listingTime",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ]
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "sources": [
+            "https://t.me/s/binance_wallet_announcements"
+          ]
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Victoria VR (VR)",
+          "type": "永续合约",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。VRUSDT 于2026-10-29 17:00（UTC+8）开盘，最高8倍，USDT结算、24/7，资金费每4小时结算；每张合约1000 VR。",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-new-listing-vrusdt-perpetual-contract-with-up-to-8x-leverage",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "Sonic SVM (SONIC)",
+          "type": "现货",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。SONIC/USDT，SOL-SPL；2026-10-29 16:00–17:00（UTC+8）集合竞价，17:00开盘，支持现货机器人。",
+          "url": "https://www.kucoin.com/announcement/en-sonic-svm-sonic-listed-on-kucoin",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "SKYAI (SKYAI)",
+          "type": "现货",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。SKYAI/USDT，BSC-BEP20；2026-10-29 17:00–18:00（UTC+8）集合竞价，18:00开盘，支持现货机器人。",
+          "url": "https://www.kucoin.com/announcement/en-skyai-skyai-listed-on-kucoin",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "EWZSUSDT",
+          "type": "ETF永续合约",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。EWZSUSDT（巴西小盘ETF）于2026-10-29 18:00（UTC+8）开盘，最高20倍，全仓/逐仓，24/7；合约网格在开盘5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539418",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "XTENUSDT",
+          "type": "跟单新增交易对",
+          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。XTENUSDT（公告标注Pre-Market）新增合约跟单，最高20倍；本次页面显示约5小时前，未披露单独生效时刻。",
+          "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-xten-usdt-m-futures-17827791539412",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+        }
+      }
+    }
+  }
+}

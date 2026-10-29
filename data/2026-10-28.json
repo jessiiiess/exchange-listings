@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T18:27:50+08:00",
+  "updatedAt": "2026-10-29T18:28:35+08:00",
   "exchanges": {
     "binance": {
       "listings": [
@@ -71,7 +71,16 @@
       }
     },
     "kucoin": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "Ritual (RITUAL)",
+          "type": "现货",
+          "detail": "公告日期：2026-10-28（未确认具体发布时间及展示时区时不推算）。RITUAL/USDT，Ritual主网；2026-10-28 17:00–18:00（UTC+8）集合竞价，18:00开盘，支持现货机器人。",
+          "url": "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028",
+          "announcedDate": "2026-10-28",
+          "timeBasis": "announcementDate"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
@@ -83,7 +92,17 @@
       }
     },
     "gateio": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "JIOUSDT (Jio Platforms)",
+          "type": "盘前转正式永续",
+          "detail": "公告日期：2026-10-28（未确认具体发布时间及展示时区时不推算）。公告发布2026-10-28 10:57（UTC+8）；在JIO股票价格稳定时将盘前永续迁移至正式永续，最高20倍，具体完成时间以实际为准，已有仓位和交易不受影响。",
+          "url": "https://www.gate.com/zh/announcements/article/102463",
+          "announcedDate": "2026-10-28",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-10-28T10:57:00+08:00"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
