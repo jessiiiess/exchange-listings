@@ -1,49 +1,81 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T18:28:35+08:00",
+  "updatedAt": "2026-10-30T18:40:12+08:00",
   "exchanges": {
     "binance": {
       "listings": [
         {
           "token": "EWZS和SMR和OXY和AMGN和PFE和MELI",
           "type": "股票/ETF永续合约",
-          "detail": "公告日期：2026-10-29（未确认具体发布时间及展示时区时不推算）。EWZSUSDT（巴西小盘ETF）、SMRUSDT（NuScale）、OXYUSDT、AMGNUSDT、PFEUSDT、MELIUSDT 于2026-10-29 18:05、18:10、18:15、18:20、18:25、18:30（UTC+8）依次开盘，均最高20倍，USDT结算、24/7，支持多资产模式。公告发布时间：2026-10-29T16:45:10.993000+08:00。",
+          "detail": "EWZSUSDT（巴西小盘ETF）、SMRUSDT（NuScale）、OXYUSDT、AMGNUSDT、PFEUSDT、MELIUSDT 于2026-10-29 18:05、18:10、18:15、18:20、18:25、18:30（UTC+8）依次开盘，均最高20倍，USDT结算、24/7，支持多资产模式。公告发布时间：2026-10-29T16:45:10.993000+08:00。",
           "url": "https://www.binance.com/en/support/announcement/detail/784c65be33d44de0b2099cadf8742846",
           "announcedDate": "2026-10-29",
-          "timeBasis": "announcementDate",
+          "timeBasis": "announcementTime",
           "announcedAt": "2026-10-29T16:45:10.993000+08:00"
+        },
+        {
+          "token": "Predict (PREDICT)",
+          "type": "现货 + 跟单（延期）",
+          "detail": "公告：2026-10-29T19:48:52.329000+08:00（UTC+8）。计划PREDICT/USDT、PREDICT/USDC、PREDICT/TRY，Seed标签；原定2026-10-30 18:00（UTC+8）开盘已延期，最新开盘时间未定。原计划现货上线24小时内支持现货跟单及机器人，亦随实际开盘安排。延期公告：2026-10-30T10:32:34.004000+08:00（UTC+8），https://www.binance.com/en/support/announcement/detail/eb1fb9e5f41f43b682332aff0b7b89ce 。",
+          "url": "https://www.binance.com/en/support/announcement/detail/a259777ee4104befa3daba5c1eadc7b5",
+          "announcedAt": "2026-10-29T19:48:52.329000+08:00",
+          "timeBasis": "announcementTime"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         },
         "alpha": {
-          "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
-          "recordsChecked": 685,
-          "includesOfflineRecords": true,
+          "status": "matches_in_returned_records",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
+          "recordsChecked": 686,
           "missingListingTime": 0,
-          "basis": "listingTime",
+          "includesOfflineRecords": true,
+          "offlineRecords": 307,
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "basis": "listingTime",
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
-          ]
+          ],
+          "latestListing": "2026-10-29T20:00:00+08:00",
+          "limitation": "当前返回快照不保证覆盖已删除历史；按listingTime归档，非公告时间。"
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
+          "windowStart": "2026-10-28T18:00:00+08:00",
+          "windowEnd": "2026-10-30T18:40:12+08:00",
           "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
-          ]
+          ],
+          "limitation": "已查看官方公开近期帖子，未取得完整TGE/Pre-TGE活动历史；不使用onlineTge属性推算时间。"
         }
       },
-      "alpha": [],
+      "alpha": [
+        {
+          "token": "Warden (WARD)",
+          "type": "Alpha",
+          "detail": "官方token list的listingTime：2026-10-29T20:00:00+08:00（UTC+8），不代表公告发布时间；链BSC，合约0xf5cb7cc90040aa717a16887c8b7d7c10a7c60984；本次快照offline=true。",
+          "url": "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list",
+          "launchAt": "2026-10-29T20:00:00+08:00",
+          "timeBasis": "listingTime",
+          "chainId": "56",
+          "contractAddress": "0xf5cb7cc90040aa717a16887c8b7d7c10a7c60984",
+          "offline": true
+        }
+      ],
       "wallet": []
     },
     "okx": {
@@ -51,10 +83,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     },
@@ -63,10 +98,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     },
@@ -100,10 +138,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     },
@@ -112,22 +153,43 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     },
     "bitget": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "FTNTUSDT、EWZSUSDT、PFEUSDT",
+          "type": "股票/ETF永续合约",
+          "detail": "公告：2026-10-29T22:26:20+08:00（UTC+8）。2026-10-29（UTC+8）上线FTNT（Fortinet）、EWZS（巴西小盘ETF）、PFE（Pfizer），最高20倍，USDT结算、24/7、资金费8小时；正文未给精确开盘时分。",
+          "url": "https://www.bitget.com/support/articles/12560603899143",
+          "announcedAt": "2026-10-29T22:26:20+08:00",
+          "timeBasis": "announcementTime"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     },
@@ -148,15 +210,55 @@
           "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-xten-usdt-m-futures-17827791539412",
           "announcedDate": "2026-10-29",
           "timeBasis": "announcementDate"
+        },
+        {
+          "token": "JAGENTUSDT",
+          "type": "永续合约",
+          "detail": "公告日期：2026-10-29（正文未确认精确发布时间，不推算时分）。合约创新区2026-10-29 23:20（UTC+8）开盘，最高20倍，全仓/逐仓；网格机器人在开盘5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539425",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-10-29T23:20:00+08:00"
+        },
+        {
+          "token": "JAGENT",
+          "type": "Meme+现货",
+          "detail": "公告日期：2026-10-29（正文未确认精确发布时间，不推算时分）。2026-10-29 20:30（UTC+8）上线Meme+；现货网格1小时后开放。原表将网络写SOL但合约为0x8e6442663A4F8C50b6132c68d42A30E7DFE4Ae15，与次日迁区正文BSC一致，保留原文不据矛盾字段推定网络。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539424",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-10-29T20:30:00+08:00"
+        },
+        {
+          "token": "DHIUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期：2026-10-29（正文未确认精确发布时间，不推算时分）。2026-10-29 20:00（UTC+8）开盘，最高20倍，全仓/逐仓、24/7；网格机器人5分钟内开放。公告名称DHIUSDT，交易链接路径DHISTOCK_USDT；不以正文公司简介推断其他交易代码。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539420",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-10-29T20:00:00+08:00"
+        },
+        {
+          "token": "Predict.fun (PREDICT)",
+          "type": "现货 + 闪兑（延期）",
+          "detail": "公告日期：2026-10-29（正文未确认精确发布时间，不推算时分）。计划创新区PREDICT/USDT、PREDICT/USDC；最新正文已改为TBD，现货延期，尚无新开盘时间。闪兑及现货网格计划在实际现货开盘1小时后开放。延期原文：https://www.mexc.com/announcements/article/mexc-to-postpone-predict-fun-predict-spot-listing-17827791539432 。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539401",
+          "announcedDate": "2026-10-29",
+          "timeBasis": "announcementDate"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-10-29T18:28:35+08:00",
+          "checkedAt": "2026-10-30T18:40:12+08:00",
           "windowStart": "2026-10-28T18:00:00+08:00",
-          "windowEnd": "2026-10-29T18:28:35+08:00",
-          "limitation": "已核查公开上新分类及已取得正文；部分页面、附属分类和分页未完整取得。"
+          "windowEnd": "2026-10-30T18:40:12+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings"
+          ],
+          "limitation": "已核查官方上新列表及新增条目正文；所见Binance/OKX/Bybit/KuCoin/Gate分类列表已跨过窗口下界，其他附属产品分类未完整核实。MEXC page=2与首页重复，不能证明历史完整覆盖；Bitget跟单12560603899058正文403，保留后续补查。"
         }
       }
     }
