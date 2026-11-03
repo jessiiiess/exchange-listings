@@ -1,31 +1,31 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T18:30:24.834486+08:00",
+  "updatedAt": "2026-11-03T18:36:14.069277+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/list/48",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
           "recordsChecked": 686,
           "missingListingTime": 0,
           "includesOfflineRecords": true,
           "offlineRecords": 308,
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "basis": "listingTime",
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
@@ -35,9 +35,9 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
           "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
@@ -62,43 +62,62 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.okx.com/help/section/announcements-new-listings"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     },
     "bybit": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "KOR Protocol (KOR)",
+          "type": "现货",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。KOR/USDT 主交易区，计划2026-11-04 22:00（UTC+8）开盘并支持现货网格；BASE/MANTLE。",
+          "url": "https://announcements.bybit.com/en/article/bybit-to-list-kor-protocol-kor-on-spot--arte2e1efdfaed8/",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-04T22:00:00+08:00"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     },
     "kucoin": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "AMZNX、COINX、INTCX、METAX、NVDAX",
+          "type": "代币化股票现货",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。新增AMZNX/USDT、COINX/USDT、INTCX/USDT、METAX/USDT、NVDAX/USDT；xStocks，支持现货机器人。未在本次摘录中确认精确开盘时分。",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-amznx-coinx-intcx-metax-and-nvdax",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/new-listings"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     },
@@ -107,34 +126,44 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
             "https://www.gate.com/zh/announcements/tradfi",
             "https://www.gate.com/zh/announcements/cfd"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     },
     "bitget": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "LNGUSDT、MOUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。官方上新API确认交易对；正文无法访问，最高杠杆及开盘时分未确认。公告时间2026-11-02T22:49:09+08:00（UTC+8）。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899410",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-11-02T22:49:09+08:00"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
             "https://www.bitget.com/support/sections/5955813039257",
             "https://www.bitget.com/support/sections/12508313405000",
             "https://www.bitget.com/sitemap/support"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     },
@@ -156,20 +185,47 @@
           "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-insm-hwm-lng-fstock-and-ice-usdt-m-futures-17827791539505",
           "announcedDate": "2026-11-02",
           "timeBasis": "announcementDate"
+        },
+        {
+          "token": "Kinetiq (KNTQ)",
+          "type": "现货",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。KNTQ/USDT 考核区2026-11-02 18:05（UTC+8）开盘，网格1小时后开放。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-kinetiq-kntq-in-assessment-zone-17827791539509",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-02T18:05:00+08:00"
+        },
+        {
+          "token": "KOR Protocol (KOR)",
+          "type": "现货",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。KOR/USDT 创新区计划2026-11-04 22:00（UTC+8）开盘，网格1小时后开放；仅提取混合活动中的上新。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539504",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-04T22:00:00+08:00"
+        },
+        {
+          "token": "GPNUSDT、NEEUSDT、NTRAUSDT、DLRUSDT、CVNAUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-02（未核实精确发布时间）。2026-11-02 22:00（UTC+8）开盘，均最高20倍、全仓/逐仓、24/7；网格5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-gpn-nee-ntra-dlr-and-cvna-stock-futures-on-nov-2-17827791539512",
+          "announcedDate": "2026-11-02",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-02T22:00:00+08:00"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-02T18:30:24.834486+08:00",
-          "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-02T18:30:24.834486+08:00",
+          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-01T18:00:00+08:00",
+          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
             "https://www.mexc.com/zh-TW/announcements/new-listings"
           ],
-          "limitation": "已核查官方上新列表及新条目正文；附属分类和部分分页未完整取得，不能证明全量无新增。"
+          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
         }
       }
     }
