@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-04",
+  "updatedAt": "2026-11-04T18:36:41.660102+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "recordsChecked": 686,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "offlineRecords": 308,
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "basis": "listingTime",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "latestListing": "2026-10-29T20:00:00+08:00",
+          "limitation": "当前返回快照不保证覆盖已删除历史；按listingTime归档，非公告时间。"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-10-31T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
+            "https://t.me/s/binance_wallet_announcements"
+          ],
+          "limitation": "已查看官方公开近期帖子，未取得完整TGE/Pre-TGE活动历史；不使用onlineTge属性推算时间。"
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "xIREN/USDC、xASML/USDC",
+          "type": "代币化股票现货",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。计划于2026-11-05 01:30、02:00（UTC+8）分别开盘，预开盘均提前1小时。",
+          "url": "https://www.okx.com/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xiren-and-xasml",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "GPROUSD、US500USD",
+          "type": "股票/股指永续合约",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。新增Equity X-Perps，GPRO为股票、US500为股指；本次未确认精确开盘时分及最高杠杆。",
+          "url": "https://www.okx.com/help/okx-to-list-gprousd-and-us500usd-equity-x-perps",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "MURATA、OXY、SMR",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。新增TradFi永续交易；本次未确认精确开盘时分及最高杠杆。",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-futures-for-murata-oxy-and-smr",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "Kor Protocol (KOR)",
+          "type": "现货",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。计划2026-11-04 22:00（UTC+8）开盘；提取混合空投公告中的现货上线内容。",
+          "url": "https://www.kucoin.com/announcement/en-hodler-airdrops-kor-protocol-kor-world-premiere-listing-on-kucoin",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-04T22:00:00+08:00"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "KOR Protocol (KOR)",
+          "type": "现货",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。官方上新API确认；正文与精确开盘参数本次未取得。公告时间2026-11-04T10:00:41+08:00（UTC+8）。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899479",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-11-04T10:00:41+08:00"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "ROPUSDT、ELUSDT、MTZUSDT、LOWUSDT、JCIUSDT",
+          "type": "跟单新增交易对",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。5个股票合约跟单，均最高20倍；独立生效时分未披露。",
+          "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-rop-el-mtz-low-and-jci-usdt-m-futures-17827791539551",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "KORUSDT",
+          "type": "永续合约",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。计划2026-11-04 22:10（UTC+8）开盘，最高20倍，全仓/逐仓，网格5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539548",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-04T22:10:00+08:00"
+        },
+        {
+          "token": "CHOO",
+          "type": "Meme+现货",
+          "detail": "公告日期2026-11-04（未核实精确发布时间）。2026-11-04 10:40（UTC+8）开盘；Solana合约EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump，网格1小时后开放。",
+          "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539547",
+          "announcedDate": "2026-11-04",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-04T10:40:00+08:00"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings"
+          ],
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
+        }
+      }
+    }
+  }
+}

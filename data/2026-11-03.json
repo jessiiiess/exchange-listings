@@ -1,31 +1,31 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T18:36:14.069277+08:00",
+  "updatedAt": "2026-11-04T18:36:41.660102+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/list/48",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
           "recordsChecked": 686,
           "missingListingTime": 0,
           "includesOfflineRecords": true,
           "offlineRecords": 308,
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "basis": "listingTime",
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
@@ -35,9 +35,9 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
           "windowStart": "2026-10-31T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
@@ -53,28 +53,64 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.okx.com/help/section/announcements-new-listings"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     },
     "bybit": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "CEGUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。计划2026-11-03 19:30（UTC+8）开盘；本次未取得最高杠杆参数。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-cegusdt-on-bybit-tradfi-perpetual-on-nov-3-2026-11-30am-utc--art935d1c07b288/",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-03T19:30:00+08:00"
+        },
+        {
+          "token": "PFEUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。计划2026-11-03 19:30（UTC+8）开盘；本次未取得最高杠杆参数。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-pfeusdt-on-bybit-tradfi-perpetual-on-nov-3-2026-11-30am-utc--art261221263efd/",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-03T19:30:00+08:00"
+        },
+        {
+          "token": "AKAMUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。计划2026-11-03 19:30（UTC+8）开盘；本次未取得最高杠杆参数。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-listing-of-akamusdt-on-bybit-tradfi-perpetual-on-nov-3-2026-11-30am-utc--artf46dac307875/",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-03T19:30:00+08:00"
+        },
+        {
+          "token": "USDBRLUSDT",
+          "type": "外汇永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。TradFi美元/巴西雷亚尔永续，最高100倍；精确开盘时间本次未确认。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-usdbrlusdt-tradfi-perpetual-contract-with-up-to-100x-leverage--artb0dba4bed69c/",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     },
@@ -93,13 +129,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/new-listings"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     },
@@ -108,34 +144,44 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
             "https://www.gate.com/zh/announcements/tradfi",
             "https://www.gate.com/zh/announcements/cfd"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     },
     "bitget": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "MAUSDT",
+          "type": "股票永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。官方上新API确认；正文与精确开盘参数本次未取得。公告时间2026-11-03T22:54:57+08:00（UTC+8）。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899532",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate",
+          "announcedAt": "2026-11-03T22:54:57+08:00"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
             "https://www.bitget.com/support/sections/5955813039257",
             "https://www.bitget.com/support/sections/12508313405000",
             "https://www.bitget.com/sitemap/support"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     },
@@ -157,20 +203,29 @@
           "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-gpn-nee-ntra-dlr-and-cvna-usdt-m-futures-17827791539534",
           "announcedDate": "2026-11-03",
           "timeBasis": "announcementDate"
+        },
+        {
+          "token": "KNTQUSDT",
+          "type": "永续合约",
+          "detail": "公告日期2026-11-03（未核实精确发布时间）。2026-11-03 15:40（UTC+8）开盘，最高20倍，全仓/逐仓，网格5分钟内开放。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-kntqusdt-futures-on-nov-3-2026-07-17827791539535",
+          "announcedDate": "2026-11-03",
+          "timeBasis": "announcementDate",
+          "launchAt": "2026-11-03T15:40:00+08:00"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-03T18:36:14.069277+08:00",
-          "windowStart": "2026-11-01T18:00:00+08:00",
-          "windowEnd": "2026-11-03T18:36:14.069277+08:00",
+          "checkedAt": "2026-11-04T18:36:41.660102+08:00",
+          "windowStart": "2026-11-02T18:00:00+08:00",
+          "windowEnd": "2026-11-04T18:36:41.660102+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
             "https://www.mexc.com/zh-TW/announcements/new-listings"
           ],
-          "limitation": "核查官方分类及可取得正文；部分分页及附属分类未完整取得；Bitget 12560603899414 跟单正文无法访问，留待后续补查。"
+          "limitation": "核查官方分类及可取得正文；部分正文参数、分页及附属分类未完整取得。Bybit 2 New Assets 杠杆公告尚未取得资产明细，保留后续补查。"
         }
       }
     }
