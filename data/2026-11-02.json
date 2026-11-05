@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-03T18:36:14.069277+08:00",
+  "updatedAt": "2026-11-05T18:33:34.110463+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
@@ -198,11 +198,11 @@
         {
           "token": "KOR Protocol (KOR)",
           "type": "现货",
-          "detail": "公告日期2026-11-02（未核实精确发布时间）。KOR/USDT 创新区计划2026-11-04 22:00（UTC+8）开盘，网格1小时后开放；仅提取混合活动中的上新。",
+          "detail": "公告日期2026-11-02；KOR/USDT 创新区开盘由2026-11-04 22:00延期至22:30（UTC+8），网格随实际现货开盘1小时后开放。修订依据：https://www.mexc.com/announcements/article/mexc-to-postpone-kor-protocol-kor-listing-17827791539557 。",
           "url": "https://www.mexc.com/announcements/article/first-in-market-17827791539504",
           "announcedDate": "2026-11-02",
           "timeBasis": "announcementDate",
-          "launchAt": "2026-11-04T22:00:00+08:00"
+          "launchAt": "2026-11-04T22:30:00+08:00"
         },
         {
           "token": "GPNUSDT、NEEUSDT、NTRAUSDT、DLRUSDT、CVNAUSDT",
