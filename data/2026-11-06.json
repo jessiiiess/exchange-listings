@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-06",
+  "updatedAt": "2026-11-06T18:30:04.779507+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "recordsChecked": 686,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "offlineRecords": 308,
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "basis": "listingTime",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "latestListing": "2026-10-29T20:00:00+08:00",
+          "limitation": "当前返回快照不保证覆盖已删除历史；按listingTime归档，非公告时间。"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-10-31T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
+            "https://t.me/s/binance_wallet_announcements"
+          ],
+          "limitation": "已查看官方公开近期帖子，未取得完整TGE/Pre-TGE活动历史；不使用onlineTge属性推算时间。"
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [
+        {
+          "token": "XLV/USDT、EIDO/USDT、EWZS/USDT",
+          "type": "ETF永续合约",
+          "detail": "公告日期2026-11-06（未核实公告时分）。XLV、EIDO、EWZS分别于2026-11-06 17:00、17:15、17:30（UTC+8）开盘，USDT结算、24/7、通常8小时资金费；正文未披露最高杠杆。",
+          "url": "https://www.okx.com/help/okx-to-list-tradfi-perpetual-futures-for-xlv-eido-and-ewzs",
+          "announcedDate": "2026-11-06",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rONTO/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间：2026-11-06T16:36:00.368000+08:00（UTC+8）。Bitget 现货跟单已支持 rONTO/USDT；未取得正文的独立生效时间。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899949",
+          "announcedAt": "2026-11-06T16:36:00.368000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rMITSY/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间：2026-11-06T14:41:00.319000+08:00（UTC+8）。Bitget 现货跟单已支持 rMITSY/USDT；未取得正文的独立生效时间。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899939",
+          "announcedAt": "2026-11-06T14:41:00.319000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rSOXX/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间：2026-11-06T10:36:00.186000+08:00（UTC+8）。Bitget 现货跟单已支持 rSOXX/USDT；未取得正文的独立生效时间。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603899865",
+          "announcedAt": "2026-11-06T10:36:00.186000+08:00",
+          "timeBasis": "announcementTime"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    },
+    "mexc": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-06T18:30:04.779507+08:00",
+          "windowStart": "2026-11-04T18:00:00+08:00",
+          "windowEnd": "2026-11-06T18:30:04.779507+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings"
+          ],
+          "limitation": "已核查公开官方分类及可取得正文；MEXC英文列表异常返回7月、繁中返回旧快照，不能证明无新增；Bitget API10条均为今日，未覆盖下界，批量跟单未取得交易对明细。部分分页、附属分类仍不完整。"
+        }
+      }
+    }
+  }
+}
