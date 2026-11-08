@@ -1,31 +1,31 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T18:34:05.646854+08:00",
+  "updatedAt": "2026-11-08T18:29:46.586123+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/list/48",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
           ],
-          "limitation": "已重新读取CMS48/49各50条，均越过时间下界；未独立穷尽所有附属分类。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
           "recordsChecked": 686,
           "missingListingTime": 0,
           "includesOfflineRecords": true,
           "offlineRecords": 308,
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "basis": "listingTime",
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
@@ -35,9 +35,9 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
@@ -53,13 +53,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.okx.com/help/section/announcements-new-listings"
           ],
-          "limitation": "新上线列表已越过下界；其他产品分类未穷尽。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         }
       }
     },
@@ -68,13 +68,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto"
           ],
-          "limitation": "新币分类已越过下界并读取3条新正文；其他分类未穷尽。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         }
       }
     },
@@ -83,13 +83,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/new-listings"
           ],
-          "limitation": "新币分类最新11月4日，已越过下界；附属产品分类未穷尽。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         }
       }
     },
@@ -98,16 +98,16 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
             "https://www.gate.com/zh/announcements/tradfi",
             "https://www.gate.com/zh/announcements/cfd"
           ],
-          "limitation": "中文4分类均返回相同通用列表，不能视为分类完整；经官方搜索补得VLX正文。股票融资融券新闻未取得正文，不录未核实交易对。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         }
       }
     },
@@ -184,14 +184,22 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603899998",
           "announcedAt": "2026-11-07T00:41:00.491000+08:00",
           "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rHHH/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-07T21:36:01.119000+08:00（UTC+8）；现货跟单新增rHHH/USDT，未披露独立开通时刻。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900029",
+          "announcedAt": "2026-11-07T21:36:01.119000+08:00",
+          "timeBasis": "announcementTime"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
             "https://www.bitget.com/support/sections/5955813039257",
@@ -207,544 +215,100 @@
             "https://www.bitget.com/zh-CN/support/articles/12560603900018",
             "https://www.bitget.com/zh-CN/support/articles/12560603899998"
           ],
-          "limitation": "官方API endTime分页确有变化；部分批量跟单正文不可访问，交易对缺失未收录。股票现货保证金币新增仅为抵押品功能，未作为新杠杆交易对收录。",
-          "pagesChecked": 11,
-          "recordsChecked": 110,
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。",
+          "pagesChecked": 3,
+          "recordsChecked": 30,
           "paginationReachedLowerBound": true,
           "unresolvedCandidates": [
             {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899867",
-              "title": "Bitget 现货跟单已支持2个交易对 ",
-              "announcedAt": "2026-11-06T10:46:00.427000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899857",
-              "title": "Bitget 现货跟单已支持4个交易对 ",
-              "announcedAt": "2026-11-06T09:36:00.260000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899855",
-              "title": "Bitget 现货跟单已支持8个交易对 ",
-              "announcedAt": "2026-11-06T08:51:00.255000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899854",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T08:41:00.303000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899853",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T08:31:00.088000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899851",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T08:21:00.088000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899850",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T08:11:00.167000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899848",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T08:01:00.300000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899847",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:51:00.249000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899846",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:41:00.970000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899845",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:31:00.020000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899844",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:21:00.335000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899843",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:11:00.326000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899842",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T07:01:00.463000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899841",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:51:00.323000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899840",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:41:00.397000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899839",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:31:00.342000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899838",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:21:00.117000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899837",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:11:00.295000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899836",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T06:01:00.082000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899835",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:51:00.345000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899834",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:41:00.777000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899833",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:31:00.249000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899832",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:21:00.102000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899831",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:11:00.088000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899830",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T05:01:00.156000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899828",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:51:00.500000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899827",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:41:00.221000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899825",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:31:00.083000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899824",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:21:00.085000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899822",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:11:00.089000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899820",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T04:01:00.340000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899819",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:51:00.153000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899818",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:41:00.373000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899816",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:31:01.265000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899815",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:21:00.247000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899814",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:11:00.517000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899813",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T03:01:00.089000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899812",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:51:00.148000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899811",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:41:00.450000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899810",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:31:00.423000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899809",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:21:00.153000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899808",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:11:00.180000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899807",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T02:01:00.254000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899806",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:51:00.076000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899805",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:41:00.250000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899804",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:31:00.103000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899803",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:21:00.104000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899802",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:11:00.201000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899800",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T01:01:00.793000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899799",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:51:00.514000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899798",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:41:00.154000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899797",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:31:00.317000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899796",
-              "title": "Bitget 合约跟单已支持2个永续合约 ",
-              "announcedAt": "2026-11-06T00:26:00.654000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899795",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:21:00.096000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899794",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:11:00.873000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899792",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-06T00:01:00.111000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899790",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:51:00.082000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899789",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:41:00.093000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899788",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:31:00.023000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899787",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:21:00.082000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899786",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:11:00.098000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899784",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T23:01:00.719000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899781",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:51:00.085000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899778",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:41:00.490000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899777",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:31:01.042000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899776",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:21:01.066000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899775",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:11:00.310000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899774",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T22:01:00.236000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899773",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:51:00.344000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899771",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:41:00.255000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899770",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:31:00.393000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899769",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:21:00.591000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899768",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:11:00.218000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899767",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T21:01:00.364000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899766",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:51:00.262000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899765",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:41:00.236000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899764",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:31:00.103000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899763",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:21:00.129000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899760",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:11:00.562000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899758",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T20:01:00.360000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899757",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:51:00.026000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899756",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:41:00.426000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899753",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:31:00.070000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899752",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:21:00.353000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899751",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:17:01.302000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899750",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:17:00.279000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899749",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:16:00.307000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
-            },
-            {
-              "url": "https://www.bitget.com/zh-CN/support/articles/12560603899748",
-              "title": "Bitget 现货跟单已支持20个交易对 ",
-              "announcedAt": "2026-11-05T19:04:00.317000+08:00",
-              "reason": "批量公告未取得完整交易对正文"
+              "annId": "12560603900045",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持6个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900045",
+              "cTime": "1794126960189"
+            },
+            {
+              "annId": "12560603900033",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900033",
+              "cTime": "1794090960211"
+            },
+            {
+              "annId": "12560603900023",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持7个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900023",
+              "cTime": "1794001260075"
+            },
+            {
+              "annId": "12560603900022",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900022",
+              "cTime": "1793997360289"
+            },
+            {
+              "annId": "12560603900021",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持4个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900021",
+              "cTime": "1793993760918"
+            },
+            {
+              "annId": "12560603900020",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持6个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900020",
+              "cTime": "1793990460236"
+            },
+            {
+              "annId": "12560603900018",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900018",
+              "cTime": "1793986560222"
+            },
+            {
+              "annId": "12560603899976",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603899976",
+              "cTime": "1793968560471"
+            },
+            {
+              "annId": "12560603899974",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603899974",
+              "cTime": "1793964960083"
             }
           ]
         }
@@ -755,15 +319,15 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-07T18:34:05.646854+08:00",
-          "windowStart": "2026-11-05T18:00:00+08:00",
-          "windowEnd": "2026-11-07T18:34:05.646854+08:00",
+          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-06T18:00:00+08:00",
+          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
             "https://www.mexc.com/zh-TW/announcements/new-listings"
           ],
-          "limitation": "英文列表恢复近期内容，page=2重复第1页，未确认完整分页；公告仅相对日期，未填公告时分。"
+          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
         }
       }
     }
