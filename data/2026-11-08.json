@@ -1,31 +1,31 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T18:29:46.586123+08:00",
+  "updatedAt": "2026-11-09T18:34:54.390317+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/list/48",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
             "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
           "recordsChecked": 686,
           "missingListingTime": 0,
           "includesOfflineRecords": true,
           "offlineRecords": 308,
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "basis": "listingTime",
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
@@ -35,9 +35,9 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.binance.com/en/square/profile/binancewallet",
             "https://t.me/s/binance_wallet_announcements"
@@ -53,13 +53,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.okx.com/help/section/announcements-new-listings"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         }
       }
     },
@@ -68,13 +68,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         }
       }
     },
@@ -83,13 +83,13 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/new-listings"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         }
       }
     },
@@ -98,16 +98,16 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
             "https://www.gate.com/zh/announcements/tradfi",
             "https://www.gate.com/zh/announcements/cfd"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         }
       }
     },
@@ -152,14 +152,38 @@
           "url": "https://www.bitget.com/zh-CN/support/articles/12560603900030",
           "announcedAt": "2026-11-08T00:36:00.123000+08:00",
           "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rALHC/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-08T22:36:01.390000+08:00（UTC+8）；现货跟单新增rALHC/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900055",
+          "announcedAt": "2026-11-08T22:36:01.390000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rCE/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-08T21:41:00.159000+08:00（UTC+8）；现货跟单新增rCE/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900051",
+          "announcedAt": "2026-11-08T21:41:00.159000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rMPT/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-08T19:36:00.893000+08:00（UTC+8）；现货跟单新增rMPT/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900048",
+          "announcedAt": "2026-11-08T19:36:00.893000+08:00",
+          "timeBasis": "announcementTime"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
             "https://www.bitget.com/support/sections/5955813039257",
@@ -175,11 +199,51 @@
             "https://www.bitget.com/zh-CN/support/articles/12560603900018",
             "https://www.bitget.com/zh-CN/support/articles/12560603899998"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。",
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。",
           "pagesChecked": 3,
           "recordsChecked": 30,
           "paginationReachedLowerBound": true,
           "unresolvedCandidates": [
+            {
+              "annId": "12560603900069",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900069",
+              "cTime": "1794191761233"
+            },
+            {
+              "annId": "12560603900061",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持5个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900061",
+              "cTime": "1794174060124"
+            },
+            {
+              "annId": "12560603900058",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900058",
+              "cTime": "1794163261012"
+            },
+            {
+              "annId": "12560603900047",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900047",
+              "cTime": "1794134160342"
+            },
             {
               "annId": "12560603900045",
               "annDesc": "coin_listings",
@@ -199,76 +263,6 @@
               "language": "zh_CN",
               "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900033",
               "cTime": "1794090960211"
-            },
-            {
-              "annId": "12560603900023",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持7个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900023",
-              "cTime": "1794001260075"
-            },
-            {
-              "annId": "12560603900022",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900022",
-              "cTime": "1793997360289"
-            },
-            {
-              "annId": "12560603900021",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持4个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900021",
-              "cTime": "1793993760918"
-            },
-            {
-              "annId": "12560603900020",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持6个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900020",
-              "cTime": "1793990460236"
-            },
-            {
-              "annId": "12560603900018",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900018",
-              "cTime": "1793986560222"
-            },
-            {
-              "annId": "12560603899976",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603899976",
-              "cTime": "1793968560471"
-            },
-            {
-              "annId": "12560603899974",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603899974",
-              "cTime": "1793964960083"
             }
           ]
         }
@@ -279,15 +273,15 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-08T18:29:46.586123+08:00",
-          "windowStart": "2026-11-06T18:00:00+08:00",
-          "windowEnd": "2026-11-08T18:29:46.586123+08:00",
+          "checkedAt": "2026-11-09T18:34:54.390317+08:00",
+          "windowStart": "2026-11-07T18:00:00+08:00",
+          "windowEnd": "2026-11-09T18:34:54.390317+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
             "https://www.mexc.com/zh-TW/announcements/new-listings"
           ],
-          "limitation": "本次读取官方公开分类；附属分类未穷尽。Gate部分分类返回通用列表，MEXC分页覆盖不足；Bitget批量跟单正文访问失败，保留候选。"
+          "limitation": "本次读取官方公开分类与可取得正文；附属分类未穷尽，MEXC分页未完整，Gate部分分类为通用列表；Bitget批量跟单缺交易对明细。"
         }
       }
     }
