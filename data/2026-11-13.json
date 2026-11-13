@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-13",
+  "updatedAt": "2026-11-13T18:33:01.266880+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=48&pageNo=1&pageSize=50",
+            "https://www.binance.com/bapi/composite/v1/public/cms/article/list/query?type=1&catalogId=49&pageNo=1&pageSize=50",
+            "https://www.binance.com/en/support/announcement/detail/e7a88ff576b541608d0845f3b666ec66",
+            "https://www.binance.com/en/support/announcement/detail/2d89a5966b174a2689ab2c2a15db1757"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "recordsChecked": 686,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "offlineRecords": 309,
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "basis": "listingTime",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "latestListing": "2026-10-29T20:00:00+08:00",
+          "limitation": "当前返回快照不保证覆盖已删除历史；按listingTime归档，非公告时间。"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.binance.com/en/square/profile/binancewallet",
+            "https://t.me/s/binance_wallet_announcements"
+          ],
+          "limitation": "已查看官方公开近期帖子，未取得完整TGE/Pre-TGE活动历史；不使用onlineTge属性推算时间。"
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings",
+            "https://www.okx.com/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xorcl",
+            "https://www.okx.com/help/okx-to-list-ondsusd-and-ddogusd-equity-x-perps",
+            "https://www.okx.com/help/okx-will-launch-aero-usdc-for-spot-trading",
+            "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xceg-xcvna-and-more-for-spot-trading"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [
+        {
+          "token": "Orochi Network (OROCHIUSDT)",
+          "type": "永续合约",
+          "detail": "公告日期2026-11-13（仅日期精度）；创新区已开放，最高50倍，USDT结算，24/7、4小时资金费；独立开盘时分未披露。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-orochiusdt-perpetual-contract-in-innovation-zone-with-up-to-50x-leverage--art43ad358a137f/",
+          "announcedDate": "2026-11-13",
+          "timeBasis": "announcementDate"
+        },
+        {
+          "token": "MEET48 (IDOLUSDT)",
+          "type": "永续合约",
+          "detail": "公告日期2026-11-13（仅日期精度）；创新区已开放，最高20倍，USDT结算，24/7、4小时资金费；独立开盘时分未披露。",
+          "url": "https://announcements.bybit.com/en/article/new-listing-idolusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artffa6047fb3e8/",
+          "announcedDate": "2026-11-13",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto",
+            "https://announcements.bybit.com/en/article/new-listing-listing-of-dangoteusdt-on-bybit-pre-ipo-tradfi-perpetual-on-nov-11-2026-11-00am-utc--art6ad921fb4a95/",
+            "https://announcements.bybit.com/en/article/new-listing-orochiusdt-perpetual-contract-in-innovation-zone-with-up-to-50x-leverage--art43ad358a137f/",
+            "https://announcements.bybit.com/en/article/new-listing-idolusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artffa6047fb3e8/"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [
+        {
+          "token": "DJTUSDT、EBAYUSDT、FLEXUSDT、RUMUSDT、TWSTUSDT",
+          "type": "美股永续合约",
+          "detail": "公告日期2026-11-13（仅日期精度）；2026-11-13 17:00（UTC+8）开盘，最高20倍，USDT结算，资金费8小时；正文标的是5只股票。",
+          "url": "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-13",
+          "announcedDate": "2026-11-13",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings",
+            "https://www.kucoin.com/announcement/en-world-premiere-matrix-mtx-listed-on-kucoin",
+            "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-10",
+            "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-13"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd",
+            "https://www.gate.com/zh/announcements/article/102714",
+            "https://www.gate.com/zh/announcements/article/102744"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rIDCBY/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-13T16:41:00.087000+08:00（UTC+8）；现货跟单新增rIDCBY/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900509",
+          "announcedAt": "2026-11-13T16:41:00.087000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rMSBI/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-13T12:36:00.993000+08:00（UTC+8）；现货跟单新增rMSBI/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900500",
+          "announcedAt": "2026-11-13T12:36:00.993000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rEXTR/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-13T04:41:00.366000+08:00（UTC+8）；现货跟单新增rEXTR/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900491",
+          "announcedAt": "2026-11-13T04:41:00.366000+08:00",
+          "timeBasis": "announcementTime"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900027",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900025",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900024",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900023",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900022",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900021",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900020",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900018",
+            "https://www.bitget.com/zh-CN/support/articles/12560603899998",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900267",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900260",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900216",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900213",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900203",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900200",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900300",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900299",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900298",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900455",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900390",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900387",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900509",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900500",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900491"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。",
+          "pagesChecked": 1,
+          "recordsChecked": 10,
+          "paginationReachedLowerBound": true,
+          "unresolvedCandidates": []
+        }
+      }
+    },
+    "mexc": {
+      "listings": [
+        {
+          "token": "Sanctum (SANC/USDT)",
+          "type": "现货",
+          "detail": "公告日期2026-11-13（仅日期精度）；考核区，2026-11-13 12:40（UTC+8）开盘；原CLOUD按1:1转换为SANC。",
+          "url": "https://www.mexc.com/announcements/article/mexc-to-list-sanctum-sanc-in-assessment-zone-17827791539732",
+          "announcedDate": "2026-11-13",
+          "timeBasis": "announcementDate"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-13T18:33:01.266880+08:00",
+          "windowStart": "2026-11-11T18:00:00+08:00",
+          "windowEnd": "2026-11-13T18:33:01.266880+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings",
+            "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-ftai-u-rvmd-and-nrg-usdt-m-futures-17827791539652",
+            "https://www.mexc.com/announcements/article/first-in-market-17827791539648",
+            "https://www.mexc.com/announcements/article/mexc-moves-%E7%89%9B%E9%80%BC-to-innovation-zone-17827791539651",
+            "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-kdp-tdg-echo-and-onon-usdt-m-futures-17827791539696",
+            "https://www.mexc.com/announcements/article/mexc-to-list-sanctum-sanc-in-assessment-zone-17827791539732"
+          ],
+          "limitation": "读取官方分类及可取得正文，附属分类未穷尽；MEXC分页覆盖不完整，Bitget批量跟单缺交易对明细，Gate合约列表本次超时。"
+        }
+      }
+    }
+  }
+}
