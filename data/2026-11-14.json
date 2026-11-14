@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-14",
+  "updatedAt": "2026-11-14T18:33:41.233440+08:00",
+  "exchanges": {
+    "binance": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://www.binance.com/en/support/announcement/list/48"
+          ],
+          "limitation": "CMS分类48/49各返回50条，均已到达时间下界；其他独立附属分类未全部验证。"
+        },
+        "alpha": {
+          "status": "no_matches_in_returned_records",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "recordsChecked": 686,
+          "missingListingTime": 0,
+          "includesOfflineRecords": true,
+          "offlineRecords": 309,
+          "basis": "listingTime",
+          "latestListing": "2026-10-29T20:00:00+08:00",
+          "sources": [
+            "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
+          ],
+          "limitation": "当前快照不保证已删除历史。"
+        },
+        "wallet": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://t.me/s/binance_wallet_announcements",
+            "https://t.me/binance_wallet_announcements/1932"
+          ],
+          "limitation": "官方近期帖子提及PREDICT TGE于2026-11-18 17:00（UTC+8）恢复，但未取得帖子发布日期或完整活动历史；保留候选，不伪造公告日期，不使用onlineTge推算时间。",
+          "unresolvedCandidates": [
+            {
+              "token": "PREDICT",
+              "launchAt": "2026-11-18T17:00:00+08:00",
+              "url": "https://t.me/binance_wallet_announcements/1932"
+            }
+          ]
+        }
+      },
+      "alpha": [],
+      "wallet": []
+    },
+    "okx": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://www.okx.com/help/section/announcements-new-listings",
+            "https://www.okx.com/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xorcl",
+            "https://www.okx.com/help/okx-to-list-ondsusd-and-ddogusd-equity-x-perps",
+            "https://www.okx.com/help/okx-will-launch-aero-usdc-for-spot-trading",
+            "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xceg-xcvna-and-more-for-spot-trading"
+          ],
+          "limitation": "官方新币分类已到达下界；其他产品分类未穷尽。"
+        }
+      }
+    },
+    "bybit": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://announcements.bybit.com/en/?category=new_crypto",
+            "https://announcements.bybit.com/en/article/new-listing-orochiusdt-perpetual-contract-in-innovation-zone-with-up-to-50x-leverage--art43ad358a137f/",
+            "https://announcements.bybit.com/en/article/new-listing-idolusdt-perpetual-contract-in-innovation-zone-with-up-to-20x-leverage--artffa6047fb3e8/"
+          ],
+          "limitation": "官方新币分类已到达下界；其他产品分类未穷尽。"
+        }
+      }
+    },
+    "kucoin": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://www.kucoin.com/announcement/new-listings",
+            "https://www.kucoin.com/announcement/en-world-premiere-matrix-mtx-listed-on-kucoin",
+            "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-10",
+            "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-13"
+          ],
+          "limitation": "官方新币分类已到达下界；未穷尽独立附属分类。"
+        }
+      }
+    },
+    "gateio": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://www.gate.com/zh/announcements/newspotlistings",
+            "https://www.gate.com/zh/announcements/newfutureslistings",
+            "https://www.gate.com/zh/announcements/tradfi",
+            "https://www.gate.com/zh/announcements/cfd",
+            "https://www.gate.com/zh/announcements/article/102744"
+          ],
+          "limitation": "现货/CFD列表已查看；合约分类重试超时，tradfi入口返回通用列表，不能证明完整覆盖。"
+        }
+      }
+    },
+    "bitget": {
+      "listings": [
+        {
+          "token": "rTARS/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-14T09:41:00.146000+08:00（UTC+8）；现货跟单新增rTARS/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900529",
+          "announcedAt": "2026-11-14T09:41:00.146000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rKB/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-14T04:41:00.101000+08:00（UTC+8）；现货跟单新增rKB/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900528",
+          "announcedAt": "2026-11-14T04:41:00.101000+08:00",
+          "timeBasis": "announcementTime"
+        },
+        {
+          "token": "rNVST/USDT",
+          "type": "跟单新增交易对",
+          "detail": "官方API公告时间2026-11-14T03:36:00.321000+08:00（UTC+8）；现货跟单新增rNVST/USDT，独立开通时间未披露。",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603900526",
+          "announcedAt": "2026-11-14T03:36:00.321000+08:00",
+          "timeBasis": "announcementTime"
+        }
+      ],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://api.bitget.com/api/v2/public/annoucements?language=zh_CN&annType=coin_listings&limit=10",
+            "https://www.bitget.com/support/sections/5955813039257",
+            "https://www.bitget.com/support/sections/12508313405000",
+            "https://www.bitget.com/sitemap/support",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900455",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900390",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900387",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900466",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900485",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900509",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900500",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900491",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900522",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900529",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900528",
+            "https://www.bitget.com/zh-CN/support/articles/12560603900526"
+          ],
+          "limitation": "官方API endTime分页两页标题和时间有变化且到达下界；批量现货跟单正文不可访问，具体交易对未核实。",
+          "pagesChecked": 2,
+          "recordsChecked": 20,
+          "paginationReachedLowerBound": true,
+          "unresolvedCandidates": [
+            {
+              "annId": "12560603900535",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900535",
+              "cTime": "1794634860079"
+            },
+            {
+              "annId": "12560603900530",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900530",
+              "cTime": "1794623761098"
+            }
+          ]
+        }
+      }
+    },
+    "mexc": {
+      "listings": [],
+      "verification": {
+        "listings": {
+          "status": "partial_check",
+          "checkedAt": "2026-11-14T18:33:41.233440+08:00",
+          "windowStart": "2026-11-12T18:00:00+08:00",
+          "windowEnd": "2026-11-14T18:33:41.233440+08:00",
+          "sources": [
+            "https://www.mexc.com/announcements/new-listings",
+            "https://www.mexc.com/announcements/new-listings?page=2",
+            "https://www.mexc.com/zh-TW/announcements/new-listings",
+            "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-kdp-tdg-echo-and-onon-usdt-m-futures-17827791539696",
+            "https://www.mexc.com/announcements/article/first-in-market-17827791539717",
+            "https://www.mexc.com/announcements/article/mexc-to-list-sanctum-sanc-in-assessment-zone-17827791539732",
+            "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-clx-and-frhc-usdt-m-futures-17827791539733"
+          ],
+          "limitation": "查看官方新币列表及跟单正文；只有日期/相对日期，独立附属分类与分页覆盖未完全验证。"
+        }
+      }
+    }
+  }
+}
