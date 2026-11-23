@@ -1,15 +1,15 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T18:28:07.722603+08:00",
+  "updatedAt": "2026-11-23T18:30:21.437568+08:00",
   "exchanges": {
     "binance": {
       "listings": [],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/detail/e881bca4de484755b172ec53141bd422",
             "https://www.binance.com/en/support/announcement/detail/a3ffb6df9de942a9bb40e19f904041e6",
@@ -21,12 +21,12 @@
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "recordsChecked": 687,
           "missingListingTime": 0,
-          "offlineRecords": 309,
+          "offlineRecords": 310,
           "includesOfflineRecords": true,
           "basis": "listingTime",
           "latestListing": "2026-11-20T17:00:00+08:00",
@@ -37,9 +37,9 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://t.me/s/binance_wallet_announcements"
           ],
@@ -54,9 +54,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xminimax-xzhongji-and-more-for-spot-trading",
             "https://www.okx.com/help/okx-to-list-tradfi-perpetual-futures-for-soxx-xlf-and-sspc",
@@ -73,9 +73,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto",
             "https://announcements.bybit.com/en/article/new-listing-orochiusdt-perpetual-contract-in-innovation-zone-with-up-to-50x-leverage--art43ad358a137f/",
@@ -90,9 +90,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplon-amznon-googlon-msfton-and-nvdaon",
             "https://www.kucoin.com/announcement/new-listings",
@@ -109,9 +109,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
@@ -163,14 +163,22 @@
           "timeBasis": "announcementTime",
           "detail": "公告时间2026-11-22T02:41:00.091000+08:00（UTC+8）；现货跟单新增rTCEHY/USDT，独立开通时分未披露。",
           "announcedAt": "2026-11-22T02:41:00.091000+08:00"
+        },
+        {
+          "token": "rADUS/USDT",
+          "type": "跟单新增交易对",
+          "url": "https://www.bitget.com/zh-CN/support/articles/12560603901260",
+          "timeBasis": "announcementTime",
+          "detail": "公告时间2026-11-22T21:36:00.418000+08:00（UTC+8）；现货跟单新增rADUS/USDT，独立开通时分未披露。",
+          "announcedAt": "2026-11-22T21:36:00.418000+08:00"
         }
       ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.bitget.com/zh-CN/support/articles/12560603900875",
             "https://www.bitget.com/zh-CN/support/articles/12560603900849",
@@ -185,13 +193,84 @@
             "https://www.bitget.com/zh-CN/support/articles/12560603901251",
             "https://www.bitget.com/zh-CN/support/articles/12560603901247",
             "https://www.bitget.com/zh-CN/support/articles/12560603901245",
-            "https://www.bitget.com/zh-CN/support/articles/12560603901242"
+            "https://www.bitget.com/zh-CN/support/articles/12560603901242",
+            "https://www.bitget.com/zh-CN/support/articles/12560603901260"
           ],
           "limitation": "主要官方分类及可取得正文已查看；附属分类与完整分页未穷尽。",
-          "pagesChecked": 2,
-          "recordsChecked": 20,
+          "pagesChecked": 3,
+          "recordsChecked": 30,
           "paginationReachedLowerBound": true,
           "unresolvedCandidates": [
+            {
+              "annId": "12560603901300",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901300",
+              "cTime": "1795419360049"
+            },
+            {
+              "annId": "12560603901273",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持6个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901273",
+              "cTime": "1795401660179"
+            },
+            {
+              "annId": "12560603901272",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901272",
+              "cTime": "1795394160253"
+            },
+            {
+              "annId": "12560603901270",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901270",
+              "cTime": "1795387260750"
+            },
+            {
+              "annId": "12560603901269",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持7个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901269",
+              "cTime": "1795383660280"
+            },
+            {
+              "annId": "12560603901265",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持8个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901265",
+              "cTime": "1795379760186"
+            },
+            {
+              "annId": "12560603901264",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901264",
+              "cTime": "1795376460264"
+            },
             {
               "annId": "12560603901255",
               "annDesc": "coin_listings",
@@ -213,6 +292,16 @@
               "cTime": "1795297260182"
             },
             {
+              "annId": "12560603901213",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 关于上线 JNJUSDT、AMDLUSDT 股票永续合约的公告",
+              "annType": "coin_listings",
+              "annSubType": "futures",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901213",
+              "cTime": "1795182435000"
+            },
+            {
               "annId": "12560603901160",
               "annDesc": "coin_listings",
               "annTitle": "Bitget 现货跟单已支持2个交易对 ",
@@ -231,36 +320,6 @@
               "language": "zh_CN",
               "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901153",
               "cTime": "1795149660220"
-            },
-            {
-              "annId": "12560603901016",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 关于即将上线 rANT 股票现货的公告",
-              "annType": "coin_listings",
-              "annSubType": "spot",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901016",
-              "cTime": "1795071554000"
-            },
-            {
-              "annId": "12560603900967",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900967",
-              "cTime": "1795062960177"
-            },
-            {
-              "annId": "12560603900946",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持3个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603900946",
-              "cTime": "1795059360389"
             }
           ]
         }
@@ -280,9 +339,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-22T18:28:07.722603+08:00",
-          "windowStart": "2026-11-20T18:00:00+08:00",
-          "windowEnd": "2026-11-22T18:28:07.722603+08:00",
+          "checkedAt": "2026-11-23T18:30:21.437568+08:00",
+          "windowStart": "2026-11-21T18:00:00+08:00",
+          "windowEnd": "2026-11-23T18:30:21.437568+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
