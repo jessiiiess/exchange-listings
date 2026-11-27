@@ -1,15 +1,24 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T18:32:41.030446+08:00",
+  "updatedAt": "2026-11-27T18:28:56.602256+08:00",
   "exchanges": {
     "binance": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "XIAOMIUSDT、HK1888USDT",
+          "type": "股票永续合约",
+          "url": "https://www.binance.com/en/support/announcement/detail/81280e617df24bf7a35ac5f109b1065a",
+          "announcedDate": "2026-11-26",
+          "timeBasis": "announcementDate",
+          "detail": "公告日期2026-11-26（仅日期精度）；小米及建滔积层板，11月27日10:30及10:35（UTC+8）开盘，均最高20倍，USDT结算，资金费4小时，HK1888为Quanto。"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.binance.com/en/support/announcement/detail/e881bca4de484755b172ec53141bd422",
             "https://www.binance.com/en/support/announcement/detail/a3ffb6df9de942a9bb40e19f904041e6",
@@ -17,13 +26,13 @@
             "https://www.binance.com/en/support/announcement/detail/5947f1c3a2904daab60fa896fe0fafea",
             "https://www.binance.com/en/support/announcement/detail/830c320848af4257812d5b6e99e031f9"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         },
         "alpha": {
           "status": "no_matches_in_returned_records",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "recordsChecked": 688,
           "missingListingTime": 0,
           "offlineRecords": 310,
@@ -33,7 +42,7 @@
           "sources": [
             "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/cex/alpha/all/token/list"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。",
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。",
           "matches": [
             {
               "tokenId": "F05E45E853CF563AE91E7A9CB47D4A9A",
@@ -82,13 +91,13 @@
         },
         "wallet": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://t.me/s/binance_wallet_announcements"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       },
       "alpha": [],
@@ -99,9 +108,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.okx.com/help/okx-to-list-unified-tokenized-stocks-xminimax-xzhongji-and-more-for-spot-trading",
             "https://www.okx.com/help/okx-to-list-tradfi-perpetual-futures-for-soxx-xlf-and-sspc",
@@ -109,7 +118,7 @@
             "https://www.okx.com/help/okx-to-list-perpetual-future-for-janction-crypto",
             "https://www.okx.com/help/okx-to-list-usdc-trading-pairs-for-tokenized-stocks-xttwo"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       }
     },
@@ -118,9 +127,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://announcements.bybit.com/en/?category=new_crypto",
             "https://announcements.bybit.com/en/article/new-listing-orochiusdt-perpetual-contract-in-innovation-zone-with-up-to-50x-leverage--art43ad358a137f/",
@@ -129,7 +138,7 @@
             "https://announcements.bybit.com/en/article/new-listing-listing-of-mpwrusdt-on-bybit-tradfi-perpetual-on-nov-23-2026-10-30am-utc--artabb8fa9ee221/",
             "https://announcements.bybit.com/en/article/new-listing-listing-of-nxpiusdt-on-bybit-tradfi-perpetual-on-nov-23-2026-10-30am-utc--arteaa21aa9c37a/"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       }
     },
@@ -138,9 +147,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-aaplon-amznon-googlon-msfton-and-nvdaon",
             "https://www.kucoin.com/announcement/new-listings",
@@ -148,7 +157,7 @@
             "https://www.kucoin.com/announcement/en-kucoin-futures-will-list-multiple-stock-index-perpetual-contracts-2026-11-10",
             "https://www.kucoin.com/announcement/en-kucoin-spot-to-list-tokenized-stocks-metaon-tslaon-qqqon-spyon-and-muon"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       }
     },
@@ -157,16 +166,16 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.gate.com/zh/announcements/newspotlistings",
             "https://www.gate.com/zh/announcements/newfutureslistings",
             "https://www.gate.com/zh/announcements/tradfi",
             "https://www.gate.com/zh/announcements/article/102856"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       }
     },
@@ -175,9 +184,9 @@
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.bitget.com/zh-CN/support/articles/12560603900875",
             "https://www.bitget.com/zh-CN/support/articles/12560603900849",
@@ -199,63 +208,72 @@
             "https://www.bitget.com/zh-CN/support/articles/12560603901276",
             "https://www.bitget.com/zh-CN/support/articles/12560603901262"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。",
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。",
           "pagesChecked": 1,
           "recordsChecked": 10,
           "paginationReachedLowerBound": true,
           "unresolvedCandidates": [
             {
-              "annId": "12560603901639",
+              "annId": "12560603901824",
               "annDesc": "coin_listings",
-              "annTitle": "Bitget 合约跟单已支持2个永续合约 ",
+              "annTitle": "Bitget已上线KBHKD（建滔积层板 ）Quanto永续合约",
+              "annType": "coin_listings",
+              "annSubType": "futures",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901824",
+              "cTime": "1795764938000"
+            },
+            {
+              "annId": "12560603901769",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持20个交易对 ",
               "annType": "coin_listings",
               "annSubType": "copy_trading",
               "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901639",
-              "cTime": "1795620660094"
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901769",
+              "cTime": "1795750560372"
             },
             {
-              "annId": "12560603901603",
+              "annId": "12560603901767",
+              "annDesc": "coin_listings",
+              "annTitle": "Bitget 现货跟单已支持9个交易对 ",
+              "annType": "coin_listings",
+              "annSubType": "copy_trading",
+              "language": "zh_CN",
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901767",
+              "cTime": "1795746960217"
+            },
+            {
+              "annId": "12560603901764",
               "annDesc": "coin_listings",
               "annTitle": "Bitget 现货跟单已支持2个交易对 ",
               "annType": "coin_listings",
               "annSubType": "copy_trading",
               "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901603",
-              "cTime": "1795578061304"
-            },
-            {
-              "annId": "12560603901564",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 合约跟单已支持2个永续合约 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901564",
-              "cTime": "1795537860546"
-            },
-            {
-              "annId": "12560603901401",
-              "annDesc": "coin_listings",
-              "annTitle": "Bitget 现货跟单已支持2个交易对 ",
-              "annType": "coin_listings",
-              "annSubType": "copy_trading",
-              "language": "zh_CN",
-              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901401",
-              "cTime": "1795487760256"
+              "annUrl": "https://www.bitget.com/zh-CN/support/articles/12560603901764",
+              "cTime": "1795721760204"
             }
           ]
         }
       }
     },
     "mexc": {
-      "listings": [],
+      "listings": [
+        {
+          "token": "DLTRUSDT、BURLUSDT、DKSUSDT、KYMRUSDT、ANFUSDT",
+          "type": "跟单新增交易对",
+          "url": "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-dltr-burl-dks-kymr-and-anf-usdt-m-futures-17827791539949",
+          "announcedDate": "2026-11-26",
+          "timeBasis": "announcementDate",
+          "detail": "公告日期2026-11-26（仅日期精度）；合约跟单最高均20倍。"
+        }
+      ],
       "verification": {
         "listings": {
           "status": "partial_check",
-          "checkedAt": "2026-11-26T18:32:41.030446+08:00",
-          "windowStart": "2026-11-24T18:00:00+08:00",
-          "windowEnd": "2026-11-26T18:32:41.030446+08:00",
+          "checkedAt": "2026-11-27T18:28:56.602256+08:00",
+          "windowStart": "2026-11-25T18:00:00+08:00",
+          "windowEnd": "2026-11-27T18:28:56.602256+08:00",
           "sources": [
             "https://www.mexc.com/announcements/new-listings",
             "https://www.mexc.com/announcements/new-listings?page=2",
@@ -264,7 +282,7 @@
             "https://www.mexc.com/announcements/article/mexc-copy-trade-now-supports-ci-amdl-and-nio-usdt-m-futures-17827791539899",
             "https://www.mexc.com/announcements/article/first-in-market-17827791539911"
           ],
-          "limitation": "官方主分类已查看；附属分类和完整历史分页未穷尽。"
+          "limitation": "官方主分类已查看，完整历史分页及附属分类未穷尽。"
         }
       }
     }
